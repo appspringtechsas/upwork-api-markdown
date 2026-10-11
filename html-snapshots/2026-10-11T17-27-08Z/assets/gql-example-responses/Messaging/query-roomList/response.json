@@ -1,0 +1,41 @@
+{
+  "data": {
+    "roomList": {
+      "totalCount": 4,
+      "edges": [
+        {
+          "node": {
+            "id": "room_d4ad627e8343569efaa2ee76260170a3",
+            "roomName": "Dudley Lindgen",
+            "topic": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+            "numUnread": 0
+          }
+        },
+        {
+          "node": {
+            "id": "room_e55cca4867ed9dc346c7bb6dbaba8817",
+            "roomName": "Audrey Carrolls",
+            "topic": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+            "numUnread": 0
+          }
+        },
+        {
+          "node": {
+            "id": "room_a48df862a63217a25b83eb49ec457b71",
+            "roomName": "Sebastian Torphys",
+            "topic": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+            "numUnread": 0
+          }
+        },
+        {
+          "node": {
+            "id": "room_7658f2da75cfba4790a3402b6b0c7097",
+            "roomName": "Dustin Langosher",
+            "topic": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+            "numUnread": 0
+          }
+        }
+      ]
+    }
+  }
+}

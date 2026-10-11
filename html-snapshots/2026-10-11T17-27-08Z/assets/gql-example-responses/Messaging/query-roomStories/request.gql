@@ -1,0 +1,18 @@
+query RoomMessages($filter: RoomStoryFilter!) {
+  roomStories(filter: $filter) {
+    edges {
+      node {
+        id
+        message
+        attachments {
+          objectReferenceId
+          objectType
+          metadata {
+            key
+            value
+          }
+        }
+      }
+    }
+  }
+}

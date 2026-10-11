@@ -1,0 +1,33 @@
+{
+  "data": {
+    "user": {
+      "offer": {
+        "totalCount": 2,
+        "edges": [
+          {
+            "node": {
+              "id": "2056863543666266112",
+              "title": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+              "state": "Pending",
+              "type": "FixedPrice",
+              "offer": {
+                "id": "114170339"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "1990632443288059904",
+              "title": "Title: the offer made by client c511180404r7lu4o to contractor f51118040htcl04p on Tue Nov 18 04:05:31 UTC 2025 as part of release testing by Upwork QA",
+              "state": "Active",
+              "type": "Hourly",
+              "offer": {
+                "id": "110302641"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

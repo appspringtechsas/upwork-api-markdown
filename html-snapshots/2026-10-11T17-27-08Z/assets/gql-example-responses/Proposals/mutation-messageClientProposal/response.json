@@ -1,0 +1,13 @@
+{
+    "data": {
+        "messageClientProposal": {
+            "status": "SUCCESS",
+            "proposal": {
+                "id": "2056554407241740289",
+                "room": {
+                    "id": "room_a48df862a63217a25b83eb49ec457b71"
+                }
+            }
+        }
+    }
+}

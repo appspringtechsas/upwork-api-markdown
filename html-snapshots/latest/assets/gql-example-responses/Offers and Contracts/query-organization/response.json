@@ -1,0 +1,63 @@
+{
+  "data": {
+    "organization": {
+      "id": "2056499345994300718",
+      "clientOffers": {
+        "totalCount": 3,
+        "edges": [
+          {
+            "node": {
+              "id": "2056583447133315072",
+              "title": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+              "type": "Hourly",
+              "state": "Pending",
+              "freelancer": {
+                "id": "2056380672542427571"
+              },
+              "offer": {
+                "id": "114157984",
+                "title": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+                "state": "APPROVED",
+                "type": "MARKET_PLACE_HOURLY"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "2056863543666266112",
+              "title": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+              "type": "FixedPrice",
+              "state": "Pending",
+              "freelancer": {
+                "id": "1990632329681295528"
+              },
+              "offer": {
+                "id": "114170339",
+                "title": "2026-05-18 22:17:11 Sports Documentary Editor Youtube",
+                "state": "APPROVED",
+                "type": "MARKET_PLACE_FIXED_PRICE"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "2056565733991903232",
+              "title": "API validation offer from proposal",
+              "type": "Hourly",
+              "state": "Pending",
+              "freelancer": {
+                "id": "2056388534005908022"
+              },
+              "offer": {
+                "id": "114157506",
+                "title": "API validation offer from proposal",
+                "state": "APPROVED",
+                "type": "MARKET_PLACE_HOURLY"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

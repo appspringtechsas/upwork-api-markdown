@@ -1,0 +1,13 @@
+query ListRooms($filter: RoomFilter, $pagination: Pagination) {
+  roomList(filter: $filter, pagination: $pagination, sortOrder: DESC) {
+    totalCount
+    edges {
+      node {
+        id
+        roomName
+        topic
+        numUnread
+      }
+    }
+  }
+}

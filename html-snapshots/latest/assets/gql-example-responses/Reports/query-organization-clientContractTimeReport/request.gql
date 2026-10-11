@@ -1,0 +1,22 @@
+query ClientSpendingTimeReport($range: DateTimeRange!, $pagination: Pagination) {
+  organization {
+    id
+    clientContractTimeReport(timeReportDate_bt: $range, pagination: $pagination) {
+      totalCount
+      edges {
+        node {
+          dateWorkedOn
+          totalCharges
+          totalHoursWorked
+          contract {
+            id
+            title
+          }
+          freelancer {
+            id
+          }
+        }
+      }
+    }
+  }
+}

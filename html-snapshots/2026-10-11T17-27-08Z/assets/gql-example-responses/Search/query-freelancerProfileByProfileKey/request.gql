@@ -1,0 +1,13 @@
+query FreelancerProfileByKey($profileKey: String!) {
+  freelancerProfileByProfileKey(profileKey: $profileKey) {
+    personalData {
+      title
+      description
+      chargeRate { displayValue currency }
+    }
+    aggregates {
+      totalHourlyJobs
+      adjustedFeedbackScore
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "filter": {
+        "pagination_eq": {
+            "after": "0",
+            "first": 10
+        }
+    }
+}

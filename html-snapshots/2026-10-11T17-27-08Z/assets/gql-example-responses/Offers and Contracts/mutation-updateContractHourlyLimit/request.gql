@@ -1,0 +1,11 @@
+mutation UpdateContractHourlyLimit(
+  $contractId: ID!
+  $request: UpdateHourlyLimitRequestInput
+) {
+  updateContractHourlyLimit(
+    contractId: $contractId
+    updateHourlyLimitRequest: $request
+  ) {
+    success
+  }
+}

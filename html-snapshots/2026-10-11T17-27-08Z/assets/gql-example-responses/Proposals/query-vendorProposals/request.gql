@@ -1,0 +1,32 @@
+query FreelancerVendorProposals(
+  $filter: VendorProposalFilter!
+  $sortAttribute: VendorProposalSortAttribute!
+  $pagination: Pagination!
+) {
+  vendorProposals(
+    filter: $filter
+    sortAttribute: $sortAttribute
+    pagination: $pagination
+  ) {
+    totalCount
+    edges {
+      node {
+        id
+        status {
+          status
+        }
+        marketplaceJobPosting {
+          id
+          content {
+            title
+          }
+        }
+        terms {
+          chargeRate {
+            displayValue
+          }
+        }
+      }
+    }
+  }
+}

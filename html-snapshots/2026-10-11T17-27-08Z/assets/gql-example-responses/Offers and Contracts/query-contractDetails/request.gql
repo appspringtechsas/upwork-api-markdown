@@ -1,0 +1,31 @@
+query ContractDetails($contractId: ID!) {
+  contractDetails(id: $contractId) {
+    id
+    title
+    status
+    kind
+    startDate
+    endDate
+    offer {
+      id
+      title
+    }
+    terms {
+      fixedPriceTerms {
+        fpCharge {
+          displayValue
+        }
+        milestones {
+          id
+          description
+          state
+        }
+      }
+      hourlyTerms {
+        hourlyRate {
+          displayValue
+        }
+      }
+    }
+  }
+}

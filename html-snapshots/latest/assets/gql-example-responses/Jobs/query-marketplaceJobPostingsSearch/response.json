@@ -1,0 +1,29 @@
+{
+    "data": {
+        "marketplaceJobPostingsSearch": {
+            "totalCount": 13352,
+            "edges": [
+                {
+                    "node": {
+                        "id": "2056488576136638272",
+                        "title": "2026-05-18 21:34:18 Senior Laravel Backend Developer Needed for AI-Powered App with Firebase and Ope",
+                        "description": "(see staging for full text)",
+                        "ciphertext": "~022056488576136638272",
+                        "amount": {
+                            "displayValue": "0.0",
+                            "currency": "USD"
+                        },
+                        "skills": [
+                            {
+                                "name": "application-security"
+                            }
+                        ],
+                        "client": {
+                            "totalFeedback": 0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

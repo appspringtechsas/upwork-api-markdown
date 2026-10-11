@@ -1,0 +1,61 @@
+{
+  "data": {
+    "contractDetails": {
+      "id": "32325107",
+      "title": "Title: the offer made by client c6051822169yg8f0 to contractor f6052013195hkijl on Wed May 20 20:27:19 GMT 2026 as part of release testing by Upwork QA",
+      "status": "ACTIVE",
+      "kind": null,
+      "startDate": "2026-05-20T20:27:36.409Z",
+      "endDate": null,
+      "offer": {
+        "id": "114187589",
+        "title": "Title: the offer made by client c6051822169yg8f0 to contractor f6052013195hkijl on Wed May 20 20:27:19 GMT 2026 as part of release testing by Upwork QA"
+      },
+      "terms": {
+        "fixedPriceTerms": [
+          {
+            "milestones": [
+              {
+                "id": "16356263",
+                "description": "First milestone created as part of release testing by Upwork QA on Wed May 20 20:27:19 GMT 2026",
+                "state": "Active",
+                "dueDateTime": "2026-07-19T00:00:00.000Z",
+                "depositAmount": {
+                  "displayValue": "7578.62"
+                },
+                "fundedAmount": {
+                  "displayValue": "7578.62"
+                }
+              },
+              {
+                "id": "16356292",
+                "description": "API validation contract milestone",
+                "state": "NotFunded",
+                "dueDateTime": "2026-11-01T00:00:00.000Z",
+                "depositAmount": {
+                  "displayValue": "200.00"
+                },
+                "fundedAmount": {
+                  "displayValue": "200.00"
+                }
+              },
+              {
+                "id": "16356296",
+                "description": "API validation contract milestone",
+                "state": "NotFunded",
+                "dueDateTime": "2026-11-01T00:00:00.000Z",
+                "depositAmount": {
+                  "displayValue": "200.00"
+                },
+                "fundedAmount": {
+                  "displayValue": "200.00"
+                }
+              }
+            ]
+          }
+        ],
+        "hourlyTerms": []
+      }
+    }
+  }
+}

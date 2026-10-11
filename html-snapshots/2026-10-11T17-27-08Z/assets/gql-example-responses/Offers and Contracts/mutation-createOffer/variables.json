@@ -1,0 +1,27 @@
+{
+    "input": {
+        "kind": "Vanilla",
+        "offeror": "Client",
+        "clientTeamId": "2056499345994300718",
+        "vendorUser": {
+            "userId": "2056388534005908022",
+            "teamId": "2056388534005908023"
+        },
+        "metadata": {
+            "sourceType": "JobApplication",
+            "sourceId": "2056554495343624193",
+            "jobPostingId": "2056499367840778935"
+        },
+        "title": "API validation offer from proposal",
+        "description": "Offer created during public API validation.",
+        "deliveryModel": "TalentMarketplace",
+        "hourlyRateTerms": {
+            "vendorRate": {
+                "amount": "65.00",
+                "currency": "USD"
+            },
+            "weeklyLimit": "40",
+            "manualTimeAllowed": false
+        }
+    }
+}

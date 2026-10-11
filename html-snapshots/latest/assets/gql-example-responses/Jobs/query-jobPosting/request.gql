@@ -1,0 +1,22 @@
+query ClientJobPostingDetails($jobPostingId: ID!) {
+  jobPosting(jobPostingId: $jobPostingId) {
+    id
+    version
+    content { title description }
+    info {
+      status
+      publishDateTime
+      hidden
+      premium
+    }
+    contractTerms { contractType }
+    visibility
+    ownership {
+      user { id }
+      clientCompany { id name }
+    }
+    classification {
+      category { name }
+    }
+  }
+}

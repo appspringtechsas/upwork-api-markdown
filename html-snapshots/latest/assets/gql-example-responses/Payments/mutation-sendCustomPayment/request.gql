@@ -1,0 +1,5 @@
+mutation SendCustomPayment($input: CustomPaymentInput!) {
+  sendCustomPayment(input: $input) {
+    invoiceId
+  }
+}

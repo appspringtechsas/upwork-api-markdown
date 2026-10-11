@@ -1,0 +1,41 @@
+query SearchFreelancers($request: SemSearchV2Request!) {
+  search {
+    searchFreelancerPublicProfile(request: $request) {
+      pagingInfo {
+        total
+        offset
+      }
+      profiles {
+        personId
+        profileId
+        profile {
+          identity {
+            id
+            ciphertext
+          }
+          personalData {
+            firstName
+            lastName
+            title
+            description
+            chargeRate {
+              rawValue
+              currency
+              displayValue
+            }
+            location {
+              country
+            }
+            portrait {
+              portrait100
+            }
+          }
+          profileAggregates {
+            totalJobs
+            topRatedStatus
+          }
+        }
+      }
+    }
+  }
+}

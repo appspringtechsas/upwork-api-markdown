@@ -1,0 +1,9 @@
+{
+  "filter": {
+    "subscribed_eq": true
+  },
+  "pagination": {
+    "after": "",
+    "first": 10
+  }
+}

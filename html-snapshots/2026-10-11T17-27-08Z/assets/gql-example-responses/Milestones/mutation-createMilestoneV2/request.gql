@@ -1,0 +1,12 @@
+mutation CreateOfferMilestone($input: CreateMilestoneInput!) {
+  createMilestoneV2(input: $input) {
+    id
+    description
+    state
+    dueDateTime
+    depositAmount {
+      displayValue
+      currency
+    }
+  }
+}

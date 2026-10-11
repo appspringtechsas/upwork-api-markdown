@@ -1,0 +1,33 @@
+---
+title: "MarketplaceJobPostingSearchSortField"
+kind: "enum"
+domain: "Job Posts"
+gql_name: "MarketplaceJobPostingSearchSortField"
+html_id: "definition-MarketplaceJobPostingSearchSortField"
+source: "https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchSortField"
+generated_by: "scripts/convert.mjs"
+---
+
+
+# `MarketplaceJobPostingSearchSortField` (enum)
+
+## Description
+
+Sort fields for marketplace job posting search
+
+## Values
+
+| Value | Description |
+|---|---|
+| `RECENCY` | Sort by recency (newest first) |
+| `RELEVANCE` | Sort by relevance score |
+| `CLIENT_TOTAL_CHARGE` | Sort by client total charge |
+| `CLIENT_RATING` | Sort by client rating |
+
+## Examples
+
+### Example
+
+```graphql
+"RECENCY"
+```

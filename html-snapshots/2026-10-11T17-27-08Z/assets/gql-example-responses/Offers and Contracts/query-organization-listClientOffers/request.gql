@@ -1,0 +1,20 @@
+query ListClientOffers($pagination: Pagination!) {
+  organization {
+    id
+    clientOffers(pagination: $pagination) {
+      totalCount
+      edges {
+        node {
+          id
+          title
+          type
+          state
+          startDateTime
+          offerCreatedDateTime
+          freelancer { id }
+          offer { id title state type }
+        }
+      }
+    }
+  }
+}

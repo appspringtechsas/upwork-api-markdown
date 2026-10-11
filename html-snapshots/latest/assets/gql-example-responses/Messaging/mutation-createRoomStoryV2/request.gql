@@ -1,0 +1,6 @@
+mutation SendRoomMessage($roomId: ID!, $message: String!) {
+  createRoomStoryV2(input: { roomId: $roomId, message: $message }) {
+    id
+    message
+  }
+}

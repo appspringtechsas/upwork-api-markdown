@@ -1,0 +1,9 @@
+{
+    "input": {
+        "contractId": "32325107",
+        "amount": 50,
+        "comment": "Great work on the release \u2014 API validation",
+        "notes": "Q2 bonus test",
+        "type": "BONUS"
+    }
+}

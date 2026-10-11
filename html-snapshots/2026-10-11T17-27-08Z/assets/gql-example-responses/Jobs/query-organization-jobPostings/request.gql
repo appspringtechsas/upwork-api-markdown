@@ -1,0 +1,21 @@
+query ListOrgJobPostings($filter: JobPostingsFilter!) {
+  organization {
+    id
+    jobPosting(jobPostingFilter: $filter) {
+      totalCount
+      edges {
+        node {
+          id
+          content { title description }
+          info {
+            status
+            publishDateTime
+            auditTime { createdDateTime }
+          }
+          contractTerms { contractType }
+          visibility
+        }
+      }
+    }
+  }
+}

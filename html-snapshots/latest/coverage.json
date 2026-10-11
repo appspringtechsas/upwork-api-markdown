@@ -1,0 +1,20 @@
+{
+  "snapshot": "2026-10-11T17-27-08Z",
+  "generatedAt": "2026-10-11T17:28:03.584Z",
+  "idsInContent": 1811,
+  "idsRendered": 1811,
+  "uncovered": [],
+  "stats": {
+    "queries": 89,
+    "mutations": 67,
+    "definitions": 797,
+    "prose": 19,
+    "unresolvedLinks": 0
+  },
+  "assets": {
+    "fetched": 103,
+    "failed": 0,
+    "imagesCopied": 16
+  },
+  "files": 983
+}

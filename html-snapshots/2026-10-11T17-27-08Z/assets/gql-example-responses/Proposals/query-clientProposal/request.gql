@@ -1,0 +1,35 @@
+query ClientProposalDetails($id: ID!) {
+  clientProposal(id: $id) {
+    id
+    coverLetter
+    status {
+      status
+      reason {
+        reason
+      }
+    }
+    terms {
+      chargeRate {
+        displayValue
+        currency
+      }
+      estimatedDuration {
+        label
+      }
+      upfrontPaymentPercent
+    }
+    projectPlan {
+      milestones {
+        description
+        dueDate
+        amount
+      }
+    }
+    user {
+      id
+    }
+    job {
+      id
+    }
+  }
+}

@@ -1,0 +1,15 @@
+query JobDetails($id: ID!) {
+  marketplaceJobPosting(id: $id) {
+    id
+    content {
+      title
+      description
+    }
+    contractTerms {
+      contractType
+    }
+    clientCompanyPublic {
+      id
+    }
+  }
+}

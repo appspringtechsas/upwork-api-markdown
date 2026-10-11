@@ -1,0 +1,9 @@
+mutation CreateJobPosting($request: JobPostingCreateRequest!) {
+  createJobPosting(jobPostingRequest: $request) {
+    id
+    version
+    qualificationsSaved
+    skillsSaved
+    questionsSaved
+  }
+}

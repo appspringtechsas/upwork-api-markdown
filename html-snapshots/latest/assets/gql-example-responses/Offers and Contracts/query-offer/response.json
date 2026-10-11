@@ -1,0 +1,33 @@
+{
+    "data": {
+        "offer": {
+            "id": "114157506",
+            "title": "API validation offer from proposal",
+            "description": "Offer created during public API validation.",
+            "type": "MARKET_PLACE_HOURLY",
+            "state": "APPROVED",
+            "offerTerms": {
+                "expectedStartDate": "2026-05-19T00:00:00+0000",
+                "hourlyTerms": {
+                    "rate": {
+                        "displayValue": "65.00",
+                        "currency": "USD"
+                    },
+                    "weeklyHoursLimit": 40,
+                    "manualTimeAllowed": false
+                },
+                "fixedPriceTerm": null
+            },
+            "client": {
+                "id": "2056499345994300718",
+                "name": "Carrolls-Farrella and Sons"
+            },
+            "freelancer": {
+                "personalData": {
+                    "title": "Telemarketer/Virtual Assistant/Intake Specialist/Case Manager"
+                }
+            },
+            "milestones": []
+        }
+    }
+}

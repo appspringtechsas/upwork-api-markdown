@@ -1,0 +1,17 @@
+{
+  "data": {
+    "marketplaceJobPosting": {
+        "id": "2056488576136638272",
+        "content": {
+            "title": "Full-Time Software Development Agency (Web + Mobile App Expertise)",
+            "description": "About the Opportunity:\nWe are seeking to hire a top-tier, full-time software development agency to work closely with us on multiple ongoing and upcoming projects. We are looking for a long-term partnership with a team that can deliver high-quality, scalable web and mobile app solutions."
+        },
+        "contractTerms": {
+            "contractType": "HOURLY"
+        },
+        "clientCompanyPublic": {
+            "id": "2056499345994300718"
+        }
+    }
+  }
+}

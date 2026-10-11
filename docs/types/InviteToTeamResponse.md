@@ -1,0 +1,34 @@
+---
+title: "InviteToTeamResponse"
+kind: "object"
+domain: "Users and teams"
+gql_name: "InviteToTeamResponse"
+html_id: "definition-InviteToTeamResponse"
+source: "https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-InviteToTeamResponse"
+generated_by: "scripts/convert.mjs"
+---
+
+
+# `InviteToTeamResponse` (object)
+
+## Description
+
+Invite to team response details
+
+## Fields
+
+| Field | Type | Description |
+|---|---|---|
+| `succeeded` | [`[InviteToTeamSucceededResponse]!`](InviteToTeamSucceededResponse.md) | Successfully processed invitations |
+| `failed` | [`[InviteToTeamFailedResponse]!`](InviteToTeamFailedResponse.md) | Failed invitations with reasons |
+
+## Examples
+
+### Example
+
+```json
+{
+  "succeeded": [InviteToTeamSucceededResponse],
+  "failed": [InviteToTeamFailedResponse]
+}
+```

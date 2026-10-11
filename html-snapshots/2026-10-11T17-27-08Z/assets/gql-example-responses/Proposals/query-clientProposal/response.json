@@ -1,0 +1,27 @@
+{
+  "data": {
+    "clientProposal": {
+      "id": "2056554495343624193",
+      "coverLetter": "Cover letter on behalf of user f605181456bd95zl applying to the opening #2056499367840778935 on Tue May 19 01:56:14 GMT 2026 as part of release testing by Upwork QA",
+      "status": {
+        "status": "Created",
+        "reason": null
+      },
+      "terms": {
+        "chargeRate": {
+          "displayValue": "USD 308.92",
+          "currency": "USD"
+        },
+        "estimatedDuration": null,
+        "upfrontPaymentPercent": 0
+      },
+      "projectPlan": null,
+      "user": {
+        "id": "2056388534005908022"
+      },
+      "job": {
+        "id": "2056499367840778935"
+      }
+    }
+  }
+}

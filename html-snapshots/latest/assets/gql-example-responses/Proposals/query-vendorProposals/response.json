@@ -1,0 +1,28 @@
+{
+  "data": {
+    "vendorProposals": {
+      "totalCount": 1,
+      "edges": [
+        {
+          "node": {
+            "id": "2056872958851149825",
+            "status": {
+              "status": "Accepted"
+            },
+            "marketplaceJobPosting": {
+              "id": "2056454882525048640",
+              "content": {
+                "title": "2026-05-18 19:20:25 Shopify Page Creation with Password Protection and Contact Form"
+              }
+            },
+            "terms": {
+              "chargeRate": {
+                "displayValue": "USD 118.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

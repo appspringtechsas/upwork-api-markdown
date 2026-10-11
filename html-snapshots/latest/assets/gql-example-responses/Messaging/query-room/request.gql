@@ -1,0 +1,10 @@
+query RoomDetails($roomId: ID!) {
+  room(id: $roomId) {
+    id
+    roomName
+    topic
+    public
+    createdAtDateTime
+    numUnread
+  }
+}

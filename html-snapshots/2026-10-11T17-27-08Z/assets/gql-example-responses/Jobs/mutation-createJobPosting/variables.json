@@ -1,0 +1,16 @@
+{
+    "request": {
+        "organizationId": "2056499345994300718",
+        "jobPostingInfo": {
+            "title": "API validation test job (draft)",
+            "description": "Test job created via GraphQL public API validation.",
+            "type": "HOURLY",
+            "status": "DRAFT",
+            "engagementType": "PART_TIME",
+            "experienceLevel": "INTERMEDIATE",
+            "freelancersToHire": 1,
+            "access": "ACCESS_PUBLIC",
+            "hourlyBudgetType": "NOT_PROVIDED"
+        }
+    }
+}

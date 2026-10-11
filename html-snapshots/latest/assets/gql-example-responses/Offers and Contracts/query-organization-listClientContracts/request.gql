@@ -1,0 +1,24 @@
+query ListClientContracts($pagination: Pagination!) {
+  organization {
+    clientOffers(
+      offerByClientFilter: { commonFilter: { states_any: [Active] } }
+      pagination: $pagination
+    ) {
+      totalCount
+      edges {
+        node {
+          id
+          title
+          state
+          type
+          offer {
+            id
+          }
+          contractDetails {
+            id
+          }
+        }
+      }
+    }
+  }
+}

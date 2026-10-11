@@ -1,0 +1,25 @@
+{
+  "data": {
+    "organization": {
+      "clientOffers": {
+        "totalCount": 1,
+        "edges": [
+          {
+            "node": {
+              "id": "2057196529968549888",
+              "title": "Title: the offer made by client c6051822169yg8f0 to contractor f6052013195hkijl on Wed May 20 20:27:19 GMT 2026 as part of release testing by Upwork QA",
+              "state": "Active",
+              "type": "FixedPrice",
+              "offer": {
+                "id": "114187589"
+              },
+              "contract": {
+                "id": "32325107"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

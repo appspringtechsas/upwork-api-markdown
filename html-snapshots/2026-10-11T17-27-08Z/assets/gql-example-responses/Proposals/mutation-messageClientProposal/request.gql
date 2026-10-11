@@ -1,0 +1,11 @@
+mutation MessageClientProposal($clientProposalMessageRequest: ClientProposalMessageRequest!) {
+  messageClientProposal(clientProposalMessageRequest: $clientProposalMessageRequest) {
+    status
+    proposal {
+      id
+      room {
+        id
+      }
+    }
+  }
+}

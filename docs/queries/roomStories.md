@@ -1,0 +1,217 @@
+---
+title: "roomStories"
+kind: "query"
+gql_name: "roomStories"
+returns: "RoomStoryConnection"
+html_id: "query-roomStories"
+source: "https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-roomStories"
+generated_by: "scripts/convert.mjs"
+---
+
+
+# `roomStories`
+
+## Description
+
+Returns stories in the room
+
+## Required Permissions
+
+One of: "Messaging - Read-Only Access" OR "Messaging - Read and Write Access"
+
+## Response
+
+Returns a [`RoomStoryConnection`](../types/RoomStoryConnection.md)
+
+## Arguments
+
+| Argument | Type | Description |
+|---|---|---|
+| `filter` | [`RoomStoryFilter`](../inputs/RoomStoryFilter.md) | Filter for room stories |
+
+## Examples
+
+### Detailed structure
+
+#### Query
+
+```graphql
+query roomStories($filter: RoomStoryFilter) {
+  roomStories(filter: $filter) {
+    totalCount
+    edges {
+      ...RoomStoryEdgeFragment
+    }
+    pageInfo {
+      ...PageInfoFragment
+    }
+  }
+}
+```
+
+#### Variables
+
+```json
+{"filter": RoomStoryFilter}
+```
+
+#### Response
+
+```json
+{
+  "data": {
+    "roomStories": {
+      "totalCount": 987,
+      "edges": [RoomStoryEdge],
+      "pageInfo": PageInfo
+    }
+  }
+}
+```
+
+### Real-life example
+
+#### Query
+
+```graphql
+query RoomMessages($filter: RoomStoryFilter!) {
+  roomStories(filter: $filter) {
+    edges {
+      node {
+        id
+        message
+        attachments {
+          objectReferenceId
+          objectType
+          metadata {
+            key
+            value
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+#### Variables
+
+```json
+{
+  "filter": {
+    "roomId_eq": "room_d4ad627e8343569efaa2ee76260170a3",
+    "storyFilter": {"pagination": {"after": "", "first": 10}}
+  }
+}
+```
+
+#### Response
+
+```json
+{
+  "data": {
+    "roomStories": {
+      "edges": [
+        {
+          "node": {
+            "id": "story_9c2eeac0a16c2cc20f752186cd5f695e",
+            "message": "",
+            "attachments": [
+              {
+                "objectReferenceId": "object_reference_df14e8ab9adf52b4e34474bb683b0636",
+                "objectType": "eo:file",
+                "metadata": [
+                  {
+                    "key": "fileName",
+                    "value": "regular_06.png"
+                  },
+                  {
+                    "key": "originalHeight",
+                    "value": "837"
+                  },
+                  {
+                    "key": "thumbnailSize",
+                    "value": "22425"
+                  },
+                  {
+                    "key": "objectUrl",
+                    "value": "https://www.upwork.com/ab/messages/att/ae43b14d-9650-4ffb-92e2-89db69a4cd40"
+                  },
+                  {
+                    "key": "scanStatus",
+                    "value": "WHITELISTED"
+                  },
+                  {
+                    "key": "mimeType",
+                    "value": "image/png"
+                  },
+                  {
+                    "key": "thumbnailWidth",
+                    "value": "305"
+                  },
+                  {
+                    "key": "originalWidth",
+                    "value": "710"
+                  },
+                  {
+                    "key": "afs",
+                    "value": "true"
+                  },
+                  {
+                    "key": "fileSize",
+                    "value": "24585"
+                  },
+                  {
+                    "key": "imageUid",
+                    "value": "a50408ba-1a55-4c87-b4dc-2c3444241d74"
+                  },
+                  {
+                    "key": "imageUrl",
+                    "value": "https://www.upwork.com/ab/messages/att/a50408ba-1a55-4c87-b4dc-2c3444241d74"
+                  },
+                  {
+                    "key": "thumbnailHeight",
+                    "value": "360"
+                  },
+                  {
+                    "key": "fileId",
+                    "value": "ae43b14d-9650-4ffb-92e2-89db69a4cd40"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "id": "story_5a042e5c593b424f15795cdb6d5da007",
+            "message": "validate script ping 1779230700847",
+            "attachments": []
+          }
+        },
+        {
+          "node": {
+            "id": "story_5c70df12f0ae7ed948810d3d62a8f36e",
+            "message": "API validation ping 2026-05-19T22:44:06.510Z",
+            "attachments": []
+          }
+        },
+        {
+          "node": {
+            "id": "story_17051c717e2babab6f5ce1f69159e370",
+            "message": "API validation ping 2026-05-19T22:43:11.300Z",
+            "attachments": []
+          }
+        },
+        {
+          "node": {
+            "id": "story_eec9426171056690022b21c5d521961a",
+            "message": "2026-05-18 22:17:11 Hello!\n\nI’m building a new YouTube channel that dives into high performance sports (cycling). That means it requires a great sense of visual storytelling.\n\nWho Am I Searching For?\n\n- You have experience editing Youtube Docs.\n- You are passionate about editing.\n- You are willing to comit to our channel long term.\n\n\nWhat You'll Be Creating!\n\n- At least 4+ videos a month (2500 to 3500 words)\n\nPayment\n10$-20$ per finished minute\n\nExample\n<https://www.youtube.com/watch?si=8VPofF1kltrWBBox&v=8zOe2DSNzpE&feature=youtu.be>\nHow to Apply?\n\n- Deliver a link leading to a documentary on Youtube you created in full.\n- Explain why you want to join the greatest Youtube team in short.\n- Note your experience in psychology\n- Let me know what you charge per finished minute of the video\n\nNO AGENCY's\n\nIf you can Edit like the example video you are hired, must show example.",
+            "attachments": []
+          }
+        }
+      ]
+    }
+  }
+}
+```

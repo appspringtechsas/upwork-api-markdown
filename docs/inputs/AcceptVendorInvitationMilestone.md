@@ -1,0 +1,36 @@
+---
+title: "AcceptVendorInvitationMilestone"
+kind: "input_object"
+domain: "Other"
+gql_name: "AcceptVendorInvitationMilestone"
+html_id: "definition-AcceptVendorInvitationMilestone"
+source: "https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AcceptVendorInvitationMilestone"
+generated_by: "scripts/convert.mjs"
+---
+
+
+# `AcceptVendorInvitationMilestone` (input object)
+
+## Description
+
+Input type for milestone information
+
+## Fields
+
+| Field | Type | Description |
+|---|---|---|
+| `description` | [`String`](../scalars/String.md) | Description of the milestone deliverable |
+| `dueDate` | [`String`](../scalars/String.md) | Unix timestamp for the milestone due date |
+| `amount` | [`Float`](../scalars/Float.md) | Amount to be paid for this milestone |
+
+## Examples
+
+### Example
+
+```json
+{
+  "description": "abc123",
+  "dueDate": "abc123",
+  "amount": 987.65
+}
+```

@@ -1,0 +1,10 @@
+{
+    "range": {
+        "rangeStart": "2026-01-01",
+        "rangeEnd": "2026-05-20"
+    },
+    "pagination": {
+        "after": null,
+        "first": 30
+    }
+}

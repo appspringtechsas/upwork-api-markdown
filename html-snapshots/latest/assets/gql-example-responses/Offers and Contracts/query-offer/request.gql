@@ -1,0 +1,29 @@
+query ClientOfferDetails($offerId: ID!) {
+  offer(id: $offerId) {
+    id
+    title
+    description
+    type
+    state
+    offerTerms {
+      expectedStartDate
+      hourlyTerms {
+        rate { displayValue currency }
+        weeklyHoursLimit
+        manualTimeAllowed
+      }
+      fixedPriceTerm {
+        budget { displayValue currency }
+      }
+    }
+    client { id name }
+    freelancer {
+      personalData { title }
+    }
+    milestones {
+      id
+      description
+      state
+    }
+  }
+}

@@ -1,0 +1,36 @@
+query ListClientProposals(
+  $jobPostingId: ID!
+  $pagination: Pagination
+  $filter: ClientProposalFilter
+) {
+  clientProposals(
+    jobPostingId: $jobPostingId
+    filter: $filter
+    sortAttribute: { field: CREATEDDATETIME, sortOrder: DESC }
+    pagination: $pagination
+  ) {
+    totalCount
+    edges {
+      cursor
+      node {
+        id
+        status {
+          status
+        }
+        user {
+          id
+        }
+        terms {
+          chargeRate {
+            displayValue
+            currency
+          }
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

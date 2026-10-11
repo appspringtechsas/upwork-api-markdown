@@ -1,0 +1,10 @@
+mutation ApproveMilestone($input: ApproveMilestoneInput!) {
+  approveMilestone(input: $input) {
+    id
+    state
+    paid {
+      displayValue
+      currency
+    }
+  }
+}

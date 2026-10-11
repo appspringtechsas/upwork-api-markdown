@@ -1,0 +1,436 @@
+{
+  "snapshot": "2026-10-11T17-27-08Z",
+  "promotedAt": "2026-10-11T17:28:04.451Z",
+  "pages": [
+    {
+      "file": "index.html",
+      "url": "https://www.upwork.com/developer/documentation/graphql/api/docs/index.html",
+      "bytes": 5245858,
+      "sha256": "7bd57039bd484ee5d8302e8fc92730116a630dd25323940a5b2cb2f54c72a02e"
+    },
+    {
+      "file": "api-changelog.html",
+      "url": "https://www.upwork.com/developer/documentation/graphql/api/docs/api-changelog.html",
+      "bytes": 5695,
+      "sha256": "d64bfc19d45609dbf5b3ded0b50b7429bc673db08d9b58695f41cfaec392df1d"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/gql-example-responses/Jobs/mutation-createJobPosting/request.gql",
+      "sha256": "2e3e10a8f690875a538f406d5f53ba31a14c2ef7cd3f12b719bd371774ef41f4"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/mutation-createJobPosting/response.json",
+      "sha256": "3e7b8bf9528a1ee0a7e6fc118714224dfdcc6a1f37b2350f4374a08d80551bd9"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/mutation-createJobPosting/variables.json",
+      "sha256": "f77a0b3afb757596adba701c90392197091b687c2ff71b32f05c40f883a9c5d6"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-jobPosting/request.gql",
+      "sha256": "2406f7860ebca0210b558e0f15edffca3739be663bffde4e07fd8cadaf829574"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-jobPosting/response.json",
+      "sha256": "b587999c54e70d3175ea6c465c4dd6cf880c945304ce205073f998d83eb5d35c"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-jobPosting/variables.json",
+      "sha256": "32451fed18db8b6873f26579bbfbbe211db526dc44bb99b5899f532c71f7e722"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-marketplaceJobPosting/request.gql",
+      "sha256": "cf1281b1e33edafc181dce6d027e89e087bcc208c95436ab4685c810d048687d"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-marketplaceJobPosting/response.json",
+      "sha256": "6391361612d9057bbc02e9e2e3f9541a43b560dea355687ae819f9e82245ad2e"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-marketplaceJobPosting/variables.json",
+      "sha256": "1a5af0cfb09a713c15d3b8fa0cf1898fb89c1a2df442e3fc0af60d7ea7f4df18"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-marketplaceJobPostingsSearch/request.gql",
+      "sha256": "613d2956d8c82c29dfa6acae73e6d218e23312841bc137e1bb0548c030d5294f"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-marketplaceJobPostingsSearch/response.json",
+      "sha256": "3c93c6761483793e484df93c5de90222461887b4d22203698cf4810f9b265fe0"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-marketplaceJobPostingsSearch/variables.json",
+      "sha256": "6febccb6e4ea6a08a178a63e6a2cd1180ddf16caaafa63777b6bb677fa921877"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-organization-jobPostings/request.gql",
+      "sha256": "3a9b84effbf3391fbace1f61bdb06325e43f62b0e3d8a8c9ccb7ac6d7ab482d5"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-organization-jobPostings/response.json",
+      "sha256": "3214215d121539443dd2d751d6f9ae2ae247ead45b9e52ece693e0ba133820da"
+    },
+    {
+      "file": "assets/gql-example-responses/Jobs/query-organization-jobPostings/variables.json",
+      "sha256": "e266d05b119af66af5498e35e6cd11b90063c991dd905fd80328b055ebb9122c"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/mutation-createRoomStoryV2/request.gql",
+      "sha256": "3db088ecffffecf88c0c4f4cb4a02aa362c9890a19c89c4f815d50c3329cdd2a"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/mutation-createRoomStoryV2/response.json",
+      "sha256": "b523be63d4b8c4a5d81cde9d778bd1c363612b280d18849bfb3d03bbc9c996ee"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/mutation-createRoomStoryV2/variables.json",
+      "sha256": "333afa29b9afd850bfb895209930ca25157dc18606892f0dcf4ffd4124660f8b"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-room/request.gql",
+      "sha256": "3ad70f9edf70fe8f3eba65e2d98daebe7ee24efaaa28045c80d057ce61a043b9"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-room/response.json",
+      "sha256": "09ca06d1311931dab1ccbc1780bb66c6de284ab65c9336ce69f888f80b920d45"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-room/variables.json",
+      "sha256": "ef999792cb6bc03836834c80ccc9f97230f7881649b57c597b96f4ffeef1ba94"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-roomList/request.gql",
+      "sha256": "5a0330c9c362904888d41149d64a1be84a0871858ce52fa90485b9a1f43ec880"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-roomList/response.json",
+      "sha256": "bd28036c8465db0362832d9a77f5a43b85af17bda278848a13df8da66565ca02"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-roomList/variables.json",
+      "sha256": "fc7c5ae55121f34fd688b9ba0b2a09b0662c790b24d849f97c6628686cf1c71b"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-roomStories/request.gql",
+      "sha256": "b2050431764592c40bffb3d128a4186730eb4862d703d3ccfc43194d57943550"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-roomStories/response.json",
+      "sha256": "f926742e8700b88640c5ac46b03ab93f6472a3744fe73a8d493d50f8cef9791c"
+    },
+    {
+      "file": "assets/gql-example-responses/Messaging/query-roomStories/variables.json",
+      "sha256": "95aa778e9a7e09fcd0bcd0f12e38f4d4df40a24e0482786e03a2466e4d714cd4"
+    },
+    {
+      "file": "assets/gql-example-responses/Milestones/mutation-approveMilestone/request.gql",
+      "sha256": "be57de4d8e46b225ffa4bb5fee58b201def365401779634d80d52caae287bd5e"
+    },
+    {
+      "file": "assets/gql-example-responses/Milestones/mutation-approveMilestone/response.json",
+      "sha256": "157d04dc0a277dfde970e2b495895578fe52325a115ebd07a374d8ba5def6810"
+    },
+    {
+      "file": "assets/gql-example-responses/Milestones/mutation-approveMilestone/variables.json",
+      "sha256": "9c26aa13e93d1d80880d812a87dac719d6144e6a51fd78ca33d0d7bd9488bbb8"
+    },
+    {
+      "file": "assets/gql-example-responses/Milestones/mutation-createMilestoneV2/request.gql",
+      "sha256": "6bee696fd3a1033a3e0e8e465c81c600ad2fdadc5db56b3d447ebaa5ae99ce64"
+    },
+    {
+      "file": "assets/gql-example-responses/Milestones/mutation-createMilestoneV2/response.json",
+      "sha256": "1b21b9287ed94baf59af04d2b2963501ae70d96e51479fa35f0d4a62429db5e5"
+    },
+    {
+      "file": "assets/gql-example-responses/Milestones/mutation-createMilestoneV2/variables.json",
+      "sha256": "02307e854db96637d9b20b67e38da742e86cdbb3efde2f71fb2784569276edca"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-createOffer/request.gql",
+      "sha256": "f9b621068bdadb46ab6f5738dd01c90c8ca36890ad4924e7d1f5f2795e897316"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-createOffer/response.json",
+      "sha256": "1dedf335e3feae887088fec6c5ad91933740dc969a167d587650b5ab2bc11863"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-createOffer/variables.json",
+      "sha256": "4ae7640e06430951ae5316c66dbd417227e2e5ff161d2d0ab43aea86ae13f081"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-endContractByClient/request.gql",
+      "sha256": "1e6babc96b9695ef9f167ff08ffd1e0661e6c8347d325fae5900d4235215d38a"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-endContractByClient/response.json",
+      "sha256": "ed85020b1cf2969a9967b1d5779b6d4165295bcc43f1d96475cfc260bc9f4161"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-endContractByClient/variables.json",
+      "sha256": "9fffcfe0b70e1408dfa6d14a8d1fca36b53316041d642265d6203ee0cc10c2e9"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-updateContractHourlyLimit/request.gql",
+      "sha256": "099b3a8e07cc19cb8eceed3cd0e5e3d64f1fc02b30567b1e6097c57382595a1e"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-updateContractHourlyLimit/response.json",
+      "sha256": "3c0723f8da90757cc5e14549f8aa1d25805c1b35c8b82d0443c43de53262079f"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/mutation-updateContractHourlyLimit/variables.json",
+      "sha256": "0cb42304c40850d8f5c95d537f22b17e12e28256436417b97068902b53e36c81"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-contractDetails/request.gql",
+      "sha256": "1f5615d872d821545117087694f4778fef7417f77b2747cbaec98c69a99a6a62"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-contractDetails/response.json",
+      "sha256": "879c7ace9a086eb35759775ad426ccf91cdc447f76d91b6508315c76023c30ad"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-contractDetails/variables.json",
+      "sha256": "aeae3fdd2f5302688221c01af66a6b420895d99d63b9e590b36e704fbd4a2b63"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-offer/request.gql",
+      "sha256": "8d29641030ce71b2ff12ba9bfceb6937fa33df22069f58b4445763b75ac2f987"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-offer/response.json",
+      "sha256": "1c86943db7dc2a77db43ae1831cfe38c57a2074d43593b9e43745aa97f40ccb4"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-offer/variables.json",
+      "sha256": "9764bbc2466b65a13a2ede7123cbed1aa69aa4dae49de7a0e7155f8240955380"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization-listClientContracts/request.gql",
+      "sha256": "fdf931cfa2dcfae7dfb3e9c659e7cda3099d845ca1a7cb000ca2b54d0f690976"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization-listClientContracts/response.json",
+      "sha256": "27fd0dfe03460607fd9b5231d16f022f16122cfc0dcfd95f7000185ca05ee204"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization-listClientContracts/variables.json",
+      "sha256": "b0cb52f420725292b879294f328771a39d5117f10e66d5dc21e9a75f1be8b6f4"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization-listClientOffers/request.gql",
+      "sha256": "b339600343345244e2ba218aaaf7d2c3e51b8ac6a98b4821eda914e56b3a5149"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization-listClientOffers/response.json",
+      "sha256": "6f9080aaf90eab60fe7758895b437c4b25b21924c7c081da0bcd13a031ca7aa9"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization-listClientOffers/variables.json",
+      "sha256": "b0cb52f420725292b879294f328771a39d5117f10e66d5dc21e9a75f1be8b6f4"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization/request.gql",
+      "sha256": "b339600343345244e2ba218aaaf7d2c3e51b8ac6a98b4821eda914e56b3a5149"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization/response.json",
+      "sha256": "6f9080aaf90eab60fe7758895b437c4b25b21924c7c081da0bcd13a031ca7aa9"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-organization/variables.json",
+      "sha256": "b0cb52f420725292b879294f328771a39d5117f10e66d5dc21e9a75f1be8b6f4"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-user-offer/request.gql",
+      "sha256": "b1f711511c68ffa55c6be9e51cc5b881b752cdbbca143ec9968346f22f5dd93a"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-user-offer/response.json",
+      "sha256": "80352aca87e04cb535158177eff4931c27ac9e4f4a0daee278ef4ab92c4185a5"
+    },
+    {
+      "file": "assets/gql-example-responses/Offers and Contracts/query-user-offer/variables.json",
+      "sha256": "b0cb52f420725292b879294f328771a39d5117f10e66d5dc21e9a75f1be8b6f4"
+    },
+    {
+      "file": "assets/gql-example-responses/Payments/mutation-sendCustomPayment/request.gql",
+      "sha256": "d8e431c88c61466f756ddaceb164cb1b5b7850db897b84accfd1d84b8bff3bc5"
+    },
+    {
+      "file": "assets/gql-example-responses/Payments/mutation-sendCustomPayment/response.json",
+      "sha256": "10d6373eccb7d5574f3d4ac0f6662b314b52e1b0c797bd720f9d6f768eb00ce0"
+    },
+    {
+      "file": "assets/gql-example-responses/Payments/mutation-sendCustomPayment/variables.json",
+      "sha256": "209d834eaf18020e529c11caabb9ffe3dee7de9cee66213e3fec66df00b9ec89"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/mutation-messageClientProposal/request.gql",
+      "sha256": "2fa9e48db7168883326ff9cfadb86be7b78d30d07fde6f7edb27790ec736a64e"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/mutation-messageClientProposal/response.json",
+      "sha256": "0fde3f930eab73627a8f5e296328e56ea518528b4857f212446f7da54f86faac"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/mutation-messageClientProposal/variables.json",
+      "sha256": "5fc9b183576c076b7190a5a82629102c8db29c43a6367cb6ff449e6c01b9b5e3"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-clientProposal/request.gql",
+      "sha256": "90db9fcac48b56dc20589399f17b19a11b7eaafa9578bffec76e7d9cf7e81222"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-clientProposal/response.json",
+      "sha256": "6529b1204808a6d1bca32d78698b2ebe2c629a867f65ec935e286444d822fc70"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-clientProposal/variables.json",
+      "sha256": "1c06128d742c35ab9d5b000d460019a6389dd976c4afcf51a1a0a23cf16cc29f"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-clientProposals/request.gql",
+      "sha256": "592884b5b3658bfb4414b539931fa9a78a22729c52f855ea4fc6cc7d310be33c"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-clientProposals/response.json",
+      "sha256": "b32d5473e8bbecd2e1c40b7a22e4b842c61a73cedb3485be47d8f2286a9bf239"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-clientProposals/variables.json",
+      "sha256": "9bb651c58f701ec655378d6ada96f11d87d26c415d9b086a479312ed5ba9d341"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-vendorProposals/request.gql",
+      "sha256": "96545fb5810dd4a93a10ee71064bc29b3e1f6f9f6b9cc3cc7126b3ab4944bf2b"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-vendorProposals/response.json",
+      "sha256": "09f91dde1c1ceeb8c1d7430e8d20dd668b0cd30ab31fd7df16eb55400a15f8ab"
+    },
+    {
+      "file": "assets/gql-example-responses/Proposals/query-vendorProposals/variables.json",
+      "sha256": "873935e26e0e0cf2a04264eb5c8b965e0899ef920e65a916d64619e4982e0230"
+    },
+    {
+      "file": "assets/gql-example-responses/Reports/query-organization-clientContractTimeReport/request.gql",
+      "sha256": "a12356848b60071a2b3025b59bad2aadfa1dfcf4de8a6bde06a72a232ec79f90"
+    },
+    {
+      "file": "assets/gql-example-responses/Reports/query-organization-clientContractTimeReport/response.json",
+      "sha256": "9b091a499dd01cf04e160fc63e1e1ebe249da6f39ff469eca2f10f33a30a81d6"
+    },
+    {
+      "file": "assets/gql-example-responses/Reports/query-organization-clientContractTimeReport/variables.json",
+      "sha256": "dcbd51ffe18348e2ea40ac4562f652612840f6d63c50f6776344111b2e837f87"
+    },
+    {
+      "file": "assets/gql-example-responses/Reports/query-user-contractTimeReport/request.gql",
+      "sha256": "315c201f02bc1038a9c167e7b940defc15900a70e7e839293212d7e3f740063e"
+    },
+    {
+      "file": "assets/gql-example-responses/Reports/query-user-contractTimeReport/response.json",
+      "sha256": "96ee9fb43029207c844d8cfcc1c80b869407e9e7ad14452ee4339a5b3754dfb6"
+    },
+    {
+      "file": "assets/gql-example-responses/Reports/query-user-contractTimeReport/variables.json",
+      "sha256": "dcbd51ffe18348e2ea40ac4562f652612840f6d63c50f6776344111b2e837f87"
+    },
+    {
+      "file": "assets/gql-example-responses/Search/query-freelancerProfileByProfileKey/request.gql",
+      "sha256": "674d3b3aa44e6406c5a5f90444ad68edc745ff6e58ffb2310b88a8d564c039d1"
+    },
+    {
+      "file": "assets/gql-example-responses/Search/query-freelancerProfileByProfileKey/response.json",
+      "sha256": "386352fb28c851b303fc137d12ddf5949197a85fd0ac0ad7025dc53dca9688d6"
+    },
+    {
+      "file": "assets/gql-example-responses/Search/query-freelancerProfileByProfileKey/variables.json",
+      "sha256": "dfd5e89411f2b93ca1dc28ba8fcd2bc34550c0b62e8fb2db3c7f9908f23a32dc"
+    },
+    {
+      "file": "assets/gql-example-responses/Search/query-search/request.gql",
+      "sha256": "459c00e560a2b0ea74f708b41b584044b49f9617590aa545da80bc7736f072d3"
+    },
+    {
+      "file": "assets/gql-example-responses/Search/query-search/response.json",
+      "sha256": "fa2b4033eda6b7176e5cb5418a91d39ca412a7c2e761fd9a3509e76e69356cba"
+    },
+    {
+      "file": "assets/gql-example-responses/Search/query-search/variables.json",
+      "sha256": "2ae546ea21628db60cb63f4ddacf59b16b1d5c4cd42cd061e9d4499f70cfac49"
+    },
+    {
+      "file": "assets/images/authz-code-grant-with-pkce.png",
+      "sha256": "b1b3de7087f5620bcf46429c33367c9726f08623fd3a2c913e124d590c587416"
+    },
+    {
+      "file": "assets/images/create-api-key.png",
+      "sha256": "c2ca2cb667d3ce58b73f78af4a24da3cb3e4940d6a87329168916e908a11b6ab"
+    },
+    {
+      "file": "assets/images/edit-member-roles.png",
+      "sha256": "4906b43b0ddbfcfcd97b3b757083dce0a1d4ff97e07aadd50cc092ff20ccd69c"
+    },
+    {
+      "file": "assets/images/flow-apply-for-a-key.png",
+      "sha256": "8d28528925022a92037947d3e439e3c2118a039fec89e280adac1d6961de600b"
+    },
+    {
+      "file": "assets/images/grant-management-perms.png",
+      "sha256": "1c08a432aedf4a0e7cec0f72ebbbd1d207fd00633e4f5c5f77da2b2417aca322"
+    },
+    {
+      "file": "assets/images/invite-member.png",
+      "sha256": "63bba23a2c652da2251b1115084293e11bf3096512f77f6f6ccd581622210665"
+    },
+    {
+      "file": "assets/images/logo-github.png",
+      "sha256": "c59c7dcb52c6732335fddcd0647733de80ca18ad03d07eb5d1b8f8db398f69d5"
+    },
+    {
+      "file": "assets/images/logo-helpdesk.png",
+      "sha256": "2a54b6b9f8a8fb6d6efb0f2cf37192387aa45aa14bbca8508e890934cc825622"
+    },
+    {
+      "file": "assets/images/logo-stackoverflow.png",
+      "sha256": "30c98ce052dc2424d3cf5e6958f174d5f9388ed57f74ba1c19c854cc6a5aa87c"
+    },
+    {
+      "file": "assets/images/members-permission.png",
+      "sha256": "4dbc358f82eace90885d3201e50de6385b085cc475a5330fd63fe7827d65c3cd"
+    },
+    {
+      "file": "assets/images/oauth2-error-response.jpg",
+      "sha256": "8ffe112e033f8275807a779ecf236874c3ea2e219162e968699e929a6ea06829"
+    },
+    {
+      "file": "assets/images/oauth2-flow.png",
+      "sha256": "ed9ca4f98a1dc0bcd2000072a5edb68ebe98be8988de6e6abefc77d49c057451"
+    },
+    {
+      "file": "assets/images/permissions-granted.png",
+      "sha256": "2eb1065c7202ce4e0584f56361fd46badf3c6b8adbdab51426d69061101015be"
+    },
+    {
+      "file": "assets/images/query-error-response.png",
+      "sha256": "8177075f2f867e2f9df1953374613033a0b02fcad1f64dad38fdc727c13f33a0"
+    },
+    {
+      "file": "assets/images/scopes-list.png",
+      "sha256": "d25af5efbfddb0cedbf5a037b053064dbd527060cf630e5aafb1e365e77c68e7"
+    },
+    {
+      "file": "assets/images/view-user-details.png",
+      "sha256": "a4fa8bbece6c6e3653b3b295d8d4460cdd35edc76b29ff85fd555dd6b6eb0284"
+    }
+  ],
+  "coverage": {
+    "ids": 1811,
+    "files": 983
+  }
+}

@@ -1,0 +1,20 @@
+query FreelancerOffers($pagination: Pagination!) {
+  user {
+    offer(pagination: $pagination) {
+      totalCount
+      edges {
+        node {
+          id
+          title
+          type
+          state
+          offer {
+            id
+            title
+            state
+          }
+        }
+      }
+    }
+  }
+}

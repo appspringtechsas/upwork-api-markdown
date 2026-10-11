@@ -1,0 +1,324 @@
+{
+  "data": {
+    "search": {
+      "searchFreelancerPublicProfile": {
+        "pagingInfo": {
+          "total": 195729,
+          "offset": 0
+        },
+        "profiles": [
+          {
+            "personId": "2051232908750797409",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2051232908750797409",
+                "ciphertext": "~0118f4f68311913a99"
+              },
+              "personalData": {
+                "firstName": "Lonnie",
+                "lastName": "R.",
+                "title": "Apple Featured Developer | 30M+ Downloads | Web3 & AI Integrations",
+                "description": "2026-05-04 09:30:09.194 I built apps acquired by Unity Technologies (Struckd, 12M+ downloads) and featured by Apple (Daily Dozen, 1M+ users, 4.9 rating). 13+ years shipping iOS app...",
+                "chargeRate": {
+                  "rawValue": "130.0",
+                  "currency": "USD",
+                  "displayValue": "$130.0"
+                },
+                "location": {
+                  "country": "Mongolia"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1FJYS2fONtWvjmmFUk_oGIkXVccPnpfUX75jgOBOwHi1aU9FqrvLmS3wbmwJKoXiR"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 5,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2051241316316200701",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2051241316316200701",
+                "ciphertext": "~01e426ae02a3204762"
+              },
+              "personalData": {
+                "firstName": "Michael",
+                "lastName": "B.",
+                "title": "UI/UX & Web/Mobile Dev - React | React Native | Nodejs | Flutter | AWS",
+                "description": "2026-05-04 10:03:34.498 We Can help you:\n\n★ Product Design & Development \n\n🔸 Create the architecture of your next mobile app using React Native and Flutter\n🔸 A to Z app design an...",
+                "chargeRate": {
+                  "rawValue": "108.0",
+                  "currency": "USD",
+                  "displayValue": "$108.0"
+                },
+                "location": {
+                  "country": "Kyrgyzstan"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1WPnylVmWc5JNtTtbPMY-k9-lyrgxU-ZBrV6e8kFswZoj2bJh_4ufzSrpxB7KHOQJ"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 5,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2052682089098770735",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2052682089098770735",
+                "ciphertext": "~013875709241e23c29"
+              },
+              "personalData": {
+                "firstName": "Raleigh",
+                "lastName": "L.",
+                "title": "React Native & Expo Developer | AI-Accelerated Development",
+                "description": "2026-05-08 09:28:40.640 I build and scale production-ready React Native mobile apps for iOS and Android from architecture and development to App Store and Google Play deployment.\n\n...",
+                "chargeRate": {
+                  "rawValue": "41.0",
+                  "currency": "USD",
+                  "displayValue": "$41.0"
+                },
+                "location": {
+                  "country": "United States Minor Outlying Islands"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1ETlnji6OfhD8T_tWTlIDN2Aj5EIFGjDPj_LlTmArDt52eBaP86vxbHkAh-WlyJmg"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 5,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2053299384946936188",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2053299384946936188",
+                "ciphertext": "~0192df4e20174a599d"
+              },
+              "personalData": {
+                "firstName": "Charlotte",
+                "lastName": "V.",
+                "title": "UI/UX & Web/Mobile Dev - React | React Native | Nodejs | Flutter | AWS",
+                "description": "2026-05-10 02:21:36.336 We Can help you:\n\n★ Product Design & Development \n\n🔸 Create the architecture of your next mobile app using React Native and Flutter\n🔸 A to Z app design an...",
+                "chargeRate": {
+                  "rawValue": "226.0",
+                  "currency": "USD",
+                  "displayValue": "$226.0"
+                },
+                "location": {
+                  "country": "Tunisia"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1jxG4ulBBMS7qqTNjlSJPCVTfD5C9AYMk2VOHWI8lpu-8gOw7gt2QOG-prerZyd4A"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 4,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2053865040041935825",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2053865040041935825",
+                "ciphertext": "~010dc6b27a117a9a4d"
+              },
+              "personalData": {
+                "firstName": "Fredia",
+                "lastName": "B.",
+                "title": "Senior React Native Developer",
+                "description": "2026-05-11 15:49:19.021 As a seasoned Software Developer specializing in React Native with over 6 years of experience in developing high-quality Android and iOS applications, I am ...",
+                "chargeRate": {
+                  "rawValue": "84.0",
+                  "currency": "USD",
+                  "displayValue": "$84.0"
+                },
+                "location": {
+                  "country": "Vietnam"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1zTxwnHuk7mCzmLtVsBErZ5u_bAhAntjEVdj345n7QSZ-6JSDWKb0zkb8JPkbt1X0"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 5,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2055835384840898995",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2055835384840898995",
+                "ciphertext": "~0151745c216b1ebae6"
+              },
+              "personalData": {
+                "firstName": "Houston",
+                "lastName": "J.",
+                "title": "Senior React Native Developer",
+                "description": "2026-05-17 02:18:45.809 As a seasoned Software Developer specializing in React Native with over 6 years of experience in developing high-quality Android and iOS applications, I am ...",
+                "chargeRate": {
+                  "rawValue": "240.0",
+                  "currency": "USD",
+                  "displayValue": "$240.0"
+                },
+                "location": {
+                  "country": "Honduras"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c134K1E1buA46YQiLCevJmrw9QV4iQ-psHRkGaoaALCXYwxk_H0mABFp-9cZxOJiRG"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 6,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2056315872472632051",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2056315872472632051",
+                "ciphertext": "~016b7aaed781a1801e"
+              },
+              "personalData": {
+                "firstName": "Glennis",
+                "lastName": "P.",
+                "title": "Creator of the fastest .NET decompiler & custom JS VMs",
+                "description": "2026-05-18 10:08:02.673 Leading the team that created the fastest .NET decompiler - JustDecompile, the ReactNative competitor - NativeScript, and the world famous debugging proxy F...",
+                "chargeRate": {
+                  "rawValue": "259.0",
+                  "currency": "USD",
+                  "displayValue": "$259.0"
+                },
+                "location": {
+                  "country": "Montserrat"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1PWMPDBz5JyLnERbrfKldIt9XUCtUlsrgtPLTMQAmUCnu-IdSQgvCHQr83hPzdCeq"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 5,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2050761787806212487",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2050761787806212487",
+                "ciphertext": "~01ef6c0ea05c95e399"
+              },
+              "personalData": {
+                "firstName": "Shonda",
+                "lastName": "O.",
+                "title": "Senior Mobile Developer | iOS & Android | React Native | AI App",
+                "description": "2026-05-03 02:18:06.034 ⭐️ 𝗧𝗢𝗣 𝗥𝗔𝗧𝗘𝗗 𝗣𝗟𝗨𝗦 – Top 1% Mobile App Developer on Upwork\n🕒 6,000+ Billed Hours\n✅ 100% Job Success\n✅ 10+ Years of Expertise\n✅ 40+ Successful Mo...",
+                "chargeRate": {
+                  "rawValue": "143.0",
+                  "currency": "USD",
+                  "displayValue": "$143.0"
+                },
+                "location": {
+                  "country": "Curacao"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1cKgiKnMFmv6iftJVcGhT24CjLqj9Tjg6b35xq0BZfvgIEwvThrrc7kVT3ZwTrLpR"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 5,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2050762322406034100",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2050762322406034100",
+                "ciphertext": "~01c9494071074fff7b"
+              },
+              "personalData": {
+                "firstName": "Lewis",
+                "lastName": "S.",
+                "title": "Web and Mobile app developer - Flutter | React Native | ReactJS",
+                "description": "2026-05-03 02:20:13.458 I'm a Mobile and Web app developer with over 7+ years of professional experience. If you are looking for someone to respond you fast, take care of your prod...",
+                "chargeRate": {
+                  "rawValue": "29.0",
+                  "currency": "USD",
+                  "displayValue": "$29.0"
+                },
+                "location": {
+                  "country": "Luxembourg"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1hF6qm4s2PV37x7amjnHqkllJVQYiL7mzvqZeikcfT5Ih05hJrk4sLLcIEeeE0p5p"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 6,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          },
+          {
+            "personId": "2050764003075205240",
+            "profileId": null,
+            "profile": {
+              "identity": {
+                "id": "2050764003075205240",
+                "ciphertext": "~01a701efc837a57394"
+              },
+              "personalData": {
+                "firstName": "Norberto",
+                "lastName": "P.",
+                "title": "UI/UX & Web/Mobile Dev - React | React Native | Nodejs | Flutter | AWS",
+                "description": "2026-05-03 02:26:54.169 We Can help you:\n\n★ Product Design & Development \n\n🔸 Create the architecture of your next mobile app using React Native and Flutter\n🔸 A to Z app design an...",
+                "chargeRate": {
+                  "rawValue": "260.0",
+                  "currency": "USD",
+                  "displayValue": "$260.0"
+                },
+                "location": {
+                  "country": "Lebanon"
+                },
+                "portrait": {
+                  "portrait100": "https://www.upwork.com/profile-portraits/c1ojSjkt1nQIUBphDavPohI6d9BhODB8g7_6dxEtELhYUdEtarCT8XN-ytIbernKyG"
+                }
+              },
+              "profileAggregates": {
+                "totalJobs": 3,
+                "topRatedStatus": "top_rated"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+query FreelancerEarningsReport(
+  $range: DateTimeRange!
+  $pagination: Pagination
+) {
+  user {
+    id
+    contractTimeReport(timeReportDate_bt: $range, pagination: $pagination) {
+      edges {
+        node {
+          dateWorkedOn
+          totalCharges
+          totalHoursWorked
+          contract {
+            id
+            title
+          }
+        }
+      }
+    }
+  }
+}
