@@ -32,8 +32,12 @@ Inventory (from HTML analysis):
 - [x] Idempotency verified: markdown-content diff (pass 2 = "no changes"); binary image churn excluded
 - [x] Quality audit: deprecation markers, field args, examples + real-life + variants, fenced code dedent/lang, local images; scripts/check-links.mjs → all links/anchors resolve
 - [x] scripts/register-task.ps1 (daily Windows task; -RunNow/-Unregister; cron documented)
-- [x] Skills: baseline retrieval test (RED) → upwork-api-docs, upwork-graphql-query-builder, upwork-docs-sync (GREEN) → verification test running
+- [x] Skills: baseline retrieval test (RED) → upwork-api-docs, upwork-graphql-query-builder, upwork-docs-sync (GREEN), verified
 - [x] AGENTS.md + CLAUDE.md + README.md + .gitignore (node_modules, logs, .incoming, .preview)
-- [ ] Skill verification review (REFACTOR if gaps found)
-- [ ] Clean history: squash debug commits → tooling commit, then real initial-import commit via update-docs itself, push
-- [ ] Final verification pass
+- [x] Skill verification passed (fresh agent with skills: correct curl build, caught non-existent field, deprecation-aware)
+- [x] Clean history: tooling commit(s) + initial-import commit created by the sync program itself; pushed
+- [x] Final verification: link check OK, coverage 1811/1811, no volatile stamps in docs, no-change cycle exits 0 with clean tree
+
+## Post-delivery (user action)
+- Register the daily job: `powershell -ExecutionPolicy Bypass -File scripts\register-task.ps1` (adds `-RunNow` to test immediately)
+
