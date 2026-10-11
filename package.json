@@ -1,0 +1,27 @@
+{
+  "name": "upwork-api-markdown",
+  "version": "1.0.0",
+  "description": "Upwork GraphQL API documentation converted to structured Markdown, kept in sync daily",
+  "main": "scripts/update-docs.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node scripts/update-docs.mjs",
+    "convert": "node scripts/convert.mjs",
+    "fetch": "node scripts/fetch-docs.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appspringtechsas/upwork-api-markdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/appspringtechsas/upwork-api-markdown/issues"
+  },
+  "homepage": "https://github.com/appspringtechsas/upwork-api-markdown#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}
