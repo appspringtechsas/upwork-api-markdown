@@ -17,6 +17,27 @@ Content copyright Upwork, Inc. — this repo is a convenience mirror for
 developers; treat the [official docs](https://www.upwork.com/developer/documentation/graphql/api/docs/index.html)
 as the canonical source.
 
+## Used in our research: The real demand on Upwork
+
+This documentation was not just read — it was the key that let us retrieve **all
+the data needed for the analysis** in Appspring's research
+[**"The real demand on Upwork: what ~30,000 job postings say about who gets hired — and how fast"**](https://www.appspringtech.com/blog/upwork-real-demand-analysis/)
+([Leer en español →](https://www.appspringtech.com/blog/demanda-real-upwork-es/)).
+
+Working from the mirrored schema — operations, arguments, required permissions,
+connections and example payloads — our team identified and validated the exact
+GraphQL calls behind the study: 29,890 job postings captured between July 30 and
+September 24, 2026, with sequential activity snapshots feeding a PostgreSQL
+ingestion pipeline (queryable by AI agents through a Postgres MCP server,
+orchestrated with OpenChamber). The findings — a 10.8% base hire rate, a 10.6-hour
+median from posting to hire, first proposals arriving in ~13 minutes — were all
+built on data retrieved against the API documented here.
+
+If you want to run marketplace analytics of your own, start with
+[`docs/queries/marketplaceJobPostingsSearch.md`](docs/queries/marketplaceJobPostingsSearch.md),
+the auth guide in [`docs/getting-started/`](docs/getting-started/README.md),
+and the `upwork-graphql-query-builder` skill.
+
 ## Layout
 
 ```text
