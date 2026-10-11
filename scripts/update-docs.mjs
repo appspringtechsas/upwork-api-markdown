@@ -163,9 +163,10 @@ async function main() {
 
   // 1. pull first so we commit on top of the newest remote state
   if (!SKIP_PULL) {
-    const pull = gitTry(['pull', '--rebase', '--autostash']);
+    const branch = gitTry(['rev-parse', '--abbrev-ref', 'HEAD']).out || 'main';
+    const pull = gitTry(['pull', '--rebase', '--autostash', 'origin', branch]);
     if (pull.ok) {
-      log(`git pull: ${pull.out.split('\n')[0] || 'ok'}`);
+      log(`git pull origin ${branch}: ${pull.out.split('\n')[0] || 'ok'}`);
     } else {
       // If push permission or remote is temporarily down, still refuse to race ahead:
       // aborting keeps local history consistent; the daily run will retry.
@@ -176,10 +177,11 @@ async function main() {
   }
 
   // if a previous run left unpushed commits, try to push them now
-  const ahead = gitTry(['rev-list', '--count', '@{u}..HEAD']).out;
+  const branchNow = gitTry(['rev-parse', '--abbrev-ref', 'HEAD']).out || 'main';
+  const ahead = gitTry(['rev-list', '--count', `origin/${branchNow}..HEAD`]).out;
   if (/^[1-9]/.test(ahead || '')) {
     log(`found ${ahead} unpushed commit(s) from a previous run — pushing first`);
-    const p = gitTry(['push']);
+    const p = gitTry(['push', 'origin', branchNow]);
     log(p.ok ? 'push ok' : `push failed: ${p.out}`);
   }
 
@@ -278,7 +280,7 @@ async function main() {
     log('skipping push (--no-push)');
     return;
   }
-  const push = gitTry(['push']);
+  const push = gitTry(['push', 'origin', branchNow]);
   if (push.ok) log('push ok');
   else log(`PUSH FAILED (commit kept locally, next run will retry): ${push.out}`);
 }
