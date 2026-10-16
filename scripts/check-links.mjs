@@ -92,6 +92,39 @@ for (const f of files) {
   }
 }
 
+// ---- table integrity: every row of a markdown table must have the same column count
+function cellCount(line) {
+  // split on unescaped pipes; drop the leading/trailing empty fields
+  const parts = line.trim().replace(/^\|/, '').replace(/\|$/, '');
+  let count = 1;
+  for (let i = 0; i < parts.length; i++) {
+    if (parts[i] === '\\' ) { i++; continue; }
+    if (parts[i] === '|') count++;
+  }
+  return count;
+}
+for (const f of files) {
+  const lines = fs.readFileSync(f, 'utf8').split(/\r?\n/);
+  let inFence = false;
+  let block = [];
+  const flush = () => {
+    if (block.length < 2) { block = []; return; }
+    const counts = new Set(block.map((l) => cellCount(l.line)));
+    if (counts.size !== 1) {
+      const most = [...counts].sort((a, b) => b - a)[0];
+      issues.push(`${path.relative(DOCS_DIR, f)}: table near line ${block[0].n} has inconsistent columns (${[...counts].join('/')}, expected ${most})`);
+    }
+    block = [];
+  };
+  lines.forEach((line, idx) => {
+    if (/^```/.test(line)) inFence = !inFence;
+    const isRow = !inFence && /^\s*\|.*\|\s*$/.test(line);
+    if (isRow) block.push({ line, n: idx + 1 });
+    else flush();
+  });
+  flush();
+}
+
 if (issues.length) {
   console.error(`LINK CHECK: ${issues.length} problem(s):`);
   for (const i of issues.slice(0, 100)) console.error('  - ' + i);

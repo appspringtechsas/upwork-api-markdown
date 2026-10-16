@@ -334,6 +334,50 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     registry[id] = { file: u.file, anchor };
   });
 
+  // 3b) sample flows: capture the ordered operations each workflow calls, and
+  //     build a reverse index (operation html_id -> flows that use it).
+  const flows = []; // { id, file, title, steps:[{n, label, opHtmlId, opName, desc}] }
+  const flowByOp = new Map(); // opHtmlId -> [{flowTitle, flowFile, stepLabel, opName, n, isMutation}]
+  content.find('nav.sample-flow-steps').each((_, navEl) => {
+    const $nav = $(navEl);
+    const unit = containingUnit(navEl);
+    if (!unit) return;
+    const flowId = ($nav.attr('data-flow-return-to') || '').replace(/^#/, '') || unit.htmlId || '';
+    const flowTitle = ($nav.attr('aria-label') || '').replace(/\s*steps\s*$/i, '').trim() || unit.title || 'Sample flow';
+    const flowFile = unit.file;
+    const steps = [];
+    $nav.find('li.flow-step').each((__, liEl) => {
+      const $li = $(liEl);
+      const label = plainText($li.find('.flow-step__label').first());
+      const $a = $li.find('a.flow-step__button').first();
+      const opHtmlId = ($a.attr('data-operation-id') || ($a.attr('href') || '').replace(/^#/, '')).trim();
+      const href = ($a.attr('href') || '').trim();
+      const reg = opHtmlId && registry[opHtmlId];
+      const desc = plainText($li.find('.flow-step__popover').first());
+      const step = { n: steps.length + 1, label, opHtmlId: reg ? opHtmlId : '', opName: opHtmlId.replace(/^(query|mutation)-/, ''), href, desc };
+      steps.push(step);
+      if (reg) {
+        if (!flowByOp.has(opHtmlId)) flowByOp.set(opHtmlId, []);
+        flowByOp.get(opHtmlId).push({
+          flowTitle,
+          flowFile,
+          flowHref: href,
+          stepLabel: label,
+          n: step.n,
+          opName: step.opName,
+          isMutation: /^mutation-/.test(opHtmlId),
+        });
+      }
+    });
+    if (steps.length) flows.push({ id: flowId, file: flowFile, title: flowTitle, steps });
+  });
+  // map each example-category file to its flow(s) for the special-case renderer
+  const flowByFile = new Map();
+  for (const f of flows) {
+    if (!flowByFile.has(f.file)) flowByFile.set(f.file, []);
+    flowByFile.get(f.file).push(f);
+  }
+
   // 4) renderer factories -----------------------------------------------------
   function readAssetText(rel) {
     if (!rel) return null;
@@ -374,6 +418,39 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
       registry,
       heading: null, // set per unit
       ...opts,
+    };
+    // Special block handler: Upwork's sample-flow steppers (nav.sample-flow-steps)
+    // encode which query/mutation each workflow step calls. Render them as an
+    // ordered list with links to the operation files.
+    ctx.special = ($el, out) => {
+      const el = $el[0];
+      if (!el || el.tagName !== 'nav' || !/(sample-flow-steps|flow-steps)/.test(el.attribs?.class || '')) return false;
+      markSubtree($el);
+      const flowTitle = ($el.attr('aria-label') || '').replace(/\s*steps\s*$/i, '').trim();
+      const lines = [];
+      if (flowTitle) lines.push(`**Workflow: ${flowTitle}**`);
+      let stepNo = 0;
+      $el.find('li.flow-step').each((__, liEl) => {
+        const $li = $(liEl);
+        stepNo++;
+        const label = plainText($li.find('.flow-step__label').first());
+        const $a = $li.find('a.flow-step__button').first();
+        const href = ($a.attr('href') || '').trim();
+        const desc = plainText($li.find('.flow-step__popover').first());
+        const variant = ($a.attr('data-example-id') || '').trim();
+        let line = `${stepNo}. **${label || 'Step'}**`;
+        if (href.startsWith('#') && registry[href.slice(1)]) {
+          const nm = href.replace(/^#(query|mutation)-/, '');
+          const kindTag = href.startsWith('#mutation-') ? 'mutation' : 'query';
+          line += ` — call [\`${nm}\`](${ctx.resolveLink(href)}) (${kindTag}${variant ? `, uses example variant \`${variant}\`` : ''})`;
+        } else if (href.startsWith('#')) {
+          line += ` — call \`${href.slice(1).replace(/^(query|mutation)-/, '')}\``;
+        }
+        if (desc) line += `: ${desc}`;
+        lines.push(line);
+      });
+      if (lines.length) out.push(lines.join('\n'));
+      return true;
     };
     ctx._unresolved = unresolved;
     return ctx;
@@ -471,7 +548,8 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     const out = [`| ${labelWord} | Type | Description |`, '|---|---|---|'];
     for (const f of rows) {
       if (f.raw) {
-        out.push(`| ${f.raw[0] || ''} | ${f.raw[1] || ''} |`);
+        // raw (non-field) row inside a fields table: pad to 3 columns
+        out.push(`| ${f.raw[0] || ''} | ${f.raw[1] || ''} | ${f.raw[2] || ''} |`);
         continue;
       }
       let desc = f.desc || '';
@@ -481,12 +559,18 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     return out.join('\n');
   }
 
-  function rawTableMd(rows) {
+  function rawTableMd(rows, labelWord) {
     const present = rows.filter((r) => r.raw);
     if (!present.length) return null;
-    const head = ['Value', 'Description'];
-    const out = [`| ${head.join(' | ')} |`, '|---|---|'];
-    for (const f of present) out.push(`| ${f.raw.map((c) => c.replace(/\|/g, '\\|')).join(' | ')} |`);
+    const width = Math.max(1, ...present.map((r) => r.raw.length));
+    const base = [labelWord || 'Value', 'Description', 'Details'];
+    const head = Array.from({ length: width }, (_, i) => base[i] || `Column ${i + 1}`);
+    const out = [`| ${head.join(' | ')} |`, `|${head.map(() => '---').join('|')}|`];
+    for (const f of present) {
+      const cells = [...f.raw];
+      while (cells.length < width) cells.push('');
+      out.push(`| ${cells.map((c) => (c || '').replace(/\|/g, '\\|')).join(' | ')} |`);
+    }
     return out.join('\n');
   }
 
@@ -602,6 +686,14 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
       parts.push('## Examples');
       parts.push(...exampleParts);
     }
+    // back-link: which documented sample workflows call this operation
+    const usedIn = flowByOp.get(htmlId) || [];
+    if (usedIn.length) {
+      parts.push('## Used in sample flows');
+      for (const u of usedIn) {
+        parts.push(`- Step **${u.n}** (${u.stepLabel}) in [${u.flowTitle}](${relPath(file, u.flowFile)})`);
+      }
+    }
     return parts.join('\n\n');
   }
 
@@ -642,7 +734,7 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
         if (fieldRows.length) {
           parts.push(fieldsTableMd(rows, label === 'Values' ? 'Value' : 'Field'));
         } else {
-          const t = rawTableMd(rows);
+          const t = rawTableMd(rows, label);
           if (t) parts.push(t);
         }
         const withArgs = fieldRows.filter((f) => f.args?.length);
@@ -714,15 +806,18 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     if (u.file.startsWith('docs/operations/examples/') && path.posix.basename(u.file) !== 'README.md') u.parentFile = 'docs/operations/examples/README.md';
   }
 
-  // 5) render all files -------------------------------------------------------
-  const written = [];
+  // 5) render all files (buffered; a linear-navigation footer is appended at flush)
+  const pending = new Map(); // file -> rendered text
   function writeFile(file, text) {
+    if (pending.has(file)) throw new Error(`duplicate write for ${file}`);
+    pending.set(file, text);
+  }
+  function flushFile(file, text) {
     // `file` is repo-relative ("docs/..."); map onto the chosen docsDir
     const rel = file.startsWith('docs/') ? file.slice('docs/'.length) : file;
     const p = file.startsWith('docs/') ? path.join(docsDir, rel) : path.join(REPO_ROOT, rel);
     fs.mkdirSync(path.dirname(p), { recursive: true });
     fs.writeFileSync(p, text.endsWith('\n') ? text : text + '\n', 'utf8');
-    written.push(file);
   }
 
   for (const unit of units) {
@@ -762,14 +857,16 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
       kind: 'section',
       source: `${BASE_URL}api-changelog.html`,
       generated_by: 'scripts/convert.mjs',
-    }) + `# Upwork GraphQL API Changelog\n\n_Source: [${BASE_URL}api-changelog.html](${BASE_URL}api-changelog.html)_\n\n${body}`);
+    }) + `# Upwork GraphQL API Changelog\n\n${body}`);
   }
 
   // 7) indexes ----------------------------------------------------------------
   function indexTable(items, nameWord, descOf) {
     const out = [`| ${nameWord} | Description |`, '|---|---|'];
     for (const it of items) {
-      const link = `[${it.title}](${relPath(it._indexFile, it.file)})${it.deprecated ? ' ⚠️' : ''}`;
+      const label = it.title || it.name || path.posix.basename(it.file, '.md');
+      const dep = it.deprecated || it.deprecatedText;
+      const link = `[${label}](${relPath(it._indexFile, it.file)})${dep ? ' ⚠️' : ''}`;
       out.push(`| ${link} | ${descOf(it).replace(/\|/g, '\\|')} |`);
     }
     return out.join('\n');
@@ -792,9 +889,9 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
   }
 
   // queries/mutations/types indexes
-  function writeCategoryIndex(dir, indexFile, titleText, intro, units, nameWord) {
+  function writeCategoryIndex(dir, indexFile, titleText, intro, units, nameWord, srcAnchor) {
     const byDomain = groupedUnits(units, 'domain');
-    const parts = [frontmatter({ title: titleText, kind: 'index', generated_by: 'scripts/convert.mjs' }), `# ${titleText}`, intro];
+    const parts = [frontmatter({ title: titleText, kind: 'index', source: `${BASE_URL}index.html${srcAnchor ? '#' + srcAnchor : ''}`, generated_by: 'scripts/convert.mjs' }), `# ${titleText}`, intro];
     for (const d of groupOrder[dir] || byDomain.keys()) {
       const items = byDomain.get(d);
       if (!items) continue;
@@ -804,9 +901,9 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     writeFile(indexFile, parts.filter(Boolean).join('\n\n'));
   }
 
-  writeCategoryIndex('queries', 'docs/queries/README.md', 'Queries', 'GraphQL query operations of the Upwork API, grouped by domain. ⚠️ marks deprecated operations.', opUnits.filter((u) => u.kind === 'query'), 'Query');
-  writeCategoryIndex('mutations', 'docs/mutations/README.md', 'Mutations', 'GraphQL mutation operations of the Upwork API, grouped by domain. ⚠️ marks deprecated operations.', opUnits.filter((u) => u.kind === 'mutation'), 'Mutation');
-  writeCategoryIndex('types', 'docs/types/README.md', 'Object Types', 'GraphQL object types, grouped by domain. ⚠️ marks deprecated types.', defUnits.filter((u) => u.kind === 'object'), 'Type');
+  writeCategoryIndex('queries', 'docs/queries/README.md', 'Queries', 'GraphQL query operations of the Upwork API, grouped by domain. ⚠️ marks deprecated operations.', opUnits.filter((u) => u.kind === 'query'), 'Query', 'group-Operations-Queries');
+  writeCategoryIndex('mutations', 'docs/mutations/README.md', 'Mutations', 'GraphQL mutation operations of the Upwork API, grouped by domain. ⚠️ marks deprecated operations.', opUnits.filter((u) => u.kind === 'mutation'), 'Mutation', 'group-Operations-Mutations');
+  writeCategoryIndex('types', 'docs/types/README.md', 'Object Types', 'GraphQL object types, grouped by domain. ⚠️ marks deprecated types.', defUnits.filter((u) => u.kind === 'object'), 'Type', 'group-Types');
   for (const [dirName, titleText, kindName] of [
     ['inputs', 'Input Objects', 'input_object'],
     ['enums', 'Enums', 'enum'],
@@ -822,7 +919,7 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
       if (!byDomain.has(d)) byDomain.set(d, []);
       byDomain.get(d).push(u);
     }
-    const parts = [frontmatter({ title: titleText, kind: 'index', generated_by: 'scripts/convert.mjs' }), `# ${titleText}`, `All \`${kindName.replace('_', ' ')}\` definitions in the Upwork GraphQL schema.`];
+    const parts = [frontmatter({ title: titleText, kind: 'index', source: `${BASE_URL}index.html#group-Types`, generated_by: 'scripts/convert.mjs' }), `# ${titleText}`, `All \`${kindName.replace('_', ' ')}\` definitions in the Upwork GraphQL schema.`];
     if (byDomain.size === 1 && list.length) {
       parts.push(indexTable(list.map((i) => ({ ...i, _indexFile: `docs/${dirName}/README.md` })), kindName === 'input_object' ? 'Input' : 'Name', descFor));
     } else {
@@ -837,17 +934,29 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
   // operations README (overview of sections + counts)
   {
     const file = 'docs/operations/README.md';
-    const parts = [frontmatter({ title: 'Operations', kind: 'index', generated_by: 'scripts/convert.mjs' }), '# Operations',
-      'General guidance that applies to every Upwork GraphQL operation, plus worked sample flows.', ''];
-    parts.push('| Document | Description |\n|---|---|');
-    for (const [f, t, d] of [
-      ['docs/operations/common-information.md', 'Common Information', 'Requests limits, security, and general operational info'],
-      ['docs/operations/error-handling.md', 'Error handling in GraphQL', 'Error response anatomy and decoding'],
-      ['docs/operations/examples/README.md', 'Examples (sample flows)', 'End-to-end example flows per domain'],
-      ['docs/operations/subscriptions.md', 'Subscriptions', 'Subscription entities and events'],
-    ]) parts.push(`| [${t}](${relPath(file, f)}) | ${d} |`);
-    parts.push('', `See also: [Queries](../queries/README.md) (${stats.queries}) · [Mutations](../mutations/README.md) (${stats.mutations})`);
-    writeFile(file, parts.join('\n\n'));
+    const exampleTitles = units
+      .filter((u) => u.type === 'prose' && u.file.startsWith('docs/operations/examples/') && !u.file.endsWith('README.md'))
+      .map((u) => u.title)
+      .join(', ');
+    const rows = [
+      ['Common Information', 'docs/operations/common-information.md', 'Request limits, security, and general guidance that applies to every operation'],
+      ['Error handling in GraphQL', 'docs/operations/error-handling.md', 'Anatomy of GraphQL error responses and how to decode them'],
+      ['Examples (sample flows)', 'docs/operations/examples/README.md', `End-to-end sample workflows: ${exampleTitles || 'one file per domain'}`],
+      ['Subscriptions', 'docs/operations/subscriptions.md', 'Webhook subscription entities, actions and supported events'],
+      ['Queries (index)', 'docs/queries/README.md', `${stats.queries} query operations, one file each, grouped by domain`],
+      ['Mutations (index)', 'docs/mutations/README.md', `${stats.mutations} mutation operations, one file each, grouped by domain`],
+    ];
+    const table = [
+      '| Document | Description |',
+      '|---|---|',
+      ...rows.map(([t, f, d]) => `| [${t}](${relPath(file, f)}) | ${d} |`),
+    ].join('\n');
+    writeFile(file, [
+      frontmatter({ title: 'Operations', kind: 'index', source: `${BASE_URL}index.html#operations-common-information`, generated_by: 'scripts/convert.mjs' }),
+      '# Operations',
+      'General guidance that applies to every Upwork GraphQL operation, plus worked sample flows.',
+      table,
+    ].join('\n\n'));
   }
 
   // root docs README
@@ -856,10 +965,11 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     const defsByKind = {};
     for (const u of defUnits) defsByKind[u.kind] = (defsByKind[u.kind] || 0) + 1;
     const parts = [];
-    parts.push(frontmatter({ title: 'Upwork GraphQL API Documentation', kind: 'index', generated_by: 'scripts/convert.mjs' }));
+    parts.push(frontmatter({ title: 'Upwork GraphQL API Documentation', kind: 'index', source: `${BASE_URL}index.html`, generated_by: 'scripts/convert.mjs' }));
     parts.push('# Upwork GraphQL API Documentation');
     parts.push('> Generated deterministically from the official Upwork documentation by `scripts/convert.mjs`.');
     parts.push(`> Source page: [index.html](${BASE_URL}index.html) — raw HTML snapshots and fetch history live under [html-snapshots/](../html-snapshots/INDEX.md); the newest is [html-snapshots/latest/](../html-snapshots/latest/).`);
+    parts.push('> Every page ends with a **Source link (opens in a new tab)** and **Prev / Next** links, so the whole reference can be read linearly.');
     parts.push('## Structure');
     parts.push([
       '- **[Introduction](introduction.md)** — welcome + terminology',
@@ -882,6 +992,55 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     writeFile(file, parts.join('\n\n'));
   }
 
+  // 7b) linear reading order + footer (source opens in a new tab) -----------
+  const proseFiles = units.filter((u) => u.type === 'prose').map((u) => u.file);
+  const order = [
+    'docs/README.md',
+    'docs/introduction.md',
+    ...proseFiles.filter((f) => f.startsWith('docs/getting-started/')),
+    'docs/operations/README.md',
+    'docs/operations/common-information.md',
+    'docs/operations/error-handling.md',
+    'docs/operations/examples/README.md',
+    ...proseFiles.filter((f) => f.startsWith('docs/operations/examples/') && !f.endsWith('README.md')),
+    'docs/operations/subscriptions.md',
+    'docs/queries/README.md',
+    ...opUnits.filter((u) => u.kind === 'query').map((u) => u.file),
+    'docs/mutations/README.md',
+    ...opUnits.filter((u) => u.kind === 'mutation').map((u) => u.file),
+  ];
+  for (const [dirName, kindName] of [
+    ['types', 'object'], ['inputs', 'input_object'], ['enums', 'enum'],
+    ['scalars', 'scalar'], ['interfaces', 'interface'], ['unions', 'union'],
+  ]) {
+    order.push(`docs/${dirName}/README.md`);
+    order.push(...defUnits.filter((u) => u.kind === kindName).map((u) => u.file));
+  }
+  order.push('docs/changelog.md');
+  for (const f of pending.keys()) if (!order.includes(f)) order.push(f); // defensive
+  const _seen = new Set();
+  const navOrder = order.filter((f) => pending.has(f) && !_seen.has(f) && _seen.add(f));
+
+  function fileLabel(f) {
+    if (f === 'docs/README.md') return 'Docs index';
+    const b = path.posix.basename(f, '.md');
+    if (b === 'README') return `${path.posix.basename(path.posix.dirname(f))} index`;
+    return b;
+  }
+  navOrder.forEach((file, i) => {
+    const text = pending.get(file);
+    const srcMatch = text.match(/^source: "(.+)"$/m);
+    const src = srcMatch ? srcMatch[1] : `${BASE_URL}index.html`;
+    const prev = navOrder[i - 1];
+    const next = navOrder[i + 1];
+    const bits = [];
+    if (prev) bits.push(`⬅️ **Prev:** [${fileLabel(prev)}](${relPath(file, prev)})`);
+    if (file !== 'docs/README.md' && prev !== 'docs/README.md') bits.push(`[📚 Docs index](${relPath(file, 'docs/README.md')})`);
+    if (next) bits.push(`**Next:** [${fileLabel(next)}](${relPath(file, next)}) ➡️`);
+    const footer = `\n\n---\n\n🔗 **Source:** <a href="${src}" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>\n\n${bits.join('   ·   ')}\n`;
+    flushFile(file, text.replace(/\s+$/, '') + footer);
+  });
+
   // 8) coverage check ---------------------------------------------------------
   const allIds = new Set();
   content.find('[id]').each((_, el) => {
@@ -898,7 +1057,7 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     uncovered: uncovered.slice(0, 50),
     stats,
     assets: { fetched: (meta.assets || []).filter((a) => a.ok).length, failed: (meta.assets || []).filter((a) => !a.ok).length, imagesCopied },
-    files: written.length,
+    files: navOrder.length,
   };
   fs.writeFileSync(path.join(snapshotDir, 'coverage.json'), JSON.stringify(coverage, null, 2) + '\n', 'utf8');
   if (uncovered.length) {
@@ -906,9 +1065,9 @@ export function convertSnapshot(snapshotDir, { docsDir = DOCS_DIR, quiet = false
     throw new Error('coverage assertion failed');
   }
   if (!quiet) {
-    console.log(`converted ${written.length} files — ${stats.queries} queries, ${stats.mutations} mutations, ${stats.definitions} definitions, ${stats.prose} prose sections (${allIds.size} ids covered)`);
+    console.log(`converted ${navOrder.length} files — ${stats.queries} queries, ${stats.mutations} mutations, ${stats.definitions} definitions, ${stats.prose} prose sections (${allIds.size} ids covered)`);
   }
-  return { coverage, files: written.length };
+  return { coverage, files: navOrder.length };
 }
 
 // CLI

@@ -186,6 +186,7 @@ export class MdRenderer {
       out.push(this.table($el));
       return;
     }
+    if (this.ctx.special && this.ctx.special($el, out)) return;
     if (tag === 'li' || tag === 'tr' || tag === 'td' || tag === 'th') {
       // encountered standalone (shouldn't normally happen) → recurse
       $el.contents().each((_, c) => this.blockInto(this.ctx.$(c), out));
@@ -246,31 +247,43 @@ export class MdRenderer {
 
   table($table) {
     const $ = this.ctx.$;
-    const rows = [];
-    const headCells = $table.find('thead th');
-    let header = null;
-    if (headCells.length) {
-      header = headCells.toArray().map((th) => escapeCell(this.inline($(th).contents(), { br: 'space' }).trim())).filter((c, i, arr) => c || i < arr.length - 1);
-    }
-    $table.find('tbody tr').each((_, trEl) => {
+    // Build a cell matrix honoring rowspan/colspan so continuation rows don't
+    // shift content into the wrong columns.
+    const grid = [];
+    let r = 0;
+    const ensureRow = (i) => { if (!grid[i]) grid[i] = []; return grid[i]; };
+    $table.find('thead tr, tbody tr').each((_, trEl) => {
       const $tr = $(trEl);
-      if (this.ctx.skipRow && this.ctx.skipRow($tr)) return;
-      const cells = $tr.children('td,th').toArray().map((td) => escapeCell(this.inline(this.ctx.$(td).contents(), { br: 'space' }).trim()));
-      rows.push(cells);
+      let c = 0;
+      const rowArr = ensureRow(r);
+      $tr.children('td,th').each((__, cellEl) => {
+        const $cell = $(cellEl);
+        while (rowArr[c] !== undefined) c++;
+        let cs = parseInt($cell.attr('colspan') || '1', 10) || 1;
+        const rs = parseInt($cell.attr('rowspan') || '1', 10) || 1;
+        if (this.ctx.skipRow && this.ctx.skipRow($tr, $cell)) return;
+        const isHeader = cellEl.tagName === 'th';
+        const text = escapeCell(this.inline($cell.contents(), { br: 'space' }).trim());
+        for (let dr = 0; dr < rs; dr++) {
+          const rr = ensureRow(r + dr);
+          for (let dc = 0; dc < cs; dc++) rr[c + dc] = { text: dr === 0 && dc === 0 ? text : (dr === 0 ? '' : text), header: isHeader };
+        }
+        c += cs;
+      });
+      r++;
     });
-    if (header === null && rows.length) header = rows.shift();
-    if (!header) return '';
-    const width = header.length;
-    const pad = (cells) => {
-      const c = [...cells];
-      while (c.length < width) c.push('');
-      return c.slice(0, width);
-    };
-    const lines = [
-      `| ${header.join(' | ')} |`,
-      `|${header.map(() => '---').join('|')}|`,
-      ...rows.map((r) => `| ${pad(r).join(' | ')} |`),
-    ];
-    return lines.join('\n');
+    if (!grid.length) return '';
+    const width = Math.max(...grid.map((row) => row.length));
+    for (const row of grid) while (row.length < width) row.push(undefined);
+    // first all-header row becomes the markdown header
+    let headerIdx = grid.findIndex((row) => row.every((c) => c && c.header));
+    if (headerIdx < 0) headerIdx = 0;
+    const header = grid[headerIdx].map((cell) => (cell ? cell.text : '') || '');
+    const out = [`| ${header.join(' | ')} |`, `|${header.map(() => '---').join('|')}|`];
+    grid.forEach((row, i) => {
+      if (i === headerIdx) return;
+      out.push(`| ${row.map((cell) => (cell ? cell.text : '')).join(' | ')} |`);
+    });
+    return out.join('\n');
   }
 }

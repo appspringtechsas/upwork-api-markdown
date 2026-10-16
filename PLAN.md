@@ -23,8 +23,7 @@ Inventory (from HTML analysis):
 - sample-example-variants JSON per operation + lazy-loaded response JSON assets (103 total incl. images)
 
 ## Checklist
-- [x] Fetch HTML works (browser UA via curl.exe + Referer for assets, retries)
-- [x] Explored: api-changelog.html + 103 lazy assets (sample responses + images) fetched too
+- [x] Fetch HTML works (browser UA via curl.exe + Referer for assets, retries)- [x] Explored: api-changelog.html + 103 lazy assets (sample responses + images) fetched too
 - [x] scripts/fetch-docs.mjs (download + timestamped snapshot + meta.json + validation)
 - [x] scripts/convert.mjs (cheerio → 983 md files: 89 queries, 67 mutations, 797 definitions, 19 prose + indexes + changelog)
 - [x] Coverage self-check passes: 1811/1811 ids rendered
@@ -40,4 +39,16 @@ Inventory (from HTML analysis):
 
 ## Post-delivery (user action)
 - Register the daily job: `powershell -ExecutionPolicy Bypass -File scripts\register-task.ps1` (adds `-RunNow` to test immediately)
+
+## Iteration 2 (user feedback, Oct 15)
+- [x] Prev/Next linear-reading footer + Docs-index link appended to every generated file (converter buffers & flushes in canonical reading order)
+- [x] Source link in every file opens in a new tab (`<a target="_blank">` footer)
+- [x] Sample flows now render the exact operation per step, linked to its file (+ example variant used), and each operation file gained "Used in sample flows" back-links
+- [x] docs/operations/README.md table rebuilt as one contiguous table (rows previously split by blank lines)
+- [x] Rowspan/colspan-aware markdown tables (subscriptions event tables etc. now fill correct columns)
+- [x] Index READMEs no longer show `undefined` labels (mutations/types/inputs/enums/scalars/interfaces/unions/queries), ⚠️ deprecation marker shown
+- [x] check-links extended: table column-integrity validation across all 983 files — passes
+- [x] Privacy audit: no drive paths/credentials in tracked content; pre-existing personal email lives in user's own `.github/workflows/opencode.yml`; commit metadata uses the user's own git identity
+- [x] Final sync run (pull → snapshot → convert → commit → push) + idempotency proof
+
 

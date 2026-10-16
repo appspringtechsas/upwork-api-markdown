@@ -10,6 +10,11 @@ The content is generated for both humans and AI agents:
 - one Markdown file per query, mutation, object type, input, enum, scalar, interface and union
 - YAML frontmatter on every file (kind, domain, GraphQL name, deprecation, source anchor) for tooling
 - all cross-links rewritten to local files & anchors (verified by `npm run check`)
+- every page ends with **Prev / Next links** (linear reading across the whole reference) and a
+  **Source link that opens the original section of the official docs in a new tab**
+- sample flows list the exact query/mutation to call at each step, and every operation
+  records which sample flows use it
+- tables are validated (links, anchors, images and column integrity) by `npm run check`
 - real example queries, variables, responses and per-role query variants
 - the raw HTML snapshots (with fetch date & time) kept in `html-snapshots/`
 
