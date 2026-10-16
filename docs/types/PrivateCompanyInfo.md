@@ -61,31 +61,37 @@ Private company info
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "name": "xyz789",
   "description": "abc123",
   "legacyType": "CLIENT",
-  "logoURL": "xyz789",
+  "logoURL": "abc123",
   "contactUser": GenericUser,
   "phone": "xyz789",
   "displayName": "xyz789",
-  "teamsEnabled": false,
+  "teamsEnabled": true,
   "canHire": false,
   "hidden": true,
   "includeInStats": true,
-  "companyName": "xyz789",
+  "companyName": "abc123",
   "country": Country,
   "state": "abc123",
-  "city": "abc123",
+  "city": "xyz789",
   "address": "xyz789",
-  "zip": "abc123",
+  "zip": "xyz789",
   "timezone": "abc123",
   "accountingEntity": "xyz789",
   "billingType": "BILL",
-  "summary": "abc123",
+  "summary": "xyz789",
   "paymentVerificationStatus": "DEPOSIT_UNSUPPORTED",
   "paymentVerification": PaymentVerificationResult,
   "agencyDetails": AgencyDetails,
   "jobPosts": JobPostingConnection
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PrivateCompanyInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PiiUser](PiiUser.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProcessAddResponse](ProcessAddResponse.md) ➡️

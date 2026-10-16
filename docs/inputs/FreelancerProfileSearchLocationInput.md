@@ -26,9 +26,15 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "country": "xyz789",
-  "state": "xyz789",
-  "city": "abc123",
+  "country": "abc123",
+  "state": "abc123",
+  "city": "xyz789",
   "area": FreelancerProfileSearchAreaInput
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileSearchLocationInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileSearchFilter](FreelancerProfileSearchFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileSearchWeightedOntologyIdInput](FreelancerProfileSearchWeightedOntologyIdInput.md) ➡️

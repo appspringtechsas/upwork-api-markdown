@@ -32,3 +32,9 @@ Occupation
   "prefLabel": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SandsOccupation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SandsData](SandsData.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SandsSkill](SandsSkill.md) ➡️

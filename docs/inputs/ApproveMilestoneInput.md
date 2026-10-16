@@ -32,11 +32,17 @@ Input for approving a milestone
 
 ```json
 {
-  "id": 4,
-  "paidAmount": "xyz789",
-  "bonusAmount": "xyz789",
+  "id": "4",
+  "paidAmount": "abc123",
+  "bonusAmount": "abc123",
   "paymentComment": "abc123",
-  "underpaymentReason": "abc123",
-  "noteToContractor": "abc123"
+  "underpaymentReason": "xyz789",
+  "noteToContractor": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ApproveMilestoneInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ActivateMilestoneInput](ActivateMilestoneInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractOptionsInput](ContractOptionsInput.md) ➡️

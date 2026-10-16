@@ -17,7 +17,7 @@ Profile activity metric types exposed to freelancers
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `PROFILE_VIEWS` | Profile views |
 | `PROFILE_VIEWS_PAID` | Paid profile views |
@@ -41,3 +41,9 @@ Profile activity metric types exposed to freelancers
 ```graphql
 "PROFILE_VIEWS"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProfileActivityMetricType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PrivateCompanyLegacyType](PrivateCompanyLegacyType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProfileActivityStepType](ProfileActivityStepType.md) ➡️

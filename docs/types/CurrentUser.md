@@ -100,20 +100,26 @@ Information about a user as an entity
 {
   "id": 4,
   "nid": "4",
-  "rid": 4,
-  "email": "abc123",
+  "rid": "4",
+  "email": "xyz789",
   "name": "abc123",
   "permissions": UserPermissions,
   "userPermissions": UserPermissions,
-  "photoUrl": "xyz789",
+  "photoUrl": "abc123",
   "offer": ContractOfferConnection,
   "timeReport": [TimeReport],
   "contractTimeReport": TimeReportConnection,
   "vendorInvitation": VendorInvitation,
   "vendorInvitations": VendorInvitationConnection,
   "freelancerProfile": FreelancerProfile,
-  "ciphertext": "xyz789",
+  "ciphertext": "abc123",
   "i18NSettings": I18nSettings,
   "talentProfile": TalentProfile
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CurrentUser" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CurrentOrganization](CurrentOrganization.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FailedInvitation](FailedInvitation.md) ➡️

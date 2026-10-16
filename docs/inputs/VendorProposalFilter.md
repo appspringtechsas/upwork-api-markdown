@@ -33,8 +33,14 @@ vendor proposal related filters
 {
   "status_eq": "Accepted",
   "annotations_eq": "Hidden",
-  "freelancerId_eq": "4",
+  "freelancerId_eq": 4,
   "organizationId_eq": 4,
-  "jobPostingIds_any": [4]
+  "jobPostingIds_any": ["4"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorProposalFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorFreelancerInvitationFilter](VendorFreelancerInvitationFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorProposalSortAttribute](VendorProposalSortAttribute.md) ➡️

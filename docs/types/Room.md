@@ -77,35 +77,35 @@ Room details
 ```json
 {
   "id": "4",
-  "roomName": "xyz789",
+  "roomName": "abc123",
   "organization": CurrentOrganization,
   "creator": RoomUser,
   "createdAtDateTime": "xyz789",
   "public": true,
-  "topic": "abc123",
+  "topic": "xyz789",
   "owner": RoomUser,
   "numUnread": 987,
-  "roomFavoriteDateTime": "abc123",
-  "favorite": true,
+  "roomFavoriteDateTime": "xyz789",
+  "favorite": false,
   "numUnreadMentions": 987,
   "roomUsers": [RoomUser],
-  "numUsers": 987,
-  "joinDateTime": "xyz789",
+  "numUsers": 123,
+  "joinDateTime": "abc123",
   "lastVisitedDateTime": "xyz789",
   "lastReadDateTime": "abc123",
   "roomType": "ONE_ON_ONE",
   "readOnlyDateTime": "xyz789",
-  "readOnly": true,
+  "readOnly": false,
   "blockDateTime": "abc123",
   "blockedBy": RoomUser,
-  "hidden": true,
+  "hidden": false,
   "muted": true,
   "contractId": 4,
   "contract": Contract,
   "contractDetails": ContractDetails,
   "vendorProposal": VendorProposal,
-  "roomNote": "xyz789",
-  "roomNotePresent": true,
+  "roomNote": "abc123",
+  "roomNotePresent": false,
   "offerIds": ["4"],
   "recruiters": [GenericUser],
   "latestStory": RoomStory,
@@ -114,3 +114,9 @@ Room details
   "latestStoryPreRendered": RoomStory
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Room" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicCompanyInfo](PublicCompanyInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomConnection](RoomConnection.md) ➡️

@@ -57,18 +57,24 @@ query countries {
   "data": {
     "countries": [
       {
-        "id": "4",
+        "id": 4,
         "name": "xyz789",
         "twoLetterAbbreviation": "abc123",
-        "threeLetterAbbreviation": "xyz789",
+        "threeLetterAbbreviation": "abc123",
         "region": "EU",
         "phoneCode": "xyz789",
         "relatedRegion": Region,
         "relatedSubRegion": Region,
         "active": true,
-        "registrationAllowed": false
+        "registrationAllowed": true
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-countries" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [marketplaceJobPostingsContents](marketplaceJobPostingsContents.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [languages](languages.md) ➡️

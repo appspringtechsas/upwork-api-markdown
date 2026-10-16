@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Client` | Client who sent the invitation |
 | `Vendor` | Vendor who received the invitation |
@@ -27,3 +27,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "Client"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationActor" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalUpdateResultStatus](ProposalUpdateResultStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationAnnotations](VendorInvitationAnnotations.md) ➡️

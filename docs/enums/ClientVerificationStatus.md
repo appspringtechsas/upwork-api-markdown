@@ -17,7 +17,7 @@ Client identity verification status codes
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `VERIFIED` | Client has been verified |
 | `NOT_VERIFIED` | Client has not been verified |
@@ -32,3 +32,9 @@ Client identity verification status codes
 ```graphql
 "VERIFIED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientVerificationStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BillingType](BillingType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CompanySelectorOrganizationEnterpriseType](CompanySelectorOrganizationEnterpriseType.md) ➡️

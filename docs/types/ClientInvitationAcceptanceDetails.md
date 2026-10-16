@@ -41,9 +41,9 @@ Details related to acceptance of the invitation
   "bidAmount": Money,
   "duration": "abc123",
   "upfrontPaymentPercent": 987.65,
-  "milestonesGroupId": 4,
-  "attachments": ["xyz789"],
-  "coverLetter": "abc123",
+  "milestonesGroupId": "4",
+  "attachments": ["abc123"],
+  "coverLetter": "xyz789",
   "room": Room,
   "jobProposal": VendorProposal,
   "questionsAnswers": [ProposalQuestionAnswer],
@@ -52,3 +52,9 @@ Details related to acceptance of the invitation
   "portfolios": [InvitationPortfolio]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitationAcceptanceDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitationAcceptanceContext](ClientInvitationAcceptanceContext.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationAdditionalInfo](ClientInvitationAdditionalInfo.md) ➡️

@@ -34,7 +34,13 @@ Common filter fields for offer search
   "text_eq": "xyz789",
   "states_any": ["Pending"],
   "startDatePeriod_bt": ["xyz789"],
-  "endDatePeriod_bt": ["xyz789"],
+  "endDatePeriod_bt": ["abc123"],
   "catalogProject": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferSearchCommonFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferScheduledRateIncreaseInput](OfferScheduledRateIncreaseInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferStipendTerms](OfferStipendTerms.md) ➡️

@@ -17,7 +17,7 @@ Legacy organization type for company selector
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Client` | Client organization |
 | `Vendor` | Vendor organization |
@@ -29,3 +29,9 @@ Legacy organization type for company selector
 ```graphql
 "Client"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CompanySelectorOrganizationLegacyType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CompanySelectorOrganizationEnterpriseType](CompanySelectorOrganizationEnterpriseType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CompanySelectorOrganizationType](CompanySelectorOrganizationType.md) ➡️

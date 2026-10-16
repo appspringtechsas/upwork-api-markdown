@@ -29,3 +29,9 @@ Job Information
 ```json
 {"title": "abc123", "type": "HOURLY"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BuyerWorkHistoryJobInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BuyerWorkHistoryItem](BuyerWorkHistoryItem.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CategoryInfo](CategoryInfo.md) ➡️

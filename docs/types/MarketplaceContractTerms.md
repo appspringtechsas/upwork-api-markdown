@@ -36,11 +36,11 @@ Contract terms for a marketplace job posting
 
 ```json
 {
-  "contractStartDate": "xyz789",
+  "contractStartDate": "abc123",
   "contractEndDate": "xyz789",
   "contractType": "HOURLY",
   "onSiteType": "REMOTE",
-  "personsToHire": 987,
+  "personsToHire": 123,
   "experienceLevel": "ENTRY_LEVEL",
   "fixedPriceContractTerms": FixedPriceContractTerms,
   "hourlyContractTerms": HourlyContractTerms,
@@ -48,3 +48,9 @@ Contract terms for a marketplace job posting
   "notSureExperiencelevel": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceContractTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceContractorSelection](MarketplaceContractorSelection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPosting](MarketplaceJobPosting.md) ➡️

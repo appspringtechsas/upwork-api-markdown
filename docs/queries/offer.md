@@ -91,9 +91,9 @@ query offer($id: ID!) {
 {
   "data": {
     "offer": {
-      "id": "4",
-      "title": "xyz789",
-      "description": "abc123",
+      "id": 4,
+      "title": "abc123",
+      "description": "xyz789",
       "type": "MARKET_PLACE_HOURLY",
       "job": MarketplaceJobPosting,
       "vendorProposal": VendorProposal,
@@ -105,9 +105,9 @@ query offer($id: ID!) {
       "offerFeatures": OfferFeatures,
       "clientCompany": PublicCompanyInfo,
       "milestones": [Milestone],
-      "createdUsingBYOFlow": true,
+      "createdUsingBYOFlow": false,
       "freelancer": FreelancerProfile,
-      "payrollOffer": false,
+      "payrollOffer": true,
       "deliveryModel": "TalentMarketplace",
       "customFields": CustomFieldsConnection
     }
@@ -194,3 +194,13 @@ query ClientOfferDetails($offerId: ID!) {
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **4** (View client's offer details) in [Working with Offers and Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-offer" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [customFields](customFields.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [offersByAttribute](offersByAttribute.md) ➡️

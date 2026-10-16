@@ -117,17 +117,17 @@ query contractRoom($contractId: ID!) {
   "data": {
     "contractRoom": {
       "id": 4,
-      "roomName": "xyz789",
+      "roomName": "abc123",
       "organization": CurrentOrganization,
       "creator": RoomUser,
-      "createdAtDateTime": "xyz789",
-      "public": true,
+      "createdAtDateTime": "abc123",
+      "public": false,
       "topic": "xyz789",
       "owner": RoomUser,
-      "numUnread": 123,
-      "roomFavoriteDateTime": "abc123",
-      "favorite": true,
-      "numUnreadMentions": 987,
+      "numUnread": 987,
+      "roomFavoriteDateTime": "xyz789",
+      "favorite": false,
+      "numUnreadMentions": 123,
       "roomUsers": [RoomUser],
       "numUsers": 123,
       "joinDateTime": "abc123",
@@ -135,17 +135,17 @@ query contractRoom($contractId: ID!) {
       "lastReadDateTime": "abc123",
       "roomType": "ONE_ON_ONE",
       "readOnlyDateTime": "abc123",
-      "readOnly": false,
+      "readOnly": true,
       "blockDateTime": "xyz789",
       "blockedBy": RoomUser,
-      "hidden": true,
-      "muted": true,
+      "hidden": false,
+      "muted": false,
       "contractId": 4,
       "contract": Contract,
       "contractDetails": ContractDetails,
       "vendorProposal": VendorProposal,
       "roomNote": "xyz789",
-      "roomNotePresent": true,
+      "roomNotePresent": false,
       "offerIds": ["4"],
       "recruiters": [GenericUser],
       "latestStory": RoomStory,
@@ -156,3 +156,9 @@ query contractRoom($contractId: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-contractRoom" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [companySelector](companySelector.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [freelancerProfileByProfileKey](freelancerProfileByProfileKey.md) ➡️

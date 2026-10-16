@@ -29,8 +29,14 @@ Address input for offer location
 
 ```json
 {
-  "addressLine": "abc123",
-  "suite": "abc123",
-  "zip": "abc123"
+  "addressLine": "xyz789",
+  "suite": "xyz789",
+  "zip": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferAddressInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [NotificationsInput](NotificationsInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferByClientFilter](OfferByClientFilter.md) ➡️

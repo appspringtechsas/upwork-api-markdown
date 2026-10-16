@@ -39,14 +39,20 @@ Inout for Story Attachment creation
 {
   "fileId": 4,
   "fileName": "abc123",
-  "fileSize": "abc123",
-  "contentType": "abc123",
-  "imageId": "4",
+  "fileSize": "xyz789",
+  "contentType": "xyz789",
+  "imageId": 4,
   "imageUrl": "abc123",
   "originalWidth": "abc123",
-  "originalHeight": "xyz789",
+  "originalHeight": "abc123",
   "thumbnailWidth": "xyz789",
   "thumbnailHeight": "abc123",
-  "thumbnailSize": "xyz789"
+  "thumbnailSize": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomStoryFileAttachmentInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomStoryCreateInputV2](RoomStoryCreateInputV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomStoryFilter](RoomStoryFilter.md) ➡️

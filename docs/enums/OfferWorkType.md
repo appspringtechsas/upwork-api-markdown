@@ -17,7 +17,7 @@ Work type for offer
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `REMOTE` | Remote work |
 | `PERMANENT` | Permanent on-site work |
@@ -29,3 +29,9 @@ Work type for offer
 ```graphql
 "REMOTE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferWorkType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferType](OfferType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PeriodType](PeriodType.md) ➡️

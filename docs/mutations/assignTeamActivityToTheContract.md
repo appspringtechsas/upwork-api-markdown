@@ -63,7 +63,7 @@ mutation assignTeamActivityToTheContract(
   "orgId": 4,
   "teamId": "4",
   "contractId": "4",
-  "codes": ["abc123"]
+  "codes": ["xyz789"]
 }
 ```
 
@@ -72,3 +72,9 @@ mutation assignTeamActivityToTheContract(
 ```json
 {"data": {"assignTeamActivityToTheContract": {"success": true}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-assignTeamActivityToTheContract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [archiveTeamActivity](archiveTeamActivity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createOrganization](createOrganization.md) ➡️

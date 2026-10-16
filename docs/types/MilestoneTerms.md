@@ -32,3 +32,9 @@ Terms for milestones (AKA Fixed priced)
   "milestones": [Milestone]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MilestoneTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MilestoneSubmissions](MilestoneSubmissions.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ModernizedContractOffer](ModernizedContractOffer.md) ➡️

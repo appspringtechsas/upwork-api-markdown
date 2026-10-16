@@ -31,10 +31,16 @@ Location input for organization address
 
 ```json
 {
-  "address": "xyz789",
-  "city": "xyz789",
-  "state": "abc123",
-  "country": "xyz789",
+  "address": "abc123",
+  "city": "abc123",
+  "state": "xyz789",
+  "country": "abc123",
   "zipCode": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OrganizationLocationInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [InviteToTeamEmailParams](InviteToTeamEmailParams.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OrgUserPermissionFilterV2](OrgUserPermissionFilterV2.md) ➡️

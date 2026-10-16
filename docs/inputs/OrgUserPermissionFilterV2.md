@@ -36,9 +36,15 @@ Filter to load users' permissions under organization
   "userId": "xyz789",
   "resourceType_eq": "OPENING",
   "limit": 123,
-  "offset": "xyz789",
-  "performExternalChecks_eq": true,
-  "teamOrgIds_any": ["4"],
+  "offset": "abc123",
+  "performExternalChecks_eq": false,
+  "teamOrgIds_any": [4],
   "returnAllTeams": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OrgUserPermissionFilterV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OrganizationLocationInput](OrganizationLocationInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OtherExperienceInput](OtherExperienceInput.md) ➡️

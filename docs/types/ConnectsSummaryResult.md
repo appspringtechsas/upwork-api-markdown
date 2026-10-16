@@ -31,10 +31,16 @@ Summary of the available connects for the user
 
 ```json
 {
-  "organizationId": 4,
-  "connectsBalance": 123,
+  "organizationId": "4",
+  "connectsBalance": 987,
   "rolloverBalance": 987,
   "connectsBalanceFree": 987,
   "connectsBalancePaid": 987
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ConnectsSummaryResult" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientActivity](ClientActivity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ConnectUsageHistory](ConnectUsageHistory.md) ➡️

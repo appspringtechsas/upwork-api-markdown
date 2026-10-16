@@ -34,3 +34,9 @@ Actor in the offer workflow
   "actorType": "System"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Actor" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VisitorSegment](VisitorSegment.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientFeedback](ClientFeedback.md) ➡️

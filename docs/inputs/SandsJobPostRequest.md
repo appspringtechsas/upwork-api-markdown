@@ -36,9 +36,15 @@ Skills and occupations data for job posting
   "occupationId": "abc123",
   "skills": [JobPostingSkillInput],
   "status": "DRAFT",
-  "freetextOccupation": "abc123",
-  "tags": ["abc123"],
+  "freetextOccupation": "xyz789",
+  "tags": ["xyz789"],
   "additionalSkills": [JobPostingAdditionalSkillInput],
   "occupations": ["4"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SandsJobPostRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchSortAttribute](MarketplaceJobPostingSearchSortAttribute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SearchTerm](SearchTerm.md) ➡️

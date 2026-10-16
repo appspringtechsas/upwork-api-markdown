@@ -66,7 +66,7 @@ query clientInvitationsActive(
 
 ```json
 {
-  "jobPostingId": "4",
+  "jobPostingId": 4,
   "filter": ClientActiveInvitationsFilter,
   "sortAttribute": InvitationsSortAttribute,
   "pagination": Pagination
@@ -86,3 +86,9 @@ query clientInvitationsActive(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-clientInvitationsActive" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [clientInvitation](clientInvitation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [proposalMetadata](proposalMetadata.md) ➡️

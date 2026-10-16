@@ -51,7 +51,7 @@ query ontologyEntity($id: ID!) {
 #### Variables
 
 ```json
-{"id": "4"}
+{"id": 4}
 ```
 
 #### Response
@@ -59,3 +59,9 @@ query ontologyEntity($id: ID!) {
 ```json
 {"data": {"ontologyEntity": Skill}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-ontologyEntity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ontologyEntitiesFiltered](ontologyEntitiesFiltered.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ontologyEntitySearchRecords](ontologyEntitySearchRecords.md) ➡️

@@ -51,8 +51,14 @@ mutation invoiceDownloadBulkV2($filter: InvoiceFilter) {
 {
   "data": {
     "invoiceDownloadBulkV2": {
-      "downloadUrl": "abc123"
+      "downloadUrl": "xyz789"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-invoiceDownloadBulkV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [invoiceDownloadBulkAsyncV2](invoiceDownloadBulkAsyncV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [addFreelancerEmploymentRecord](addFreelancerEmploymentRecord.md) ➡️

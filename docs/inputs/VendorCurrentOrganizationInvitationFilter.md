@@ -33,10 +33,16 @@ Used in filtering job invitation for the current vendor organization
 ```json
 {
   "freelancerId_eq": 4,
-  "vendorSubOrganizationId_eq": 4,
+  "vendorSubOrganizationId_eq": "4",
   "jobPostingId_eq": "4",
   "status_eq": "pending",
   "terminationReason_eq": "All",
   "annotations_any": ["NotOnHold"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorCurrentOrganizationInvitationFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MoneyInput](MoneyInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorFreelancerInvitationFilter](VendorFreelancerInvitationFilter.md) ➡️

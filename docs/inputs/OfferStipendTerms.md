@@ -34,3 +34,9 @@ Stipend terms for stipend-based offers
   "period": "Weekly"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferStipendTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferSearchCommonFilter](OfferSearchCommonFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferTermsMilestoneInput](OfferTermsMilestoneInput.md) ➡️

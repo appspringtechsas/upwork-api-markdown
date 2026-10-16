@@ -17,7 +17,7 @@ Freelancer hourly rate filter options
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ANY_HOURLY_RATE` | Any hourly rate |
 | `DOLLOR_10_AND_BELOW` | $10/hour or less |
@@ -32,3 +32,9 @@ Freelancer hourly rate filter options
 ```graphql
 "ANY_HOURLY_RATE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalHourlyRate" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalEnglishProficiency](ClientProposalEnglishProficiency.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalHoursBilled](ClientProposalHoursBilled.md) ➡️

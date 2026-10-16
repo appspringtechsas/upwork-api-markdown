@@ -50,17 +50,17 @@ Portfolio projects of the Freelancer
 
 ```json
 {
-  "id": 4,
-  "title": "xyz789",
+  "id": "4",
+  "title": "abc123",
   "description": "xyz789",
   "contractLink": FreelancerProfileProjectContractLink,
-  "thumbnailId": "xyz789",
-  "thumbnailOriginalId": "xyz789",
+  "thumbnailId": "abc123",
+  "thumbnailOriginalId": "abc123",
   "thumbnail": "abc123",
-  "thumbnailOriginal": "abc123",
+  "thumbnailOriginal": "xyz789",
   "projectUrl": "xyz789",
   "completionDateTime": "xyz789",
-  "public": true,
+  "public": false,
   "rank": 987,
   "attachments": [FreelancerProfileProjectAttachment],
   "skills": FreelancerSkillsConnection,
@@ -71,8 +71,14 @@ Portfolio projects of the Freelancer
   "role": "xyz789",
   "projectGoal": "xyz789",
   "solution": "abc123",
-  "primaryImageId": "xyz789",
-  "createdDateTime": "xyz789",
-  "videoUrl": "xyz789"
+  "primaryImageId": "abc123",
+  "createdDateTime": "abc123",
+  "videoUrl": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileProject" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfilePersonalData](FreelancerProfilePersonalData.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileProjectAttachment](FreelancerProfileProjectAttachment.md) ➡️

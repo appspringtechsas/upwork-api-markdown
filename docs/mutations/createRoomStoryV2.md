@@ -75,7 +75,7 @@ mutation createRoomStoryV2($input: RoomStoryCreateInputV2!) {
     "createRoomStoryV2": {
       "id": 4,
       "room": Room,
-      "createdDateTime": "xyz789",
+      "createdDateTime": "abc123",
       "updatedDateTime": "abc123",
       "user": GenericUser,
       "message": "xyz789",
@@ -121,3 +121,13 @@ mutation SendRoomMessage($roomId: ID!, $message: String!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **3** (Send Message) in [Sample Messaging Flow](../operations/examples/messaging.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createRoomStoryV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [createOrganization](createOrganization.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createRoomV2](createRoomV2.md) ➡️

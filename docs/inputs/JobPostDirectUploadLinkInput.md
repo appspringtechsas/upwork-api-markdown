@@ -25,8 +25,14 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "fileName": "abc123",
+  "fileName": "xyz789",
   "contentLength": 987,
-  "contentType": "xyz789"
+  "contentType": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostDirectUploadLinkInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CustomPaymentInput](CustomPaymentInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostSkillSearchFilter](JobPostSkillSearchFilter.md) ➡️

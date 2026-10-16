@@ -40,3 +40,9 @@ Find more details on this [Support Page](https://support.upwork.com/hc/en-us/art
 > Users who try registering a new application/key, but have a profile without a valid ID will be forced to go through the ID verification process.
 
 ![flow-apply-for-a-key.png](../assets/images/flow-apply-for-a-key.png)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#getting-started-preparation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [getting-started index](README.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [keys-management](keys-management.md) ➡️

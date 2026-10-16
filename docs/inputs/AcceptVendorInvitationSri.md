@@ -27,5 +27,11 @@ Input type for Success Rate Index configuration
 ### Example
 
 ```json
-{"percent": 123.45, "frequency": 987}
+{"percent": 123.45, "frequency": 123}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AcceptVendorInvitationSri" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AcceptVendorInvitationQuestionAnswer](AcceptVendorInvitationQuestionAnswer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ConnectUsageFilter](ConnectUsageFilter.md) ➡️

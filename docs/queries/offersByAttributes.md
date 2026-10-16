@@ -62,3 +62,9 @@ query offersByAttributes($filter: SearchOffersByAttributesInput!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-offersByAttributes" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [offersByAttribute](offersByAttribute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [vendorContracts](vendorContracts.md) ➡️

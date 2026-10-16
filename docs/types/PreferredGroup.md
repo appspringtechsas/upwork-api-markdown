@@ -31,6 +31,12 @@ Preferred freelancer group
 {
   "id": "4",
   "name": "abc123",
-  "logo": "xyz789"
+  "logo": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PreferredGroup" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceSegmentationValue](MarketplaceSegmentationValue.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PreferredTest](PreferredTest.md) ➡️

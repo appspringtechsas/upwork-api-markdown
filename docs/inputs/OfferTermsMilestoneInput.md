@@ -33,8 +33,14 @@ Input for milestone terms in an offer
 {
   "amount": MoneyInput,
   "description": "xyz789",
-  "dueDate": "xyz789",
-  "instructions": "xyz789",
+  "dueDate": "abc123",
+  "instructions": "abc123",
   "attachments": ["xyz789"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferTermsMilestoneInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferStipendTerms](OfferStipendTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrivateFeedbackAdditionalQuestionInput](PrivateFeedbackAdditionalQuestionInput.md) ➡️

@@ -17,7 +17,7 @@ Annotation tags for vendor proposals
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Hidden` | Proposal is hidden from view |
 | `OnHold` | Proposal is on hold |
@@ -29,3 +29,9 @@ Annotation tags for vendor proposals
 ```graphql
 "Hidden"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorProposalAnnotation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationTerminationReasonFilter](VendorInvitationTerminationReasonFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorProposalSortAttributeType](VendorProposalSortAttributeType.md) ➡️

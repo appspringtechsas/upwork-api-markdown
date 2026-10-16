@@ -33,12 +33,18 @@ Job details
 
 ```json
 {
-  "ciphertext": "abc123",
+  "ciphertext": "xyz789",
   "createdOn": "xyz789",
-  "id": "4",
-  "premium": true,
-  "isPtcJob": true,
-  "title": "abc123",
+  "id": 4,
+  "premium": false,
+  "isPtcJob": false,
+  "title": "xyz789",
   "type": "HOURLY"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Job" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [GeoLocation](GeoLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobAttachmentInfo](JobAttachmentInfo.md) ➡️

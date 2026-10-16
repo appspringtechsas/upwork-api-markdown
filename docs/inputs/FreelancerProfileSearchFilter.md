@@ -35,8 +35,14 @@ Filter for searching freelancer profiles
   "weightedOntologyIds": [
     FreelancerProfileSearchWeightedOntologyIdInput
   ],
-  "keyword": "xyz789",
+  "keyword": "abc123",
   "occupationIds": ["xyz789"],
   "location": FreelancerProfileSearchLocationInput
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileSearchFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileSearchAreaInput](FreelancerProfileSearchAreaInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileSearchLocationInput](FreelancerProfileSearchLocationInput.md) ➡️

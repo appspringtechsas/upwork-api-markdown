@@ -41,20 +41,26 @@ Public-facing company information used in marketplace search
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "legacyType": "CLIENT",
-  "teamsEnabled": true,
-  "canHire": false,
+  "teamsEnabled": false,
+  "canHire": true,
   "hidden": true,
-  "includeInStats": true,
+  "includeInStats": false,
   "country": Country,
-  "state": "xyz789",
+  "state": "abc123",
   "city": "abc123",
   "timezone": "xyz789",
-  "accountingEntity": "xyz789",
+  "accountingEntity": "abc123",
   "billingType": "BILL",
   "paymentVerification": PaymentVerificationResult,
   "agencyDetails": AgencyDetails,
   "businessPlus": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplacePublicCompanyInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceProposalRequirements](MarketplaceProposalRequirements.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceQualification](MarketplaceQualification.md) ➡️

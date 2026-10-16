@@ -32,3 +32,9 @@ Edge in client proposals connection
   "node": ClientProposal
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalsEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalsConnection](ClientProposalsConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalStatus](ClientProposalStatus.md) ➡️

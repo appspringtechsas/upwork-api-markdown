@@ -29,6 +29,12 @@ Filter for BPA (Billing Platform API) private data
 ```json
 {
   "serviceName_eq": "xyz789",
-  "serviceVersion_eq": "abc123"
+  "serviceVersion_eq": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BPAPrivateDataFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorProposalSortAttribute](VendorProposalSortAttribute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CounterpartyInput](CounterpartyInput.md) ➡️

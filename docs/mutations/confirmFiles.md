@@ -57,5 +57,11 @@ mutation confirmFiles(
 #### Response
 
 ```json
-{"data": {"confirmFiles": true}}
+{"data": {"confirmFiles": false}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-confirmFiles" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [sendCustomPayment](sendCustomPayment.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [confirmRoomMessageFiles](confirmRoomMessageFiles.md) ➡️

@@ -17,7 +17,7 @@ Hierarchy level in the ontology taxonomy
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `CATEGORY` | Top-level category |
 | `SUBCATEGORY` | Second-level subcategory |
@@ -31,3 +31,9 @@ Hierarchy level in the ontology taxonomy
 ```graphql
 "CATEGORY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyEntityTaxonomyLevel" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntityStatus](OntologyEntityStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyEntityType](OntologyEntityType.md) ➡️

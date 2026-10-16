@@ -32,3 +32,9 @@ Category info
   "urlSlug": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CategoryInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BuyerWorkHistoryJobInfo](BuyerWorkHistoryJobInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientActivity](ClientActivity.md) ➡️

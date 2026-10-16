@@ -28,3 +28,9 @@ Edge wrapper containing an activity node for pagination
 ```json
 {"node": Activity}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ActivityEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ActivityContract](ActivityContract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AgencyDetails](AgencyDetails.md) ➡️

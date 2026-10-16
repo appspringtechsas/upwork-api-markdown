@@ -35,12 +35,12 @@ Community certificate details including provider and verification info
 
 ```json
 {
-  "name": "abc123",
+  "name": "xyz789",
   "description": "xyz789",
   "logoUrl": "xyz789",
   "verificationMethod": "xyz789",
-  "provider": "xyz789",
-  "providerLink": "abc123",
+  "provider": "abc123",
+  "providerLink": "xyz789",
   "duration": 987,
   "classifications": [
     TalentDiversityCertificateClassification
@@ -48,3 +48,9 @@ Community certificate details including provider and verification info
   "status": "PENDING"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCommunityCertificate" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTaskSection](TalentCloudTaskSection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentContract](TalentContract.md) ➡️

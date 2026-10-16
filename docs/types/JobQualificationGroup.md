@@ -28,3 +28,9 @@ Job qualification group
 ```json
 {"groupName": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobQualificationGroup" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPubOpeningInfo](JobPubOpeningInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobQualifications](JobQualifications.md) ➡️

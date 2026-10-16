@@ -29,8 +29,14 @@ Connection type for paginated private talent cloud results
 
 ```json
 {
-  "totalCount": 123,
+  "totalCount": 987,
   "edges": [PrivateTalentCloudEdge],
   "pageInfo": PageInfo
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PrivateTalentCloudConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PrivateTalentCloud](PrivateTalentCloud.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrivateTalentCloudEdge](PrivateTalentCloudEdge.md) ➡️

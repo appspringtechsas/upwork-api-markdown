@@ -29,8 +29,14 @@ Connection for marketplace job posting search
 
 ```json
 {
-  "totalCount": 987,
+  "totalCount": 123,
   "edges": [MarketplaceJobpostingSearchEdge],
   "pageInfo": PageInfo
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchClientInfo](MarketplaceJobPostingSearchClientInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobpostingSearchEdge](MarketplaceJobpostingSearchEdge.md) ➡️

@@ -62,3 +62,9 @@ query ontologyEntitySearchRecords($filter: OntologyEntitySearchFilter!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-ontologyEntitySearchRecords" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ontologyEntity](ontologyEntity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ontologyOccupationsCategoriesServices](ontologyOccupationsCategoriesServices.md) ➡️

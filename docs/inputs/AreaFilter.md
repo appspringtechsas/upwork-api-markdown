@@ -28,5 +28,11 @@ Geographic area filter by coordinates
 ### Example
 
 ```json
-{"latitude": 987.65, "longitude": 123.45, "radius": 123.45}
+{"latitude": 123.45, "longitude": 987.65, "radius": 123.45}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AreaFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [inputs index](README.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CompanyJobPostingStatusAccess](CompanyJobPostingStatusAccess.md) ➡️

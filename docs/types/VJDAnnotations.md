@@ -28,3 +28,9 @@ Job Annotations
 ```json
 {"tags": ["xyz789"]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VJDAnnotations" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TransactionJobPost](TransactionJobPost.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AuditTime](AuditTime.md) ➡️

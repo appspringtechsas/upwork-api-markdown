@@ -34,7 +34,13 @@ Update other experience input
   "id": 4,
   "userId": "4",
   "subject": "xyz789",
-  "description": "xyz789",
+  "description": "abc123",
   "active": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UpdateOtherExperienceInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateOrganizationInput](UpdateOrganizationInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateTeamActivityRequest](UpdateTeamActivityRequest.md) ➡️

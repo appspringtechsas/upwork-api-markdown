@@ -31,8 +31,14 @@ Search record for user freelancer profiles
 ```json
 {
   "shortName": "abc123",
-  "ciphertext": "xyz789",
+  "ciphertext": "abc123",
   "user": GenericUser,
   "userProfile": FreelancerProfile
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserFreelancerProfilesSearchRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SemSearchV2Response](SemSearchV2Response.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrivateTalentCloud](PrivateTalentCloud.md) ➡️

@@ -27,5 +27,14 @@ Estimated duration for a proposal engagement
 ### Example
 
 ```json
-{"id": 4, "label": "abc123"}
+{
+  "id": "4",
+  "label": "xyz789"
+}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProposalEngagementDuration" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalAuditDetails](ProposalAuditDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProposalMetadata](ProposalMetadata.md) ➡️

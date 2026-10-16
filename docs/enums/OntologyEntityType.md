@@ -17,7 +17,7 @@ Supported ontology entity types
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `OCCUPATION` | Occupation or job role |
 | `SKILL` | Skill or competency |
@@ -38,3 +38,9 @@ Supported ontology entity types
 ```graphql
 "OCCUPATION"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyEntityType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntityTaxonomyLevel](OntologyEntityTaxonomyLevel.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyResultSortOrder](OntologyResultSortOrder.md) ➡️

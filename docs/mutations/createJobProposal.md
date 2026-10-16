@@ -64,3 +64,9 @@ mutation createJobProposal($input: CreateJobProposalInput!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createJobProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [createDirectUploadLinkForJPAttachment](createDirectUploadLinkForJPAttachment.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [savePersonJob](savePersonJob.md) ➡️

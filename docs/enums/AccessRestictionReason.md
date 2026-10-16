@@ -17,7 +17,7 @@ Reason why access is restricted for a user
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ROLES_MISMATCH` | User roles do not match requirements |
 | `SUSPENSION` | User or organization is suspended |
@@ -32,3 +32,9 @@ Reason why access is restricted for a user
 ```graphql
 "ROLES_MISMATCH"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AccessRestictionReason" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentWorkHistorySortType](TalentWorkHistorySortType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AvailabilitySource](AvailabilitySource.md) ➡️

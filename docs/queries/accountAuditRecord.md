@@ -60,9 +60,15 @@ query accountAuditRecord($processInstanceId: ID!) {
   "data": {
     "accountAuditRecord": {
       "processInstanceId": "4",
-      "status": "abc123",
+      "status": "xyz789",
       "metadata": [StringMapElement]
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-accountAuditRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [workDiaryContract](workDiaryContract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [staffsByPersonId](staffsByPersonId.md) ➡️

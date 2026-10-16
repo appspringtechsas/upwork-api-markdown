@@ -28,3 +28,9 @@ Contains location information used in i18n settings
 ```json
 {"country": Country}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-I18nLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [GenericUser](GenericUser.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [I18nSettings](I18nSettings.md) ➡️

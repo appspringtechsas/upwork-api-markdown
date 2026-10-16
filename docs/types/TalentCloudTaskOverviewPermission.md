@@ -29,3 +29,9 @@ Permission mapping for a specific role on a task
 ```json
 {"role": "FREELANCER", "permission": "NO"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCloudTaskOverviewPermission" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTaskOverview](TalentCloudTaskOverview.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCloudTaskSection](TalentCloudTaskSection.md) ➡️

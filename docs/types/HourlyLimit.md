@@ -33,12 +33,18 @@ Weekly hourly limit period and identifiers
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "weeklyLimit": "abc123",
-  "createDate": "abc123",
+  "createDate": "xyz789",
   "modifyDate": "xyz789",
   "startDate": "xyz789",
-  "endDate": "xyz789",
-  "legacyId": 987
+  "endDate": "abc123",
+  "legacyId": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-HourlyLimit" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [HourlyContractTerm](HourlyContractTerm.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [HourlyTerms](HourlyTerms.md) ➡️

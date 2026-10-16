@@ -54,7 +54,7 @@ mutation updateContractHourlyLimit(
 
 ```json
 {
-  "contractId": 4,
+  "contractId": "4",
   "updateHourlyLimitRequest": UpdateHourlyLimitRequestInput
 }
 ```
@@ -100,3 +100,13 @@ mutation UpdateContractHourlyLimit(
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **3** (Update contract hourly limit) in [Working with Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateContractHourlyLimit" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [restartContract](restartContract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [sendCustomPayment](sendCustomPayment.md) ➡️

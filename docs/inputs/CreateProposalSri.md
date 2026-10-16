@@ -27,5 +27,11 @@ Input type for proposal SRI (Success Rate Index)
 ### Example
 
 ```json
-{"percent": 987.65, "frequency": 987}
+{"percent": 987.65, "frequency": 123}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateProposalSri" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateProposalSelectedContractor](CreateProposalSelectedContractor.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CustomPaymentInput](CustomPaymentInput.md) ➡️

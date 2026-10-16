@@ -27,5 +27,11 @@ Flags controlling screenshot display behavior
 ### Example
 
 ```json
-{"hideScreenshot": false, "downSampleScreenshots": false}
+{"hideScreenshot": true, "downSampleScreenshots": false}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryCompanySnapshotScreenshotFlag" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryCompanySnapshotScreenshot](WorkDiaryCompanySnapshotScreenshot.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryCompanySnapshotTask](WorkDiaryCompanySnapshotTask.md) ➡️

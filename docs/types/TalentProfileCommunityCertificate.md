@@ -37,10 +37,16 @@ Community or diversity certificate associated with a freelancer profile
   "personId": "xyz789",
   "certificateAttachmentId": "abc123",
   "certificationNumber": "abc123",
-  "expirationDate": "xyz789",
-  "businessName": "abc123",
+  "expirationDate": "abc123",
+  "businessName": "xyz789",
   "visibility": "PUBLIC",
   "certificate": TalentCommunityCertificate,
   "otherCertificate": TalentOtherCommunityCertificate
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileCommunityCertificate" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileAggregate](TalentProfileAggregate.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileCompletenessSummary](TalentProfileCompletenessSummary.md) ➡️

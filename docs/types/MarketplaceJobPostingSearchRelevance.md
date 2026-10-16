@@ -32,11 +32,17 @@ Relevance metrics for a marketplace job posting search result
 
 ```json
 {
-  "id": 4,
-  "effectiveCandidates": 123,
-  "recommendedEffectiveCandidates": 123,
-  "uniqueImpressions": 987,
-  "publishTime": "abc123",
+  "id": "4",
+  "effectiveCandidates": 987,
+  "recommendedEffectiveCandidates": 987,
+  "uniqueImpressions": 123,
+  "publishTime": "xyz789",
   "hoursInactive": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchRelevance" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchOccupations](MarketplaceJobPostingSearchOccupations.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchResult](MarketplaceJobPostingSearchResult.md) ➡️

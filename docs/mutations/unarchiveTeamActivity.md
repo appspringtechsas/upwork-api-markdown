@@ -59,7 +59,7 @@ mutation unarchiveTeamActivity(
 {
   "orgId": 4,
   "teamId": "4",
-  "codes": ["abc123"]
+  "codes": ["xyz789"]
 }
 ```
 
@@ -68,3 +68,9 @@ mutation unarchiveTeamActivity(
 ```json
 {"data": {"unarchiveTeamActivity": {"success": true}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-unarchiveTeamActivity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [roomCreate1on1IfNotExists](roomCreate1on1IfNotExists.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateFreelancerAvailability](updateFreelancerAvailability.md) ➡️

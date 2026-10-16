@@ -51,24 +51,30 @@ Aggregated freelancer performance stats
   "totalCharge360": Money,
   "totalCharge360NoAgency": Money,
   "adjustedScore360": 987.65,
-  "longTermClients": 123,
-  "suspensions": 987,
-  "suspensions360": 123,
-  "suspensions90limited": 987,
+  "longTermClients": 987,
+  "suspensions": 123,
+  "suspensions360": 987,
+  "suspensions90limited": 123,
   "topLevelJobCategoryApplied90Days": "xyz789",
   "proposalsCount90Days": 987,
   "medianProposalsForTheTopLevelCategory365": 123,
-  "fitProposalsViewRatio90Days": 987.65,
+  "fitProposalsViewRatio90Days": 123.45,
   "hiddenProposalsViewedRatio90Days": 123.45,
   "totalProposalsViewedRatio90Days": 987.65,
   "proposalInterviewedRation90Days": 987.65,
-  "proposalsHiredRatio90Days": 987.65,
+  "proposalsHiredRatio90Days": 123.45,
   "hideReasonsForProposals": ["xyz789"],
   "totalInvites90Days": 123,
   "totalInviteResponses90Days": 123,
-  "inviteResponsesPerDay90Days": 987,
+  "inviteResponsesPerDay90Days": 123,
   "totalCharge365NoPending": Money,
   "totalCharge90": Money,
-  "weeksEligibleWithin16wks": 123.45
+  "weeksEligibleWithin16wks": 987.65
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileStats" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileProjectContractLink](FreelancerProfileProjectContractLink.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileUserPreferences](FreelancerProfileUserPreferences.md) ➡️

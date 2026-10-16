@@ -17,7 +17,7 @@ Types of custom payments
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `BONUS` | Bonus payment |
 
@@ -28,3 +28,9 @@ Types of custom payments
 ```graphql
 "BONUS"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CustomPaymentType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateJobProposalStatus](CreateJobProposalStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FacetType](FacetType.md) ➡️

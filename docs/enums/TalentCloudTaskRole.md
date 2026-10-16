@@ -17,7 +17,7 @@ Role types for talent cloud task management
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `FREELANCER` | Freelancer role |
 | `HIRING_MANAGER` | Hiring manager role |
@@ -31,3 +31,9 @@ Role types for talent cloud task management
 ```graphql
 "FREELANCER"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCloudTaskRole" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTaskPermission](TalentCloudTaskPermission.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCloudTaskSectionType](TalentCloudTaskSectionType.md) ➡️

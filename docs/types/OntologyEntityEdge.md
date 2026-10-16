@@ -29,6 +29,12 @@ Ontology entity
 ```json
 {
   "node": OntologyEntity,
-  "cursor": "xyz789"
+  "cursor": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyEntityEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyConnection](OntologyConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyEntitySearchRecord](OntologyEntitySearchRecord.md) ➡️

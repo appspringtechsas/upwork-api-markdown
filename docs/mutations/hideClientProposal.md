@@ -64,3 +64,9 @@ mutation hideClientProposal($clientProposalHideRequest: ClientProposalHideReques
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-hideClientProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [declineClientProposal](declineClientProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [markClientProposalAsRead](markClientProposalAsRead.md) ➡️

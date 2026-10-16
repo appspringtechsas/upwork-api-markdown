@@ -48,7 +48,7 @@ query talentProfile($personId: ID!) {
 #### Variables
 
 ```json
-{"personId": 4}
+{"personId": "4"}
 ```
 
 #### Response
@@ -56,3 +56,9 @@ query talentProfile($personId: ID!) {
 ```json
 {"data": {"talentProfile": {"profiles": [TalentProfile]}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-talentProfile" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [talentPortfolioProjects](talentPortfolioProjects.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [talentProfileByProfileKey](talentProfileByProfileKey.md) ➡️

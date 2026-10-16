@@ -29,3 +29,9 @@ Double range filter
 ```json
 {"min": 987.65, "max": 987.65}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SemSearchV2DoubleRange" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicMarketplaceJobPostingsSearchFilter](PublicMarketplaceJobPostingsSearchFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SemSearchV2IntRange](SemSearchV2IntRange.md) ➡️

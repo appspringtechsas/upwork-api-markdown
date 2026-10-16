@@ -31,10 +31,16 @@ Attachment metadata for marketplace job posting
 
 ```json
 {
-  "id": "4",
-  "sequenceNumber": 123,
+  "id": 4,
+  "sequenceNumber": 987,
   "fileName": "xyz789",
   "fileSize": 987,
-  "link": "abc123"
+  "link": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplacePostingAttachment" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplacePostingAnnotations](MarketplacePostingAnnotations.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplacePostingClassification](MarketplacePostingClassification.md) ➡️

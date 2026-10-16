@@ -26,5 +26,11 @@ Input for deleting a milestone
 ### Example
 
 ```json
-{"id": "4"}
+{"id": 4}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-DeleteMilestoneInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CustomFieldsInput](CustomFieldsInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EditMilestoneInput](EditMilestoneInput.md) ➡️

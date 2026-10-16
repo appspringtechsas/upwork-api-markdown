@@ -32,9 +32,15 @@ Input for creating a new organization
 ```json
 {
   "parentOrganizationId": 4,
-  "organizationName": "xyz789",
-  "aceRid": "abc123",
+  "organizationName": "abc123",
+  "aceRid": "xyz789",
   "country": "xyz789",
   "type": "AGENCY"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateOrganizationInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateEmploymentRecordInput](CreateEmploymentRecordInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileAvailabilityInput](FreelancerProfileAvailabilityInput.md) ➡️

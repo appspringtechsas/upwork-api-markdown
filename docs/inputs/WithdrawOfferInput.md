@@ -29,8 +29,14 @@ Input for withdrawing an offer
 
 ```json
 {
-  "offerId": "4",
+  "offerId": 4,
   "message": "xyz789",
   "withdrawalReason": "OFFER_WITHDRAW_REASON_HIRED_DIFFERENT_FREELANCER"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WithdrawOfferInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorUserInput](VendorUserInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyElementsSearchByPrefLabelFilter](OntologyElementsSearchByPrefLabelFilter.md) ➡️

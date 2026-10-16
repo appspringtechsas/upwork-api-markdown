@@ -37,14 +37,20 @@ Client's work history
 ```json
 {
   "contractorInfo": ContractorInfo,
-  "endDate": "xyz789",
+  "endDate": "abc123",
   "feedback": BuyerWorkHistoryFeedback,
   "feedbackToClient": BuyerWorkHistoryFeedback,
   "jobInfo": BuyerWorkHistoryJobInfo,
   "rate": JobDetailsMoney,
   "startDate": "xyz789",
   "status": "ACTIVE",
-  "totalCharge": 987.65,
+  "totalCharge": 123.45,
   "totalHours": 987.65
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BuyerWorkHistoryItem" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BuyerWorkHistoryFeedback](BuyerWorkHistoryFeedback.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BuyerWorkHistoryJobInfo](BuyerWorkHistoryJobInfo.md) ➡️

@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Drafted` |  |
 | `Created` |  |
@@ -26,3 +26,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "Drafted"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientActiveInvitationStatusFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyResultSortOrder](OntologyResultSortOrder.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationActor](ClientInvitationActor.md) ➡️

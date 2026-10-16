@@ -32,9 +32,15 @@ Freelancers can propose a contract to a client
 ```json
 {
   "id": 4,
-  "state": "xyz789",
-  "updatedDateTime": "abc123",
-  "createdDateTime": "abc123",
-  "canClientOfferBeAccepted": false
+  "state": "abc123",
+  "updatedDateTime": "xyz789",
+  "createdDateTime": "xyz789",
+  "canClientOfferBeAccepted": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractPaging](ContractPaging.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractSearchResults](ContractSearchResults.md) ➡️

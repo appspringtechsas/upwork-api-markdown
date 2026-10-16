@@ -35,14 +35,20 @@ Ontology entity Occupation entity from the ontology
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "ontologyId": "xyz789",
   "type": ["OCCUPATION"],
   "entityStatus": "ACTIVE",
   "preferredLabel": "abc123",
-  "definition": "abc123",
-  "createdDateTime": "abc123",
-  "modifiedDateTime": "abc123",
+  "definition": "xyz789",
+  "createdDateTime": "xyz789",
+  "modifiedDateTime": "xyz789",
   "skills": [Skill]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Occupation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CategoryServicesResponse](CategoryServicesResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyCategory](OntologyCategory.md) ➡️

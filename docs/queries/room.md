@@ -122,30 +122,30 @@ query room($id: ID!) {
       "creator": RoomUser,
       "createdAtDateTime": "xyz789",
       "public": false,
-      "topic": "abc123",
+      "topic": "xyz789",
       "owner": RoomUser,
       "numUnread": 987,
-      "roomFavoriteDateTime": "abc123",
-      "favorite": false,
-      "numUnreadMentions": 123,
+      "roomFavoriteDateTime": "xyz789",
+      "favorite": true,
+      "numUnreadMentions": 987,
       "roomUsers": [RoomUser],
-      "numUsers": 123,
+      "numUsers": 987,
       "joinDateTime": "xyz789",
-      "lastVisitedDateTime": "xyz789",
-      "lastReadDateTime": "xyz789",
+      "lastVisitedDateTime": "abc123",
+      "lastReadDateTime": "abc123",
       "roomType": "ONE_ON_ONE",
       "readOnlyDateTime": "abc123",
       "readOnly": false,
       "blockDateTime": "abc123",
       "blockedBy": RoomUser,
-      "hidden": true,
+      "hidden": false,
       "muted": false,
-      "contractId": "4",
+      "contractId": 4,
       "contract": Contract,
       "contractDetails": ContractDetails,
       "vendorProposal": VendorProposal,
-      "roomNote": "xyz789",
-      "roomNotePresent": false,
+      "roomNote": "abc123",
+      "roomNotePresent": true,
       "offerIds": [4],
       "recruiters": [GenericUser],
       "latestStory": RoomStory,
@@ -196,3 +196,13 @@ query RoomDetails($roomId: ID!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **2** (Open Room) in [Sample Messaging Flow](../operations/examples/messaging.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-room" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [publicRooms](publicRooms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [roomList](roomList.md) ➡️

@@ -31,6 +31,12 @@ Details about vendor job application invitation change reason
 {
   "id": "4",
   "reasonText": "xyz789",
-  "message": "abc123"
+  "message": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationChangeReason" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationAuditDetails](VendorInvitationAuditDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationConnection](VendorInvitationConnection.md) ➡️

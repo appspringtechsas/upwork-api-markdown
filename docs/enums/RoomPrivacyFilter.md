@@ -17,7 +17,7 @@ Filter options for room privacy settings
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ALL` | All privacy levels |
 | `PRIVATE` | Private rooms only |
@@ -30,3 +30,9 @@ Filter options for room privacy settings
 ```graphql
 "ALL"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomPrivacyFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomCategoryFilter](RoomCategoryFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomStoryAbuseType](RoomStoryAbuseType.md) ➡️

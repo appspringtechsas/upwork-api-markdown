@@ -31,10 +31,16 @@ Visitor internationalization settings including location and feature flags
 
 ```json
 {
-  "countrySupported": false,
-  "status": "xyz789",
+  "countrySupported": true,
+  "status": "abc123",
   "locationViewType": "xyz789",
-  "userPreferredLocationType": "xyz789",
+  "userPreferredLocationType": "abc123",
   "settingsFlags": VisitorI18NSettings
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VisitorI18N" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Visitor](Visitor.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VisitorI18NSettings](VisitorI18NSettings.md) ➡️

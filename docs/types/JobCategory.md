@@ -41,6 +41,12 @@ Job category ontology entity
   "preferredLabel": "xyz789",
   "definition": "abc123",
   "createdDateTime": "xyz789",
-  "modifiedDateTime": "xyz789"
+  "modifiedDateTime": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobCategory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [File](File.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Language](Language.md) ➡️

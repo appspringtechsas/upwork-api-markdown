@@ -46,21 +46,27 @@ Freelancer profile search result record
 {
   "id": 4,
   "title": "xyz789",
-  "description": "abc123",
+  "description": "xyz789",
   "shortName": "xyz789",
-  "ciphertext": "abc123",
+  "ciphertext": "xyz789",
   "portrait": "xyz789",
-  "lastActiveDateTime": "abc123",
-  "totalHourlyJobs": 987,
-  "totalFixedPriceJobs": 987,
+  "lastActiveDateTime": "xyz789",
+  "totalHourlyJobs": 123,
+  "totalFixedPriceJobs": 123,
   "skills": [Skill],
   "hourlyRate": Money,
-  "topRatedStatus": "abc123",
+  "topRatedStatus": "xyz789",
   "avgFeedbackScore": 987.65,
   "totalFeedbackCount": 123.45,
-  "hideEarnings": true,
+  "hideEarnings": false,
   "freelancer": CurrentUser,
   "location": FreelancerSearchResultLocation,
   "contracts": [FreelancerSearchResultContractSummary]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfilesSearchRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiary](WorkDiary.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfilesSearchRecordsConnection](FreelancerProfilesSearchRecordsConnection.md) ➡️

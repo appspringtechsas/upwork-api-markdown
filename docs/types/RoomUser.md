@@ -34,3 +34,9 @@ User participating in a room with their organization and role
   "role": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomUser" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomStoryNote](RoomStoryNote.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Snapshot](Snapshot.md) ➡️

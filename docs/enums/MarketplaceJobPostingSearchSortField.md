@@ -17,7 +17,7 @@ Sort fields for marketplace job posting search
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `RECENCY` | Sort by recency (newest first) |
 | `RELEVANCE` | Sort by relevance score |
@@ -31,3 +31,9 @@ Sort fields for marketplace job posting search
 ```graphql
 "RECENCY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchSortField" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobStatus](JobStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchType](MarketplaceJobPostingSearchType.md) ➡️

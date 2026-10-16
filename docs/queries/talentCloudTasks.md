@@ -71,3 +71,9 @@ query talentCloudTasks($filter: TalentCloudTasksInputFilter!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-talentCloudTasks" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [search](search.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [talentPortfolioProjects](talentPortfolioProjects.md) ➡️

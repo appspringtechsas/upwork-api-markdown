@@ -32,11 +32,17 @@ Input for creating a direct upload link
 
 ```json
 {
-  "fileName": "abc123",
+  "fileName": "xyz789",
   "expirationDate": "xyz789",
   "maxFileSize": 987,
-  "contentType": "xyz789",
-  "sslEnabled": false,
+  "contentType": "abc123",
+  "sslEnabled": true,
   "metaData": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateDirectUploadLinkInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateDirectFileAttachmentUploadLinkInput](CreateDirectFileAttachmentUploadLinkInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [DirectUploadingFileForRoomMessage](DirectUploadingFileForRoomMessage.md) ➡️

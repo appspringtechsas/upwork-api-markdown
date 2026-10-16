@@ -63,14 +63,20 @@ mutation addFreelancerOtherExperience($input: OtherExperienceInput!) {
 {
   "data": {
     "addFreelancerOtherExperience": {
-      "id": "4",
+      "id": 4,
       "user": GenericUser,
       "subject": "xyz789",
-      "description": "xyz789",
-      "active": true,
+      "description": "abc123",
+      "active": false,
       "createdDateTime": "abc123",
       "updatedDateTime": "xyz789"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-addFreelancerOtherExperience" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [addFreelancerEmploymentRecord](addFreelancerEmploymentRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [addTeamActivity](addTeamActivity.md) ➡️

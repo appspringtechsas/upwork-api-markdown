@@ -17,7 +17,7 @@ Access type for talent contracts
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `PUBLIC` | Contract is publicly visible |
 | `PRIVATE` | Contract is private |
@@ -30,3 +30,9 @@ Access type for talent contracts
 ```graphql
 "PUBLIC"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentContractAccessType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCommunityCertificateVisibility](TalentCommunityCertificateVisibility.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentContractStatus](TalentContractStatus.md) ➡️

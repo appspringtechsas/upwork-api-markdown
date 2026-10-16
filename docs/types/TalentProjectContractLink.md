@@ -31,10 +31,16 @@ Link between a portfolio project and an Upwork contract
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "creationDateTime": "abc123",
-  "state": "xyz789",
+  "state": "abc123",
   "notificationDateTime": "xyz789",
-  "clientId": 4
+  "clientId": "4"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProjectContractLink" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileUserPreferences](TalentProfileUserPreferences.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProjectList](TalentProjectList.md) ➡️

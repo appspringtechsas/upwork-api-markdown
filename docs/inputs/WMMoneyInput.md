@@ -28,7 +28,13 @@ A type matching wmInboundAPI Money structure for input
 
 ```json
 {
-  "decimalAmount": "xyz789",
+  "decimalAmount": "abc123",
   "currency": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WMMoneyInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TnsRuleStructureInput](TnsRuleStructureInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [enums index](../enums/README.md) ➡️

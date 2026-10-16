@@ -41,5 +41,11 @@ query requestMetadata {
 #### Response
 
 ```json
-{"data": {"requestMetadata": {"sudo": true, "internal": true}}}
+{"data": {"requestMetadata": {"sudo": false, "internal": false}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-requestMetadata" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [regions](regions.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [timeZones](timeZones.md) ➡️

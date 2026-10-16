@@ -35,14 +35,20 @@ Input for searching offers
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "searchAttribute": "JobApplication",
   "states": ["Draft"],
   "limit": 123,
   "page": 987,
   "ascendingOrder": true,
   "includeAttachments": true,
-  "includeMilestones": false,
+  "includeMilestones": true,
   "includeScheduledRateIncrease": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SearchOffersInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SearchOffersByAttributesInput](SearchOffersByAttributesInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateHourlyLimitRequestInput](UpdateHourlyLimitRequestInput.md) ➡️

@@ -26,5 +26,11 @@ Filter for searching ontology entities by their ontology IDs
 ### Example
 
 ```json
-{"ontologyIds_any": ["4"]}
+{"ontologyIds_any": [4]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyEntitySearchFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntityFilter](OntologyEntityFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientActiveInvitationsFilter](ClientActiveInvitationsFilter.md) ➡️

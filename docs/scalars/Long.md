@@ -22,3 +22,9 @@ A 64-bit signed integer
 ```json
 {}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Long" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Int](Int.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Map](Map.md) ➡️

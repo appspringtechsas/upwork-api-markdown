@@ -17,7 +17,7 @@ Offer kind types
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `HourlyPack` | Hourly pack offer |
 | `WeeklyRetainer` | Weekly retainer offer |
@@ -34,3 +34,9 @@ Offer kind types
 ```graphql
 "HourlyPack"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferKind" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferDeliveryModel](OfferDeliveryModel.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferKindInput](OfferKindInput.md) ➡️

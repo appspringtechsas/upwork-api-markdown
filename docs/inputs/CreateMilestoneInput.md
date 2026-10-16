@@ -34,7 +34,7 @@ Input for creating a milestone
 ```json
 {
   "offerId": 4,
-  "contractId": "4",
+  "contractId": 4,
   "description": "xyz789",
   "instruction": "abc123",
   "depositAmount": "abc123",
@@ -42,3 +42,9 @@ Input for creating a milestone
   "attachmentIds": ["4"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateMilestoneInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractPagingInput](ContractPagingInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreationOfferInput](CreationOfferInput.md) ➡️

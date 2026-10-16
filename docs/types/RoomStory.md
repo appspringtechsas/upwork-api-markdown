@@ -35,14 +35,20 @@ Message or event posted in a room
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "room": Room,
-  "createdDateTime": "xyz789",
-  "updatedDateTime": "abc123",
+  "createdDateTime": "abc123",
+  "updatedDateTime": "xyz789",
   "user": GenericUser,
-  "message": "xyz789",
+  "message": "abc123",
   "organization": GenericOrganization,
   "roomStoryNote": RoomStoryNote,
   "attachments": [MessageAttachments]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomStory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomEdge](RoomEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomStoryConnection](RoomStoryConnection.md) ➡️

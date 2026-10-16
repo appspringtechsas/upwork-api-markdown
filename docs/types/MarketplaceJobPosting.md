@@ -79,3 +79,9 @@ Marketplace job posting aggregate
   "customFields": CustomFieldsConnection
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPosting" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceContractTerms](MarketplaceContractTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingContent](MarketplaceJobPostingContent.md) ➡️

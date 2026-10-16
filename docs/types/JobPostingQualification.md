@@ -36,11 +36,17 @@ Qualification requirements for a job posting
 {
   "contractorType": "ALL",
   "englishProficiency": "ANY",
-  "hasPortfolio": true,
+  "hasPortfolio": false,
   "risingTalent": true,
-  "jobSuccessScore": 987,
+  "jobSuccessScore": 123,
   "earnings": "ANY",
   "preferredGroups": [PreferredGroup],
   "preferredTests": [PreferredTest]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingQualification" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingPtcInfo](JobPostingPtcInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingQuestion](JobPostingQuestion.md) ➡️

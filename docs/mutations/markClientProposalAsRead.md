@@ -64,3 +64,9 @@ mutation markClientProposalAsRead($clientProposalReadRequest: ClientProposalRead
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-markClientProposalAsRead" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [hideClientProposal](hideClientProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [messageClientProposal](messageClientProposal.md) ➡️

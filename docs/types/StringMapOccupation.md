@@ -28,3 +28,9 @@ generated_by: "scripts/convert.mjs"
   "services": [Occupation]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-StringMapOccupation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Skill](Skill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitation](ClientInvitation.md) ➡️

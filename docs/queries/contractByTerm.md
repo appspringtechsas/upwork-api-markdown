@@ -125,16 +125,16 @@ query contractByTerm(
 {
   "data": {
     "contractByTerm": {
-      "id": "4",
-      "title": "abc123",
+      "id": 4,
+      "title": "xyz789",
       "status": "ACTIVE",
       "closingReason": ClosingReason,
       "deliveryModel": "TALENT_MARKETPLACE",
       "kind": "WEEKLY_RETAINER",
-      "isPtc": true,
+      "isPtc": false,
       "createDate": "xyz789",
       "modifyDate": "abc123",
-      "startDate": "xyz789",
+      "startDate": "abc123",
       "endDate": "abc123",
       "offer": Offer,
       "offerId": 4,
@@ -153,8 +153,14 @@ query contractByTerm(
       "metadata": ContractMetadata,
       "hourlyLimits": [HourlyLimit],
       "terms": ContractTerms,
-      "projectId": 4
+      "projectId": "4"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-contractByTerm" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [contract](contract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractDetails](contractDetails.md) ➡️

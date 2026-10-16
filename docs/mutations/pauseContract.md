@@ -53,14 +53,17 @@ mutation pauseContract(
 #### Variables
 
 ```json
-{
-  "contractId": "4",
-  "message": "xyz789"
-}
+{"contractId": 4, "message": "xyz789"}
 ```
 
 #### Response
 
 ```json
-{"data": {"pauseContract": {"success": false}}}
+{"data": {"pauseContract": {"success": true}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-pauseContract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [endContractByClient](endContractByClient.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [rejectSubmittedMilestone](rejectSubmittedMilestone.md) ➡️

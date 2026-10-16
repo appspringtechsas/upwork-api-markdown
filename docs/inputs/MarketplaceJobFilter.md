@@ -65,40 +65,46 @@ Filter criteria for searching marketplace jobs
 {
   "searchExpression_eq": "abc123",
   "skillExpression_eq": "abc123",
-  "titleExpression_eq": "xyz789",
+  "titleExpression_eq": "abc123",
   "searchTerm_eq": SearchTerm,
   "categoryIds_any": [4],
-  "subcategoryIds_any": ["4"],
+  "subcategoryIds_any": [4],
   "occupationIds_any": [4],
-  "ontologySkillIds_all": ["4"],
+  "ontologySkillIds_all": [4],
   "sinceId_eq": "xyz789",
-  "maxId_eq": "abc123",
+  "maxId_eq": "xyz789",
   "jobType_eq": "HOURLY",
   "duration_any": ["WEEK"],
   "workload_eq": "FULL_TIME",
   "clientHiresRange_eq": IntRange,
   "clientFeedBackRange_eq": FloatRange,
   "budgetRange_eq": IntRange,
-  "verifiedPaymentOnly_eq": false,
-  "previousClients_eq": true,
+  "verifiedPaymentOnly_eq": true,
+  "previousClients_eq": false,
   "experienceLevel_eq": "ENTRY_LEVEL",
   "locations_any": ["xyz789"],
   "cityId_any": ["xyz789"],
-  "zipCodeId_any": ["xyz789"],
+  "zipCodeId_any": ["abc123"],
   "radius_eq": 123,
   "areaId_any": ["xyz789"],
   "timezone_eq": "xyz789",
-  "usState_eq": "xyz789",
+  "usState_eq": "abc123",
   "daysPosted_eq": 987,
   "jobPostingAccess": "PUBLIC_INDEX",
   "ptcIds_any": ["4"],
-  "ptcOnly_eq": true,
+  "ptcOnly_eq": false,
   "enterpriseOnly_eq": false,
   "proposalRange_eq": IntRange,
   "pagination_eq": Pagination,
   "area_eq": AreaFilter,
   "preserveFacet_eq": "abc123",
-  "userLocationMatch_eq": true,
+  "userLocationMatch_eq": false,
   "visitorCountry_eq": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostToolInput](JobPostToolInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchSortAttribute](MarketplaceJobPostingSearchSortAttribute.md) ➡️

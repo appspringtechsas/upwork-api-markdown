@@ -32,9 +32,15 @@ A simplified representation of Marketplace ontology's 'service' (level 3 of hier
 ```json
 {
   "id": "4",
-  "preferredLabel": "abc123",
-  "altLabel": ["xyz789"],
+  "preferredLabel": "xyz789",
+  "altLabel": ["abc123"],
   "slug": "abc123",
   "ontologyId": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyService" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntitySearchRecord](OntologyEntitySearchRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologySubcategory](OntologySubcategory.md) ➡️

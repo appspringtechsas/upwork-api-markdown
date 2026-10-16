@@ -32,11 +32,17 @@ Comment added to a workflow task
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "message": "abc123",
   "createdDateTime": "abc123",
-  "createdBy": "xyz789",
+  "createdBy": "abc123",
   "visibleToClient": true,
   "attachments": [WorkflowTaskCommentAttachments]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowTaskComment" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskAssigneeView](WorkflowTaskAssigneeView.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowTaskCommentAttachments](WorkflowTaskCommentAttachments.md) ➡️

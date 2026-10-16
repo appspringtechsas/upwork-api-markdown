@@ -38,11 +38,17 @@ generated_by: "scripts/convert.mjs"
   "subscribed_eq": true,
   "activeSince_eq": "abc123",
   "includeFavorites_eq": true,
-  "includeUnreadIfActive_eq": true,
-  "unreadRoomsOnly_eq": false,
-  "local_eq": "abc123",
+  "includeUnreadIfActive_eq": false,
+  "unreadRoomsOnly_eq": true,
+  "local_eq": "xyz789",
   "includeHidden_eq": false,
-  "objectReferenceId_eq": "4",
+  "objectReferenceId_eq": 4,
   "roomCategory_eq": "FAVORITES"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomCreateInputV2](RoomCreateInputV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomStoryCreateInputV2](RoomStoryCreateInputV2.md) ➡️

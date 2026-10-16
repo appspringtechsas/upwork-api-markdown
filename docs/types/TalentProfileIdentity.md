@@ -29,6 +29,12 @@ Profile identity information including ID and ciphertext
 ```json
 {
   "id": "xyz789",
-  "ciphertext": "xyz789"
+  "ciphertext": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileIdentity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileEmploymentRecord](TalentProfileEmploymentRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileList](TalentProfileList.md) ➡️

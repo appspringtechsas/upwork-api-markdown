@@ -17,7 +17,7 @@ Status of workflow onboarding process
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `NOT_STARTED` | Workflow has not been started |
 | `IN_PROGRESS` | Workflow is currently in progress |
@@ -33,3 +33,9 @@ Status of workflow onboarding process
 ```graphql
 "NOT_STARTED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowOnboardingStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserPreferredLocationType](UserPreferredLocationType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowTaskLabel](WorkflowTaskLabel.md) ➡️

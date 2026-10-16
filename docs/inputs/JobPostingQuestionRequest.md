@@ -29,3 +29,9 @@ Screening question for job posting
 ```json
 {"question": "xyz789", "type": "EXPERIENCE"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingQuestionRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingQualificationRequest](JobPostingQualificationRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingRequestInfo](JobPostingRequestInfo.md) ➡️

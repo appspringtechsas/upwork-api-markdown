@@ -37,12 +37,18 @@ Qualification constraints for marketplace
 {
   "contractorType": "ALL",
   "englishProficiency": "ANY",
-  "hasPortfolio": true,
+  "hasPortfolio": false,
   "hoursWorked": 987,
-  "risingTalent": true,
-  "jobSuccessScore": 987,
+  "risingTalent": false,
+  "jobSuccessScore": 123,
   "minEarning": "ANY",
   "preferredGroups": [PreferredGroup],
   "preferenceTests": [PreferredTest]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceQualification" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplacePublicCompanyInfo](MarketplacePublicCompanyInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceQuestion](MarketplaceQuestion.md) ➡️

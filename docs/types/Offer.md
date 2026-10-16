@@ -61,23 +61,29 @@ Details information about offer
 ```json
 {
   "id": 4,
-  "title": "abc123",
-  "description": "abc123",
+  "title": "xyz789",
+  "description": "xyz789",
   "type": "MARKET_PLACE_HOURLY",
   "job": MarketplaceJobPosting,
   "vendorProposal": VendorProposal,
   "closeJobPostingOnAccept": false,
   "client": GenericOrganization,
   "offerTerms": OfferTerms,
-  "messageToContractor": "xyz789",
+  "messageToContractor": "abc123",
   "state": "DRAFT",
   "offerFeatures": OfferFeatures,
   "clientCompany": PublicCompanyInfo,
   "milestones": [Milestone],
-  "createdUsingBYOFlow": false,
+  "createdUsingBYOFlow": true,
   "freelancer": FreelancerProfile,
   "payrollOffer": true,
   "deliveryModel": "TalentMarketplace",
   "customFields": CustomFieldsConnection
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Offer" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ModernizedOfferFacet](ModernizedOfferFacet.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferAcceptResponse](OfferAcceptResponse.md) ➡️

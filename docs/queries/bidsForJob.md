@@ -60,9 +60,15 @@ query bidsForJob($jobId: ID!) {
   "data": {
     "bidsForJob": {
       "bids": [Bid],
-      "limit": 123,
+      "limit": 987,
       "offset": 123
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-bidsForJob" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [accountingEntity](accountingEntity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [clientsWorkHistory](clientsWorkHistory.md) ➡️

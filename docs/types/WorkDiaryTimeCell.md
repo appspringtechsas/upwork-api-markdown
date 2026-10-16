@@ -48,21 +48,27 @@ generated_by: "scripts/convert.mjs"
   "cellDateTime": DateTime,
   "snapshotDateTime": DateTime,
   "overtime": false,
-  "manual": false,
-  "activityLevel": 987,
-  "memo": "xyz789",
+  "manual": true,
+  "activityLevel": 123,
+  "memo": "abc123",
   "task": WorkDiaryTask,
-  "mouseEventsCount": 123,
-  "keyboardEventsCount": 123,
+  "mouseEventsCount": 987,
+  "keyboardEventsCount": 987,
   "activeWindowTitle": "xyz789",
   "hideScreenshots": false,
   "hasScreenshot": true,
   "screenshotImageUrl": "abc123",
-  "screenshotImageUrlMedium": "xyz789",
-  "screenshotImageThumbnail": "abc123",
-  "webcamEnabled": false,
+  "screenshotImageUrlMedium": "abc123",
+  "screenshotImageThumbnail": "xyz789",
+  "webcamEnabled": true,
   "webcamImageUrl": "abc123",
-  "webcamImageThumbnail": "abc123",
-  "snapshotExpired": false
+  "webcamImageThumbnail": "xyz789",
+  "snapshotExpired": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryTimeCell" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryTask](WorkDiaryTask.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateWorkflowTaskResult](UpdateWorkflowTaskResult.md) ➡️

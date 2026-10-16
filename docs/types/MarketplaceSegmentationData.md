@@ -28,3 +28,9 @@ Segmentation data for a marketplace job posting
 ```json
 {"segmentationValues": [MarketplaceSegmentationValue]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceSegmentationData" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceQuestion](MarketplaceQuestion.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceSegmentationInfo](MarketplaceSegmentationInfo.md) ➡️

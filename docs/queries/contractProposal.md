@@ -62,9 +62,15 @@ query contractProposal($id: ID!) {
       "id": 4,
       "state": "xyz789",
       "updatedDateTime": "abc123",
-      "createdDateTime": "abc123",
+      "createdDateTime": "xyz789",
       "canClientOfferBeAccepted": false
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-contractProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [contractList](contractList.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractTerm](contractTerm.md) ➡️

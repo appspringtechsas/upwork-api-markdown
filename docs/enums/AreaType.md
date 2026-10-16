@@ -17,7 +17,7 @@ Geographic area type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `CITY` | City area |
 | `AREA` | General area |
@@ -30,3 +30,9 @@ Geographic area type
 ```graphql
 "CITY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AreaType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AccessType](AccessType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AutoReviewStatus](AutoReviewStatus.md) ➡️

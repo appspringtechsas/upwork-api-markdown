@@ -31,8 +31,14 @@ Billing rate information for a time report
 ```json
 {
   "id": 4,
-  "value": 987.65,
+  "value": 123.45,
   "code": "abc123",
   "offerRef": 4
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BillRate" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorProposalStatus](VendorProposalStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Cell](Cell.md) ➡️

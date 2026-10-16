@@ -25,8 +25,14 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "storyId": "4",
+  "storyId": 4,
   "roomId": "4",
-  "message": "abc123"
+  "message": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomStoryUpdateInputV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomStoryFilter](RoomStoryFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomUpdateInputV2](RoomUpdateInputV2.md) ➡️

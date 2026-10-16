@@ -32,3 +32,9 @@ Edge type containing a room story node and cursor for pagination
   "node": RoomStory
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomStoryEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomStoryConnection](RoomStoryConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomStoryNote](RoomStoryNote.md) ➡️

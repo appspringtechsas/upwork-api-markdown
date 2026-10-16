@@ -95,9 +95,9 @@ mutation activateMilestone($input: ActivateMilestoneInput) {
 {
   "data": {
     "activateMilestone": {
-      "id": 4,
+      "id": "4",
       "createdBy": GenericUser,
-      "dueDateTime": "abc123",
+      "dueDateTime": "xyz789",
       "state": "NotFunded",
       "description": "abc123",
       "currentEscrowAmount": Money,
@@ -107,12 +107,12 @@ mutation activateMilestone($input: ActivateMilestoneInput) {
       "overpayment": Money,
       "bonus": Money,
       "previousMilestoneUnusedDeposit": Money,
-      "submissionCount": 987,
-      "sequenceId": 987,
+      "submissionCount": 123,
+      "sequenceId": 123,
       "payComments": "abc123",
       "lastSubmissionCreatedTime": "abc123",
       "createdDateTime": "xyz789",
-      "modifiedDateTime": "xyz789",
+      "modifiedDateTime": "abc123",
       "instructions": "xyz789",
       "submissionEvents": [SubmissionEvent],
       "submissions": [MilestoneSubmissions]
@@ -120,3 +120,9 @@ mutation activateMilestone($input: ActivateMilestoneInput) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-activateMilestone" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [withdrawOffer](withdrawOffer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [approveMilestone](approveMilestone.md) ➡️

@@ -17,7 +17,7 @@ Subject type for restrictions
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `SOLE_PROPRIETOR` |  |
 | `MEMBER` |  |
@@ -32,3 +32,9 @@ Subject type for restrictions
 ```graphql
 "SOLE_PROPRIETOR"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RestictionSubjectType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ResourceType](ResourceType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomCategoryFilter](RoomCategoryFilter.md) ➡️

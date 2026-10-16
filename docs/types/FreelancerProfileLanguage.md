@@ -33,8 +33,14 @@ Freelancer language with proficiency and verification
 {
   "id": "4",
   "language": Language,
-  "verified": true,
+  "verified": false,
   "verifiedByCertificate": false,
   "verifiedByFeedback": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileLanguage" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileJobCategoryEdge](FreelancerProfileJobCategoryEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileLanguageEdge](FreelancerProfileLanguageEdge.md) ➡️

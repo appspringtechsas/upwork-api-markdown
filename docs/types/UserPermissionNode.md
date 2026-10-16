@@ -34,9 +34,15 @@ User permission node details
 {
   "organization": CurrentOrganization,
   "team": GenericOrganization,
-  "action": "xyz789",
+  "action": "abc123",
   "access": "ACCESS_DENIED",
   "reason": "ROLES_MISMATCH",
   "suspensionMetadata": SuspensionMetadata
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserPermissionNode" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserPermissionEdge](UserPermissionEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UserPermissions](UserPermissions.md) ➡️

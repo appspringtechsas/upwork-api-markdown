@@ -38,17 +38,23 @@ Update employment record input
 
 ```json
 {
-  "id": 4,
-  "userId": "4",
-  "companyName": "xyz789",
+  "id": "4",
+  "userId": 4,
+  "companyName": "abc123",
   "jobTitle": "xyz789",
-  "standardizedCompanyId": "xyz789",
+  "standardizedCompanyId": "abc123",
   "standardizedJobTitleId": "xyz789",
-  "role": "abc123",
+  "role": "xyz789",
   "startDate": "xyz789",
   "endDate": "xyz789",
-  "description": "xyz789",
-  "city": "xyz789",
-  "country": "xyz789"
+  "description": "abc123",
+  "city": "abc123",
+  "country": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UpdateEmploymentRecordInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [StoryFilter](StoryFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateOrganizationInput](UpdateOrganizationInput.md) ➡️

@@ -52,5 +52,17 @@ mutation submitContractMilestone($request: SubmitContractMilestoneRequest!) {
 #### Response
 
 ```json
-{"data": {"submitContractMilestone": {"submissionId": 4}}}
+{
+  "data": {
+    "submitContractMilestone": {
+      "submissionId": "4"
+    }
+  }
+}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-submitContractMilestone" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [savePersonJob](savePersonJob.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [withdrawContractProposal](withdrawContractProposal.md) ➡️

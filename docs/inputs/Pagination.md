@@ -27,5 +27,11 @@ Pagination
 ### Example
 
 ```json
-{"after": "xyz789", "first": 123}
+{"after": "abc123", "first": 987}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Pagination" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [IntRange](IntRange.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SortAttribute](SortAttribute.md) ➡️

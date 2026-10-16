@@ -36,3 +36,9 @@ Statistics of bids on a job posting
   "avgInterviewedRateBid": Money
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ApplicationsBidStats" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [types index](README.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Area](Area.md) ➡️

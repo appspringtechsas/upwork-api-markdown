@@ -31,6 +31,12 @@ Job attachment info
 {
   "fileName": "xyz789",
   "length": 987,
-  "uri": "abc123"
+  "uri": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobAttachmentInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Job](Job.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobBuyerCompany](JobBuyerCompany.md) ➡️

@@ -17,7 +17,7 @@ Prefered english skill
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ANY` | Any |
 | `BASIC` | Basic |
@@ -32,3 +32,9 @@ Prefered english skill
 ```graphql
 "ANY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPrefEnglishSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobOpeningStatus](JobOpeningStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPreferredLocationType](JobPreferredLocationType.md) ➡️

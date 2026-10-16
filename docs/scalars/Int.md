@@ -22,3 +22,9 @@ Built-in Int
 ```json
 987
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Int" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ID](ID.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Long](Long.md) ➡️

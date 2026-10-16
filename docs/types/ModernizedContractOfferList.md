@@ -28,3 +28,9 @@ List of modernized contract offers
 ```json
 {"offers": [ModernizedContractOffer]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ModernizedContractOfferList" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ModernizedContractOffer](ModernizedContractOffer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ModernizedOffer](ModernizedOffer.md) ➡️

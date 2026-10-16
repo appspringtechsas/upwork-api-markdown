@@ -48,12 +48,12 @@ Filters for public job posting search in the marketplace
   "contractorTier_eq": "ENTRY_LEVEL",
   "daysPosted_eq": 123,
   "duration_any": ["WEEK"],
-  "freelancersNeeded_eq": 987,
-  "enterpriseOnly_eq": false,
+  "freelancersNeeded_eq": 123,
+  "enterpriseOnly_eq": true,
   "workload_eq": "FULL_TIME",
   "proposalRange_eq": IntRange,
-  "verifiedPaymentOnly_eq": false,
-  "occupationIds_any": ["4"],
+  "verifiedPaymentOnly_eq": true,
+  "occupationIds_any": [4],
   "clientFeedBackRange_eq": FloatRange,
   "budgetRange_eq": IntRange,
   "jobType_eq": "HOURLY",
@@ -62,3 +62,9 @@ Filters for public job posting search in the marketplace
   "pagination": PageFilterInput
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingsSearchFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Paging](Paging.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SemSearchV2DoubleRange](SemSearchV2DoubleRange.md) ➡️

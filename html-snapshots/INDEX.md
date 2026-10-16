@@ -6,4 +6,4 @@ with fetch time, source URLs and SHA-256 hashes. `latest/` always mirrors the ne
 
 | Snapshot | Fetched at (UTC) | index.html SHA-256 (first 8) | Bytes | Latest |
 |---|---|---|---|---|
-| [2026-10-11T17-27-08Z](./2026-10-11T17-27-08Z/) | 2026-10-11T17:28:00.099Z | `7bd57039` | 5245858 | ✅ |
+| [2026-10-16T01-51-57Z](./2026-10-16T01-51-57Z/) | 2026-10-16T01:52:48.969Z | `9a21ce5f` | 5245434 | ✅ |

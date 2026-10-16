@@ -28,7 +28,13 @@ Public marketplace job posting content
 
 ```json
 {
-  "title": "abc123",
+  "title": "xyz789",
   "description": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingContent" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPosting](MarketplaceJobPosting.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingsContents](MarketplaceJobPostingsContents.md) ➡️

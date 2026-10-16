@@ -156,3 +156,13 @@ query SearchJobs($filter: MarketplaceJobPostingsSearchFilter) {
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **4** (Search jobs) in [Client Job Postings Sample Flow](../operations/examples/jobs.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-marketplaceJobPostingsSearch" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [freelancerProfileSearchRecords](freelancerProfileSearchRecords.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [publicMarketplaceJobPostingsSearch](publicMarketplaceJobPostingsSearch.md) ➡️

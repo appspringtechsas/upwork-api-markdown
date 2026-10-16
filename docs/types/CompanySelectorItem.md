@@ -36,13 +36,19 @@ Item available in company selector. Please, note that this structure uses terms 
 ```json
 {
   "title": "abc123",
-  "photoUrl": "xyz789",
+  "photoUrl": "abc123",
   "organizationId": "xyz789",
   "organizationRid": "abc123",
   "organizationType": "Business",
   "organizationLegacyType": "Client",
   "organizationEnterpriseType": "Standard",
-  "legacyEnterpriseOrganization": true,
+  "legacyEnterpriseOrganization": false,
   "typeTitle": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CompanySelectorItem" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CompanySelector](CompanySelector.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CurrentOrganization](CurrentOrganization.md) ➡️

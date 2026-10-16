@@ -32,3 +32,9 @@ Activity statistics for a marketplace job posting
   "jobActivity": JobActivity
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplacePostingActivityStat" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceLocation](MarketplaceLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplacePostingAnnotations](MarketplacePostingAnnotations.md) ➡️

@@ -29,3 +29,9 @@ Filters for searching Connect usage history
 ```json
 {"searchDateRange": DateTimeRange, "types": ["CREDIT"]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ConnectUsageFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AcceptVendorInvitationSri](AcceptVendorInvitationSri.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalCreateRequest](ContractProposalCreateRequest.md) ➡️

@@ -48,8 +48,8 @@ Input for creating a job posting
   "segmentationData": [JobPostingSegmentationRequest],
   "attachmentIds": ["4"],
   "ptcInfo": JobPostingPtcInfoRequest,
-  "savePtcInfo": true,
-  "invitePost": true,
+  "savePtcInfo": false,
+  "invitePost": false,
   "jobPostingAdditionalRequest": JobPostingAdditionalRequest,
   "sandsJobPost": SandsJobPostRequest,
   "customFields": JobPostingCustomFieldsRequest,
@@ -60,3 +60,9 @@ Input for creating a job posting
   "billRate": JobPostBillRate
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingCreateRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingAnnotationsCustomField](JobPostingAnnotationsCustomField.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingCustomFieldsRequest](JobPostingCustomFieldsRequest.md) ➡️

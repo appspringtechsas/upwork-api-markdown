@@ -32,3 +32,9 @@ Results of a contract search with paging information
   "contracts": [ContractDetails]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractSearchResults" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposal](ContractProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractTerms](ContractTerms.md) ➡️

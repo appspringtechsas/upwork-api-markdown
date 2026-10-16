@@ -33,6 +33,12 @@ Skill metadata attached to a search result
   "id": 4,
   "name": "abc123",
   "prettyName": "xyz789",
-  "highlighted": false
+  "highlighted": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchResult](MarketplaceJobPostingSearchResult.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketPlaceJobSearchLocation](MarketPlaceJobSearchLocation.md) ➡️

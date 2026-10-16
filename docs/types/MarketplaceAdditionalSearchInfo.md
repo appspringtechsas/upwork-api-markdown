@@ -28,3 +28,9 @@ Additional search info for marketplace results
 ```json
 {"highlightTitle": "xyz789"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceAdditionalSearchInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobSubPostingCategory](JobSubPostingCategory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceContractorSelection](MarketplaceContractorSelection.md) ➡️

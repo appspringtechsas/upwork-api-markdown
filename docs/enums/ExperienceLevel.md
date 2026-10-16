@@ -17,7 +17,7 @@ Experience level requirements
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ENTRY_LEVEL` | Entry level |
 | `INTERMEDIATE` | Intermediate level |
@@ -30,3 +30,9 @@ Experience level requirements
 ```graphql
 "ENTRY_LEVEL"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ExperienceLevel" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [EnglishSkill](EnglishSkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobDuration](JobDuration.md) ➡️

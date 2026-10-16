@@ -33,7 +33,7 @@ Segmentation value entry for a job posting
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "label": "abc123",
   "referenceName": "abc123",
   "sortOrder": 987,
@@ -42,3 +42,9 @@ Segmentation value entry for a job posting
   "skill": Skill
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingSegmentationValue" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingSegmentationData](JobPostingSegmentationData.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingUpdateResponse](JobPostingUpdateResponse.md) ➡️

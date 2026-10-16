@@ -32,3 +32,9 @@ Work diary data for a specific contract and date
   "workDiaryTimeCells": [WorkDiaryTimeCell]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryContract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryCompanyUser](WorkDiaryCompanyUser.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryMetadata](WorkDiaryMetadata.md) ➡️

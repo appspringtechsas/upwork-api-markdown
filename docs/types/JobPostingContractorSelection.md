@@ -34,3 +34,9 @@ Contractor selection criteria for a job posting
   "location": JobPostingLocation
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingContractorSelection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingContent](JobPostingContent.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingContractTerms](JobPostingContractTerms.md) ➡️

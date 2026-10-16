@@ -60,18 +60,18 @@ Modernized offer details
   "kind": "HourlyPack",
   "offeror": "Client",
   "clientUserId": 4,
-  "clientTeamId": "4",
+  "clientTeamId": 4,
   "clientOrgId": 4,
   "vendorUserId": 4,
-  "vendorTeamId": 4,
-  "vendorOrgId": 4,
+  "vendorTeamId": "4",
+  "vendorOrgId": "4",
   "actors": [Actor],
   "metadata": Metadata,
-  "expirationDateTime": "xyz789",
-  "title": "abc123",
-  "description": "abc123",
-  "attachments": [4],
-  "contractStartDateTime": "abc123",
+  "expirationDateTime": "abc123",
+  "title": "xyz789",
+  "description": "xyz789",
+  "attachments": ["4"],
+  "contractStartDateTime": "xyz789",
   "contractEndDateTime": "abc123",
   "hourlyRateTerms": HourlyTerms,
   "stipendTerms": StipendTerms,
@@ -80,11 +80,17 @@ Modernized offer details
   "state": "Submitted",
   "staffingManagerId": 4,
   "contractId": 4,
-  "agencyRootCompanyId": 4,
+  "agencyRootCompanyId": "4",
   "instanceId": "4",
   "client": GenericOrganization,
   "clientCompany": PublicCompanyInfo,
-  "createdDateTime": "abc123",
+  "createdDateTime": "xyz789",
   "lastEvent": OfferLastEvent
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ModernizedOffer" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ModernizedContractOfferList](ModernizedContractOfferList.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ModernizedOfferFacet](ModernizedOfferFacet.md) ➡️

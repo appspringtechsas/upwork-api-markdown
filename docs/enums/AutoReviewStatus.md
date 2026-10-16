@@ -17,7 +17,7 @@ Auto review status for job postings
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `APPROVED` | Job posting approved |
 | `REJECTED` | Job posting rejected |
@@ -30,3 +30,9 @@ Auto review status for job postings
 ```graphql
 "APPROVED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AutoReviewStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AreaType](AreaType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractorTier](ContractorTier.md) ➡️

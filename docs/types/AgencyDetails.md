@@ -29,8 +29,14 @@ Agency profile details
 
 ```json
 {
-  "vetted": true,
-  "topRatedStatus": "xyz789",
+  "vetted": false,
+  "topRatedStatus": "abc123",
   "topRatedPlusStatus": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AgencyDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ActivityEdge](ActivityEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CompanyInfo](CompanyInfo.md) ➡️

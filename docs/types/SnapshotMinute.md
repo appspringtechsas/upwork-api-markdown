@@ -28,5 +28,11 @@ Activity events for a single minute within a snapshot
 ### Example
 
 ```json
-{"time": 123, "mouse": 123, "keyboard": 123}
+{"time": 987, "mouse": 123, "keyboard": 987}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SnapshotMinute" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Snapshot](Snapshot.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SnapshotMinutes](SnapshotMinutes.md) ➡️

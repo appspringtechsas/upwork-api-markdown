@@ -47,10 +47,16 @@ query languages {
     "languages": [
       {
         "iso639Code": "abc123",
-        "active": false,
+        "active": true,
         "englishName": "xyz789"
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-languages" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [countries](countries.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [reasons](reasons.md) ➡️

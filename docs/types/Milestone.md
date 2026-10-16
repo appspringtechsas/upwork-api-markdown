@@ -60,13 +60,19 @@ Milestone information for fixed-price contracts
   "bonus": Money,
   "previousMilestoneUnusedDeposit": Money,
   "submissionCount": 987,
-  "sequenceId": 123,
+  "sequenceId": 987,
   "payComments": "abc123",
-  "lastSubmissionCreatedTime": "abc123",
+  "lastSubmissionCreatedTime": "xyz789",
   "createdDateTime": "xyz789",
-  "modifiedDateTime": "xyz789",
+  "modifiedDateTime": "abc123",
   "instructions": "xyz789",
   "submissionEvents": [SubmissionEvent],
   "submissions": [MilestoneSubmissions]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Milestone" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Metadata](Metadata.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MilestoneRejectionResponse](MilestoneRejectionResponse.md) ➡️

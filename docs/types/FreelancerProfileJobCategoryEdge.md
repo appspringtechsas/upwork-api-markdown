@@ -28,3 +28,9 @@ Job category connection edge
 ```json
 {"node": FreelancerProfileJobCategory}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileJobCategoryEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileJobCategory](FreelancerProfileJobCategory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileLanguage](FreelancerProfileLanguage.md) ➡️

@@ -29,3 +29,9 @@ Sorting configuration for client proposals
 ```json
 {"field": "CHARGERATE", "sortOrder": "ASC"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalSortAttribute" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalShortlistRequest](ClientProposalShortlistRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateDirectFileAttachmentUploadLinkInput](CreateDirectFileAttachmentUploadLinkInput.md) ➡️

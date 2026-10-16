@@ -43,8 +43,8 @@ Filter input for querying portfolio projects
 
 ```json
 {
-  "personId": "4",
-  "projectIds": [4],
+  "personId": 4,
+  "projectIds": ["4"],
   "page": 987,
   "pageSize": 123,
   "sortDirection": "ASC",
@@ -56,9 +56,15 @@ Filter input for querying portfolio projects
   "fillTagDetails": false,
   "public": false,
   "jobProposalId": "4",
-  "filterByRelevance": false,
+  "filterByRelevance": true,
   "filterOutNotAcceptedLinks": false,
   "freeText": "xyz789",
   "skillIds": [4]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProjectFilterInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTasksInputFilter](TalentCloudTasksInputFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentWorkHistoryFilterInput](TalentWorkHistoryFilterInput.md) ➡️

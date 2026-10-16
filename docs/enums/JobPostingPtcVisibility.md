@@ -17,7 +17,7 @@ PTC visibility options for job posting
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ANY_USER` | Visible to any user |
 | `MEMBER_SELECTED_CLOUD` | Visible to members of selected cloud |
@@ -30,3 +30,9 @@ PTC visibility options for job posting
 ```graphql
 "ANY_USER"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingPtcVisibility" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingPtcStatus](JobPostingPtcStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingStatus](JobPostingStatus.md) ➡️

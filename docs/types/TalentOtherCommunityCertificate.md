@@ -28,7 +28,13 @@ Other community certificate not in standard list
 
 ```json
 {
-  "name": "abc123",
-  "provider": "abc123"
+  "name": "xyz789",
+  "provider": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentOtherCommunityCertificate" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentOpening](TalentOpening.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentPersonAvailability](TalentPersonAvailability.md) ➡️

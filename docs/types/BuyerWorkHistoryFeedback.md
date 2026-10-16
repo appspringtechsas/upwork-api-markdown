@@ -31,6 +31,12 @@ Feedback
 {
   "comment": "abc123",
   "feedbackSuppressed": false,
-  "score": 987.65
+  "score": 123.45
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BuyerWorkHistoryFeedback" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BuyerJobs](BuyerJobs.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BuyerWorkHistoryItem](BuyerWorkHistoryItem.md) ➡️

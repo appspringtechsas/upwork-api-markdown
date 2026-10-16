@@ -28,3 +28,9 @@ Extended job details from Vega
 ```json
 {"opening": TalentVegaJobOpening}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentVegaJobDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentSpecializedProfilesProject](TalentSpecializedProfilesProject.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentVegaJobOpening](TalentVegaJobOpening.md) ➡️

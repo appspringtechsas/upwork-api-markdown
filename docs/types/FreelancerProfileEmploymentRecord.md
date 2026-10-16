@@ -38,17 +38,23 @@ Freelancer's Employment Record
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "user": GenericUser,
   "companyName": "abc123",
   "jobTitle": "xyz789",
-  "standardizedCompanyId": "abc123",
+  "standardizedCompanyId": "xyz789",
   "standardizedJobTitleId": "xyz789",
   "role": "abc123",
   "startDate": "abc123",
-  "endDate": "abc123",
+  "endDate": "xyz789",
   "description": "xyz789",
-  "city": "xyz789",
-  "country": "xyz789"
+  "city": "abc123",
+  "country": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileEmploymentRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileEducationRecord](FreelancerProfileEducationRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileJobCategoriesConnection](FreelancerProfileJobCategoriesConnection.md) ➡️

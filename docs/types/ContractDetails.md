@@ -56,16 +56,16 @@ Contract details including parties, terms, and metadata
 ```json
 {
   "id": 4,
-  "title": "abc123",
+  "title": "xyz789",
   "status": "ACTIVE",
   "closingReason": ClosingReason,
   "deliveryModel": "TALENT_MARKETPLACE",
   "kind": "WEEKLY_RETAINER",
-  "isPtc": false,
+  "isPtc": true,
   "createDate": "abc123",
-  "modifyDate": "xyz789",
+  "modifyDate": "abc123",
   "startDate": "xyz789",
-  "endDate": "abc123",
+  "endDate": "xyz789",
   "offer": Offer,
   "offerId": "4",
   "job": JobPosting,
@@ -86,3 +86,9 @@ Contract details including parties, terms, and metadata
   "projectId": 4
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractActionResponse](ContractActionResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractList](ContractList.md) ➡️

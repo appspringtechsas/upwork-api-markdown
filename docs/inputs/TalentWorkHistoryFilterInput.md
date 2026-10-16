@@ -33,8 +33,8 @@ Filter criteria for talent work history queries
 
 ```json
 {
-  "personId": 4,
-  "contractIds": ["4"],
+  "personId": "4",
+  "contractIds": [4],
   "excludeNoFeedback": true,
   "visibility": "PUBLIC",
   "status": ["ACTIVE"],
@@ -42,3 +42,9 @@ Filter criteria for talent work history queries
   "pagination": TalentWorkHistoryPagination
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentWorkHistoryFilterInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProjectFilterInput](TalentProjectFilterInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentWorkHistoryPagination](TalentWorkHistoryPagination.md) ➡️

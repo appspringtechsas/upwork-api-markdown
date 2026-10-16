@@ -17,7 +17,7 @@ Question type for screening
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `EXPERIENCE` | Experience-based question |
 | `BPAV1` | BPA v1 question type |
@@ -29,3 +29,9 @@ Question type for screening
 ```graphql
 "EXPERIENCE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-QuestionType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OnSiteType](OnSiteType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SandsJobPostStatus](SandsJobPostStatus.md) ➡️

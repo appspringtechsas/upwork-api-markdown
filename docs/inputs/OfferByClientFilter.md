@@ -39,8 +39,14 @@ Filter for offers by client
   "offerType_any": ["Hourly"],
   "milestoneState_any": ["NotFunded"],
   "escrowRefundStatus_any": ["Open"],
-  "freelancerId_any": [4],
+  "freelancerId_any": ["4"],
   "agreementKind_any": ["Offer"],
   "commonFilter": OfferSearchCommonFilter
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferByClientFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferAddressInput](OfferAddressInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferByRootCompanyFilter](OfferByRootCompanyFilter.md) ➡️

@@ -26,5 +26,11 @@ Contractor information
 ### Example
 
 ```json
-{"contractorName": "abc123"}
+{"contractorName": "xyz789"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractorInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ConnectUsageTransaction](ConnectUsageTransaction.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalCreateResponse](ContractProposalCreateResponse.md) ➡️

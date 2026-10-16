@@ -36,11 +36,17 @@ Input for rule structure - polymorphic type representing either a leaf node or g
 {
   "type": "xyz789",
   "attributeType": 987,
-  "leftDataPointId": 4,
-  "rightDataPointId": "4",
+  "leftDataPointId": "4",
+  "rightDataPointId": 4,
   "ruleOperator": 987,
-  "value": "abc123",
+  "value": "xyz789",
   "mergingOperator": 123,
   "children": [TnsRuleStructureInput]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TnsRuleStructureInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [StringMapElementInput](StringMapElementInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WMMoneyInput](WMMoneyInput.md) ➡️

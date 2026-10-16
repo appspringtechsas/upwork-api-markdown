@@ -55,7 +55,10 @@ query talentSpecializedProfile(
 #### Variables
 
 ```json
-{"personId": "4", "profileId": 4}
+{
+  "personId": "4",
+  "profileId": "4"
+}
 ```
 
 #### Response
@@ -69,3 +72,9 @@ query talentSpecializedProfile(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-talentSpecializedProfile" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [talentProfiles](talentProfiles.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [talentSpecializedProfiles](talentSpecializedProfiles.md) ➡️

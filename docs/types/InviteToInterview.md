@@ -29,3 +29,9 @@ invite to interview on which the proposal is created by accepting it
 ```json
 {"id": 4, "invitedBy": ClientProposalInvitedBy}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-InviteToInterview" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [InvitationPortfolio](InvitationPortfolio.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProposalAttachment](ProposalAttachment.md) ➡️

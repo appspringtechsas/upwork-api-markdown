@@ -30,7 +30,13 @@ Hourly rate terms for hourly offers
 ```json
 {
   "vendorRate": MoneyInput,
-  "weeklyLimit": "xyz789",
+  "weeklyLimit": "abc123",
   "manualTimeAllowed": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferHourlyRateTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferForFreelancerFilter](OfferForFreelancerFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferLocationInput](OfferLocationInput.md) ➡️

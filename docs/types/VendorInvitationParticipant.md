@@ -36,3 +36,9 @@ Details about the participant of the invitation
   "type": "Client"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationParticipant" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationEdge](VendorInvitationEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationStatusDetails](VendorInvitationStatusDetails.md) ➡️

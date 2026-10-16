@@ -55,16 +55,22 @@ Fixed price contract term including amounts and milestones
   "fixedAmount": Money,
   "createDate": "abc123",
   "modifyDate": "abc123",
-  "changeDate": "abc123",
+  "changeDate": "xyz789",
   "createdBy": ContractUser,
   "creatorUserType": "CLIENT",
   "changedBy": ContractUser,
   "startDate": "xyz789",
   "changingUserType": "CLIENT",
   "isFP2": true,
-  "endDate": "abc123",
+  "endDate": "xyz789",
   "jobType": "FIXED",
   "ptcData": PtcData,
   "milestones": [Milestone]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FixedPriceContractTerm" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Feedback](Feedback.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FixedPriceTerm](FixedPriceTerm.md) ➡️

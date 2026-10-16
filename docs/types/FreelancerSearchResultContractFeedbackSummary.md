@@ -31,6 +31,12 @@ Contract feedback summary in freelancer search results
 {
   "publicComment": false,
   "comment": "xyz789",
-  "score": 987.65
+  "score": 123.45
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerSearchResultContractFeedbackSummary" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfilesSearchResultEdge](FreelancerProfilesSearchResultEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerSearchResultContractSummary](FreelancerSearchResultContractSummary.md) ➡️

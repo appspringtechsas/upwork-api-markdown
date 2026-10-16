@@ -32,3 +32,9 @@ Feedback given and received for a contract
   "feedbackToClient": TalentWorkFeedback
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentContractFeedback" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentContractAggregate](TalentContractAggregate.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentContractTerms](TalentContractTerms.md) ➡️

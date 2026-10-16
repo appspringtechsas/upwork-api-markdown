@@ -27,8 +27,11 @@ Occupation information
 ### Example
 
 ```json
-{
-  "id": "4",
-  "prefLabel": "abc123"
-}
+{"id": 4, "prefLabel": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingSearchOccupation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicMarketplaceJobPostingSearchFacets](PublicMarketplaceJobPostingSearchFacets.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingSearchOccupations](PublicMarketplaceJobPostingSearchOccupations.md) ➡️

@@ -51,30 +51,36 @@ Qualification requirements for a job posting
 
 ```json
 {
-  "oDeskHours": 123,
+  "oDeskHours": 987,
   "testId": "4",
-  "locationRegionId": "4",
-  "hasPortfolio": false,
+  "locationRegionId": 4,
+  "hasPortfolio": true,
   "contractorType": "ALL",
   "jobSuccessScore": 987,
   "englishProficiency": "ANY",
   "risingTalent": false,
-  "countries": ["xyz789"],
+  "countries": ["abc123"],
   "regions": ["xyz789"],
   "locationCheckRequired": false,
-  "states": ["xyz789"],
-  "timezones": ["abc123"],
+  "states": ["abc123"],
+  "timezones": ["xyz789"],
   "earnings": "ANY",
   "localMarket": false,
   "onSiteType": "REMOTE",
   "locations": [JobPostingLocationRequest],
-  "localDescription": "xyz789",
+  "localDescription": "abc123",
   "localFlexibilityDescription": "abc123",
   "ctime": "xyz789",
   "englishSkill": "ANY_LEVEL",
   "groupRid": 4,
-  "languages": ["abc123"],
-  "mtime": "xyz789",
+  "languages": ["xyz789"],
+  "mtime": "abc123",
   "openingId": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingQualificationRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingPtcInfoRequest](JobPostingPtcInfoRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingQuestionRequest](JobPostingQuestionRequest.md) ➡️

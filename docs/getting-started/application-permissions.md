@@ -48,3 +48,9 @@ Terms of Service
 .
 
 To avoid being rate-limited, please use caching in your application. Store API responses in your application if you expect a lot of use. For example, don’t try to call the Upwork API on every page load. Instead, call the API infrequently, and load the response into a local cache. When users hit your website, load the cached version of the results.
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#getting-started-application-permissions" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [keys-management](keys-management.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [authentication](authentication.md) ➡️

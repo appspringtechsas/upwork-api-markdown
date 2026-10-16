@@ -36,15 +36,21 @@ Information about a country
 
 ```json
 {
-  "id": 4,
-  "name": "xyz789",
+  "id": "4",
+  "name": "abc123",
   "twoLetterAbbreviation": "abc123",
   "threeLetterAbbreviation": "xyz789",
   "region": "EU",
-  "phoneCode": "abc123",
+  "phoneCode": "xyz789",
   "relatedRegion": Region,
   "relatedSubRegion": Region,
   "active": true,
   "registrationAllowed": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Country" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SegmentationType](SegmentationType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ReasonsMetadata](ReasonsMetadata.md) ➡️

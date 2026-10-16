@@ -17,7 +17,7 @@ Payment option when ending a fixed-price contract
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `REMAINING` |  |
 | `ADDITIONAL` |  |
@@ -30,3 +30,9 @@ Payment option when ending a fixed-price contract
 ```graphql
 "REMAINING"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EndContractPayWhat" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [DeliveryModelInput](DeliveryModelInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EscrowRefundStatus](EscrowRefundStatus.md) ➡️

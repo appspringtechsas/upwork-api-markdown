@@ -34,9 +34,15 @@ Linked external account details for a freelancer profile
 {
   "id": 4,
   "name": "xyz789",
-  "expiryDateTime": "xyz789",
+  "expiryDateTime": "abc123",
   "revokedDateTime": "xyz789",
-  "authorizedDateTime": "xyz789",
-  "userProfile": "xyz789"
+  "authorizedDateTime": "abc123",
+  "userProfile": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileLinkedExternalAccounts" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileLanguagesConnection](FreelancerProfileLanguagesConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileLinkedExternalAccountsConnection](FreelancerProfileLinkedExternalAccountsConnection.md) ➡️

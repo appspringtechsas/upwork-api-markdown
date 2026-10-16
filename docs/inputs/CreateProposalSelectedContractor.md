@@ -29,6 +29,12 @@ Input type for selected contractor
 ```json
 {
   "id": "xyz789",
-  "oDeskUserID": "xyz789"
+  "oDeskUserID": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateProposalSelectedContractor" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateProposalQuestion](CreateProposalQuestion.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateProposalSri](CreateProposalSri.md) ➡️

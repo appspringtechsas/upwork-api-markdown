@@ -27,8 +27,14 @@ generated_by: "scripts/convert.mjs"
 ```json
 {
   "amount": MoneyInput,
-  "description": "xyz789",
-  "dueDate": "xyz789",
-  "attachmentUids": ["xyz789"]
+  "description": "abc123",
+  "dueDate": "abc123",
+  "attachmentUids": ["abc123"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalMilestoneInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalHourlyTermsInput](ContractProposalHourlyTermsInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalMilestoneTermsV2Input](ContractProposalMilestoneTermsV2Input.md) ➡️

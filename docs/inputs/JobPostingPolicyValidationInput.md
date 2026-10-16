@@ -28,3 +28,9 @@ Input for Trust & Safety policy validation on a job posting update. Validation s
 ```json
 {"policyCoachIntent": true}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingPolicyValidationInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingLocationRequest](JobPostingLocationRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingPtcInfoRequest](JobPostingPtcInfoRequest.md) ➡️

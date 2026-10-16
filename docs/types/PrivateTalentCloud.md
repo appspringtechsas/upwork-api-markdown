@@ -45,22 +45,28 @@ A private group of professional freelancers and agencies for Upwork Enterprise c
 ```json
 {
   "id": "4",
-  "name": "abc123",
+  "name": "xyz789",
   "creator": GenericUser,
   "creatorOrganization": GenericOrganization,
-  "joinInstructions": "xyz789",
+  "joinInstructions": "abc123",
   "welcomeMessageToAddedFreelancers": "abc123",
   "joinRequestAutoApproved": true,
   "messageAfterJoinRequest": "xyz789",
-  "joinRejectionMessage": "xyz789",
-  "externalName": "abc123",
-  "active": true,
+  "joinRejectionMessage": "abc123",
+  "externalName": "xyz789",
+  "active": false,
   "joinRequestNotifyUsers": [GenericUser],
   "logoImageLarge": File,
   "logoImageSmall": File,
   "description": "abc123",
   "onboardingTaskEnabled": true,
   "onboardingTaskEnableUpdatedDateTime": "abc123",
-  "selectable": true
+  "selectable": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PrivateTalentCloud" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserFreelancerProfilesSearchRecord](UserFreelancerProfilesSearchRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrivateTalentCloudConnection](PrivateTalentCloudConnection.md) ➡️

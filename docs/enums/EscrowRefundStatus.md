@@ -17,7 +17,7 @@ Escrow refund status
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Open` | Refund is open |
 | `Disputed` | Refund is disputed |
@@ -31,3 +31,9 @@ Escrow refund status
 ```graphql
 "Open"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EscrowRefundStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [EndContractPayWhat](EndContractPayWhat.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobType](JobType.md) ➡️

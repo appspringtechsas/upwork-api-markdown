@@ -25,8 +25,14 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "totalCount": 123,
+  "totalCount": 987,
   "edges": [ClientInvitationEdge],
   "pageInfo": PageInfo
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitationConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitationChangeReason](ClientInvitationChangeReason.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationEdge](ClientInvitationEdge.md) ➡️

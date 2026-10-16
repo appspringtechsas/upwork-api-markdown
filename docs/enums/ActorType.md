@@ -17,7 +17,7 @@ Actor type in offer workflow
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `System` | System actor |
 | `AgencyManager` | Agency manager |
@@ -31,3 +31,9 @@ Actor type in offer workflow
 ```graphql
 "System"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ActorType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CountryRegion](CountryRegion.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AgreementKind](AgreementKind.md) ➡️

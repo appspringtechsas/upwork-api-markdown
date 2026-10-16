@@ -17,7 +17,7 @@ Offer state values
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `DRAFT` | Offer is in draft |
 | `DRAFT_CHANGED` | Draft offer is changed |
@@ -47,3 +47,9 @@ Offer state values
 ```graphql
 "DRAFT"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferState" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferSearchAttribute](OfferSearchAttribute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferType](OfferType.md) ➡️

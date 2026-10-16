@@ -28,3 +28,9 @@ Preferred location
 ```json
 {"type": "CITY"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PrefLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PersonSavedJob](PersonSavedJob.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PubSimilarJob](PubSimilarJob.md) ➡️

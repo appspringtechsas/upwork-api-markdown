@@ -32,3 +32,9 @@ Input for updating workflow task details
   "labels": [WorkflowTaskPatchLabelInput]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UpdateWorkflowTaskDetailsInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryContractInput](WorkDiaryContractInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowTaskPatchLabelInput](WorkflowTaskPatchLabelInput.md) ➡️

@@ -32,11 +32,17 @@ Relationship between a freelancer and a client
 
 ```json
 {
-  "companyRid": "4",
-  "companyName": "xyz789",
+  "companyRid": 4,
+  "companyName": "abc123",
   "edcUserId": 4,
   "lastContractPlatform": "xyz789",
-  "lastContractRid": 4,
-  "lastContractTitle": "abc123"
+  "lastContractRid": "4",
+  "lastContractTitle": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerClientRelation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FixedPriceContractTerms](FixedPriceContractTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [HourlyContractTerms](HourlyContractTerms.md) ➡️

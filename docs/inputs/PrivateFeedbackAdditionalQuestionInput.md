@@ -30,9 +30,15 @@ Additional private feedback question payload
 
 ```json
 {
-  "id": "4",
-  "parentQuestionId": "4",
-  "selected": ["xyz789"],
+  "id": 4,
+  "parentQuestionId": 4,
+  "selected": ["abc123"],
   "tellUsMore": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PrivateFeedbackAdditionalQuestionInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferTermsMilestoneInput](OfferTermsMilestoneInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrivateFeedbackAnswerInput](PrivateFeedbackAnswerInput.md) ➡️

@@ -32,9 +32,15 @@ Connection type for paginated portfolio projects
 ```json
 {
   "projects": [FreelancerProfileProject],
-  "totalProjects": 987,
-  "pageNumber": 123,
+  "totalProjects": 123,
+  "pageNumber": 987,
   "pageSize": 987,
   "totalPages": 987
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentPortfolioProjectsConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentPersonAvailability](TalentPersonAvailability.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfile](TalentProfile.md) ➡️

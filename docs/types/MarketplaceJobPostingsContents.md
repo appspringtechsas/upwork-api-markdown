@@ -32,11 +32,17 @@ Contents of a marketplace job posting by ID
 
 ```json
 {
-  "id": "4",
-  "ciphertext": "xyz789",
-  "title": "xyz789",
+  "id": 4,
+  "ciphertext": "abc123",
+  "title": "abc123",
   "description": "xyz789",
   "publishedDateTime": "abc123",
   "annotations": MarketplacePostingAnnotations
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingsContents" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingContent](MarketplaceJobPostingContent.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchClientInfo](MarketplaceJobPostingSearchClientInfo.md) ➡️

@@ -17,7 +17,7 @@ Billing relationship type for organizations
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `BILL` | Standard billing |
 | `MANAGED_EMPLOYER` | Managed employer billing |
@@ -30,3 +30,9 @@ Billing relationship type for organizations
 ```graphql
 "BILL"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BillingType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BatchAssignmentOptions](BatchAssignmentOptions.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientVerificationStatus](ClientVerificationStatus.md) ➡️

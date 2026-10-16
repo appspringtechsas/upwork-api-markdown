@@ -17,7 +17,7 @@ Defines the duration of the job post
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ONE_TIME_PROJECT` | One-time project with defined scope |
 | `ONGOING_NEED` | Ongoing work with continuous needs |
@@ -29,3 +29,9 @@ Defines the duration of the job post
 ```graphql
 "ONE_TIME_PROJECT"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostDurationType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobDuration](JobDuration.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingAccess](JobPostingAccess.md) ➡️

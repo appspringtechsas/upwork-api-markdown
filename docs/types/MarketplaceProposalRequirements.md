@@ -29,8 +29,14 @@ Proposal requirements for a marketplace job posting
 
 ```json
 {
-  "coverLetterRequired": true,
+  "coverLetterRequired": false,
   "freelancerMilestonesAllowed": false,
   "screeningQuestions": [MarketplaceQuestion]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceProposalRequirements" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplacePostingWorkFlowState](MarketplacePostingWorkFlowState.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplacePublicCompanyInfo](MarketplacePublicCompanyInfo.md) ➡️

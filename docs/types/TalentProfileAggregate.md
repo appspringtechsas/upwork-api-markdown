@@ -34,9 +34,9 @@ Aggregated profile statistics and metrics for a freelancer
 
 ```json
 {
-  "lastWorkedOn": "xyz789",
-  "totalHourlyJobs": 123,
-  "totalFixedJobs": 123,
+  "lastWorkedOn": "abc123",
+  "totalHourlyJobs": 987,
+  "totalFixedJobs": 987,
   "topRatedStatus": "abc123",
   "totalFeedback": 123.45,
   "totalEarnings": 123.45,
@@ -44,3 +44,9 @@ Aggregated profile statistics and metrics for a freelancer
   "totalJobs": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileAggregate" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfile](TalentProfile.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileCommunityCertificate](TalentProfileCommunityCertificate.md) ➡️

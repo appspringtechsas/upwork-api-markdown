@@ -44,23 +44,29 @@ Custom field snapshot
 
 ```json
 {
-  "responseId": "4",
+  "responseId": 4,
   "id": 4,
   "itemId": 4,
   "typeSnap": "TEXT_FIELD",
-  "labelSnap": "xyz789",
+  "labelSnap": "abc123",
   "displayValueSnap": "xyz789",
   "creator": GenericUser,
   "createdDateTime": DateTime,
-  "rollupAssignmentId": "4",
-  "firstContractId": "4",
+  "rollupAssignmentId": 4,
+  "firstContractId": 4,
   "offerId": 4,
-  "jobPostingId": "4",
-  "byoInvitationId": "4",
+  "jobPostingId": 4,
+  "byoInvitationId": 4,
   "buyItNowId": 4,
-  "questionnaireResponsesId": "4",
-  "stale": false,
-  "termSectionId": "4",
-  "aclSnap": "abc123"
+  "questionnaireResponsesId": 4,
+  "stale": true,
+  "termSectionId": 4,
+  "aclSnap": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CustomFields" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractUser](ContractUser.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CustomFieldsConnection](CustomFieldsConnection.md) ➡️

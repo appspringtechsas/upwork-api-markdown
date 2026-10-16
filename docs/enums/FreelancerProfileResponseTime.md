@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `NEVER` | Never responds |
 | `SOON` | Responds soon (e.g., within hours) |
@@ -26,3 +26,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "NEVER"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileResponseTime" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileProjectType](FreelancerProfileProjectType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileVisibility](FreelancerProfileVisibility.md) ➡️

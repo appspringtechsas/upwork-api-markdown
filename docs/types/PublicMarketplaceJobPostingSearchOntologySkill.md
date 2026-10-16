@@ -30,9 +30,15 @@ Ontology skill information
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "prefLabel": "xyz789",
-  "highlighted": true,
-  "freeText": "xyz789"
+  "highlighted": false,
+  "freeText": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingSearchOntologySkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicMarketplaceJobPostingSearchOccupations](PublicMarketplaceJobPostingSearchOccupations.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingSearchSkill](PublicMarketplaceJobPostingSearchSkill.md) ➡️

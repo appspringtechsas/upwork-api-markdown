@@ -35,12 +35,18 @@ Location of the user
 ```json
 {
   "countryName": "xyz789",
-  "cityName": "xyz789",
+  "cityName": "abc123",
   "zip": "xyz789",
-  "timezone": "abc123",
+  "timezone": "xyz789",
   "timezoneName": "abc123",
-  "street": "xyz789",
+  "street": "abc123",
   "stateCode": "xyz789",
   "offsetToUTC": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserIdsByEmailResponse](UserIdsByEmailResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UserPermissionEdge](UserPermissionEdge.md) ➡️

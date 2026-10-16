@@ -34,13 +34,19 @@ Contract summary in freelancer search results
 
 ```json
 {
-  "description": "abc123",
+  "description": "xyz789",
   "feedback": FreelancerSearchResultContractFeedbackSummary,
-  "title": "xyz789",
+  "title": "abc123",
   "hourlyRate": Money,
-  "totalHours": 987,
+  "totalHours": 123,
   "totalCharges": Money,
-  "startedDateTime": "xyz789",
+  "startedDateTime": "abc123",
   "endDateTime": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerSearchResultContractSummary" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerSearchResultContractFeedbackSummary](FreelancerSearchResultContractFeedbackSummary.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerSearchResultLocation](FreelancerSearchResultLocation.md) ➡️

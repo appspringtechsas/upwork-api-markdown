@@ -29,8 +29,14 @@ Paginated collection of activities
 
 ```json
 {
-  "totalCount": 987,
+  "totalCount": 123,
   "edges": [ActivityEdge],
   "page": Page
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ActivitiesConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AccountProcessInstance](AccountProcessInstance.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Activity](Activity.md) ➡️

@@ -66,11 +66,17 @@ query marketplaceJobPostingsContents($ids: [ID!]!) {
         "id": "4",
         "ciphertext": "xyz789",
         "title": "xyz789",
-        "description": "xyz789",
-        "publishedDateTime": "abc123",
+        "description": "abc123",
+        "publishedDateTime": "xyz789",
         "annotations": MarketplacePostingAnnotations
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-marketplaceJobPostingsContents" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [marketplaceJobPostings](marketplaceJobPostings.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [countries](countries.md) ➡️

@@ -30,3 +30,9 @@ Offset/limit pagination options for contract lists
 ```json
 {"limit": 987, "offset": 987, "includeTotalCount": false}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractPagingInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractOptionsInput](ContractOptionsInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateMilestoneInput](CreateMilestoneInput.md) ➡️

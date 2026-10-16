@@ -34,11 +34,17 @@ Filter to load specific user's permissions
 ```json
 {
   "resourceType_eq": "OPENING",
-  "limit": 123,
-  "offset": "abc123",
+  "limit": 987,
+  "offset": "xyz789",
   "performExternalChecks_eq": false,
   "teamOrgIds_any": ["4"],
   "returnAllTeams": true,
   "returnFirstGrantedResult_eq": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserPermissionFilterV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserPermissionFilter](UserPermissionFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkdaysInput](WorkdaysInput.md) ➡️

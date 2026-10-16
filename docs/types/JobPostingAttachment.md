@@ -34,13 +34,19 @@ Attachment metadata for a job posting
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "sequenceNumber": 987,
-  "fileName": "xyz789",
-  "link": "xyz789",
+  "fileName": "abc123",
+  "link": "abc123",
   "afsFileLink": "abc123",
   "contentLength": 123,
   "contentType": "abc123",
-  "createdDateTime": "abc123"
+  "createdDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingAttachment" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingAdditionalInfo](JobPostingAdditionalInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingCategory](JobPostingCategory.md) ➡️

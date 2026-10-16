@@ -17,7 +17,7 @@ Visibility settings for community certificates
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `PUBLIC` | Visible to everyone |
 | `ENTERPRISE_CLIENTS_ONLY` | Visible only to enterprise clients |
@@ -30,3 +30,9 @@ Visibility settings for community certificates
 ```graphql
 "PUBLIC"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCommunityCertificateVisibility" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCommunityCertificateStatus](TalentCommunityCertificateStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentContractAccessType](TalentContractAccessType.md) ➡️

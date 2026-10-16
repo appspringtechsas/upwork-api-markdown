@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Drafted` |  |
 | `Invalid` |  |
@@ -32,3 +32,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "Drafted"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitationStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitationContext](ClientInvitationContext.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalAnnotation](ClientProposalAnnotation.md) ➡️

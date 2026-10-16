@@ -37,16 +37,22 @@ Create employment record input
 
 ```json
 {
-  "userId": 4,
+  "userId": "4",
   "companyName": "xyz789",
-  "jobTitle": "xyz789",
+  "jobTitle": "abc123",
   "standardizedCompanyId": "abc123",
-  "standardizedJobTitleId": "abc123",
-  "role": "abc123",
-  "startDate": "abc123",
-  "endDate": "abc123",
+  "standardizedJobTitleId": "xyz789",
+  "role": "xyz789",
+  "startDate": "xyz789",
+  "endDate": "xyz789",
   "description": "abc123",
   "city": "abc123",
-  "country": "xyz789"
+  "country": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateEmploymentRecordInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AddTeamActivityRequest](AddTeamActivityRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateOrganizationInput](CreateOrganizationInput.md) ➡️

@@ -28,3 +28,9 @@ Skill edge with ontology mapping
 ```json
 {"skill": Skill}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentSkillNodeEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentPurchasedInvitationBadge](TalentPurchasedInvitationBadge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentSpecializedProfile](TalentSpecializedProfile.md) ➡️

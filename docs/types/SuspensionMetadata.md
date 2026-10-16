@@ -28,7 +28,13 @@ Suspension metadata attached to permission denial
 
 ```json
 {
-  "resumptionSessionId": "xyz789",
+  "resumptionSessionId": "abc123",
   "subjectTypes": ["SOLE_PROPRIETOR"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SuspensionMetadata" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [StaffUser](StaffUser.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateRoomStoryResponse](UpdateRoomStoryResponse.md) ➡️

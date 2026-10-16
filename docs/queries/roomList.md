@@ -154,3 +154,13 @@ query ListRooms($filter: RoomFilter, $pagination: Pagination) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **1** (List Rooms) in [Sample Messaging Flow](../operations/examples/messaging.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-roomList" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [room](room.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [roomStories](roomStories.md) ➡️

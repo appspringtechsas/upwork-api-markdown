@@ -30,9 +30,15 @@ Job opening details including title, description, and requirements
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "title": "abc123",
   "visibility": "PUBLIC",
   "vegaJobDetails": TalentVegaJobDetails
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentOpening" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentJobCategoryGroup](TalentJobCategoryGroup.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentOtherCommunityCertificate](TalentOtherCommunityCertificate.md) ➡️

@@ -30,9 +30,15 @@ Client's jobs
 
 ```json
 {
-  "filledCount": 987,
+  "filledCount": 123,
   "openCount": 123,
-  "postedCount": 123,
+  "postedCount": 987,
   "openJobs": [Job]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BuyerJobs" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BuyerExtra](BuyerExtra.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BuyerWorkHistoryFeedback](BuyerWorkHistoryFeedback.md) ➡️

@@ -61,7 +61,7 @@ query roomStories($filter: RoomStoryFilter) {
 {
   "data": {
     "roomStories": {
-      "totalCount": 987,
+      "totalCount": 123,
       "edges": [RoomStoryEdge],
       "pageInfo": PageInfo
     }
@@ -215,3 +215,13 @@ query RoomMessages($filter: RoomStoryFilter!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **4** (Read Messages) in [Sample Messaging Flow](../operations/examples/messaging.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-roomStories" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [roomList](roomList.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [roomStory](roomStory.md) ➡️

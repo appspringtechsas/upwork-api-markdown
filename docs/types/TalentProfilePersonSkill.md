@@ -40,19 +40,25 @@ Skill listed on a freelancer profile with ontology mapping
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "skill": "abc123",
   "prettyName": "abc123",
-  "status": "xyz789",
+  "status": "abc123",
   "description": "abc123",
-  "externalLink": "abc123",
-  "wikipediaPageId": "abc123",
-  "freebaseMachineId": "xyz789",
-  "migrateTo": "xyz789",
-  "ctime": "xyz789",
-  "mtime": "abc123",
-  "rank": "xyz789",
+  "externalLink": "xyz789",
+  "wikipediaPageId": "xyz789",
+  "freebaseMachineId": "abc123",
+  "migrateTo": "abc123",
+  "ctime": "abc123",
+  "mtime": "xyz789",
+  "rank": "abc123",
   "ontologySkill": Skill,
   "parentOntologySkill": Skill
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfilePersonSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfilePersonalData](TalentProfilePersonalData.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileProject](TalentProfileProject.md) ➡️

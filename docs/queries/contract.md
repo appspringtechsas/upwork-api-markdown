@@ -106,7 +106,7 @@ query contract($id: ID!) {
 #### Variables
 
 ```json
-{"id": "4"}
+{"id": 4}
 ```
 
 #### Response
@@ -115,32 +115,32 @@ query contract($id: ID!) {
 {
   "data": {
     "contract": {
-      "id": "4",
-      "termId": 4,
+      "id": 4,
+      "termId": "4",
       "title": "abc123",
       "contractType": "HOURLY",
       "job": MarketplaceJobPosting,
-      "hasAgency": true,
+      "hasAgency": false,
       "offer": Offer,
       "clientProposal": ClientProposal,
       "vendorProposal": VendorProposal,
       "weeklyChargeAmount": Money,
-      "weeklyHoursLimit": 123.45,
+      "weeklyHoursLimit": 987.65,
       "hourlyChargeRate": Money,
       "createdDateTime": "xyz789",
-      "firstContractStartDateTime": "xyz789",
+      "firstContractStartDateTime": "abc123",
       "modifiedDateTime": "xyz789",
       "startDateTime": "abc123",
-      "endDateTime": "xyz789",
+      "endDateTime": "abc123",
       "manualTimeAllowed": false,
       "hideScreenshots": true,
       "last": true,
       "weeklyStipendHours": 123.45,
       "estimatedDuration": ProposalEngagementDuration,
       "status": "ACTIVE",
-      "suspended": true,
+      "suspended": false,
       "freelancer": FreelancerProfile,
-      "paused": true,
+      "paused": false,
       "clientCompany": PublicCompanyInfo,
       "milestones": [Milestone],
       "contractId": 4,
@@ -151,3 +151,9 @@ query contract($id: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-contract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [visitor](visitor.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractByTerm](contractByTerm.md) ➡️

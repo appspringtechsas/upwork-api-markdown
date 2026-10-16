@@ -17,7 +17,7 @@ Freelancer last activity period filter options
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ANY_TIME` | Any activity time |
 | `WITHIN_2_WEEKS` | Active within last 2 weeks |
@@ -31,3 +31,9 @@ Freelancer last activity period filter options
 ```graphql
 "ANY_TIME"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalLastActivity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalJobSuccessSocre](ClientProposalJobSuccessSocre.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalRatedType](ClientProposalRatedType.md) ➡️

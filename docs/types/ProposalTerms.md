@@ -32,7 +32,13 @@ Proposal terms, vendor applied on
 {
   "chargeRate": Money,
   "estimatedDuration": ProposalEngagementDuration,
-  "upfrontPaymentPercent": 123.45,
-  "connectsBid": 123
+  "upfrontPaymentPercent": 987.65,
+  "connectsBid": 987
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProposalTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalReason](ProposalReason.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateClientProposalResult](UpdateClientProposalResult.md) ➡️

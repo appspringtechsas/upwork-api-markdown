@@ -68,3 +68,9 @@ mutation updateTeamActivity(
 ```json
 {"data": {"updateTeamActivity": {"success": true}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateTeamActivity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateRoomV2](updateRoomV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateWorkflowTask](updateWorkflowTask.md) ➡️

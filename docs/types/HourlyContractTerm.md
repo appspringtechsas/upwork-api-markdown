@@ -40,19 +40,25 @@ Hourly contract term including rate and dates
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "hourlyRate": Money,
   "createDate": "xyz789",
   "modifyDate": "abc123",
-  "changeDate": "abc123",
+  "changeDate": "xyz789",
   "createdBy": ContractUser,
   "creatorUserType": "CLIENT",
   "changedBy": ContractUser,
-  "startDate": "abc123",
+  "startDate": "xyz789",
   "changingUserType": "CLIENT",
-  "manualTimeAllowed": false,
+  "manualTimeAllowed": true,
   "endDate": "abc123",
   "jobType": "FIXED",
   "ptcData": PtcData
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-HourlyContractTerm" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerFeedback](FreelancerFeedback.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [HourlyLimit](HourlyLimit.md) ➡️

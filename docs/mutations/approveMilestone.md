@@ -95,7 +95,7 @@ mutation approveMilestone($input: ApproveMilestoneInput!) {
 {
   "data": {
     "approveMilestone": {
-      "id": 4,
+      "id": "4",
       "createdBy": GenericUser,
       "dueDateTime": "xyz789",
       "state": "NotFunded",
@@ -107,12 +107,12 @@ mutation approveMilestone($input: ApproveMilestoneInput!) {
       "overpayment": Money,
       "bonus": Money,
       "previousMilestoneUnusedDeposit": Money,
-      "submissionCount": 987,
+      "submissionCount": 123,
       "sequenceId": 123,
-      "payComments": "xyz789",
+      "payComments": "abc123",
       "lastSubmissionCreatedTime": "xyz789",
-      "createdDateTime": "abc123",
-      "modifiedDateTime": "xyz789",
+      "createdDateTime": "xyz789",
+      "modifiedDateTime": "abc123",
       "instructions": "abc123",
       "submissionEvents": [SubmissionEvent],
       "submissions": [MilestoneSubmissions]
@@ -165,3 +165,13 @@ mutation ApproveMilestone($input: ApproveMilestoneInput!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **2** (Approve milestone) in [Working with Milestones Sample Flow](../operations/examples/milestones.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-approveMilestone" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [activateMilestone](activateMilestone.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createMilestoneV2](createMilestoneV2.md) ➡️

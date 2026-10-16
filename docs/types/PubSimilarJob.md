@@ -36,15 +36,21 @@ Similar job details
 
 ```json
 {
-  "ciphertext": "abc123",
-  "title": "abc123",
-  "description": "xyz789",
-  "engagement": "xyz789",
+  "ciphertext": "xyz789",
+  "title": "xyz789",
+  "description": "abc123",
+  "engagement": "abc123",
   "durationLabel": "abc123",
   "type": "HOURLY",
-  "createdOn": "xyz789",
+  "createdOn": "abc123",
   "ontologySkills": [SandsSkill],
   "hourlyBudgetMin": 123.45,
-  "hourlyBudgetMax": 123.45
+  "hourlyBudgetMax": 987.65
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PubSimilarJob" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PrefLocation](PrefLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SandsData](SandsData.md) ➡️

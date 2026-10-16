@@ -30,9 +30,15 @@ Terms associated with the offer
 
 ```json
 {
-  "expectedStartDate": "xyz789",
-  "expectedEndDate": "xyz789",
+  "expectedStartDate": "abc123",
+  "expectedEndDate": "abc123",
   "fixedPriceTerm": FixedPriceTerm,
   "hourlyTerms": HourlyTerms
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferList](OfferList.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PtcData](PtcData.md) ➡️

@@ -40,11 +40,17 @@ custom fields input parameters
   "ids": ["4"],
   "itemIds": [4],
   "rollupAssignmentIds": [4],
-  "offerIds": [4],
-  "jobPostingIds": ["4"],
+  "offerIds": ["4"],
+  "jobPostingIds": [4],
   "byoInvitationIds": ["4"],
   "buyItNowIds": [4],
-  "questionnaireResponsesIds": [4],
+  "questionnaireResponsesIds": ["4"],
   "organizationIds": ["4"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CustomFieldsInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreationOfferInput](CreationOfferInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [DeleteMilestoneInput](DeleteMilestoneInput.md) ➡️

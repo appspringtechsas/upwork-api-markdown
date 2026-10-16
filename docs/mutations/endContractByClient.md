@@ -53,10 +53,7 @@ mutation endContractByClient(
 #### Variables
 
 ```json
-{
-  "contractId": "4",
-  "input": EndContractInput
-}
+{"contractId": 4, "input": EndContractInput}
 ```
 
 #### Response
@@ -105,3 +102,13 @@ mutation EndContractByClient($contractId: ID!, $input: EndContractInput!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **4** (Close contract) in [Working with Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-endContractByClient" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [endContractAtomic](endContractAtomic.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [pauseContract](pauseContract.md) ➡️

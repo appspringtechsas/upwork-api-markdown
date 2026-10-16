@@ -55,14 +55,14 @@ Filter criteria for searching marketplace job postings
 
 ```json
 {
-  "searchExpression_eq": "abc123",
+  "searchExpression_eq": "xyz789",
   "skillExpression_eq": "xyz789",
-  "titleExpression_eq": "xyz789",
+  "titleExpression_eq": "abc123",
   "searchTerm_eq": SearchTerm,
   "categoryIds_any": ["4"],
-  "subcategoryIds_any": [4],
+  "subcategoryIds_any": ["4"],
   "occupationIds_any": [4],
-  "ontologySkillIds_all": ["4"],
+  "ontologySkillIds_all": [4],
   "jobType_eq": "HOURLY",
   "duration_any": ["WEEK"],
   "workload_eq": "FULL_TIME",
@@ -76,13 +76,19 @@ Filter criteria for searching marketplace job postings
   "timezone_eq": "abc123",
   "daysPosted_eq": 987,
   "ptcIds_any": ["4"],
-  "ptcOnly_eq": false,
-  "enterpriseOnly_eq": false,
+  "ptcOnly_eq": true,
+  "enterpriseOnly_eq": true,
   "proposalRange_eq": IntRange,
   "pagination_eq": Pagination,
   "area_eq": AreaFilter,
-  "preserveFacet_eq": "abc123",
+  "preserveFacet_eq": "xyz789",
   "userLocationMatch_eq": true,
-  "visitorCountry_eq": "abc123"
+  "visitorCountry_eq": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingsSearchFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileSearchWeightedOntologyIdInput](FreelancerProfileSearchWeightedOntologyIdInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Paging](Paging.md) ➡️

@@ -27,8 +27,14 @@ generated_by: "scripts/convert.mjs"
 ```json
 {
   "suppressEmail": false,
-  "referred": false,
+  "referred": true,
   "invitedByRecruiter": true,
-  "viewed": true
+  "viewed": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitationAdditionalInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitationAcceptanceDetails](ClientInvitationAcceptanceDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationChangeReason](ClientInvitationChangeReason.md) ➡️

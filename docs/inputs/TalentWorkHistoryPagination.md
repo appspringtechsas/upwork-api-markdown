@@ -27,5 +27,11 @@ Pagination options for work history
 ### Example
 
 ```json
-{"offset": 987, "limit": 987}
+{"offset": 123, "limit": 987}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentWorkHistoryPagination" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentWorkHistoryFilterInput](TalentWorkHistoryFilterInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentWorkHistorySort](TalentWorkHistorySort.md) ➡️

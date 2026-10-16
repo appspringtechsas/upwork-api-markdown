@@ -17,7 +17,7 @@ Filter options for room categories
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `FAVORITES` | Favorite rooms |
 | `PEOPLE` | People (1:1) rooms |
@@ -31,3 +31,9 @@ Filter options for room categories
 ```graphql
 "FAVORITES"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomCategoryFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RestictionSubjectType](RestictionSubjectType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomPrivacyFilter](RoomPrivacyFilter.md) ➡️

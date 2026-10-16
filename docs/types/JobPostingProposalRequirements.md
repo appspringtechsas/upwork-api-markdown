@@ -29,8 +29,14 @@ Proposal requirements for a job posting
 
 ```json
 {
-  "coverLetterRequired": true,
+  "coverLetterRequired": false,
   "freelancerMilestonesAllowed": false,
   "screeningQuestions": [JobPostingQuestion]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingProposalRequirements" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingOwnership](JobPostingOwnership.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingPtcInfo](JobPostingPtcInfo.md) ➡️

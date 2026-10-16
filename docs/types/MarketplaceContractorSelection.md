@@ -34,3 +34,9 @@ Contractor selection for a marketplace job posting
   "location": MarketplaceLocation
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceContractorSelection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceAdditionalSearchInfo](MarketplaceAdditionalSearchInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceContractTerms](MarketplaceContractTerms.md) ➡️

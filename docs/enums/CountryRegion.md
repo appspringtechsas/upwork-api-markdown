@@ -17,7 +17,7 @@ Country region classification
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `EU` | European Union |
 | `OTHER` | Other regions |
@@ -29,3 +29,9 @@ Country region classification
 ```graphql
 "EU"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CountryRegion" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkFlowStateStatus](WorkFlowStateStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ActorType](ActorType.md) ➡️

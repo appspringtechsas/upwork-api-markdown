@@ -126,35 +126,35 @@ mutation roomCreate1on1IfNotExists(
 {
   "data": {
     "roomCreate1on1IfNotExists": {
-      "id": 4,
+      "id": "4",
       "roomName": "xyz789",
       "organization": CurrentOrganization,
       "creator": RoomUser,
-      "createdAtDateTime": "abc123",
-      "public": false,
+      "createdAtDateTime": "xyz789",
+      "public": true,
       "topic": "abc123",
       "owner": RoomUser,
       "numUnread": 987,
-      "roomFavoriteDateTime": "xyz789",
-      "favorite": false,
+      "roomFavoriteDateTime": "abc123",
+      "favorite": true,
       "numUnreadMentions": 987,
       "roomUsers": [RoomUser],
-      "numUsers": 123,
+      "numUsers": 987,
       "joinDateTime": "abc123",
       "lastVisitedDateTime": "xyz789",
-      "lastReadDateTime": "xyz789",
+      "lastReadDateTime": "abc123",
       "roomType": "ONE_ON_ONE",
-      "readOnlyDateTime": "xyz789",
-      "readOnly": false,
+      "readOnlyDateTime": "abc123",
+      "readOnly": true,
       "blockDateTime": "xyz789",
       "blockedBy": RoomUser,
       "hidden": false,
       "muted": false,
-      "contractId": "4",
+      "contractId": 4,
       "contract": Contract,
       "contractDetails": ContractDetails,
       "vendorProposal": VendorProposal,
-      "roomNote": "xyz789",
+      "roomNote": "abc123",
       "roomNotePresent": false,
       "offerIds": ["4"],
       "recruiters": [GenericUser],
@@ -166,3 +166,9 @@ mutation roomCreate1on1IfNotExists(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-roomCreate1on1IfNotExists" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [removeUserFromRoom](removeUserFromRoom.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [unarchiveTeamActivity](unarchiveTeamActivity.md) ➡️

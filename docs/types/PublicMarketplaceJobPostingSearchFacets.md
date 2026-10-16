@@ -54,3 +54,9 @@ Public job posting facets in marketplace
   "freelancersNeeded": Map
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingSearchFacets" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PagingInfo](PagingInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingSearchOccupation](PublicMarketplaceJobPostingSearchOccupation.md) ➡️

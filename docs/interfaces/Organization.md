@@ -34,8 +34,8 @@ Base organization interface
 
 ## Possible Types
 
-| Value | Description |
-|---|---|
+| Possible Types |
+|---|
 | [`CurrentOrganization`](../types/CurrentOrganization.md) |
 | [`GenericOrganization`](../types/GenericOrganization.md) |
 
@@ -45,17 +45,23 @@ Base organization interface
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "rid": 4,
-  "legacyId": "4",
-  "name": "abc123",
+  "legacyId": 4,
+  "name": "xyz789",
   "type": "BUSINESS",
   "legacyType": "CLIENT",
   "flag": OrganizationFlag,
   "active": true,
-  "hidden": true,
+  "hidden": false,
   "company": PrivateCompanyInfo,
-  "photoUrl": "xyz789",
-  "creationDate": "xyz789"
+  "photoUrl": "abc123",
+  "creationDate": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Organization" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfilesSearchRecordInterface](FreelancerProfilesSearchRecordInterface.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [User](User.md) ➡️

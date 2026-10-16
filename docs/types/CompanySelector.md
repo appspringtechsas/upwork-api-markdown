@@ -28,3 +28,9 @@ Company selector provides information on companies that user can select
 ```json
 {"items": [CompanySelectorItem]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CompanySelector" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CompanyInfo](CompanyInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CompanySelectorItem](CompanySelectorItem.md) ➡️

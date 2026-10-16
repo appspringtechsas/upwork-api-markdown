@@ -28,3 +28,9 @@ Response for available profile activity metrics
 ```json
 {"metrics": [ProfileActivityMetricAvailability]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProfileActivityMetricsAvailability" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProfileActivityMetrics](ProfileActivityMetrics.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProfileActivityMetricsLastUpdated](ProfileActivityMetricsLastUpdated.md) ➡️

@@ -31,6 +31,12 @@ Last event on offer
 {
   "reasonId": "4",
   "message": "xyz789",
-  "lastEventTime": "abc123"
+  "lastEventTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferLastEvent" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferFeatures](OfferFeatures.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferList](OfferList.md) ➡️

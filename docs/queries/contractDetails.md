@@ -125,19 +125,19 @@ query contractDetails(
 {
   "data": {
     "contractDetails": {
-      "id": 4,
+      "id": "4",
       "title": "abc123",
       "status": "ACTIVE",
       "closingReason": ClosingReason,
       "deliveryModel": "TALENT_MARKETPLACE",
       "kind": "WEEKLY_RETAINER",
       "isPtc": true,
-      "createDate": "abc123",
-      "modifyDate": "xyz789",
+      "createDate": "xyz789",
+      "modifyDate": "abc123",
       "startDate": "abc123",
-      "endDate": "xyz789",
+      "endDate": "abc123",
       "offer": Offer,
-      "offerId": "4",
+      "offerId": 4,
       "job": JobPosting,
       "freelancer": ContractUser,
       "vendorOrganization": GenericOrganization,
@@ -268,3 +268,13 @@ query ContractDetails($contractId: ID!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **2** (View contract details) in [Working with Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-contractDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [contractByTerm](contractByTerm.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractList](contractList.md) ➡️

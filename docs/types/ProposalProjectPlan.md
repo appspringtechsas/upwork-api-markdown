@@ -27,8 +27,11 @@ Project plan is a set of milestones defined by vendor
 ### Example
 
 ```json
-{
-  "id": "4",
-  "milestones": [ProposalMilestones]
-}
+{"id": 4, "milestones": [ProposalMilestones]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProposalProjectPlan" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalMilestones](ProposalMilestones.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProposalQuestionAnswer](ProposalQuestionAnswer.md) ➡️

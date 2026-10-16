@@ -58,16 +58,16 @@ Portfolio project showcasing freelancer work
   "title": "xyz789",
   "description": "xyz789",
   "projectContractLink": TalentProjectContractLink,
-  "thumbnail": "xyz789",
+  "thumbnail": "abc123",
   "thumbnailOriginal": "xyz789",
-  "projectUrl": "xyz789",
-  "completionDateTime": "xyz789",
+  "projectUrl": "abc123",
+  "completionDateTime": "abc123",
   "public": false,
   "rank": 123,
   "attachments": [TalentProfileProjectAttachment],
   "skills": ["xyz789"],
-  "creationDateTime": "abc123",
-  "categoryId": "4",
+  "creationDateTime": "xyz789",
+  "categoryId": 4,
   "videoUrl": "xyz789",
   "occupationId": "abc123",
   "projectType": "CLASSIC_VIEW",
@@ -77,10 +77,16 @@ Portfolio project showcasing freelancer work
   "primaryImageId": "xyz789",
   "tags": [TalentProfileProjectTag],
   "modificationDateTime": "xyz789",
-  "developerId": "abc123",
-  "thumbnailId": "xyz789",
-  "thumbnailOriginalId": "abc123",
-  "category": "abc123",
+  "developerId": "xyz789",
+  "thumbnailId": "abc123",
+  "thumbnailOriginalId": "xyz789",
+  "category": "xyz789",
   "subCategory": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileProject" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfilePersonSkill](TalentProfilePersonSkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileProjectAttachment](TalentProfileProjectAttachment.md) ➡️

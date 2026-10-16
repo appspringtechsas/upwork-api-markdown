@@ -48,7 +48,7 @@ query regions {
   "data": {
     "regions": [
       {
-        "id": 4,
+        "id": "4",
         "name": "xyz789",
         "parentRegion": Region
       }
@@ -56,3 +56,9 @@ query regions {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-regions" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [reasons](reasons.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [requestMetadata](requestMetadata.md) ➡️

@@ -31,8 +31,14 @@ Freelancer's feedback details
 ```json
 {
   "score": 987.65,
-  "comment": "xyz789",
-  "clientResponse": "abc123",
+  "comment": "abc123",
+  "clientResponse": "xyz789",
   "recommendScore": 987
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerFeedback" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FixedPriceTerm](FixedPriceTerm.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [HourlyContractTerm](HourlyContractTerm.md) ➡️

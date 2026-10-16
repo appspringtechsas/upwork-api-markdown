@@ -107,7 +107,7 @@ query offerRoom($offerId: ID!) {
 #### Variables
 
 ```json
-{"offerId": "4"}
+{"offerId": 4}
 ```
 
 #### Response
@@ -117,36 +117,36 @@ query offerRoom($offerId: ID!) {
   "data": {
     "offerRoom": {
       "id": "4",
-      "roomName": "xyz789",
+      "roomName": "abc123",
       "organization": CurrentOrganization,
       "creator": RoomUser,
       "createdAtDateTime": "abc123",
       "public": false,
-      "topic": "xyz789",
+      "topic": "abc123",
       "owner": RoomUser,
       "numUnread": 987,
-      "roomFavoriteDateTime": "abc123",
+      "roomFavoriteDateTime": "xyz789",
       "favorite": true,
-      "numUnreadMentions": 123,
+      "numUnreadMentions": 987,
       "roomUsers": [RoomUser],
-      "numUsers": 987,
+      "numUsers": 123,
       "joinDateTime": "abc123",
-      "lastVisitedDateTime": "xyz789",
+      "lastVisitedDateTime": "abc123",
       "lastReadDateTime": "xyz789",
       "roomType": "ONE_ON_ONE",
       "readOnlyDateTime": "xyz789",
       "readOnly": false,
-      "blockDateTime": "abc123",
+      "blockDateTime": "xyz789",
       "blockedBy": RoomUser,
       "hidden": false,
-      "muted": false,
+      "muted": true,
       "contractId": "4",
       "contract": Contract,
       "contractDetails": ContractDetails,
       "vendorProposal": VendorProposal,
       "roomNote": "xyz789",
-      "roomNotePresent": true,
-      "offerIds": ["4"],
+      "roomNotePresent": false,
+      "offerIds": [4],
       "recruiters": [GenericUser],
       "latestStory": RoomStory,
       "story": RoomStory,
@@ -156,3 +156,9 @@ query offerRoom($offerId: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-offerRoom" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [freelancerProfileByProfileKey](freelancerProfileByProfileKey.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [oneOnOneRoom](oneOnOneRoom.md) ➡️

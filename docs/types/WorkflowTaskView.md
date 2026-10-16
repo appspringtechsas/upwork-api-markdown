@@ -50,27 +50,33 @@ Detailed view of a single task within a workflow
 ```json
 {
   "id": 4,
-  "type": "abc123",
-  "title": "xyz789",
+  "type": "xyz789",
+  "title": "abc123",
   "description": "abc123",
   "status": "NOT_OPEN",
   "assignee": WorkflowTaskAssigneeView,
   "comments": [WorkflowTaskComment],
-  "createdDateTime": "xyz789",
+  "createdDateTime": "abc123",
   "finishedDateTime": "xyz789",
   "dueDate": "xyz789",
-  "modifiedDateTime": "xyz789",
+  "modifiedDateTime": "abc123",
   "createdBy": "xyz789",
   "modifiedBy": "xyz789",
   "labels": ["FLAGGED"],
   "active": true,
   "notRequired": false,
-  "dependsOn": "abc123",
+  "dependsOn": "xyz789",
   "externalTaskId": "xyz789",
-  "delayReasons": "xyz789",
+  "delayReasons": "abc123",
   "customAttributes": [WorkflowTaskCustomAttribute],
-  "order": 123,
+  "order": 987,
   "canEdit": true,
-  "owner": false
+  "owner": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowTaskView" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskCustomAttribute](WorkflowTaskCustomAttribute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowView](WorkflowView.md) ➡️

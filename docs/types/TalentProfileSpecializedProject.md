@@ -51,30 +51,36 @@ Portfolio project for a specialized profile
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "title": "abc123",
   "description": "abc123",
   "projectContractLink": TalentProjectContractLink,
   "thumbnail": "abc123",
   "thumbnailOriginal": "xyz789",
   "projectUrl": "abc123",
-  "completionDateTime": "abc123",
+  "completionDateTime": "xyz789",
   "public": false,
   "rank": 123,
   "attachments": [TalentProfileProjectAttachment],
-  "creationDateTime": "abc123",
-  "categoryId": "4",
-  "videoUrl": "abc123",
-  "occupationId": "xyz789",
+  "creationDateTime": "xyz789",
+  "categoryId": 4,
+  "videoUrl": "xyz789",
+  "occupationId": "abc123",
   "projectType": "CLASSIC_VIEW",
-  "role": "xyz789",
-  "projectGoal": "xyz789",
+  "role": "abc123",
+  "projectGoal": "abc123",
   "solution": "abc123",
   "primaryImageId": "xyz789",
-  "modificationDateTime": "xyz789",
-  "thumbnailId": "xyz789",
-  "thumbnailOriginalId": "abc123",
-  "category": "abc123",
+  "modificationDateTime": "abc123",
+  "thumbnailId": "abc123",
+  "thumbnailOriginalId": "xyz789",
+  "category": "xyz789",
   "subCategory": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileSpecializedProject" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileSettings](TalentProfileSettings.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileUserPreferences](TalentProfileUserPreferences.md) ➡️

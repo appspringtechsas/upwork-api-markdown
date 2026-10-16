@@ -29,8 +29,14 @@ Reason why a contract was closed
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "apiRef": "abc123",
-  "reason": "xyz789"
+  "reason": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClosingReason" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientFeedback](ClientFeedback.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Contract](Contract.md) ➡️

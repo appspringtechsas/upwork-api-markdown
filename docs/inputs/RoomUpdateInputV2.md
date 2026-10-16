@@ -32,9 +32,15 @@ Input required to update a room
 ```json
 {
   "roomId": "4",
-  "roomName": "xyz789",
+  "roomName": "abc123",
   "topic": "abc123",
-  "reason": "xyz789",
+  "reason": "abc123",
   "readOnly": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomUpdateInputV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomStoryUpdateInputV2](RoomStoryUpdateInputV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomUserInput](RoomUserInput.md) ➡️

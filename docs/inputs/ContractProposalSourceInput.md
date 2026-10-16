@@ -28,5 +28,15 @@ Contract proposal source. Exactly one of 'contractId' or 'roomId' properties sho
 ### Example
 
 ```json
-{"contractId": 4, "roomId": 4, "useClientInfo": true}
+{
+  "contractId": "4",
+  "roomId": 4,
+  "useClientInfo": true
+}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalSourceInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalRateIncreaseRequest](ContractProposalRateIncreaseRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalWithdrawRequest](ContractProposalWithdrawRequest.md) ➡️

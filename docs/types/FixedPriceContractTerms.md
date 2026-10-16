@@ -34,3 +34,9 @@ Fixed-price contract terms
   "engagementDuration": EngagementDuration
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FixedPriceContractTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FeedJobLocation](FeedJobLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerClientRelation](FreelancerClientRelation.md) ➡️

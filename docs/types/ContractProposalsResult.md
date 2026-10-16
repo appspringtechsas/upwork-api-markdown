@@ -32,3 +32,9 @@ Return type of contract proposals list queries
   "paging": ContractProposalsPaging
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalsResult" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalsPaging](ContractProposalsPaging.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateJobProposalResponse](CreateJobProposalResponse.md) ➡️

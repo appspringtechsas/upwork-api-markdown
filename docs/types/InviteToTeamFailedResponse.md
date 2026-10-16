@@ -29,8 +29,14 @@ Failed response for invite to team
 
 ```json
 {
-  "code": "xyz789",
-  "message": "abc123",
+  "code": "abc123",
+  "message": "xyz789",
   "invitation": FailedInvitation
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-InviteToTeamFailedResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [I18nSettingsFlags](I18nSettingsFlags.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [InviteToTeamResponse](InviteToTeamResponse.md) ➡️

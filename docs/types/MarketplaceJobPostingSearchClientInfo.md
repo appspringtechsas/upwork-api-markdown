@@ -43,20 +43,26 @@ Client information associated with a marketplace job posting search result
 ```json
 {
   "memberSinceDateTime": "xyz789",
-  "totalHires": 123,
+  "totalHires": 987,
   "totalPostedJobs": 987,
   "totalSpent": Money,
   "verificationStatus": "VERIFIED",
   "location": MarketPlaceJobSearchLocation,
   "totalReviews": 987,
-  "totalFeedback": 123.45,
+  "totalFeedback": 987.65,
   "companyRid": "4",
   "companyName": "xyz789",
-  "edcUserId": 4,
-  "lastContractPlatform": "abc123",
+  "edcUserId": "4",
+  "lastContractPlatform": "xyz789",
   "lastContractRid": 4,
   "lastContractTitle": "abc123",
-  "companyOrgUid": 4,
-  "hasFinancialPrivacy": false
+  "companyOrgUid": "4",
+  "hasFinancialPrivacy": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchClientInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingsContents](MarketplaceJobPostingsContents.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchConnection](MarketplaceJobPostingSearchConnection.md) ➡️

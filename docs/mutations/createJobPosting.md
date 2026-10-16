@@ -66,16 +66,16 @@ mutation createJobPosting($jobPostingRequest: JobPostingCreateRequest!) {
   "data": {
     "createJobPosting": {
       "id": "4",
-      "qualificationsSaved": false,
+      "qualificationsSaved": true,
       "skillsSaved": true,
-      "questionsSaved": false,
+      "questionsSaved": true,
       "segmentationDataSaved": true,
-      "attachmentsSaved": false,
+      "attachmentsSaved": true,
       "ptcInfoSaved": false,
-      "jobPostingAdditional": true,
-      "sandsJobPostSaved": true,
-      "customFieldsSaved": true,
-      "version": 123
+      "jobPostingAdditional": false,
+      "sandsJobPostSaved": false,
+      "customFieldsSaved": false,
+      "version": 987
     }
   }
 }
@@ -133,3 +133,13 @@ mutation CreateJobPosting($request: JobPostingCreateRequest!) {
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **1** (Post a job) in [Client Job Postings Sample Flow](../operations/examples/jobs.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createJobPosting" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [addJobPostingTag](addJobPostingTag.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [removeJobPostingTag](removeJobPostingTag.md) ➡️

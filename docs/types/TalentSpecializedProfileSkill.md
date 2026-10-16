@@ -28,3 +28,9 @@ Skills for a specialized profile
 ```json
 {"skills": [TalentSpecializedProfileSkillNode]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentSpecializedProfileSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentSpecializedProfile](TalentSpecializedProfile.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentSpecializedProfileSkillNode](TalentSpecializedProfileSkillNode.md) ➡️

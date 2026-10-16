@@ -42,11 +42,17 @@ Input filter for findInvoices query
   "offset": 987,
   "aceIds": [4],
   "contractIds": ["4"],
-  "escrowIds": [4],
-  "organizationIds": [4],
+  "escrowIds": ["4"],
+  "organizationIds": ["4"],
   "counterparties": [CounterpartyInput],
   "owners": [OwnerInput],
-  "types": ["abc123"],
+  "types": ["xyz789"],
   "escrowTransactions": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-InvoiceFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CounterpartyInput](CounterpartyInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OwnerInput](OwnerInput.md) ➡️

@@ -27,5 +27,11 @@ Result of add operation including created record identifier
 ### Example
 
 ```json
-{"id": 4, "success": false}
+{"id": 4, "success": true}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProcessAddResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PrivateCompanyInfo](PrivateCompanyInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProcessUpdateResponse](ProcessUpdateResponse.md) ➡️

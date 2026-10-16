@@ -17,7 +17,7 @@ Resource kinds used for permission checks
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `OPENING` | Opening |
 | `ORGANIZATION` | Organization |
@@ -84,3 +84,9 @@ Resource kinds used for permission checks
 ```graphql
 "OPENING"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ResourceType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ReasonType](ReasonType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RestictionSubjectType](RestictionSubjectType.md) ➡️

@@ -17,7 +17,7 @@ Type of contract payment model
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `HOURLY` | Hourly-payed |
 | `FIXED` | Fixed-price |
@@ -29,3 +29,9 @@ Type of contract payment model
 ```graphql
 "HOURLY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AvailableScope](AvailableScope.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SortDirection](SortDirection.md) ➡️

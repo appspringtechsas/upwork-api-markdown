@@ -32,3 +32,9 @@ Annotations for job posting
   "customFields": [JobPostingAnnotationsCustomField]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingAnnotations" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingAdditionalSkillInput](JobPostingAdditionalSkillInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingAnnotationsCustomField](JobPostingAnnotationsCustomField.md) ➡️

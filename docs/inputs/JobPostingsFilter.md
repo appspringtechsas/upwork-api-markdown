@@ -38,13 +38,19 @@ Input filter for searching Job Posting for a given organization
 {
   "pagination_eq": Pagination,
   "title_eq": "xyz789",
-  "postByTeamIds_any": ["4"],
-  "postByPersonIds_any": [4],
+  "postByTeamIds_any": [4],
+  "postByPersonIds_any": ["4"],
   "statusAndAccess_any": [CompanyJobPostingStatusAccess],
-  "excludePostByPersonIds_any": [4],
-  "categoryGroupIds_any": [4],
+  "excludePostByPersonIds_any": ["4"],
+  "categoryGroupIds_any": ["4"],
   "contractType_eq": "HOURLY",
-  "createdDateTimeFrom_eq": "abc123",
+  "createdDateTimeFrom_eq": "xyz789",
   "createdDateTimeTo_eq": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingsFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingSegmentationRequest](JobPostingSegmentationRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingSkillInput](JobPostingSkillInput.md) ➡️

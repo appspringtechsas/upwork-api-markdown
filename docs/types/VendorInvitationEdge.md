@@ -28,3 +28,9 @@ Vendor invitation edge
 ```json
 {"node": VendorInvitation}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationConnection](VendorInvitationConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationParticipant](VendorInvitationParticipant.md) ➡️

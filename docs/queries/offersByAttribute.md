@@ -56,3 +56,9 @@ query offersByAttribute($filter: SearchOffersInput!) {
 ```json
 {"data": {"offersByAttribute": {"offers": [Offer]}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-offersByAttribute" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [offer](offer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [offersByAttributes](offersByAttributes.md) ➡️

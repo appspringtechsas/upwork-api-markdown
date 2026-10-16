@@ -33,6 +33,12 @@ Filters for profile activity metrics
   "metrics": ["PROFILE_VIEWS"],
   "dateRange": DateTimeRange,
   "step": "DAY",
-  "freelancerId": "4"
+  "freelancerId": 4
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProfileActivityMetricsFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PageFilterInput](PageFilterInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomCreateInputV2](RoomCreateInputV2.md) ➡️

@@ -32,3 +32,9 @@ Create freelancer availability input
   "availability": FreelancerProfileCapacityInput
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileAvailabilityInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateOrganizationInput](CreateOrganizationInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileCapacityInput](FreelancerProfileCapacityInput.md) ➡️

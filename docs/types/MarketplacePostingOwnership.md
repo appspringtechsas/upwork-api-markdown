@@ -32,3 +32,9 @@ Ownership of a marketplace job posting
   "team": GenericOrganization
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplacePostingOwnership" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplacePostingClassification](MarketplacePostingClassification.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplacePostingWorkFlowState](MarketplacePostingWorkFlowState.md) ➡️

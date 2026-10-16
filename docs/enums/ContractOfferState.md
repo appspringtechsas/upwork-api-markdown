@@ -17,7 +17,7 @@ Contract offer state
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Pending` | Offer is pending |
 | `Active` | Offer is active |
@@ -31,3 +31,9 @@ Contract offer state
 ```graphql
 "Pending"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractOfferState" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractOfferLegacyState](ContractOfferLegacyState.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractOfferTermsVersion](ContractOfferTermsVersion.md) ➡️

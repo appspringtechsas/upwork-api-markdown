@@ -30,9 +30,15 @@ Segmantation skill
 
 ```json
 {
-  "description": "xyz789",
-  "externalLink": "xyz789",
+  "description": "abc123",
+  "externalLink": "abc123",
   "prettyName": "abc123",
   "skill": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SegmentationSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SandsSkill](SandsSkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SubmitContractMilestoneResponse](SubmitContractMilestoneResponse.md) ➡️

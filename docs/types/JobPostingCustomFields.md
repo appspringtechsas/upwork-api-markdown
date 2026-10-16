@@ -31,8 +31,14 @@ Job posting custom fields
 ```json
 {
   "responseId": 4,
-  "id": 4,
+  "id": "4",
   "displayValue": "abc123",
-  "value": "xyz789"
+  "value": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingCustomFields" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingCreateResponse](JobPostingCreateResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingEdge](JobPostingEdge.md) ➡️

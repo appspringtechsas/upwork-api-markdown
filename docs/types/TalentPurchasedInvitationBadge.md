@@ -29,8 +29,14 @@ Purchased invitation badge details for premium visibility
 
 ```json
 {
-  "active": false,
+  "active": true,
   "maxPrice": 987,
-  "nextRenewalAt": "xyz789"
+  "nextRenewalAt": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentPurchasedInvitationBadge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProjectList](TalentProjectList.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentSkillNodeEdge](TalentSkillNodeEdge.md) ➡️

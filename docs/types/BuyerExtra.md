@@ -32,3 +32,9 @@ Client extra info
   "workHistory": [BuyerWorkHistoryItem]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BuyerExtra" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BuyerAssignmentsStats](BuyerAssignmentsStats.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BuyerJobs](BuyerJobs.md) ➡️

@@ -27,5 +27,11 @@ Pagination metadata for list responses
 ### Example
 
 ```json
-{"endCursor": "xyz789", "hasNextPage": true}
+{"endCursor": "abc123", "hasNextPage": true}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PageInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Money](Money.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Portrait](Portrait.md) ➡️

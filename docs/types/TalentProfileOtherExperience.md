@@ -31,10 +31,16 @@ Other professional experience not categorized elsewhere
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "personId": "4",
   "subject": "abc123",
-  "description": "xyz789",
+  "description": "abc123",
   "active": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileOtherExperience" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileList](TalentProfileList.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfilePersonalData](TalentProfilePersonalData.md) ➡️

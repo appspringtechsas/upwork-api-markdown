@@ -28,3 +28,9 @@ Result of update operation
 ```json
 {"success": true}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProcessUpdateResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProcessAddResponse](ProcessAddResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProfileActivityMetric](ProfileActivityMetric.md) ➡️

@@ -29,6 +29,12 @@ Custom field key-value pair for enterprise job postings
 ```json
 {
   "key": "abc123",
-  "value": "abc123"
+  "value": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostEnterpriseCustomFields" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostBillRate](JobPostBillRate.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingAdditionalRequest](JobPostingAdditionalRequest.md) ➡️

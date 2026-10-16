@@ -37,16 +37,22 @@ Location constraints for a job posting
 
 ```json
 {
-  "countries": ["abc123"],
+  "countries": ["xyz789"],
   "regions": [987],
-  "states": ["xyz789"],
+  "states": ["abc123"],
   "timezones": ["xyz789"],
   "localCheckRequired": true,
-  "localMarket": false,
+  "localMarket": true,
   "areas": [Area],
   "notSureLocationPreference": false,
   "localDescription": "xyz789",
   "localFlexibilityDescription": "xyz789",
-  "address": "xyz789"
+  "address": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingInfo](JobPostingInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingOwnership](JobPostingOwnership.md) ➡️

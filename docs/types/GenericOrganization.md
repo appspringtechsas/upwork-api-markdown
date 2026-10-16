@@ -84,17 +84,17 @@ Information about regular organization
 ```json
 {
   "id": "4",
-  "rid": 4,
-  "legacyId": "4",
-  "name": "xyz789",
+  "rid": "4",
+  "legacyId": 4,
+  "name": "abc123",
   "type": "BUSINESS",
   "legacyType": "CLIENT",
   "flag": OrganizationFlag,
   "parentOrganization": GenericOrganization,
-  "active": false,
-  "hidden": false,
+  "active": true,
+  "hidden": true,
   "company": PrivateCompanyInfo,
-  "photoUrl": "abc123",
+  "photoUrl": "xyz789",
   "creationDate": "xyz789",
   "agencyOffers": ContractOfferConnection,
   "clientOffers": ContractOfferConnection,
@@ -103,3 +103,9 @@ Information about regular organization
   "jobPosting": JobPostingConnection
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-GenericOrganization" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerSkillsConnection](FreelancerSkillsConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [GenericUser](GenericUser.md) ➡️

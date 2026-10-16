@@ -39,16 +39,22 @@ Aggregated proposal statistics
 ```json
 {
   "totalProposals": 987,
-  "totalMessaged": 987,
+  "totalMessaged": 123,
   "totalHired": 123,
-  "totalInvitesSent": 987,
+  "totalInvitesSent": 123,
   "totalApplicantsWithAutoHidden": 123,
   "totalArchived": 123,
-  "totalAutoHidden": 123,
-  "totalDeclined": 123,
+  "totalAutoHidden": 987,
+  "totalDeclined": 987,
   "totalHidden": 987,
   "totalOffered": 987,
-  "totalShortlisted": 987,
+  "totalShortlisted": 123,
   "totalWithdrawn": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProposalsStatistics" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PreferredTest](PreferredTest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingsSearchClient](PublicMarketplaceJobPostingsSearchClient.md) ➡️

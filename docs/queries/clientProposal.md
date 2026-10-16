@@ -78,7 +78,7 @@ query clientProposal($id: ID!) {
 #### Variables
 
 ```json
-{"id": "4"}
+{"id": 4}
 ```
 
 #### Response
@@ -87,7 +87,7 @@ query clientProposal($id: ID!) {
 {
   "data": {
     "clientProposal": {
-      "id": "4",
+      "id": 4,
       "user": GenericUser,
       "organization": GenericOrganization,
       "job": MarketplaceJobPosting,
@@ -184,3 +184,13 @@ query ClientProposalDetails($id: ID!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **2** (View proposal) in [Working with Proposals as a client](../operations/examples/proposals.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-clientProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [vendorProposals](vendorProposals.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [clientProposals](clientProposals.md) ➡️

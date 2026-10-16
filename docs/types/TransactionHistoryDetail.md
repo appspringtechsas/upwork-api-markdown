@@ -28,3 +28,9 @@ Transaction history detail with totals and transaction rows
 ```json
 {"transactionHistoryRow": [TransactionHistoryRow]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TransactionHistoryDetail" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TransactionHistory](TransactionHistory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TransactionHistoryRow](TransactionHistoryRow.md) ➡️

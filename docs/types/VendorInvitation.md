@@ -50,3 +50,9 @@ Details about Invitation for vendor side
   "annotations": ["OnHold"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateClientProposalResult](UpdateClientProposalResult.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationAcceptanceContext](VendorInvitationAcceptanceContext.md) ➡️

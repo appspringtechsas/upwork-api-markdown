@@ -24,3 +24,9 @@ generated_by: "scripts/convert.mjs"
 ```json
 {"downloadUrl": "xyz789"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FileDownload" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CustomPaymentResponse](CustomPaymentResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [GeoLocation](GeoLocation.md) ➡️

@@ -56,23 +56,29 @@ High-level job posting details
   "hidden": true,
   "siteSource": "abc123",
   "keepOpenOnHire": true,
-  "draftJobPostingId": 4,
+  "draftJobPostingId": "4",
   "publishDateTime": "abc123",
   "filledDateTime": "xyz789",
   "sourcingUpdateForbidden": false,
   "sourcingUpdateCount": 987,
   "premium": false,
-  "legacyCiphertext": "abc123",
-  "hideBudget": true,
+  "legacyCiphertext": "xyz789",
+  "hideBudget": false,
   "categoryId": "4",
-  "groupId": 4,
+  "groupId": "4",
   "notSureFreelancersToHire": true,
   "notSureExperienceLevel": false,
   "hourlyBudgetType": "DEFAULT",
   "hourlyBudgetMin": Money,
   "hourlyBudgetMax": Money,
   "changedByUser": GenericUser,
-  "reasonId": "4",
-  "reasonName": "abc123"
+  "reasonId": 4,
+  "reasonName": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingEdge](JobPostingEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingLocation](JobPostingLocation.md) ➡️

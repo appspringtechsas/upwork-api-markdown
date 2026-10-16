@@ -80,29 +80,35 @@ query snapshotsByContractId($input: SnapshotsByContractIdInput!) {
     "snapshotsByContractId": [
       {
         "id": "4",
-        "time": 987,
+        "time": 123,
         "contractId": "abc123",
-        "mouseEventsCount": 987,
+        "mouseEventsCount": 123,
         "keyboardEventsCount": 123,
         "teamName": "xyz789",
         "status": "abc123",
-        "activeWindowTitle": "xyz789",
+        "activeWindowTitle": "abc123",
         "memo": "xyz789",
-        "companyId": "xyz789",
+        "companyId": "abc123",
         "hasScreenshot": false,
         "screenshotUrl": "xyz789",
-        "screenshotImage": "abc123",
+        "screenshotImage": "xyz789",
         "screenshotImageLarge": "abc123",
-        "screenshotImageMedium": "abc123",
-        "screenshotImageThumbnail": "abc123",
+        "screenshotImageMedium": "xyz789",
+        "screenshotImageThumbnail": "xyz789",
         "hasWebcam": false,
-        "webcamUrl": "abc123",
+        "webcamUrl": "xyz789",
         "webcamImage": "xyz789",
         "webcamImageThumbnail": "abc123",
-        "task": "xyz789",
+        "task": "abc123",
         "minutes": SnapshotMinutes
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-snapshotsByContractId" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [roomStory](roomStory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [user](user.md) ➡️

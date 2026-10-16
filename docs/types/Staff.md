@@ -31,10 +31,16 @@ Staff membership details
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "user": StaffUser,
   "activationStatus": 123,
-  "creationDate": "abc123",
+  "creationDate": "xyz789",
   "staffType": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Staff" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SnapshotMinutes](SnapshotMinutes.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [StaffsConnection](StaffsConnection.md) ➡️

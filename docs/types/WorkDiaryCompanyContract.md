@@ -30,7 +30,13 @@ Contract information in work diary context
 ```json
 {
   "id": 4,
-  "userId": "abc123",
-  "contractTitle": "xyz789"
+  "userId": "xyz789",
+  "contractTitle": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryCompanyContract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryCompany](WorkDiaryCompany.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryCompanySnapshot](WorkDiaryCompanySnapshot.md) ➡️

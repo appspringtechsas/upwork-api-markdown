@@ -32,3 +32,9 @@ An edge in a connection.
   "cursor": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfilesSearchResultEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfilesSearchRecordsConnection](FreelancerProfilesSearchRecordsConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerSearchResultContractFeedbackSummary](FreelancerSearchResultContractFeedbackSummary.md) ➡️

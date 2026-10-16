@@ -17,7 +17,7 @@ Possible Status filter input for Vendor Proposal Query
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Accepted` | Application has been created and fully validated |
 | `Declined` | Application has been declined by the client |
@@ -35,3 +35,9 @@ Possible Status filter input for Vendor Proposal Query
 ```graphql
 "Accepted"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorProposalStatusFilterInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorProposalSortAttributeType](VendorProposalSortAttributeType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorProposalStatusName](VendorProposalStatusName.md) ➡️

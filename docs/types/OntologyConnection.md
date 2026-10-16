@@ -29,8 +29,14 @@ Ontology connection
 
 ```json
 {
-  "totalCount": 987,
+  "totalCount": 123,
   "edges": [OntologyEntityEdge],
   "pageInfo": PageInfo
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyCategory](OntologyCategory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyEntityEdge](OntologyEntityEdge.md) ➡️

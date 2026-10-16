@@ -27,5 +27,11 @@ Pagination input
 ### Example
 
 ```json
-{"start": 123, "rows": 123}
+{"start": 123, "rows": 987}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Paging" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingsSearchFilter](MarketplaceJobPostingsSearchFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingsSearchFilter](PublicMarketplaceJobPostingsSearchFilter.md) ➡️

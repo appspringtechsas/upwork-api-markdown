@@ -49,7 +49,7 @@ query userIdsByEmail($email: String!) {
 #### Variables
 
 ```json
-{"email": "xyz789"}
+{"email": "abc123"}
 ```
 
 #### Response
@@ -58,9 +58,15 @@ query userIdsByEmail($email: String!) {
 {
   "data": {
     "userIdsByEmail": {
-      "totalCount": 123,
+      "totalCount": 987,
       "edges": [UserIdsByEmailRecordEdge]
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-userIdsByEmail" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [userDetails](userDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [workDiaryCompany](workDiaryCompany.md) ➡️

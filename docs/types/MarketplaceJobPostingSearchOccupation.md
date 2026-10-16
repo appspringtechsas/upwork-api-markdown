@@ -27,8 +27,11 @@ Occupation item used in search results
 ### Example
 
 ```json
-{
-  "id": "4",
-  "prefLabel": "xyz789"
-}
+{"id": 4, "prefLabel": "xyz789"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchOccupation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobpostingSearchEdge](MarketplaceJobpostingSearchEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchOccupations](MarketplaceJobPostingSearchOccupations.md) ➡️

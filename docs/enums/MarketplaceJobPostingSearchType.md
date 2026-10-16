@@ -17,7 +17,7 @@ context and method of the job search being executed
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `USER_JOBS_SEARCH` | default search, will be always utilized when performing a user-initiated job search, any other value will be ignored |
 | ⚠️ `JOBS_FEED` | retrieve saved searches **⚠️ Deprecated — No longer supported** |
@@ -30,3 +30,9 @@ context and method of the job search being executed
 ```graphql
 "USER_JOBS_SEARCH"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchSortField](MarketplaceJobPostingSearchSortField.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OnSiteType](OnSiteType.md) ➡️

@@ -29,3 +29,9 @@ Result of updating a workflow task
 ```json
 {"workflowId": 4, "updatedTaskView": WorkflowTaskView}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UpdateWorkflowTaskResult" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryTimeCell](WorkDiaryTimeCell.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowAssociationView](WorkflowAssociationView.md) ➡️

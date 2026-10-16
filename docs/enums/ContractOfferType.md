@@ -17,7 +17,7 @@ Contract offer type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Hourly` | Hourly rate contract |
 | `FixedPrice` | Fixed price contract |
@@ -29,3 +29,9 @@ Contract offer type
 ```graphql
 "Hourly"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractOfferType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractOfferTermsVersion](ContractOfferTermsVersion.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractOfferVendorType](ContractOfferVendorType.md) ➡️

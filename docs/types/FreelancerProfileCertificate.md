@@ -38,17 +38,23 @@ Freelancer's Certificates
 
 ```json
 {
-  "id": 4,
-  "earnedDate": "xyz789",
+  "id": "4",
+  "earnedDate": "abc123",
   "submissionCode": "abc123",
-  "notes": "xyz789",
+  "notes": "abc123",
   "score": "abc123",
-  "active": true,
-  "verified": false,
+  "active": false,
+  "verified": true,
   "url": "abc123",
-  "createdDateTime": "abc123",
+  "createdDateTime": "xyz789",
   "lastUpdatedDateTime": "xyz789",
-  "expirationDate": "abc123",
-  "externalId": "abc123"
+  "expirationDate": "xyz789",
+  "externalId": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileCertificate" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileAvailability](FreelancerProfileAvailability.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileCommittedResponseTime](FreelancerProfileCommittedResponseTime.md) ➡️

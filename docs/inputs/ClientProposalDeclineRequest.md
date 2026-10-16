@@ -31,10 +31,16 @@ Client proposal decline request
 
 ```json
 {
-  "proposalId": "4",
-  "jobPostingId": 4,
+  "proposalId": 4,
+  "jobPostingId": "4",
   "reason": "4",
-  "otherReason": "abc123",
+  "otherReason": "xyz789",
   "message": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalDeclineRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientJobInvitationCreateRequestInput](ClientJobInvitationCreateRequestInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalFilter](ClientProposalFilter.md) ➡️

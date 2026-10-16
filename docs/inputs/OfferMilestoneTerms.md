@@ -32,3 +32,9 @@ Milestone terms for fixed-price offers
   "milestoneList": [OfferTermsMilestoneInput]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferMilestoneTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferMetadataInput](OfferMetadataInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferPayrollInput](OfferPayrollInput.md) ➡️

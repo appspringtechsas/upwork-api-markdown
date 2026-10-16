@@ -17,7 +17,7 @@ Talent type filter options
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `FREELANCER` | Individual freelancer |
 | `AGENCY` | Agency talent |
@@ -29,3 +29,9 @@ Talent type filter options
 ```graphql
 "FREELANCER"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalTalentType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalStatusName](ClientProposalStatusName.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FileAttachmentType](FileAttachmentType.md) ➡️

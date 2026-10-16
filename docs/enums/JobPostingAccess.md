@@ -17,7 +17,7 @@ Job posting access levels
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `PUBLIC_INDEX` | Publicly indexed: allowed for anonymous and search engin |
 | `PUBLIC` | Public access: any registered user |
@@ -30,3 +30,9 @@ Job posting access levels
 ```graphql
 "PUBLIC_INDEX"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingAccess" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostDurationType](JobPostDurationType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingHourlyBudgetType](JobPostingHourlyBudgetType.md) ➡️

@@ -17,7 +17,7 @@ Snapshot of custom field type metadata
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `TEXT_FIELD` | Single-line text input field |
 | `TEXT_AREA` | Multi-line text area input |
@@ -35,3 +35,9 @@ Snapshot of custom field type metadata
 ```graphql
 "TEXT_FIELD"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CustomFieldsTypeSnap" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreatorType](CreatorType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [DeliveryModel](DeliveryModel.md) ➡️

@@ -67,25 +67,25 @@ Freelancer Profile aggregates
   "totalHourlyJobsRecent": 987,
   "totalFixedJobs": 987,
   "totalFixedJobsRecent": 987,
-  "responsiveness": "xyz789",
+  "responsiveness": "abc123",
   "totalRevenue": Money,
-  "activeInterviews": 987,
+  "activeInterviews": 123,
   "currentContracts": 123,
   "jobSuccessScore": 987.65,
   "topRatedStatus": "abc123",
   "topRatedPlusStatus": "xyz789",
-  "vetted": false,
+  "vetted": true,
   "totalHoursActual": 987.65,
   "totalHours": 123.45,
-  "totalHoursRecent": 123.45,
-  "totalFeedback": 123.45,
-  "totalFeedbackRecent": 123.45,
+  "totalHoursRecent": 987.65,
+  "totalFeedback": 987.65,
+  "totalFeedbackRecent": 987.65,
   "billedContracts": 987,
-  "billedContractsRecent": 987,
-  "adjustedFeedbackScore": 987.65,
+  "billedContractsRecent": 123,
+  "adjustedFeedbackScore": 123.45,
   "adjustedFeedbackScoreRecent": 987.65,
   "profileStats": FreelancerProfileStats,
-  "lastActivityDateTime": "xyz789",
+  "lastActivityDateTime": "abc123",
   "totalEarnings": Money,
   "topRatedStatusDatetime": "abc123",
   "recentEarnings": Money,
@@ -96,3 +96,9 @@ Freelancer Profile aggregates
   "totalHoursRounded": 987
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileAggregates" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfile](FreelancerProfile.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileAvailability](FreelancerProfileAvailability.md) ➡️

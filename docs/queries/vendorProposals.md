@@ -164,3 +164,13 @@ query FreelancerVendorProposals(
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **1** (List proposals) in [Working with Proposals as a freelancer](../operations/examples/proposals.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-vendorProposals" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [vendorProposal](vendorProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [clientProposal](clientProposal.md) ➡️

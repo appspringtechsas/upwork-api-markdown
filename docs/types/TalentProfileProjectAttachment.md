@@ -41,20 +41,26 @@ File or media attachment for a portfolio project
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "type": "xyz789",
-  "title": "xyz789",
+  "title": "abc123",
   "attachmentName": "xyz789",
   "attachmentSize": 987,
-  "originalAttachment": "abc123",
-  "imageSmall": "abc123",
-  "imageMiddle": "xyz789",
+  "originalAttachment": "xyz789",
+  "imageSmall": "xyz789",
+  "imageMiddle": "abc123",
   "imageLarge": "abc123",
-  "rank": 987,
+  "rank": 123,
   "creationDateTime": "xyz789",
   "description": "xyz789",
-  "videoUrl": "abc123",
-  "imageFixedWidth": "abc123",
-  "group": "xyz789"
+  "videoUrl": "xyz789",
+  "imageFixedWidth": "xyz789",
+  "group": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileProjectAttachment" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileProject](TalentProfileProject.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileProjectTag](TalentProfileProjectTag.md) ➡️

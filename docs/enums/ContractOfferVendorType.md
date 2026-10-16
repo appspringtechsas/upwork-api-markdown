@@ -17,7 +17,7 @@ Vendor type for contract offer
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `FREELANCER` | Individual freelancer |
 | `AGENCY` | Agency |
@@ -29,3 +29,9 @@ Vendor type for contract offer
 ```graphql
 "FREELANCER"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractOfferVendorType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractOfferType](ContractOfferType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractState](ContractState.md) ➡️

@@ -36,7 +36,13 @@ Client info for the public job profile
   "company": JobBuyerCompany,
   "jobs": BuyerJobs,
   "location": GeoLocation,
-  "logo": "xyz789",
+  "logo": "abc123",
   "stats": BuyerAssignmentsStats
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPubBuyerInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobProposalsPersonNameCombined](JobProposalsPersonNameCombined.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPubDetails](JobPubDetails.md) ➡️

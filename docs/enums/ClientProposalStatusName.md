@@ -17,7 +17,7 @@ Status names for client proposals
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Created` | Proposal has been created |
 | `Activated` | Proposal is active and visible |
@@ -35,3 +35,9 @@ Status names for client proposals
 ```graphql
 "Created"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalStatusName" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalSortAttributeType](ClientProposalSortAttributeType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalTalentType](ClientProposalTalentType.md) ➡️

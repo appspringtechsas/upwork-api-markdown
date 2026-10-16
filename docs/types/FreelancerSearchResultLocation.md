@@ -29,8 +29,14 @@ Freelancer search result location
 
 ```json
 {
-  "country": "xyz789",
-  "city": "xyz789",
+  "country": "abc123",
+  "city": "abc123",
   "state": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerSearchResultLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerSearchResultContractSummary](FreelancerSearchResultContractSummary.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PagingInfo](PagingInfo.md) ➡️

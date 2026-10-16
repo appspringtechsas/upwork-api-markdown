@@ -31,10 +31,16 @@ Location information for the client
 
 ```json
 {
-  "country": "abc123",
-  "city": "xyz789",
+  "country": "xyz789",
+  "city": "abc123",
   "state": "xyz789",
-  "countryTimezone": "xyz789",
-  "worldRegion": "abc123"
+  "countryTimezone": "abc123",
+  "worldRegion": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FeedJobLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CustomJobPostSkill](CustomJobPostSkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FixedPriceContractTerms](FixedPriceContractTerms.md) ➡️

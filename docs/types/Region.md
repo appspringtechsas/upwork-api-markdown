@@ -30,7 +30,13 @@ Geographic region information
 ```json
 {
   "id": 4,
-  "name": "xyz789",
+  "name": "abc123",
   "parentRegion": Region
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Region" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ReasonsMetadata](ReasonsMetadata.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RequestMetadata](RequestMetadata.md) ➡️

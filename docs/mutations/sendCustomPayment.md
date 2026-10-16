@@ -96,3 +96,13 @@ mutation SendCustomPayment($input: CustomPaymentInput!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **1** (Send custom payment) in [Custom Payments Sample Flow](../operations/examples/payments.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-sendCustomPayment" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateContractHourlyLimit](updateContractHourlyLimit.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [confirmFiles](confirmFiles.md) ➡️

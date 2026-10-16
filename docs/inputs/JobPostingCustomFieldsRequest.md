@@ -32,3 +32,9 @@ Custom fields request for job posting
   "newDropdowns": [CustomFieldDropDown]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingCustomFieldsRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingCreateRequest](JobPostingCreateRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingLocationRequest](JobPostingLocationRequest.md) ➡️

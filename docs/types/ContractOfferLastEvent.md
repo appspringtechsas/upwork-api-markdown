@@ -30,7 +30,13 @@ Last event on contract offer
 ```json
 {
   "reasonId": 4,
-  "message": "xyz789",
+  "message": "abc123",
   "lastEventTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractOfferLastEvent" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractOfferEdge](ContractOfferEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractOfferResult](ContractOfferResult.md) ➡️

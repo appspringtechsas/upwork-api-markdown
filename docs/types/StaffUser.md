@@ -35,14 +35,20 @@ Information about staff user
 
 ```json
 {
-  "id": 4,
-  "nid": 4,
-  "rid": "4",
+  "id": "4",
+  "nid": "4",
+  "rid": 4,
   "name": "abc123",
   "firstName": "xyz789",
-  "lastName": "abc123",
-  "photoUrl": "xyz789",
-  "publicUrl": "abc123",
-  "email": "xyz789"
+  "lastName": "xyz789",
+  "photoUrl": "abc123",
+  "publicUrl": "xyz789",
+  "email": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-StaffUser" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [StaffsConnectionEdge](StaffsConnectionEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SuspensionMetadata](SuspensionMetadata.md) ➡️

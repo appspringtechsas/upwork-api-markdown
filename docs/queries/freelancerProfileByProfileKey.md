@@ -146,11 +146,11 @@ query freelancerProfileByProfileKey($profileKey: String!) {
       "profileCompletenessSummary": FreelancerProfileCompletenessSummary,
       "linkedExternalAccountsList": FreelancerProfileLinkedExternalAccountsConnection,
       "verifications": FreelancerProfileVerifications,
-      "fullName": "xyz789",
-      "firstName": "abc123",
+      "fullName": "abc123",
+      "firstName": "xyz789",
       "lastName": "abc123",
       "countryDetails": Country,
-      "email": "xyz789",
+      "email": "abc123",
       "portrait": Portrait,
       "phoneNumber": PhoneNumber,
       "privateTalentCloud": PrivateTalentCloudConnection
@@ -207,3 +207,13 @@ query FreelancerProfileByKey($profileKey: String!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **2** (View freelancer profile) in [Search Freelancers Sample Flow](../operations/examples/search.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-freelancerProfileByProfileKey" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [contractRoom](contractRoom.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [offerRoom](offerRoom.md) ➡️

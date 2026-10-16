@@ -31,8 +31,14 @@ Additional options for job posting
 ```json
 {
   "directHire": true,
-  "invitePost": false,
+  "invitePost": true,
   "earlyEngagement": true,
-  "earlyEngagementVisited": false
+  "earlyEngagementVisited": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingAdditionalRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostEnterpriseCustomFields](JobPostEnterpriseCustomFields.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingAdditionalSkillInput](JobPostingAdditionalSkillInput.md) ➡️

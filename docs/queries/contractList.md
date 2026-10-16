@@ -48,7 +48,7 @@ query contractList($ids: [ID!]) {
 #### Variables
 
 ```json
-{"ids": [4]}
+{"ids": ["4"]}
 ```
 
 #### Response
@@ -60,3 +60,9 @@ query contractList($ids: [ID!]) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-contractList" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [contractDetails](contractDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractProposal](contractProposal.md) ➡️

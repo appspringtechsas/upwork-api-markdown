@@ -62,13 +62,19 @@ mutation updateFreelancerAvailability($input: FreelancerProfileAvailabilityInput
 {
   "data": {
     "updateFreelancerAvailability": {
-      "id": "4",
+      "id": 4,
       "user": GenericUser,
       "capacity": "fullTime",
       "availabilityDateTime": "xyz789",
-      "name": "xyz789",
-      "createdDateTime": "abc123"
+      "name": "abc123",
+      "createdDateTime": "xyz789"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateFreelancerAvailability" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [unarchiveTeamActivity](unarchiveTeamActivity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateFreelancerEmploymentRecord](updateFreelancerEmploymentRecord.md) ➡️

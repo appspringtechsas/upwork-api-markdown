@@ -17,7 +17,7 @@ Days of the week
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `MONDAY` | Monday |
 | `TUESDAY` | Tuesday |
@@ -34,3 +34,9 @@ Days of the week
 ```graphql
 "MONDAY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Day" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerType](FreelancerType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCloudTaskPermission](TalentCloudTaskPermission.md) ➡️

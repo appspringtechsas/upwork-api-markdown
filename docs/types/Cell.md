@@ -31,10 +31,16 @@ Individual time tracking cell representing a 10-minute work segment
 
 ```json
 {
-  "timestamp": 123,
+  "timestamp": 987,
   "date": "abc123",
-  "manual": true,
-  "overtime": true,
-  "memo": "abc123"
+  "manual": false,
+  "overtime": false,
+  "memo": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Cell" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BillRate](BillRate.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TimeReport](TimeReport.md) ➡️

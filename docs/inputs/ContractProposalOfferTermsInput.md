@@ -32,3 +32,9 @@ Contract proposal offer terms. Exactly one of 'hourlyTerms' or 'milestoneTerms' 
   "milestoneTerms": ContractProposalMilestoneTermsV2Input
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalOfferTermsInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalMilestoneTermsV2Input](ContractProposalMilestoneTermsV2Input.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalRateIncreaseRequest](ContractProposalRateIncreaseRequest.md) ➡️

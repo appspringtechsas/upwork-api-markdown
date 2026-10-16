@@ -34,7 +34,13 @@ Additional metadata captured at job creation
   "clientNumberOfHiresOnCreate": 987,
   "clientTotalSpentOnCreate": Money,
   "directHire": true,
-  "invitePost": false,
-  "lastBuyerActivity": "xyz789"
+  "invitePost": true,
+  "lastBuyerActivity": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingAdditionalInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPosting](JobPosting.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingAttachment](JobPostingAttachment.md) ➡️

@@ -28,7 +28,13 @@ Workflow state of a marketplace job posting
 
 ```json
 {
-  "closeResult": "xyz789",
+  "closeResult": "abc123",
   "status": "CLOSED"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplacePostingWorkFlowState" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplacePostingOwnership](MarketplacePostingOwnership.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceProposalRequirements](MarketplaceProposalRequirements.md) ➡️

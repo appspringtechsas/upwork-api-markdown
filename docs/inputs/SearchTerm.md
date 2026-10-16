@@ -28,7 +28,13 @@ generated_by: "scripts/convert.mjs"
 {
   "andTerms_all": ["abc123"],
   "orTerms_any": ["abc123"],
-  "exactTerms_any": ["xyz789"],
-  "excludeTerms_any": ["xyz789"]
+  "exactTerms_any": ["abc123"],
+  "excludeTerms_any": ["abc123"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SearchTerm" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SandsJobPostRequest](SandsJobPostRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AcceptOfferInput](AcceptOfferInput.md) ➡️

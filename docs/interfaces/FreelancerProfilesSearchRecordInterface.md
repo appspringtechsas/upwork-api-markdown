@@ -24,8 +24,8 @@ Interface for freelancer profile search records Interface for freelancer profile
 
 ## Possible Types
 
-| Value | Description |
-|---|---|
+| Possible Types |
+|---|
 | [`FreelancerProfilesSearchRecord`](../types/FreelancerProfilesSearchRecord.md) |
 | [`UserFreelancerProfilesSearchRecord`](../types/UserFreelancerProfilesSearchRecord.md) |
 
@@ -39,3 +39,9 @@ Interface for freelancer profile search records Interface for freelancer profile
   "ciphertext": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfilesSearchRecordInterface" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntity](OntologyEntity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Organization](Organization.md) ➡️

@@ -34,11 +34,17 @@ User preferences of the profile
 ```json
 {
   "visibilityLevel": "PUBLIC",
-  "hideAgencyEarnings": true,
+  "hideAgencyEarnings": false,
   "hideEarnings": false,
-  "exposeFullName": true,
+  "exposeFullName": false,
   "clientFeedbackOptional": true,
   "projectTypePreference": "BOTH_LONGTERM_AND_ONETIME",
   "hideJss": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileUserPreferences" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileStats](FreelancerProfileStats.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileVerifications](FreelancerProfileVerifications.md) ➡️

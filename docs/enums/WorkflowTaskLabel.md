@@ -17,7 +17,7 @@ Labels that can be applied to workflow tasks
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `FLAGGED` | Task has been flagged for attention |
 | `OVERDUE` | Task is overdue |
@@ -29,3 +29,9 @@ Labels that can be applied to workflow tasks
 ```graphql
 "FLAGGED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowTaskLabel" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowOnboardingStatus](WorkflowOnboardingStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowTaskStatus](WorkflowTaskStatus.md) ➡️

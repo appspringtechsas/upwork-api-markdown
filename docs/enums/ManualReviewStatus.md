@@ -17,7 +17,7 @@ Status of manual review for job postings
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `APPROVED` | Review has been approved |
 | `CANCELLED` | Review has been cancelled |
@@ -29,3 +29,9 @@ Status of manual review for job postings
 ```graphql
 "APPROVED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ManualReviewStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPreferredLocationType](JobPreferredLocationType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrefLocationType](PrefLocationType.md) ➡️

@@ -27,5 +27,11 @@ Counterparty input type used for filtering when requesting invoices list, bulk P
 ### Example
 
 ```json
-{"counterpartyId": 4, "contractorId": 4}
+{"counterpartyId": "4", "contractorId": 4}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CounterpartyInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BPAPrivateDataFilter](BPAPrivateDataFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [InvoiceFilter](InvoiceFilter.md) ➡️

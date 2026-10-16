@@ -36,15 +36,21 @@ Custom field dropdown option
 
 ```json
 {
-  "id": 4,
-  "customFieldId": "4",
-  "value": "xyz789",
-  "displayValue": "abc123",
+  "id": "4",
+  "customFieldId": 4,
+  "value": "abc123",
+  "displayValue": "xyz789",
   "orderIndex": 123,
-  "description": "abc123",
-  "inUse": true,
+  "description": "xyz789",
+  "inUse": false,
   "active": false,
   "aclType": "COMPANY",
-  "teamRids": ["xyz789"]
+  "teamRids": ["abc123"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CustomFieldDropDown" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CompanyJobPostingStatusAccess](CompanyJobPostingStatusAccess.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CustomFieldsResponse](CustomFieldsResponse.md) ➡️

@@ -17,7 +17,7 @@ Offer type values
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `MARKET_PLACE_HOURLY` | Marketplace hourly offer |
 | `MARKET_PLACE_FIXED_PRICE` | Marketplace fixed price offer |
@@ -31,3 +31,9 @@ Offer type values
 ```graphql
 "MARKET_PLACE_HOURLY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferState](OfferState.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferWorkType](OfferWorkType.md) ➡️

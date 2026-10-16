@@ -25,6 +25,12 @@ generated_by: "scripts/convert.mjs"
 ```json
 {
   "amount": "xyz789",
-  "currency": "abc123"
+  "currency": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MoneyInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [InvitationsSortAttribute](InvitationsSortAttribute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorCurrentOrganizationInvitationFilter](VendorCurrentOrganizationInvitationFilter.md) ➡️

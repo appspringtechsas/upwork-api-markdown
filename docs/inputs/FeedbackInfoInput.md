@@ -29,12 +29,18 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "availabilityScore": 123,
-  "comment": "abc123",
+  "availabilityScore": 987,
+  "comment": "xyz789",
   "communicationScore": 123,
-  "cooperationScore": 987,
-  "deadlinesScore": 123,
+  "cooperationScore": 123,
+  "deadlinesScore": 987,
   "qualityScore": 123,
   "skillsScore": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FeedbackInfoInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [EndContractInput](EndContractInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [NoStartSubmitFeedbackInput](NoStartSubmitFeedbackInput.md) ➡️

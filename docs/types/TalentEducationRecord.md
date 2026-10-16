@@ -37,16 +37,22 @@ Education record (deprecated, use TalentProfileEducationRecord)
 
 ```json
 {
-  "id": "abc123",
+  "id": "xyz789",
   "personId": "xyz789",
   "institutionName": "abc123",
   "standardizedInstitutionId": "abc123",
   "areaOfStudy": "xyz789",
-  "standardizedAreaOfStudyId": "abc123",
+  "standardizedAreaOfStudyId": "xyz789",
   "degree": "xyz789",
   "standardizedDegreeId": "xyz789",
-  "startDateTime": "abc123",
-  "endDateTime": "xyz789",
+  "startDateTime": "xyz789",
+  "endDateTime": "abc123",
   "comment": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentEducationRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentDiversityCertificateClassification](TalentDiversityCertificateClassification.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentFeedbackScore](TalentFeedbackScore.md) ➡️

@@ -40,3 +40,9 @@ Freelancer's Availability
   "createdDateTime": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileAvailability" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileAggregates](FreelancerProfileAggregates.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileCertificate](FreelancerProfileCertificate.md) ➡️

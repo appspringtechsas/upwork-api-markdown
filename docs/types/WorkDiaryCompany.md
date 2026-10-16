@@ -29,3 +29,9 @@ Work diary data for a company including snapshots and metadata
 ```json
 {"total": 987, "snapshots": [WorkDiaryCompanySnapshot]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryCompany" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkdayResult](WorkdayResult.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryCompanyContract](WorkDiaryCompanyContract.md) ➡️

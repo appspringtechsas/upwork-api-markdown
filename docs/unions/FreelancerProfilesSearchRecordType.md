@@ -13,8 +13,8 @@ generated_by: "scripts/convert.mjs"
 
 ## Types
 
-| Value | Description |
-|---|---|
+| Types |
+|---|
 | [`FreelancerProfilesSearchRecord`](../types/FreelancerProfilesSearchRecord.md) |
 | [`UserFreelancerProfilesSearchRecord`](../types/UserFreelancerProfilesSearchRecord.md) |
 
@@ -25,3 +25,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 FreelancerProfilesSearchRecord
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfilesSearchRecordType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [unions index](README.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyEntityResult](OntologyEntityResult.md) ➡️

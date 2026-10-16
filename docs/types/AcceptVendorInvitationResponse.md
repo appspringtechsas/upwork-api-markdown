@@ -26,5 +26,11 @@ Response type for vendor invitation acceptance
 ### Example
 
 ```json
-{"proposalUid": 4}
+{"proposalUid": "4"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AcceptVendorInvitationResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowView](WorkflowView.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AccountingEntity](AccountingEntity.md) ➡️

@@ -27,5 +27,11 @@ VEM skill weight
 ### Example
 
 ```json
-{"skill": "xyz789", "weight": 987.65}
+{"skill": "abc123", "weight": 987.65}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VemSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SemSearchV2Request](SemSearchV2Request.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCloudTasksInputFilter](TalentCloudTasksInputFilter.md) ➡️

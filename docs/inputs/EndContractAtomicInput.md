@@ -43,12 +43,18 @@ Contract end payload for atomic end-contract flow
   "iovationBlackbox": "xyz789",
   "ipAddress": "xyz789",
   "idempotencyKey": "abc123",
-  "languageFeedback": 987,
+  "languageFeedback": 123,
   "bonusMessage": "abc123",
   "bonusTimestampIssued": "xyz789",
   "bonusAmount": WMMoneyInput,
   "additionalAmount": WMMoneyInput,
   "payWhat": "REMAINING",
-  "reasonRef": "abc123"
+  "reasonRef": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EndContractAtomicInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [EndContractAtomicFeedbacksInput](EndContractAtomicFeedbacksInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EndContractInput](EndContractInput.md) ➡️

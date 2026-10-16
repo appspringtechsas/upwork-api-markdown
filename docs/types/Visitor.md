@@ -48,3 +48,9 @@ Anonymous visitor data and segmentation information
   "segment": VisitorSegment
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Visitor" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TimeZoneRecord](TimeZoneRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VisitorI18N](VisitorI18N.md) ➡️

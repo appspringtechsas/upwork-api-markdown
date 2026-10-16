@@ -42,7 +42,7 @@ Management side JobPosting information
 ```json
 {
   "id": 4,
-  "version": 123,
+  "version": 987,
   "info": JobPostingInfo,
   "visibility": "PUBLIC_INDEX",
   "ownership": JobPostingOwnership,
@@ -58,3 +58,9 @@ Management side JobPosting information
   "customFields": [JobPostingCustomFields]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPosting" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobActivity](JobActivity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingAdditionalInfo](JobPostingAdditionalInfo.md) ➡️

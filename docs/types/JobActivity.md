@@ -34,11 +34,17 @@ Activity metrics for a job posting
 ```json
 {
   "lastClientActivity": "xyz789",
-  "invitesSent": 123,
+  "invitesSent": 987,
   "totalInvitedToInterview": 987,
-  "totalHired": 987,
+  "totalHired": 123,
   "totalUnansweredInvites": 987,
-  "totalOffered": 987,
-  "totalRecommended": 987
+  "totalOffered": 123,
+  "totalRecommended": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobActivity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [HourlyContractTerms](HourlyContractTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPosting](JobPosting.md) ➡️

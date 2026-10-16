@@ -17,7 +17,7 @@ Legacy private company type classification
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `CLIENT` | Client company |
 | `AGENCY` | Agency company |
@@ -29,3 +29,9 @@ Legacy private company type classification
 ```graphql
 "CLIENT"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PrivateCompanyLegacyType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PersonalDataProfileState](PersonalDataProfileState.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProfileActivityMetricType](ProfileActivityMetricType.md) ➡️

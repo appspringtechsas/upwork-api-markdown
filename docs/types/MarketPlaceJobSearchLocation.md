@@ -32,9 +32,15 @@ Client location details shown in search results
 ```json
 {
   "city": "xyz789",
-  "country": "xyz789",
-  "timezone": "abc123",
-  "state": "xyz789",
+  "country": "abc123",
+  "timezone": "xyz789",
+  "state": "abc123",
   "offsetToUTC": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketPlaceJobSearchLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchSkill](MarketplaceJobPostingSearchSkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceLocation](MarketplaceLocation.md) ➡️

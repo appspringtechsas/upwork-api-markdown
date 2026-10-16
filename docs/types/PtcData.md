@@ -28,7 +28,13 @@ Period dates for protected time calculation
 
 ```json
 {
-  "startDate": "xyz789",
+  "startDate": "abc123",
   "endDate": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PtcData" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferTerms](OfferTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PurchaseOrder](PurchaseOrder.md) ➡️

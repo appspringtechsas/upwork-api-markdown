@@ -33,8 +33,14 @@ Contract feedback
 {
   "score": 123.45,
   "comment": "abc123",
-  "publicComment": false,
+  "publicComment": true,
   "response": "xyz789",
   "scoreDetails": [FreelancerProfileContractFeedbackScore]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileContractFeedback" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileContract](FreelancerProfileContract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileContractFeedbackScore](FreelancerProfileContractFeedbackScore.md) ➡️

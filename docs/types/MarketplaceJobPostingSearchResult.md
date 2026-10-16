@@ -65,44 +65,50 @@ Search result entry for a marketplace job posting
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "job": MarketplaceJobPosting,
-  "title": "abc123",
+  "title": "xyz789",
   "description": "xyz789",
-  "ciphertext": "xyz789",
+  "ciphertext": "abc123",
   "duration": "WEEK",
-  "durationLabel": "abc123",
-  "engagement": "xyz789",
+  "durationLabel": "xyz789",
+  "engagement": "abc123",
   "amount": Money,
-  "recordNumber": "abc123",
+  "recordNumber": "xyz789",
   "experienceLevel": "NONE",
-  "category": "abc123",
-  "subcategory": "xyz789",
+  "category": "xyz789",
+  "subcategory": "abc123",
   "freelancersToHire": 987,
   "relevance": MarketplaceJobPostingSearchRelevance,
   "enterprise": true,
-  "relevanceEncoded": "abc123",
-  "totalApplicants": 987,
+  "relevanceEncoded": "xyz789",
+  "totalApplicants": 123,
   "preferredFreelancerLocation": ["abc123"],
-  "preferredFreelancerLocationMandatory": false,
+  "preferredFreelancerLocationMandatory": true,
   "premium": false,
-  "clientNotSureFields": ["xyz789"],
-  "clientPrivateFields": ["xyz789"],
+  "clientNotSureFields": ["abc123"],
+  "clientPrivateFields": ["abc123"],
   "applied": true,
-  "createdDateTime": "abc123",
+  "createdDateTime": "xyz789",
   "publishedDateTime": "abc123",
-  "renewedDateTime": "xyz789",
+  "renewedDateTime": "abc123",
   "client": MarketplaceJobPostingSearchClientInfo,
   "skills": [MarketplaceJobPostingSearchSkill],
   "occupations": MarketplaceJobPostingSearchOccupations,
   "hourlyBudgetType": "DEFAULT",
   "hourlyBudgetMin": Money,
   "hourlyBudgetMax": Money,
-  "localJobUserDistance": "xyz789",
+  "localJobUserDistance": "abc123",
   "weeklyBudget": Money,
   "engagementDuration": EngagementDuration,
   "totalFreelancersToHire": 987,
-  "teamId": 4,
+  "teamId": "4",
   "freelancerClientRelation": FreelancerClientRelation
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchResult" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchRelevance](MarketplaceJobPostingSearchRelevance.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchSkill](MarketplaceJobPostingSearchSkill.md) ➡️

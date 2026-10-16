@@ -24,3 +24,9 @@ generated_by: "scripts/convert.mjs"
 ```json
 {"ontologyEntity": OntologyEntity}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyEntitySearchRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntityEdge](OntologyEntityEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyService](OntologyService.md) ➡️

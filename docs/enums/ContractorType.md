@@ -17,7 +17,7 @@ Contractor type filter
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ALL` | All contractor types |
 | `INDIVIDUALS` | Individual freelancers only |
@@ -30,3 +30,9 @@ Contractor type filter
 ```graphql
 "ALL"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractorType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractorTier](ContractorTier.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [DropdownAclType](DropdownAclType.md) ➡️

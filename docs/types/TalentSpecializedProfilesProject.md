@@ -29,8 +29,14 @@ Project associated with a specialized profile
 
 ```json
 {
-  "personId": "4",
-  "profileId": 4,
+  "personId": 4,
+  "profileId": "4",
   "project": TalentProfileSpecializedProject
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentSpecializedProfilesProject" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentSpecializedProfileSkillNode](TalentSpecializedProfileSkillNode.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentVegaJobDetails](TalentVegaJobDetails.md) ➡️

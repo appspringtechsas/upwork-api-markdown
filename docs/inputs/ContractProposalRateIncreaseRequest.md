@@ -23,5 +23,11 @@ generated_by: "scripts/convert.mjs"
 ### Example
 
 ```json
-{"cadenceMonths": 987, "rate": "xyz789"}
+{"cadenceMonths": 123, "rate": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalRateIncreaseRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalOfferTermsInput](ContractProposalOfferTermsInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalSourceInput](ContractProposalSourceInput.md) ➡️

@@ -30,7 +30,13 @@ Visitor segmentation data for behavioral or demographic categorization
 ```json
 {
   "visitorId": "4",
-  "segmentName": "abc123",
-  "data": "abc123"
+  "segmentName": "xyz789",
+  "data": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VisitorSegment" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VisitorI18NSettings](VisitorI18NSettings.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Actor](Actor.md) ➡️

@@ -32,11 +32,17 @@ Attachment details associated with a Milestone Submission
 
 ```json
 {
-  "id": 4,
-  "fileName": "xyz789",
+  "id": "4",
+  "fileName": "abc123",
   "fileUrl": "abc123",
   "fileSize": 987,
-  "orgId": "4",
+  "orgId": 4,
   "organization": GenericOrganization
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SubmissionAttachmentDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Submission](Submission.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SubmissionEvent](SubmissionEvent.md) ➡️

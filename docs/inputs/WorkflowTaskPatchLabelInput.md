@@ -29,3 +29,9 @@ Input for adding or removing a label from a workflow task
 ```json
 {"label": "FLAGGED", "enabled": false}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowTaskPatchLabelInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateWorkflowTaskDetailsInput](UpdateWorkflowTaskDetailsInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AcceptVendorInvitationInput](AcceptVendorInvitationInput.md) ➡️

@@ -59,5 +59,11 @@ mutation endContractByFreelancer(
 #### Response
 
 ```json
-{"data": {"endContractByFreelancer": {"success": false}}}
+{"data": {"endContractByFreelancer": {"success": true}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-endContractByFreelancer" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [acceptOffer](acceptOffer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [withdrawOffer](withdrawOffer.md) ➡️

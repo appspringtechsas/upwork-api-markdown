@@ -30,3 +30,9 @@ generated_by: "scripts/convert.mjs"
   "milestones": [ContractProposalMilestoneInput]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalMilestoneTermsV2Input" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalMilestoneInput](ContractProposalMilestoneInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalOfferTermsInput](ContractProposalOfferTermsInput.md) ➡️

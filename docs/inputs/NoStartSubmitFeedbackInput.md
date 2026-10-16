@@ -30,9 +30,15 @@ Input for no-start feedback submission
 
 ```json
 {
-  "comment": "xyz789",
+  "comment": "abc123",
   "willWorkAgain": true,
   "reasonApi": "xyz789",
   "submitterUid": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-NoStartSubmitFeedbackInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FeedbackInfoInput](FeedbackInfoInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [NotificationsInput](NotificationsInput.md) ➡️

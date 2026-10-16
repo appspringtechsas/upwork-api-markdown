@@ -32,3 +32,9 @@ Status details of the invitation
   "lastStatusChangeReason": VendorInvitationChangeReason
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationStatusDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationParticipant](VendorInvitationParticipant.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorProposal](VendorProposal.md) ➡️

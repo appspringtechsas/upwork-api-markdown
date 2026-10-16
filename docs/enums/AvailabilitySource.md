@@ -17,7 +17,7 @@ Sources of availability updates for a freelancer
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `st_assgn_e` | Source of availability update - start assignment |
 | `endassgn_e` | Source of availability update - end assignment |
@@ -37,3 +37,9 @@ Sources of availability updates for a freelancer
 ```graphql
 "st_assgn_e"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AvailabilitySource" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AccessRestictionReason](AccessRestictionReason.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BatchAssignmentOptions](BatchAssignmentOptions.md) ➡️

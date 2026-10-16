@@ -17,7 +17,7 @@ Milestone state values
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `NotFunded` | Milestone not funded |
 | `InOffer` | Milestone in offer |
@@ -40,3 +40,9 @@ Milestone state values
 ```graphql
 "NotFunded"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferMilestoneState" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferLegacyState](OfferLegacyState.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Offeror](Offeror.md) ➡️

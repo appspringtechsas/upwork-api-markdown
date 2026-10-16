@@ -25,8 +25,14 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "endDate": "abc123",
+  "endDate": "xyz789",
   "feedbackInfo": FeedbackInfoInput,
   "reasonRef": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EndContractInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [EndContractAtomicInput](EndContractAtomicInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FeedbackInfoInput](FeedbackInfoInput.md) ➡️

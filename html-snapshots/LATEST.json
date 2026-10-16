@@ -1,18 +1,18 @@
 {
-  "snapshot": "2026-10-11T17-27-08Z",
-  "promotedAt": "2026-10-11T17:28:04.451Z",
+  "snapshot": "2026-10-16T01-51-57Z",
+  "promotedAt": "2026-10-16T01:52:54.122Z",
   "pages": [
     {
       "file": "index.html",
       "url": "https://www.upwork.com/developer/documentation/graphql/api/docs/index.html",
-      "bytes": 5245858,
-      "sha256": "7bd57039bd484ee5d8302e8fc92730116a630dd25323940a5b2cb2f54c72a02e"
+      "bytes": 5245434,
+      "sha256": "9a21ce5f04099af11c0142d37c313985248e757acd6f6022496b1ad8307945a0"
     },
     {
       "file": "api-changelog.html",
       "url": "https://www.upwork.com/developer/documentation/graphql/api/docs/api-changelog.html",
       "bytes": 5695,
-      "sha256": "d64bfc19d45609dbf5b3ded0b50b7429bc673db08d9b58695f41cfaec392df1d"
+      "sha256": "1915d0022dfbf5e12da55abbacf5c5f115e359c9245dd9bf971fb9baa021bb5b"
     }
   ],
   "assets": [

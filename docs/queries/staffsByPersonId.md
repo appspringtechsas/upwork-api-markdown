@@ -88,15 +88,15 @@ query staffsByPersonId(
 ```json
 {
   "personId": 4,
-  "status": 123,
-  "staffType": "abc123",
-  "affiliateContractor": true,
+  "status": 987,
+  "staffType": "xyz789",
+  "affiliateContractor": false,
   "hierarchy": true,
   "orgLegacyType": "Client",
   "orgType": "Business",
-  "hiddenOrg": true,
+  "hiddenOrg": false,
   "activeOrg": true,
-  "eac": true,
+  "eac": false,
   "pagination": Pagination
 }
 ```
@@ -114,3 +114,9 @@ query staffsByPersonId(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-staffsByPersonId" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [accountAuditRecord](accountAuditRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [teamActivities](teamActivities.md) ➡️

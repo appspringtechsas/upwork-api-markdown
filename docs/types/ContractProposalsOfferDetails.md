@@ -26,5 +26,11 @@ Offer details of contract proposals list item
 ### Example
 
 ```json
-{"title": "xyz789"}
+{"title": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalsOfferDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalsListItem](ContractProposalsListItem.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalsPaging](ContractProposalsPaging.md) ➡️

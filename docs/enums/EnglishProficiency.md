@@ -17,7 +17,7 @@ English proficiency levels
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ANY` | Any proficiency level |
 | `BASIC` | Basic proficiency |
@@ -32,3 +32,9 @@ English proficiency levels
 ```graphql
 "ANY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EnglishProficiency" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [EngagementType](EngagementType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EnglishSkill](EnglishSkill.md) ➡️

@@ -40,14 +40,14 @@ Stipend-based contract term including minimum hours and amount
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "createDate": "abc123",
   "modifyDate": "abc123",
-  "changeDate": "abc123",
+  "changeDate": "xyz789",
   "createdBy": ContractUser,
   "creatorUserType": "CLIENT",
   "changedBy": ContractUser,
-  "minGuaranteedHours": "xyz789",
+  "minGuaranteedHours": "abc123",
   "stipendAmount": Money,
   "startDate": "xyz789",
   "changingUserType": "CLIENT",
@@ -56,3 +56,9 @@ Stipend-based contract term including minimum hours and amount
   "ptcData": PtcData
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-StipendContractTerm" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PurchaseOrder](PurchaseOrder.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [StipendTerms](StipendTerms.md) ➡️

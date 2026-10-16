@@ -27,5 +27,11 @@ Integer range filter
 ### Example
 
 ```json
-{"min": 123, "max": 987}
+{"min": 987, "max": 123}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SemSearchV2IntRange" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SemSearchV2DoubleRange](SemSearchV2DoubleRange.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SemSearchV2Request](SemSearchV2Request.md) ➡️

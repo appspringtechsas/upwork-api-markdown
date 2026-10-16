@@ -41,16 +41,22 @@ Represents a task/activity available for time tracking
 {
   "totalContracts": 987,
   "url": "xyz789",
-  "codeOrder": "abc123",
+  "codeOrder": "xyz789",
   "status": "xyz789",
-  "level": "xyz789",
+  "level": "abc123",
   "contracts": [ActivityContract],
   "userId": "4",
   "code": "xyz789",
   "createdTime": "xyz789",
   "companyId": "xyz789",
-  "recordId": "4",
-  "teamId": 4,
+  "recordId": 4,
+  "teamId": "4",
   "description": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Activity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ActivitiesConnection](ActivitiesConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ActivityContract](ActivityContract.md) ➡️

@@ -33,6 +33,12 @@ Submit Milestone request input
   "milestoneId": "4",
   "amount": WMMoneyInput,
   "message": "xyz789",
-  "attachments": ["4"]
+  "attachments": [4]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SubmitContractMilestoneRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PersonSaveJobInput](PersonSaveJobInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [DateTimeRange](DateTimeRange.md) ➡️

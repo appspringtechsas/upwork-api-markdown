@@ -32,7 +32,13 @@ Input for querying work diary by contract
 {
   "contractId": 4,
   "date": "abc123",
-  "offsetInSeconds": 123,
-  "useLegacy": true
+  "offsetInSeconds": 987,
+  "useLegacy": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryContractInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryCompanyInput](WorkDiaryCompanyInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateWorkflowTaskDetailsInput](UpdateWorkflowTaskDetailsInput.md) ➡️

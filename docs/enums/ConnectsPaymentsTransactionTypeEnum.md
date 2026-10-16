@@ -17,7 +17,7 @@ Transaction type defined in TTransactionTypes thrift enum
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `CREDIT` | Receiving Connects |
 | `DEBIT` | Spending Connects |
@@ -30,3 +30,9 @@ Transaction type defined in TTransactionTypes thrift enum
 ```graphql
 "CREDIT"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ConnectsPaymentsTransactionTypeEnum" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskStatus](WorkflowTaskStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalStateV2](ContractProposalStateV2.md) ➡️

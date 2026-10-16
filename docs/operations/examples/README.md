@@ -28,3 +28,9 @@ This section provides examples of how to use the GraphQL API to perform common t
 - [Payments](payments.md)
 
 - [Reports](reports.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#operations-examples" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [error-handling](../error-handling.md)   ·   [📚 Docs index](../../README.md)   ·   **Next:** [jobs](jobs.md) ➡️

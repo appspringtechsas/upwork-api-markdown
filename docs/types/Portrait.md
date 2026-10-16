@@ -33,10 +33,16 @@ Portrait of the freelancer
 ```json
 {
   "portrait": "xyz789",
-  "portrait32": "xyz789",
-  "portrait50": "xyz789",
+  "portrait32": "abc123",
+  "portrait50": "abc123",
   "portrait100": "abc123",
   "portrait150": "xyz789",
   "portrait500": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Portrait" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PageInfo](PageInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [StringMapElement](StringMapElement.md) ➡️

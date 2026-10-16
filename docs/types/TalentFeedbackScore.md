@@ -29,8 +29,14 @@ Individual feedback score by category
 
 ```json
 {
-  "label": "xyz789",
-  "score": 123,
+  "label": "abc123",
+  "score": 987,
   "weight": 987.65
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentFeedbackScore" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentEducationRecord](TalentEducationRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentJobCategory](TalentJobCategory.md) ➡️

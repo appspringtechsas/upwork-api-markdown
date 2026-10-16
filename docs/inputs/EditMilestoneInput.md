@@ -36,11 +36,17 @@ Input for editing a milestone
 {
   "id": 4,
   "description": "xyz789",
-  "instructions": "abc123",
-  "depositAmount": "xyz789",
+  "instructions": "xyz789",
+  "depositAmount": "abc123",
   "dueDate": "abc123",
   "attachments": ["4"],
   "message": "abc123",
-  "sequenceId": 987
+  "sequenceId": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EditMilestoneInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [DeleteMilestoneInput](DeleteMilestoneInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EndContractAtomicFeedbacksInput](EndContractAtomicFeedbacksInput.md) ➡️

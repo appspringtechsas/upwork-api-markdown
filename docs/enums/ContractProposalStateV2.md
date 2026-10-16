@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ACTIVE` |  |
 | `ACCEPTED` |  |
@@ -29,3 +29,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "ACTIVE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalStateV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ConnectsPaymentsTransactionTypeEnum](ConnectsPaymentsTransactionTypeEnum.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateJobProposalError](CreateJobProposalError.md) ➡️

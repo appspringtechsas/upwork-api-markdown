@@ -29,8 +29,14 @@ Input for querying workdays across multiple contracts
 
 ```json
 {
-  "contractIds": [4],
+  "contractIds": ["4"],
   "timeRange": DateTimeRange,
-  "offsetInSeconds": 123
+  "offsetInSeconds": 987
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkdaysInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserPermissionFilterV2](UserPermissionFilterV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryCompanyInput](WorkDiaryCompanyInput.md) ➡️

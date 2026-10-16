@@ -44,12 +44,12 @@ Freelancer's Contracts
 ```json
 {
   "id": 4,
-  "description": "abc123",
+  "description": "xyz789",
   "title": "xyz789",
   "clientOrganization": GenericOrganization,
   "type": "Fixed",
   "accessType": "PublicAccess",
-  "private": true,
+  "private": false,
   "job": JobPosting,
   "startDateTime": "xyz789",
   "endDateTime": "xyz789",
@@ -62,3 +62,9 @@ Freelancer's Contracts
   "isFromElance": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileContract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileCompletenessSummary](FreelancerProfileCompletenessSummary.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileContractFeedback](FreelancerProfileContractFeedback.md) ➡️

@@ -66,3 +66,9 @@ mutation inviteToTeam($invitations: [InvitationToTeamInput!]!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-inviteToTeam" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [createRoomV2](createRoomV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [removeFreelancerEmploymentRecord](removeFreelancerEmploymentRecord.md) ➡️

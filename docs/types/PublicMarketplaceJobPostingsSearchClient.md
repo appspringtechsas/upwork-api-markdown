@@ -35,14 +35,20 @@ The visible client information in marketplace
 
 ```json
 {
-  "totalHires": 987,
-  "totalPostedJobs": 123,
+  "totalHires": 123,
+  "totalPostedJobs": 987,
   "totalReviews": 987,
-  "totalFeedback": 987,
-  "companyRid": "4",
-  "edcUserId": "4",
-  "lastContractRid": "4",
+  "totalFeedback": 123,
+  "companyRid": 4,
+  "edcUserId": 4,
+  "lastContractRid": 4,
   "hasFinancialPrivacy": true,
   "location": MarketPlaceJobSearchLocation
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingsSearchClient" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalsStatistics](ProposalsStatistics.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SegmentationType](SegmentationType.md) ➡️

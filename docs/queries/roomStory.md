@@ -80,7 +80,7 @@ query roomStory(
 {
   "data": {
     "roomStory": {
-      "id": "4",
+      "id": 4,
       "room": Room,
       "createdDateTime": "abc123",
       "updatedDateTime": "xyz789",
@@ -93,3 +93,9 @@ query roomStory(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-roomStory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [roomStories](roomStories.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [snapshotsByContractId](snapshotsByContractId.md) ➡️

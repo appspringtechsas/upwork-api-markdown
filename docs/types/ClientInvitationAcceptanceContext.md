@@ -29,6 +29,12 @@ generated_by: "scripts/convert.mjs"
   "organization": GenericOrganization,
   "context": "Freelancer",
   "acceptedBy": GenericUser,
-  "acceptedDateTime": "abc123"
+  "acceptedDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitationAcceptanceContext" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitation](ClientInvitation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationAcceptanceDetails](ClientInvitationAcceptanceDetails.md) ➡️

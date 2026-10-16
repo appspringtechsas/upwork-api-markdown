@@ -38,3 +38,9 @@ Classification details of a marketplace job posting
   "additionalSkills": [Skill]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplacePostingClassification" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplacePostingAttachment](MarketplacePostingAttachment.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplacePostingOwnership](MarketplacePostingOwnership.md) ➡️

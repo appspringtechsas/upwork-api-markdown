@@ -107,7 +107,7 @@ mutation archiveRoom($roomId: ID!) {
 #### Variables
 
 ```json
-{"roomId": 4}
+{"roomId": "4"}
 ```
 
 #### Response
@@ -116,30 +116,30 @@ mutation archiveRoom($roomId: ID!) {
 {
   "data": {
     "archiveRoom": {
-      "id": "4",
-      "roomName": "xyz789",
+      "id": 4,
+      "roomName": "abc123",
       "organization": CurrentOrganization,
       "creator": RoomUser,
-      "createdAtDateTime": "xyz789",
-      "public": true,
-      "topic": "abc123",
+      "createdAtDateTime": "abc123",
+      "public": false,
+      "topic": "xyz789",
       "owner": RoomUser,
       "numUnread": 123,
-      "roomFavoriteDateTime": "xyz789",
-      "favorite": false,
+      "roomFavoriteDateTime": "abc123",
+      "favorite": true,
       "numUnreadMentions": 987,
       "roomUsers": [RoomUser],
-      "numUsers": 987,
+      "numUsers": 123,
       "joinDateTime": "xyz789",
       "lastVisitedDateTime": "abc123",
       "lastReadDateTime": "xyz789",
       "roomType": "ONE_ON_ONE",
       "readOnlyDateTime": "abc123",
-      "readOnly": true,
-      "blockDateTime": "abc123",
+      "readOnly": false,
+      "blockDateTime": "xyz789",
       "blockedBy": RoomUser,
-      "hidden": true,
-      "muted": false,
+      "hidden": false,
+      "muted": true,
       "contractId": 4,
       "contract": Contract,
       "contractDetails": ContractDetails,
@@ -156,3 +156,9 @@ mutation archiveRoom($roomId: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-archiveRoom" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [addUserToRoom](addUserToRoom.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [archiveTeamActivity](archiveTeamActivity.md) ➡️

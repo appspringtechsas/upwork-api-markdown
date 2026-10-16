@@ -28,5 +28,11 @@ Paging information
 ### Example
 
 ```json
-{"total": 987, "offset": 123, "count": 987}
+{"total": 987, "offset": 987, "count": 123}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PagingInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerSearchResultLocation](FreelancerSearchResultLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingSearchFacets](PublicMarketplaceJobPostingSearchFacets.md) ➡️

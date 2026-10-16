@@ -28,3 +28,9 @@ Work diary containing time tracking cells for a work day
 ```json
 {"cells": [Cell]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiary" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDay](WorkDay.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfilesSearchRecord](FreelancerProfilesSearchRecord.md) ➡️

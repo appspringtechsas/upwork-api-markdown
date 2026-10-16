@@ -26,5 +26,11 @@ Result containing workday information
 ### Example
 
 ```json
-{"workDays": ["abc123"]}
+{"workDays": ["xyz789"]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkdayResult" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserPermissions](UserPermissions.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryCompany](WorkDiaryCompany.md) ➡️

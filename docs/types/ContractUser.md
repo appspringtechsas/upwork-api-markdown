@@ -34,13 +34,19 @@ Person referenced in a contract context
 
 ```json
 {
-  "id": "4",
-  "rid": "4",
-  "name": "abc123",
+  "id": 4,
+  "rid": 4,
+  "name": "xyz789",
   "photoUrl": "xyz789",
   "firstName": "xyz789",
   "lastName": "xyz789",
   "address": UserLocation,
-  "email": "xyz789"
+  "email": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractUser" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractTerms](ContractTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CustomFields](CustomFields.md) ➡️

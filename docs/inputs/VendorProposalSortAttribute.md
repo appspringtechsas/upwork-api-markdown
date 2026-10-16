@@ -29,3 +29,9 @@ Sorting configuration for vendor proposals
 ```json
 {"field": "CREATEDDATETIME", "sortOrder": "ASC"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorProposalSortAttribute" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorProposalFilter](VendorProposalFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BPAPrivateDataFilter](BPAPrivateDataFilter.md) ➡️

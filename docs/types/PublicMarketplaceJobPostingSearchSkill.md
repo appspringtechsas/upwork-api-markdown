@@ -29,8 +29,14 @@ Skill information
 
 ```json
 {
-  "name": "xyz789",
+  "name": "abc123",
   "prettyName": "xyz789",
   "highlighted": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingSearchSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicMarketplaceJobPostingSearchOntologySkill](PublicMarketplaceJobPostingSearchOntologySkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingsSearch](PublicMarketplaceJobPostingsSearch.md) ➡️

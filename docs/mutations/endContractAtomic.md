@@ -53,11 +53,20 @@ mutation endContractAtomic(
 #### Variables
 
 ```json
-{"contractId": 4, "input": EndContractAtomicInput}
+{
+  "contractId": "4",
+  "input": EndContractAtomicInput
+}
 ```
 
 #### Response
 
 ```json
-{"data": {"endContractAtomic": {"success": true}}}
+{"data": {"endContractAtomic": {"success": false}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-endContractAtomic" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [editMilestone](editMilestone.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [endContractByClient](endContractByClient.md) ➡️

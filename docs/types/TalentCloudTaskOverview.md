@@ -33,12 +33,18 @@ Overview of a talent cloud task
 
 ```json
 {
-  "id": "4",
-  "taskSectionIds": [4],
+  "id": 4,
+  "taskSectionIds": ["4"],
   "name": "abc123",
-  "completionRequired": false,
-  "active": false,
+  "completionRequired": true,
+  "active": true,
   "permissions": [TalentCloudTaskOverviewPermission],
   "primaryTaskOwner": "FREELANCER"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCloudTaskOverview" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTask](TalentCloudTask.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCloudTaskOverviewPermission](TalentCloudTaskOverviewPermission.md) ➡️

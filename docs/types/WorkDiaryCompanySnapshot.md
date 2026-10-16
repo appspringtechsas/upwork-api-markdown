@@ -36,9 +36,15 @@ Complete snapshot of work diary data including time, task, and screenshots
   "contract": WorkDiaryCompanyContract,
   "user": WorkDiaryCompanyUser,
   "duration": "abc123",
-  "durationInt": 123,
+  "durationInt": 987,
   "task": WorkDiaryCompanySnapshotTask,
   "time": WorkDiaryCompanyTime,
   "screenshots": [WorkDiaryCompanySnapshotScreenshot]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryCompanySnapshot" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryCompanyContract](WorkDiaryCompanyContract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryCompanySnapshotScreenshot](WorkDiaryCompanySnapshotScreenshot.md) ➡️

@@ -37,8 +37,14 @@ Filter for transaction history queries
   "aceIds_any": [4],
   "transactionDateTime_bt": DateTimeRange,
   "agencyCompanyIds_any": ["4"],
-  "agencyCompanyUids_any": [4],
-  "developerIds_any": ["4"],
+  "agencyCompanyUids_any": ["4"],
+  "developerIds_any": [4],
   "trxSubtypes_any": ["xyz789"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TransactionHistoryFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TimeReportFilter](TimeReportFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileSearchAreaInput](FreelancerProfileSearchAreaInput.md) ➡️

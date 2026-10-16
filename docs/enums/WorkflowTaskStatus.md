@@ -17,7 +17,7 @@ Status of a workflow task
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `NOT_OPEN` | Task is not yet open |
 | `OPEN` | Task is open and available |
@@ -34,3 +34,9 @@ Status of a workflow task
 ```graphql
 "NOT_OPEN"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowTaskStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskLabel](WorkflowTaskLabel.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ConnectsPaymentsTransactionTypeEnum](ConnectsPaymentsTransactionTypeEnum.md) ➡️

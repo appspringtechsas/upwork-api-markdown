@@ -28,3 +28,9 @@ List of offers
 ```json
 {"offers": [Offer]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferList" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferLastEvent](OfferLastEvent.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferTerms](OfferTerms.md) ➡️

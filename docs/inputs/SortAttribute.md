@@ -27,5 +27,11 @@ Sorting attribute and order
 ### Example
 
 ```json
-{"field": "abc123", "sortOrder": "ASC"}
+{"field": "xyz789", "sortOrder": "ASC"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SortAttribute" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Pagination](Pagination.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [StringMapElementInput](StringMapElementInput.md) ➡️

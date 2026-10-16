@@ -29,8 +29,14 @@ Job segmentation
 
 ```json
 {
-  "label": "xyz789",
+  "label": "abc123",
   "name": "abc123",
   "skill": SegmentationSkill
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobSegmentation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobQualifications](JobQualifications.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PaymentsReport](PaymentsReport.md) ➡️

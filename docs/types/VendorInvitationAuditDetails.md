@@ -31,8 +31,14 @@ Details about the audit of the invitation
 ```json
 {
   "createdBy": "xyz789",
-  "createdDateTime": "xyz789",
+  "createdDateTime": "abc123",
   "modifiedBy": "abc123",
   "modifiedDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationAuditDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationAcceptanceDetails](VendorInvitationAcceptanceDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationChangeReason](VendorInvitationChangeReason.md) ➡️

@@ -113,3 +113,9 @@ The amount of money that a freelancer or an agency receives as payment (Upwork f
 ###### Work diary:
 
 The Work diary acts as a visual time card. It is the basis for Upwork’s automated weekly billing system. It shows clients hours worked and work-in-progress screenshots.
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#introduction" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Docs index](README.md)   ·   **Next:** [getting-started index](getting-started/README.md) ➡️

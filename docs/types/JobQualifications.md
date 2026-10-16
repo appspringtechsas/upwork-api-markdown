@@ -46,25 +46,31 @@ Job qualifications
 
 ```json
 {
-  "countries": ["abc123"],
+  "countries": ["xyz789"],
   "group": JobQualificationGroup,
-  "languages": ["xyz789"],
-  "localDescription": "abc123",
+  "languages": ["abc123"],
+  "localDescription": "xyz789",
   "localFlexibilityDescription": "abc123",
-  "localMarket": true,
+  "localMarket": false,
   "location": GeoLocation,
   "locations": [PrefLocation],
   "minHoursWeek": 123.45,
-  "minJobSuccessScore": 987,
+  "minJobSuccessScore": 123,
   "minOdeskHours": 987,
   "onSiteType": "REMOTE",
   "prefEnglishSkill": "ANY",
-  "regions": ["xyz789"],
+  "regions": ["abc123"],
   "risingTalent": true,
-  "shouldHavePortfolio": true,
-  "states": ["xyz789"],
-  "tests": ["abc123"],
-  "timezones": ["abc123"],
+  "shouldHavePortfolio": false,
+  "states": ["abc123"],
+  "tests": ["xyz789"],
+  "timezones": ["xyz789"],
   "type": "ANY"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobQualifications" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobQualificationGroup](JobQualificationGroup.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobSegmentation](JobSegmentation.md) ➡️

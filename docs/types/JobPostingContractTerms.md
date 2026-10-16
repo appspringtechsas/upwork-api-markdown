@@ -35,12 +35,18 @@ Contract terms for a job posting
 ```json
 {
   "contractStartDate": "abc123",
-  "contractEndDate": "abc123",
+  "contractEndDate": "xyz789",
   "contractType": "HOURLY",
   "onSiteType": "REMOTE",
-  "personsToHire": 987,
+  "personsToHire": 123,
   "experienceLevel": "ENTRY_LEVEL",
   "fixedPriceContractTerms": FixedPriceContractTerms,
   "hourlyContractTerms": HourlyContractTerms
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingContractTerms" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingContractorSelection](JobPostingContractorSelection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingCreateResponse](JobPostingCreateResponse.md) ➡️

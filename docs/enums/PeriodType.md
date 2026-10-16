@@ -17,7 +17,7 @@ Period type for stipend
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Weekly` | Weekly period |
 | `Monthly` | Monthly period |
@@ -29,3 +29,9 @@ Period type for stipend
 ```graphql
 "Weekly"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PeriodType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferWorkType](OfferWorkType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PurchaseOrderAclType](PurchaseOrderAclType.md) ➡️

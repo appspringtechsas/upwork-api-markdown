@@ -53,12 +53,11 @@ mutation createOrganization($input: CreateOrganizationInput!) {
 #### Response
 
 ```json
-{
-  "data": {
-    "createOrganization": {
-      "id": "4",
-      "success": false
-    }
-  }
-}
+{"data": {"createOrganization": {"id": 4, "success": true}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createOrganization" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [assignTeamActivityToTheContract](assignTeamActivityToTheContract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createRoomStoryV2](createRoomStoryV2.md) ➡️

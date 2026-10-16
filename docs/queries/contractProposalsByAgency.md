@@ -61,7 +61,7 @@ query contractProposalsByAgency(
 #### Variables
 
 ```json
-{"agencyTeamId": 4, "freelancerId": 4, "page": 987}
+{"agencyTeamId": 4, "freelancerId": 4, "page": 123}
 ```
 
 #### Response
@@ -76,3 +76,9 @@ query contractProposalsByAgency(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-contractProposalsByAgency" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [connectUsageHistory](connectUsageHistory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractProposalsByClientOrg](contractProposalsByClientOrg.md) ➡️

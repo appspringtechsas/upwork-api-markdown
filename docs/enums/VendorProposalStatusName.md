@@ -17,7 +17,7 @@ vendor proposal status name
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | ⚠️ `Created` | **⚠️ Deprecated — No longer supported** |
 | `Accepted` | Application has been created and fully validated. (i.e. FL has submitted a proposal). |
@@ -39,3 +39,9 @@ vendor proposal status name
 ```graphql
 "Created"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorProposalStatusName" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorProposalStatusFilterInput](VendorProposalStatusFilterInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileSearchUserTypeEnum](FreelancerProfileSearchUserTypeEnum.md) ➡️

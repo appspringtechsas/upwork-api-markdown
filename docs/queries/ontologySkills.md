@@ -102,7 +102,7 @@ query ontologySkills(
 #### Variables
 
 ```json
-{"limit": 987, "offset": 123}
+{"limit": 123, "offset": 123}
 ```
 
 #### Response
@@ -112,23 +112,23 @@ query ontologySkills(
   "data": {
     "ontologySkills": [
       {
-        "id": "4",
-        "ontologyId": "abc123",
+        "id": 4,
+        "ontologyId": "xyz789",
         "type": ["OCCUPATION"],
         "entityStatus": "ACTIVE",
         "preferredLabel": "abc123",
-        "createdDateTime": "xyz789",
+        "createdDateTime": "abc123",
         "modifiedDateTime": "abc123",
-        "definition": "xyz789",
-        "altLabel": ["xyz789"],
-        "narrower": ["xyz789"],
+        "definition": "abc123",
+        "altLabel": ["abc123"],
+        "narrower": ["abc123"],
         "narrowerIds": [4],
-        "broader": ["abc123"],
-        "broaderIds": ["4"],
-        "dependsOn": ["abc123"],
-        "dependsOnIds": ["4"],
+        "broader": ["xyz789"],
+        "broaderIds": [4],
+        "dependsOn": ["xyz789"],
+        "dependsOnIds": [4],
         "splitInto": ["abc123"],
-        "splitIntoIds": ["4"],
+        "splitIntoIds": [4],
         "mergedInto": "xyz789",
         "mergedIntoId": "4",
         "replacedBy": "xyz789",
@@ -137,33 +137,39 @@ query ontologySkills(
         "externalLink": ["xyz789"],
         "exactMatch": ["xyz789"],
         "exactMatchIds": [4],
-        "closeMatch": ["abc123"],
-        "closeMatchIds": ["4"],
-        "comment": "abc123",
+        "closeMatch": ["xyz789"],
+        "closeMatchIds": [4],
+        "comment": "xyz789",
         "attributeLevel": ["xyz789"],
-        "allowMultipleClient": true,
+        "allowMultipleClient": false,
         "allowMultipleFreelancer": false,
-        "allowOther": true,
-        "clientQuestion": "abc123",
+        "allowOther": false,
+        "clientQuestion": "xyz789",
         "clientTip": "xyz789",
         "freelancerQuestion": "xyz789",
-        "freelancerTip": "xyz789",
-        "advancedClient": true,
+        "freelancerTip": "abc123",
+        "advancedClient": false,
         "client": false,
-        "freelancer": false,
+        "freelancer": true,
         "requiredClient": false,
-        "requiredFreelancer": false,
+        "requiredFreelancer": true,
         "otherClientLabel": "xyz789",
-        "otherFreelancerLabel": "abc123",
-        "presentationMode": "abc123",
+        "otherFreelancerLabel": "xyz789",
+        "presentationMode": "xyz789",
         "priority": 987,
-        "isRequiredBy": ["abc123"],
+        "isRequiredBy": ["xyz789"],
         "isRequiredByIds": [4],
         "legacySkillNid": "abc123",
         "prettyName": "xyz789",
-        "legacySkillId": 4
+        "legacySkillId": "4"
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-ontologySkills" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ontologyOccupationsCategoriesServices](ontologyOccupationsCategoriesServices.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [clientInvitation](clientInvitation.md) ➡️

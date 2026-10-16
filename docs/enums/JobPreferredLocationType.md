@@ -17,7 +17,7 @@ Prefered location
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `REMOTE` | Remote |
 | `PERMANENT` | Permanent |
@@ -29,3 +29,9 @@ Prefered location
 ```graphql
 "REMOTE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPreferredLocationType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPrefEnglishSkill](JobPrefEnglishSkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ManualReviewStatus](ManualReviewStatus.md) ➡️

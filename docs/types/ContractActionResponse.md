@@ -22,5 +22,11 @@ generated_by: "scripts/convert.mjs"
 ### Example
 
 ```json
-{"success": true}
+{"success": false}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractActionResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Contract](Contract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractDetails](ContractDetails.md) ➡️

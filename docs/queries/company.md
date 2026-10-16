@@ -66,3 +66,9 @@ query company($id: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-company" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [talentWorkHistory](talentWorkHistory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [companySelector](companySelector.md) ➡️

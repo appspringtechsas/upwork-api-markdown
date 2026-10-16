@@ -28,7 +28,13 @@ Custom field annotation
 
 ```json
 {
-  "key": "xyz789",
+  "key": "abc123",
   "value": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingAnnotationsCustomField" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingAnnotations](JobPostingAnnotations.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingCreateRequest](JobPostingCreateRequest.md) ➡️

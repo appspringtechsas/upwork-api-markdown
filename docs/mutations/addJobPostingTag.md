@@ -51,14 +51,17 @@ mutation addJobPostingTag(
 #### Variables
 
 ```json
-{
-  "jobPostingUid": "4",
-  "tag": "abc123"
-}
+{"jobPostingUid": 4, "tag": "abc123"}
 ```
 
 #### Response
 
 ```json
-{"data": {"addJobPostingTag": true}}
+{"data": {"addJobPostingTag": false}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-addJobPostingTag" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [mutations index](README.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createJobPosting](createJobPosting.md) ➡️

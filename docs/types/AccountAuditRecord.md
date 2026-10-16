@@ -34,3 +34,9 @@ Account audit record
   "metadata": [StringMapElement]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AccountAuditRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentWorkHistoryConnection](TalentWorkHistoryConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AccountProcessInstance](AccountProcessInstance.md) ➡️

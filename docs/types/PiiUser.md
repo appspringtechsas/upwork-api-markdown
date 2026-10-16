@@ -36,15 +36,21 @@ The personal identifiable information (PII) of the user. This model is used when
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "nid": "4",
-  "rid": 4,
-  "name": "xyz789",
-  "firstName": "xyz789",
+  "rid": "4",
+  "name": "abc123",
+  "firstName": "abc123",
   "lastName": "xyz789",
-  "photoUrl": "abc123",
+  "photoUrl": "xyz789",
   "publicUrl": "xyz789",
-  "email": "xyz789",
+  "email": "abc123",
   "location": UserLocation
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PiiUser" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PhoneNumber](PhoneNumber.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrivateCompanyInfo](PrivateCompanyInfo.md) ➡️

@@ -26,9 +26,15 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "userId": "4",
+  "userId": 4,
   "parentOrganizationId": 4,
-  "subOrganizationId": 4,
+  "subOrganizationId": "4",
   "type": "Client"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitationParticipant" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitationEdge](ClientInvitationEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationStatusDetails](ClientInvitationStatusDetails.md) ➡️

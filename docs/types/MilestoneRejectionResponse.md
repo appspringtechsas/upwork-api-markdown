@@ -28,3 +28,9 @@ Result of milestone rejection request
 ```json
 {"response": false}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MilestoneRejectionResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Milestone](Milestone.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MilestoneSubmissions](MilestoneSubmissions.md) ➡️

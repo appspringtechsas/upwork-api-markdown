@@ -38,11 +38,17 @@ Filter to load specific user's permissions
   "resourceType_eq": "OPENING",
   "actions_any": ["abc123"],
   "limit": 123,
-  "offset": "xyz789",
+  "offset": "abc123",
   "performExternalChecks_eq": true,
   "teamOrgIds_any": [4],
   "returnAllTeams": true,
-  "returnFirstGrantedResult_eq": false,
+  "returnFirstGrantedResult_eq": true,
   "attribute": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserPermissionFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateTeamActivityRequest](UpdateTeamActivityRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UserPermissionFilterV2](UserPermissionFilterV2.md) ➡️

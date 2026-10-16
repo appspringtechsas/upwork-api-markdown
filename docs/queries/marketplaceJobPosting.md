@@ -92,7 +92,7 @@ query marketplaceJobPosting($id: ID!) {
 #### Variables
 
 ```json
-{"id": 4}
+{"id": "4"}
 ```
 
 #### Response
@@ -101,7 +101,7 @@ query marketplaceJobPosting($id: ID!) {
 {
   "data": {
     "marketplaceJobPosting": {
-      "id": 4,
+      "id": "4",
       "workFlowState": MarketplacePostingWorkFlowState,
       "ownership": MarketplacePostingOwnership,
       "annotations": MarketplacePostingAnnotations,
@@ -172,3 +172,13 @@ query JobDetails($id: ID!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **5** (View marketplace job details) in [Client Job Postings Sample Flow](../operations/examples/jobs.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-marketplaceJobPosting" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [jobPosting](jobPosting.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [marketplaceJobPostings](marketplaceJobPostings.md) ➡️

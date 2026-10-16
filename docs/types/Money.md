@@ -34,3 +34,9 @@ Monetary amount with raw, currency and display representations
   "displayValue": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Money" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Language](Language.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PageInfo](PageInfo.md) ➡️

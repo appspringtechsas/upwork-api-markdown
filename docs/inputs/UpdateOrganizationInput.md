@@ -36,13 +36,19 @@ Input for updating an existing organization
 ```json
 {
   "id": "4",
-  "parentOrganizationId": "4",
-  "organizationName": "abc123",
+  "parentOrganizationId": 4,
+  "organizationName": "xyz789",
   "hidden": false,
   "address": OrganizationLocationInput,
-  "vatId": "abc123",
-  "phoneNumber": "xyz789",
+  "vatId": "xyz789",
+  "phoneNumber": "abc123",
   "countryPhoneCode2": "abc123",
-  "timezone": "xyz789"
+  "timezone": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UpdateOrganizationInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateEmploymentRecordInput](UpdateEmploymentRecordInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UpdateOtherExperienceInput](UpdateOtherExperienceInput.md) ➡️

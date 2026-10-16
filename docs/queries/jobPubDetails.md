@@ -56,7 +56,7 @@ query jobPubDetails($id: ID!) {
 #### Variables
 
 ```json
-{"id": "4"}
+{"id": 4}
 ```
 
 #### Response
@@ -74,3 +74,9 @@ query jobPubDetails($id: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-jobPubDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [jobPostSkillSearch](jobPostSkillSearch.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [mutations index](../mutations/README.md) ➡️

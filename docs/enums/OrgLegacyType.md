@@ -17,7 +17,7 @@ Legacy organization type for filtering
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Client` | Client type |
 | `Vendor` | Vendor type |
@@ -29,3 +29,9 @@ Legacy organization type for filtering
 ```graphql
 "Client"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OrgLegacyType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OrganizationType](OrganizationType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OrgType](OrgType.md) ➡️

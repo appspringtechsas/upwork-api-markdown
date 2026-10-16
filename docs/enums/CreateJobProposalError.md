@@ -17,7 +17,7 @@ Pre-apply validation failure reasons for create proposal v2
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `OK` |  |
 | `INVALID_VENDOR` |  |
@@ -62,3 +62,9 @@ Pre-apply validation failure reasons for create proposal v2
 ```graphql
 "OK"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateJobProposalError" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalStateV2](ContractProposalStateV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateJobProposalStatus](CreateJobProposalStatus.md) ➡️

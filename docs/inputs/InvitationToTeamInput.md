@@ -38,15 +38,21 @@ Input for inviting a user to a team
 ```json
 {
   "flow": "HELP_ME_HIRE",
-  "inviteeEmail": "abc123",
-  "invitedToTopLevelOrganizationId": "4",
+  "inviteeEmail": "xyz789",
+  "invitedToTopLevelOrganizationId": 4,
   "invitedToOrganizationsIds": ["4"],
-  "inviterUserId": 4,
+  "inviterUserId": "4",
   "landingUrl": "xyz789",
   "emailParams": InviteToTeamEmailParams,
   "metadata": [StringMapElementInput],
   "frankoRolesToBeAssigned": ["abc123"],
-  "hierarchical": true,
+  "hierarchical": false,
   "includeFirstOrgIdAsParticipant": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-InvitationToTeamInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileOtherExperiencesFilter](FreelancerProfileOtherExperiencesFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [InviteToTeamEmailParams](InviteToTeamEmailParams.md) ➡️

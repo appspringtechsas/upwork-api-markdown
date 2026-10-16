@@ -56,3 +56,9 @@ query jobPostSkillSearch($filter: JobPostSkillSearchFilter) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-jobPostSkillSearch" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [contractProposalsByFreelancer](contractProposalsByFreelancer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [jobPubDetails](jobPubDetails.md) ➡️

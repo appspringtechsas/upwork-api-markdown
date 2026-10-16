@@ -32,7 +32,13 @@ Additional skill input for job posting
 {
   "skillId": "abc123",
   "freetext": "xyz789",
-  "legacyConvertedSkill": false,
+  "legacyConvertedSkill": true,
   "relevance": "MANDATORY"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingAdditionalSkillInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingAdditionalRequest](JobPostingAdditionalRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingAnnotations](JobPostingAnnotations.md) ➡️

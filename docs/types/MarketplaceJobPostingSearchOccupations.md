@@ -36,3 +36,9 @@ Group of occupations associated with a search result
   "occupationService": MarketplaceJobPostingSearchOccupation
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobPostingSearchOccupations" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchOccupation](MarketplaceJobPostingSearchOccupation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchRelevance](MarketplaceJobPostingSearchRelevance.md) ➡️

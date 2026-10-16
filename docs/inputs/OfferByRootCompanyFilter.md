@@ -31,8 +31,14 @@ Filter for offers by root company
 ```json
 {
   "freelancerId_any": ["4"],
-  "agencyTeamOrgId_any": [4],
-  "clientOrgId_any": [4],
+  "agencyTeamOrgId_any": ["4"],
+  "clientOrgId_any": ["4"],
   "commonFilter": OfferSearchCommonFilter
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferByRootCompanyFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferByClientFilter](OfferByClientFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferForFreelancerFilter](OfferForFreelancerFilter.md) ➡️

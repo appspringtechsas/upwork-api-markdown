@@ -44,7 +44,7 @@ mutation removeFreelancerOtherExperience($id: ID!) {
 #### Variables
 
 ```json
-{"id": "4"}
+{"id": 4}
 ```
 
 #### Response
@@ -52,3 +52,9 @@ mutation removeFreelancerOtherExperience($id: ID!) {
 ```json
 {"data": {"removeFreelancerOtherExperience": false}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-removeFreelancerOtherExperience" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [removeFreelancerEmploymentRecord](removeFreelancerEmploymentRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [removeRoom](removeRoom.md) ➡️

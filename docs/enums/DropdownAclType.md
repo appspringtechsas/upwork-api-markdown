@@ -17,7 +17,7 @@ Access control type for dropdown options
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `COMPANY` | Company-level access |
 | `TEAM` | Team-level access |
@@ -29,3 +29,9 @@ Access control type for dropdown options
 ```graphql
 "COMPANY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-DropdownAclType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractorType](ContractorType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Earning](Earning.md) ➡️

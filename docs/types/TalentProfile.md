@@ -44,7 +44,7 @@ Freelancer profile containing all profile information and settings
 
 ```json
 {
-  "personId": 4,
+  "personId": "4",
   "identity": TalentProfileIdentity,
   "personalData": TalentProfilePersonalData,
   "preferences": TalentProfileUserPreferences,
@@ -70,3 +70,9 @@ Freelancer profile containing all profile information and settings
   ]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfile" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentPortfolioProjectsConnection](TalentPortfolioProjectsConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileAggregate](TalentProfileAggregate.md) ➡️

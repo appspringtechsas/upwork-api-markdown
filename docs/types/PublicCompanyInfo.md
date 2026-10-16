@@ -32,9 +32,15 @@ Public-facing company info
 ```json
 {
   "id": 4,
-  "name": "xyz789",
-  "description": "abc123",
+  "name": "abc123",
+  "description": "xyz789",
   "legacyType": "CLIENT",
-  "logoURL": "abc123"
+  "logoURL": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicCompanyInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProfileActivityMetricsLastUpdated](ProfileActivityMetricsLastUpdated.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Room](Room.md) ➡️

@@ -28,7 +28,13 @@ Metadata for work diary including timezone and user information
 
 ```json
 {
-  "timezoneOffset": "xyz789",
-  "archivingDateTime": "abc123"
+  "timezoneOffset": "abc123",
+  "archivingDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryMetadata" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryContract](WorkDiaryContract.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryTask](WorkDiaryTask.md) ➡️

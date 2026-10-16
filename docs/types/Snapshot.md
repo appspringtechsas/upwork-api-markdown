@@ -48,27 +48,33 @@ Complete snapshot of work with screenshots, activity tracking, and metadata
 
 ```json
 {
-  "id": "4",
-  "time": 123,
-  "contractId": "xyz789",
-  "mouseEventsCount": 123,
+  "id": 4,
+  "time": 987,
+  "contractId": "abc123",
+  "mouseEventsCount": 987,
   "keyboardEventsCount": 123,
   "teamName": "abc123",
-  "status": "xyz789",
-  "activeWindowTitle": "abc123",
+  "status": "abc123",
+  "activeWindowTitle": "xyz789",
   "memo": "xyz789",
   "companyId": "xyz789",
   "hasScreenshot": false,
   "screenshotUrl": "xyz789",
   "screenshotImage": "abc123",
-  "screenshotImageLarge": "abc123",
+  "screenshotImageLarge": "xyz789",
   "screenshotImageMedium": "abc123",
   "screenshotImageThumbnail": "abc123",
-  "hasWebcam": false,
+  "hasWebcam": true,
   "webcamUrl": "xyz789",
-  "webcamImage": "abc123",
+  "webcamImage": "xyz789",
   "webcamImageThumbnail": "xyz789",
-  "task": "abc123",
+  "task": "xyz789",
   "minutes": SnapshotMinutes
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Snapshot" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomUser](RoomUser.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SnapshotMinute](SnapshotMinute.md) ➡️

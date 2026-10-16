@@ -32,3 +32,9 @@ Task section containing section details and tasks
   "tasks": [TalentCloudTaskOverview]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCloudTaskSection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTaskOverviewPermission](TalentCloudTaskOverviewPermission.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCommunityCertificate](TalentCommunityCertificate.md) ➡️

@@ -68,19 +68,25 @@ mutation updateFreelancerEmploymentRecord($input: UpdateEmploymentRecordInput!) 
 {
   "data": {
     "updateFreelancerEmploymentRecord": {
-      "id": "4",
+      "id": 4,
       "user": GenericUser,
-      "companyName": "abc123",
-      "jobTitle": "abc123",
+      "companyName": "xyz789",
+      "jobTitle": "xyz789",
       "standardizedCompanyId": "abc123",
       "standardizedJobTitleId": "abc123",
-      "role": "abc123",
+      "role": "xyz789",
       "startDate": "xyz789",
       "endDate": "abc123",
-      "description": "xyz789",
+      "description": "abc123",
       "city": "abc123",
-      "country": "xyz789"
+      "country": "abc123"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateFreelancerEmploymentRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateFreelancerAvailability](updateFreelancerAvailability.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateFreelancerOtherExperience](updateFreelancerOtherExperience.md) ➡️

@@ -17,7 +17,7 @@ Organization type for company selector
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Business` | Business entity |
 | `SoleProprietor` | Individual sole proprietor |
@@ -29,3 +29,9 @@ Organization type for company selector
 ```graphql
 "Business"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CompanySelectorOrganizationType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CompanySelectorOrganizationLegacyType](CompanySelectorOrganizationLegacyType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileAvailabilityCapacity](FreelancerProfileAvailabilityCapacity.md) ➡️

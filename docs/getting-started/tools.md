@@ -50,3 +50,9 @@ The following Tools are also available:
 > Terms of Use
 >
 > - here you can find terms, rules, and conditions of using Upwork API
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#getting-started-tools" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [authentication](authentication.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [operations index](../operations/README.md) ➡️

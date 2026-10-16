@@ -29,8 +29,14 @@ Input for rejecting a milestone submission
 
 ```json
 {
-  "id": 4,
-  "noteToContractor": "abc123",
+  "id": "4",
+  "noteToContractor": "xyz789",
   "attachments": ["4"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RejectMilestoneSubmissionInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PrivateFeedbackMultiLevelReasonInput](PrivateFeedbackMultiLevelReasonInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SearchOffersByAttributesInput](SearchOffersByAttributesInput.md) ➡️

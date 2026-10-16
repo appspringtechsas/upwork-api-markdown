@@ -145,9 +145,9 @@ Information about current Organization
 ```json
 {
   "id": 4,
-  "rid": "4",
+  "rid": 4,
   "legacyId": 4,
-  "name": "xyz789",
+  "name": "abc123",
   "type": "BUSINESS",
   "legacyType": "CLIENT",
   "flag": OrganizationFlag,
@@ -173,3 +173,9 @@ Information about current Organization
   "jobPosting": JobPostingConnection
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CurrentOrganization" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CompanySelectorItem](CompanySelectorItem.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CurrentUser](CurrentUser.md) ➡️

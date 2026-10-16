@@ -17,7 +17,7 @@ Job duration categories
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `WEEK` | One week duration |
 | `MONTH` | One month duration |
@@ -32,3 +32,9 @@ Job duration categories
 ```graphql
 "WEEK"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobDuration" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ExperienceLevel](ExperienceLevel.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostDurationType](JobPostDurationType.md) ➡️

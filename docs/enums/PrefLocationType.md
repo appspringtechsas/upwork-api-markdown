@@ -17,7 +17,7 @@ Prefered location type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `CITY` |  |
 | `AREA` |  |
@@ -30,3 +30,9 @@ Prefered location type
 ```graphql
 "CITY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PrefLocationType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ManualReviewStatus](ManualReviewStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AvailableScope](AvailableScope.md) ➡️

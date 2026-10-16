@@ -33,7 +33,7 @@ Defines activity object that is going to be updated
 
 ```json
 {
-  "code": "xyz789",
+  "code": "abc123",
   "description": "abc123",
   "url": "abc123",
   "contractIds": [4],
@@ -42,3 +42,9 @@ Defines activity object that is going to be updated
   "status": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UpdateTeamActivityRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateOtherExperienceInput](UpdateOtherExperienceInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UserPermissionFilter](UserPermissionFilter.md) ➡️

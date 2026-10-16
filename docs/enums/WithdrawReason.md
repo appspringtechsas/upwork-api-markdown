@@ -17,7 +17,7 @@ Reasons for withdrawing an offer
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `OFFER_WITHDRAW_REASON_HIRED_DIFFERENT_FREELANCER` | Hired a different freelancer |
 | `OFFER_WITHDRAW_REASON_NO_LONGER_HIRING_FOR_THE_JOB` | No longer hiring for the job |
@@ -37,3 +37,9 @@ Reasons for withdrawing an offer
 ```graphql
 "OFFER_WITHDRAW_REASON_HIRED_DIFFERENT_FREELANCER"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WithdrawReason" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SourceTypeInput](SourceTypeInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowOfferState](WorkflowOfferState.md) ➡️

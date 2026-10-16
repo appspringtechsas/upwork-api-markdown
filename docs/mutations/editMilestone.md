@@ -97,7 +97,7 @@ mutation editMilestone($input: EditMilestoneInput) {
     "editMilestone": {
       "id": "4",
       "createdBy": GenericUser,
-      "dueDateTime": "xyz789",
+      "dueDateTime": "abc123",
       "state": "NotFunded",
       "description": "xyz789",
       "currentEscrowAmount": Money,
@@ -107,16 +107,22 @@ mutation editMilestone($input: EditMilestoneInput) {
       "overpayment": Money,
       "bonus": Money,
       "previousMilestoneUnusedDeposit": Money,
-      "submissionCount": 987,
+      "submissionCount": 123,
       "sequenceId": 123,
-      "payComments": "abc123",
-      "lastSubmissionCreatedTime": "abc123",
+      "payComments": "xyz789",
+      "lastSubmissionCreatedTime": "xyz789",
       "createdDateTime": "xyz789",
-      "modifiedDateTime": "abc123",
-      "instructions": "xyz789",
+      "modifiedDateTime": "xyz789",
+      "instructions": "abc123",
       "submissionEvents": [SubmissionEvent],
       "submissions": [MilestoneSubmissions]
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-editMilestone" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [deleteMilestone](deleteMilestone.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [endContractAtomic](endContractAtomic.md) ➡️

@@ -17,7 +17,7 @@ Defines the status of an occupation.
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ACTIVE` | Skill is active and available for use |
 | `DEPRECATED` | Skill has been deprecated |
@@ -30,3 +30,9 @@ Defines the status of an occupation.
 ```graphql
 "ACTIVE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyEntityStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowOfferState](WorkflowOfferState.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OntologyEntityTaxonomyLevel](OntologyEntityTaxonomyLevel.md) ➡️

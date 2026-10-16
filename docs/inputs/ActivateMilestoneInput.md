@@ -27,5 +27,14 @@ Input for activating a milestone
 ### Example
 
 ```json
-{"id": 4, "message": "xyz789"}
+{
+  "id": "4",
+  "message": "abc123"
+}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ActivateMilestoneInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AcceptOfferInput](AcceptOfferInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ApproveMilestoneInput](ApproveMilestoneInput.md) ➡️

@@ -53,7 +53,7 @@ mutation createDirectUploadLinkForRoomMessage(
 ```json
 {
   "input": DirectUploadingFileForRoomMessage,
-  "roomId": "abc123"
+  "roomId": "xyz789"
 }
 ```
 
@@ -62,3 +62,9 @@ mutation createDirectUploadLinkForRoomMessage(
 ```json
 {"data": {"createDirectUploadLinkForRoomMessage": Map}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createDirectUploadLinkForRoomMessage" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [createDirectUploadLinkForJAVendorProposal](createDirectUploadLinkForJAVendorProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [declineClientProposal](declineClientProposal.md) ➡️

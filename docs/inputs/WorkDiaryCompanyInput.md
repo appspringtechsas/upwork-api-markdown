@@ -32,11 +32,17 @@ Input for querying work diary by company
 
 ```json
 {
-  "companyId": 4,
+  "companyId": "4",
   "date": "abc123",
   "paging": "abc123",
-  "sortBy": "xyz789",
+  "sortBy": "abc123",
   "activity": "abc123",
-  "freelancer": "xyz789"
+  "freelancer": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryCompanyInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkdaysInput](WorkdaysInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryContractInput](WorkDiaryContractInput.md) ➡️

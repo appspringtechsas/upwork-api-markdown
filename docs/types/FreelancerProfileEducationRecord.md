@@ -37,16 +37,22 @@ Connection to the EducationRecords list
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "user": GenericUser,
   "institutionName": "abc123",
-  "standardizedInstitutionId": "4",
-  "areaOfStudy": "abc123",
+  "standardizedInstitutionId": 4,
+  "areaOfStudy": "xyz789",
   "standardizedAreaOfStudyId": "4",
   "degree": "abc123",
   "standardizedDegreeId": "4",
   "startDate": "xyz789",
-  "endDate": "xyz789",
-  "description": "abc123"
+  "endDate": "abc123",
+  "description": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileEducationRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileContractFeedbackScore](FreelancerProfileContractFeedbackScore.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileEmploymentRecord](FreelancerProfileEmploymentRecord.md) ➡️

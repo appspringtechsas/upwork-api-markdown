@@ -28,3 +28,9 @@ Collection of per-minute activity data for a snapshot
 ```json
 {"minute": [SnapshotMinute]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SnapshotMinutes" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SnapshotMinute](SnapshotMinute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Staff](Staff.md) ➡️

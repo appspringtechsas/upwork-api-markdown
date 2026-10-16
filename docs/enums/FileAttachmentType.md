@@ -17,7 +17,7 @@ Attachment type indicate the business entity attachment being uploaded.
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `OFFER` |  |
 | `CONTRACT_PROPOSAL` |  |
@@ -31,3 +31,9 @@ Attachment type indicate the business entity attachment being uploaded.
 ```graphql
 "OFFER"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FileAttachmentType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalTalentType](ClientProposalTalentType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [InvitationsSortBy](InvitationsSortBy.md) ➡️

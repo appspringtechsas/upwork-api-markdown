@@ -91,10 +91,7 @@ query jobPosting(
 #### Variables
 
 ```json
-{
-  "jobPostingId": "4",
-  "loadAnnotation": false
-}
+{"jobPostingId": 4, "loadAnnotation": true}
 ```
 
 #### Response
@@ -103,7 +100,7 @@ query jobPosting(
 {
   "data": {
     "jobPosting": {
-      "id": "4",
+      "id": 4,
       "version": 987,
       "info": JobPostingInfo,
       "visibility": "PUBLIC_INDEX",
@@ -163,3 +160,13 @@ query ClientJobPostingDetails($jobPostingId: ID!) {
 ```json
 {"data":{"jobPosting":{"id":"2056509179207027383","version":0,"content":{"title":"API test job 2026-05-18 15:56:10","description":"Test job created via GraphQL public API validation script."},"info":{"status":"DRAFT","publishDateTime":null,"hidden":false,"premium":false},"contractTerms":{"contractType":"HOURLY"},"visibility":"ACCESS_PUBLIC","ownership":{"user":{"id":"2056499345994300717"},"clientCompany":null},"classification":{"category":null}}}}
 ```
+
+## Used in sample flows
+
+- Step **3** (View job details) in [Client Job Postings Sample Flow](../operations/examples/jobs.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-jobPosting" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [queries index](README.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [marketplaceJobPosting](marketplaceJobPosting.md) ➡️

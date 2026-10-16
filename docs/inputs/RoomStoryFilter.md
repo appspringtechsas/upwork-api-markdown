@@ -29,3 +29,9 @@ Filter for room stories
 ```json
 {"roomId_eq": 4, "storyFilter": StoryFilter}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomStoryFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomStoryFileAttachmentInput](RoomStoryFileAttachmentInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomStoryUpdateInputV2](RoomStoryUpdateInputV2.md) ➡️

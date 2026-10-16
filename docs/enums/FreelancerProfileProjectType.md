@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `CLASSIC_VIEW` | Classic project view |
 | `CASE_STUDY` | Case study format |
@@ -27,3 +27,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "CLASSIC_VIEW"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileProjectType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileExperienceLevel](FreelancerProfileExperienceLevel.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileResponseTime](FreelancerProfileResponseTime.md) ➡️

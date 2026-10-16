@@ -34,3 +34,9 @@ Connection type for vendor invitations
   "pageInfo": PageInfo
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationChangeReason](VendorInvitationChangeReason.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationEdge](VendorInvitationEdge.md) ➡️

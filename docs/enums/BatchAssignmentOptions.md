@@ -17,7 +17,7 @@ Assignment scope options for activities
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `selectedContracts` | Selected contracts only |
 | `allInOrg` | All contracts within the immediate organization |
@@ -31,3 +31,9 @@ Assignment scope options for activities
 ```graphql
 "selectedContracts"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BatchAssignmentOptions" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AvailabilitySource](AvailabilitySource.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BillingType](BillingType.md) ➡️

@@ -52,3 +52,9 @@ mutation confirmRoomMessageFiles($fileIds: [ID!]!) {
 ```json
 {"data": {"confirmRoomMessageFiles": true}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-confirmRoomMessageFiles" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [confirmFiles](confirmFiles.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createClientJobInvitation](createClientJobInvitation.md) ➡️

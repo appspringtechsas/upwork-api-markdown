@@ -32,3 +32,9 @@ A single profile activity metric with time series data
   "data": [ProfileActivityMetricEntry]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProfileActivityMetric" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProcessUpdateResponse](ProcessUpdateResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProfileActivityMetricAvailability](ProfileActivityMetricAvailability.md) ➡️

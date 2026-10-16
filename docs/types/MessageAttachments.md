@@ -32,11 +32,17 @@ Attachments associated with a message in a room
 
 ```json
 {
-  "objectReferenceId": 4,
+  "objectReferenceId": "4",
   "objectType": "xyz789",
   "metadata": [StringMapElement],
-  "createdDateTime": "xyz789",
+  "createdDateTime": "abc123",
   "author": RoomUser,
   "downloadableLink": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MessageAttachments" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [InviteToTeamSucceededResponse](InviteToTeamSucceededResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OrganizationFlag](OrganizationFlag.md) ➡️

@@ -32,9 +32,15 @@ Milestone submission record
 ```json
 {
   "id": 4,
-  "createdDateTime": "abc123",
-  "modifiedDateTime": "xyz789",
+  "createdDateTime": "xyz789",
+  "modifiedDateTime": "abc123",
   "amount": Money,
-  "sequenceId": 987
+  "sequenceId": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Submission" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [StipendTerms](StipendTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SubmissionAttachmentDetails](SubmissionAttachmentDetails.md) ➡️

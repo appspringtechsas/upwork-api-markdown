@@ -104,19 +104,19 @@ query organization {
   "data": {
     "organization": {
       "id": "4",
-      "rid": "4",
+      "rid": 4,
       "legacyId": "4",
       "name": "xyz789",
       "type": "BUSINESS",
       "legacyType": "CLIENT",
       "flag": OrganizationFlag,
       "parentOrganization": CurrentOrganization,
-      "active": true,
-      "hidden": true,
+      "active": false,
+      "hidden": false,
       "childOrganizations": [CurrentOrganization],
       "childOrganization": CurrentOrganization,
       "company": PrivateCompanyInfo,
-      "photoUrl": "abc123",
+      "photoUrl": "xyz789",
       "creationDate": "abc123",
       "staffs": StaffsConnection,
       "userPermissions": UserPermissions,
@@ -500,3 +500,19 @@ query ClientSpendingTimeReport($range: DateTimeRange!, $pagination: Pagination) 
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **2** (List organization job postings) in [Client Job Postings Sample Flow](../operations/examples/jobs.md)
+
+- Step **3** (List client offers) in [Working with Offers and Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+- Step **1** (List client contracts) in [Working with Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+- Step **1** (View spending report) in [Reports Sample Flow](../operations/examples/reports.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-organization" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [oneOnOneRoom](oneOnOneRoom.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [profileActivityMetrics](profileActivityMetrics.md) ➡️

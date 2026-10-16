@@ -17,7 +17,7 @@ Defines whether skills are mandatory or nice to have
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `MANDATORY` | Skill is required for the job |
 | `NICE_TO_HAVE` | Skill is preferred but not required |
@@ -29,3 +29,9 @@ Defines whether skills are mandatory or nice to have
 ```graphql
 "MANDATORY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostSkillRelevance" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingStatus](JobPostingStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostType](JobPostType.md) ➡️

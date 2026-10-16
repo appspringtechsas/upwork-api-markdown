@@ -63,36 +63,42 @@ Individual transaction row with details
   "rowNumber": 123,
   "runningChargeableBalance": Money,
   "recordId": 4,
-  "remainder": "xyz789",
+  "remainder": "abc123",
   "amountCreditedToUser": Money,
-  "transactionReviewDueDate": "xyz789",
-  "transactionCreationDate": "xyz789",
-  "relatedUserPaymentMethod": 123,
+  "transactionReviewDueDate": "abc123",
+  "transactionCreationDate": "abc123",
+  "relatedUserPaymentMethod": 987,
   "accountingSubtype": "abc123",
-  "descriptionUI": "abc123",
-  "relatedAssignment": 987,
+  "descriptionUI": "xyz789",
+  "relatedAssignment": 123,
   "amountSentInOrigCurrency": Money,
   "paymentGuaranteed": false,
   "fixedPriceEARMark": 123,
   "relatedTransactionId": 4,
   "relatedInvoiceId": 4,
-  "fullyPaidDate": "abc123",
-  "type": "abc123",
+  "fullyPaidDate": "xyz789",
+  "type": "xyz789",
   "transactionAmount": Money,
-  "relatedAccountingEntity": 987,
+  "relatedAccountingEntity": 123,
   "description": "xyz789",
   "purchaseOrderNumber": "abc123",
-  "assignmentAgencyName": "xyz789",
+  "assignmentAgencyName": "abc123",
   "assignmentCompanyName": "xyz789",
   "assignmentDeveloperName": "xyz789",
-  "assignmentTeamCompanyId": "4",
-  "assignmentTeamCompanyReference": 123,
+  "assignmentTeamCompanyId": 4,
+  "assignmentTeamCompanyReference": 987,
   "assignmentTeamId": "4",
   "assignmentTeamReference": 987,
   "assignmentTeamUserId": 4,
-  "assignmentTeamUserReference": 123,
+  "assignmentTeamUserReference": 987,
   "payment": Money,
   "paymentStatus": "abc123",
-  "prefix": "abc123"
+  "prefix": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TransactionHistoryRow" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TransactionHistoryDetail](TransactionHistoryDetail.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDay](WorkDay.md) ➡️

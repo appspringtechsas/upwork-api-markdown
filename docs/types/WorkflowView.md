@@ -44,21 +44,27 @@ Comprehensive view of a workflow instance with all its tasks and metadata
 ```json
 {
   "id": "4",
-  "type": "xyz789",
+  "type": "abc123",
   "onboardedStatus": "NOT_STARTED",
   "totalTasks": 123,
   "notStartedTasksCount": 987,
-  "inProgressTasksCount": 123,
-  "completedTasksCount": 123,
+  "inProgressTasksCount": 987,
+  "completedTasksCount": 987,
   "tasksOverdue": 987,
   "percentComplete": 987,
   "startDateTime": "abc123",
-  "completionDateTime": "abc123",
+  "completionDateTime": "xyz789",
   "associations": [WorkflowAssociationView],
   "tasks": [WorkflowTaskView],
   "createdDateTime": "abc123",
   "modifiedDateTime": "xyz789",
-  "createdBy": "xyz789",
-  "modifiedBy": "xyz789"
+  "createdBy": "abc123",
+  "modifiedBy": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowView" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskView](WorkflowTaskView.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AcceptVendorInvitationResponse](AcceptVendorInvitationResponse.md) ➡️

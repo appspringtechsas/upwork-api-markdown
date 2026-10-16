@@ -24,5 +24,11 @@ generated_by: "scripts/convert.mjs"
 ### Example
 
 ```json
-{"bids": [Bid], "limit": 123, "offset": 123}
+{"bids": [Bid], "limit": 123, "offset": 987}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BidList" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Bid](Bid.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BuyerAssignmentsStats](BuyerAssignmentsStats.md) ➡️

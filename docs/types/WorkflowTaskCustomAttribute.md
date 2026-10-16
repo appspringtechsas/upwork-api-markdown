@@ -32,3 +32,9 @@ Custom key-value attribute for a workflow task
   "value": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowTaskCustomAttribute" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskCommentAttachments](WorkflowTaskCommentAttachments.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowTaskView](WorkflowTaskView.md) ➡️

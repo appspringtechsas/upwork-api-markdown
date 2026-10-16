@@ -45,7 +45,7 @@ Detailed time report for work performed on a contract
 
 ```json
 {
-  "dateWorkedOn": "xyz789",
+  "dateWorkedOn": "abc123",
   "weekWorkedOn": "abc123",
   "monthWorkedOn": "xyz789",
   "yearWorkedOn": "xyz789",
@@ -54,15 +54,21 @@ Detailed time report for work performed on a contract
   "contractOffer": ContractOfferResult,
   "contract": ContractDetails,
   "termId": "4",
-  "task": "xyz789",
-  "taskDescription": "abc123",
-  "memo": "abc123",
+  "task": "abc123",
+  "taskDescription": "xyz789",
+  "memo": "xyz789",
   "totalHoursWorked": 123.45,
-  "totalCharges": 123.45,
-  "totalOnlineHoursWorked": 987.65,
+  "totalCharges": 987.65,
+  "totalOnlineHoursWorked": 123.45,
   "totalOnlineCharge": 123.45,
-  "totalOfflineHoursWorked": 123.45,
-  "totalOfflineCharge": 123.45,
+  "totalOfflineHoursWorked": 987.65,
+  "totalOfflineCharge": 987.65,
   "billRate": BillRate
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TimeReport" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Cell](Cell.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TimeReportConnection](TimeReportConnection.md) ➡️

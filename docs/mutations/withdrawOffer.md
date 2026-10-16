@@ -50,5 +50,11 @@ mutation withdrawOffer($input: WithdrawOfferInput!) {
 #### Response
 
 ```json
-{"data": {"withdrawOffer": true}}
+{"data": {"withdrawOffer": false}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-withdrawOffer" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [endContractByFreelancer](endContractByFreelancer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [activateMilestone](activateMilestone.md) ➡️

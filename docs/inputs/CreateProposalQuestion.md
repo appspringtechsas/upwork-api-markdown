@@ -28,7 +28,13 @@ Input type for proposal question and answer
 
 ```json
 {
-  "question": "abc123",
+  "question": "xyz789",
   "answer": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateProposalQuestion" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateProposalMilestone](CreateProposalMilestone.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateProposalSelectedContractor](CreateProposalSelectedContractor.md) ➡️

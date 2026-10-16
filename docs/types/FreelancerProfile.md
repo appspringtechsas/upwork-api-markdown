@@ -96,13 +96,19 @@ Freelancer Profile details.
   "profileCompletenessSummary": FreelancerProfileCompletenessSummary,
   "linkedExternalAccountsList": FreelancerProfileLinkedExternalAccountsConnection,
   "verifications": FreelancerProfileVerifications,
-  "fullName": "xyz789",
+  "fullName": "abc123",
   "firstName": "abc123",
   "lastName": "abc123",
   "countryDetails": Country,
-  "email": "xyz789",
+  "email": "abc123",
   "portrait": Portrait,
   "phoneNumber": PhoneNumber,
   "privateTalentCloud": PrivateTalentCloudConnection
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfile" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerLocation](FreelancerLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileAggregates](FreelancerProfileAggregates.md) ➡️

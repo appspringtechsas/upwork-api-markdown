@@ -59,10 +59,16 @@ mutation createDirectUploadLinkForJAVendorProposal($input: CreateDirectUploadLin
 {
   "data": {
     "createDirectUploadLinkForJAVendorProposal": {
-      "id": 4,
-      "uploadUrl": "abc123",
+      "id": "4",
+      "uploadUrl": "xyz789",
       "formKeyValues": [StringMapElement]
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createDirectUploadLinkForJAVendorProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [createDirectUploadLinkForJAClientProposal](createDirectUploadLinkForJAClientProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createDirectUploadLinkForRoomMessage](createDirectUploadLinkForRoomMessage.md) ➡️

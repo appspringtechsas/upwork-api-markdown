@@ -17,7 +17,7 @@ Contract state values
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ACTIVE` | Contract is active |
 | `CLOSED` | Contract is closed |
@@ -32,3 +32,9 @@ Contract state values
 ```graphql
 "ACTIVE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractState" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractOfferVendorType](ContractOfferVendorType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractStatus](ContractStatus.md) ➡️

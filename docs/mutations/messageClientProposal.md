@@ -114,3 +114,13 @@ mutation MessageClientProposal($clientProposalMessageRequest: ClientProposalMess
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **3** (Message client proposal) in [Working with Proposals as a client](../operations/examples/proposals.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-messageClientProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [markClientProposalAsRead](markClientProposalAsRead.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [shortlistClientProposal](shortlistClientProposal.md) ➡️

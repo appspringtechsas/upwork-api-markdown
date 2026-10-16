@@ -27,5 +27,11 @@ Details as for job's money
 ### Example
 
 ```json
-{"amount": 123.45, "currencyCode": "xyz789"}
+{"amount": 987.65, "currencyCode": "xyz789"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobDetailsMoney" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobBuyerCompany](JobBuyerCompany.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobExtendedBudgetInfo](JobExtendedBudgetInfo.md) ➡️

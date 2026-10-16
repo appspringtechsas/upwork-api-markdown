@@ -34,3 +34,9 @@ Input filter used to query time reports based on organization, date range, and o
   "contractIds": [4]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TimeReportFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OwnerInput](OwnerInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TransactionHistoryFilter](TransactionHistoryFilter.md) ➡️

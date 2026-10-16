@@ -26,9 +26,15 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "freelancerIds_any": ["4"],
+  "freelancerIds_any": [4],
   "freelancerOrgId_eq": 4,
   "freelancerSubOrgId_eq": "4",
   "status_any": ["Drafted"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientActiveInvitationsFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntitySearchFilter](OntologyEntitySearchFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationFilter](ClientInvitationFilter.md) ➡️

@@ -52,7 +52,7 @@ An intermediate search result that contains common information about contract an
   "contactPerson": GenericUser,
   "freelancer": GenericUser,
   "agency": GenericOrganization,
-  "startDateTime": "xyz789",
+  "startDateTime": "abc123",
   "endDateTime": "xyz789",
   "type": "Hourly",
   "state": "Pending",
@@ -62,9 +62,15 @@ An intermediate search result that contains common information about contract an
   "lastUpdatedDateTime": "abc123",
   "lastPublishedDateTime": "abc123",
   "inPrivateTalentCloud": true,
-  "offerCreatedDateTime": "abc123",
+  "offerCreatedDateTime": "xyz789",
   "offer": Offer,
   "contractDetails": ContractDetails,
-  "catalogProject": true
+  "catalogProject": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractOfferResult" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractOfferLastEvent](ContractOfferLastEvent.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractPaging](ContractPaging.md) ➡️

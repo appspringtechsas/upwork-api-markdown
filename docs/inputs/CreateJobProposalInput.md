@@ -44,19 +44,25 @@ Input type for creating a new proposal (v2)
 {
   "selectedContractor": CreateProposalSelectedContractor,
   "jobReference": "abc123",
-  "chargedAmount": 987.65,
+  "chargedAmount": 123.45,
   "gitHubRepoLink": "abc123",
-  "coverLetter": "xyz789",
+  "coverLetter": "abc123",
   "questions": [CreateProposalQuestion],
   "attachments": ["xyz789"],
-  "umaTouched": true,
+  "umaTouched": false,
   "umaThreadId": "xyz789",
   "sri": CreateProposalSri,
-  "boostBidAmount": 987.65,
+  "boostBidAmount": 123.45,
   "occupationId": "abc123",
   "agencyOrgId": "xyz789",
   "teamOrgId": "abc123",
-  "estimatedDuration": 123,
+  "estimatedDuration": 987,
   "milestones": [CreateProposalMilestone]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateJobProposalInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalWithdrawRequest](ContractProposalWithdrawRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateProposalMilestone](CreateProposalMilestone.md) ➡️

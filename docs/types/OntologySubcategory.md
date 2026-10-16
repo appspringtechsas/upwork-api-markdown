@@ -33,10 +33,16 @@ A simplified representation of Marketplace ontology's 'subcategory' (level 2 of 
 ```json
 {
   "id": 4,
-  "preferredLabel": "xyz789",
+  "preferredLabel": "abc123",
   "altLabel": ["xyz789"],
-  "slug": "xyz789",
-  "ontologyId": "abc123",
+  "slug": "abc123",
+  "ontologyId": "xyz789",
   "services": [OntologyService]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologySubcategory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyService](OntologyService.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Skill](Skill.md) ➡️

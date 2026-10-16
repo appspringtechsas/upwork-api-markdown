@@ -37,12 +37,18 @@ Response for updating a job posting
 {
   "id": 4,
   "qualificationsSaved": false,
-  "skillsSaved": true,
+  "skillsSaved": false,
   "questionsSaved": true,
   "segmentationDataSaved": true,
   "attachmentsSaved": false,
-  "ptcInfoSaved": false,
+  "ptcInfoSaved": true,
   "sandsJobPostSaved": true,
-  "version": 987
+  "version": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingUpdateResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingSegmentationValue](JobPostingSegmentationValue.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobSubPostingCategory](JobSubPostingCategory.md) ➡️

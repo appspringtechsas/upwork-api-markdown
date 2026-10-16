@@ -52,5 +52,11 @@ mutation createClientJobInvitation($clientJobInvitationCreateRequest: ClientJobI
 #### Response
 
 ```json
-{"data": {"createClientJobInvitation": 4}}
+{"data": {"createClientJobInvitation": "4"}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createClientJobInvitation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [confirmRoomMessageFiles](confirmRoomMessageFiles.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createDirectUploadLinkForFileAttachment](createDirectUploadLinkForFileAttachment.md) ➡️

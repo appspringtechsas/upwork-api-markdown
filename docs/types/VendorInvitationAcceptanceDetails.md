@@ -37,10 +37,10 @@ Details related to acceptance of the invitation
 ```json
 {
   "bidAmount": Money,
-  "duration": "abc123",
+  "duration": "xyz789",
   "upfrontPaymentPercent": 123.45,
-  "attachments": ["abc123"],
-  "coverLetter": "abc123",
+  "attachments": ["xyz789"],
+  "coverLetter": "xyz789",
   "jobProposal": ClientProposal,
   "questionsAnswers": [ProposalQuestionAnswer],
   "occupation": Occupation,
@@ -48,3 +48,9 @@ Details related to acceptance of the invitation
   "portfolios": [InvitationPortfolio]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationAcceptanceDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationAcceptanceContext](VendorInvitationAcceptanceContext.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationAuditDetails](VendorInvitationAuditDetails.md) ➡️

@@ -34,13 +34,19 @@ Talent cloud section details
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "talentCloud": PrivateTalentCloud,
   "name": "abc123",
   "description": "xyz789",
   "type": "ONBOARDING",
   "attachmentIds": ["4"],
-  "active": false,
-  "orderIndex": 987
+  "active": true,
+  "orderIndex": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCloudSection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentAdjustedCategoryScore](TalentAdjustedCategoryScore.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCloudTask](TalentCloudTask.md) ➡️

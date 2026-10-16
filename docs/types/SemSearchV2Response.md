@@ -32,3 +32,9 @@ SEM search response
   "profiles": [SemSearchV2Profile]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SemSearchV2Response" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SemSearchV2Profile](SemSearchV2Profile.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UserFreelancerProfilesSearchRecord](UserFreelancerProfilesSearchRecord.md) ➡️

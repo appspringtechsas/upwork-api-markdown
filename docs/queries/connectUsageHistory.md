@@ -76,3 +76,9 @@ query connectUsageHistory(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-connectUsageHistory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [connectsSummary](connectsSummary.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractProposalsByAgency](contractProposalsByAgency.md) ➡️

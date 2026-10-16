@@ -54,15 +54,17 @@ mutation removeUserFromRoom(
 #### Variables
 
 ```json
-{
-  "roomId": "4",
-  "userId": 4,
-  "orgId": "4"
-}
+{"roomId": "4", "userId": 4, "orgId": 4}
 ```
 
 #### Response
 
 ```json
-{"data": {"removeUserFromRoom": false}}
+{"data": {"removeUserFromRoom": true}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-removeUserFromRoom" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [removeRoomStory](removeRoomStory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [roomCreate1on1IfNotExists](roomCreate1on1IfNotExists.md) ➡️

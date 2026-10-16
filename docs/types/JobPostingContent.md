@@ -28,7 +28,13 @@ User-facing job posting content
 
 ```json
 {
-  "title": "abc123",
+  "title": "xyz789",
   "description": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingContent" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingConnection](JobPostingConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingContractorSelection](JobPostingContractorSelection.md) ➡️

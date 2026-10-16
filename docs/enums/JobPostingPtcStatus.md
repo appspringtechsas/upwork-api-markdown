@@ -17,7 +17,7 @@ PTC status for job posting
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `OPEN` | Job posting open |
 | `CANCELLED` | Job posting cancelled |
@@ -35,3 +35,9 @@ PTC status for job posting
 ```graphql
 "OPEN"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingPtcStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingHourlyBudgetType](JobPostingHourlyBudgetType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingPtcVisibility](JobPostingPtcVisibility.md) ➡️

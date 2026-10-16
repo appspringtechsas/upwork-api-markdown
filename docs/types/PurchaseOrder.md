@@ -40,19 +40,25 @@ Purchase order information
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "orderNumber": "abc123",
   "description": "abc123",
   "amount": Money,
-  "expiresAtDateTime": "xyz789",
+  "expiresAtDateTime": "abc123",
   "aclType": "HMS_IN_COMPANY",
   "aclSpecification": "abc123",
-  "archived": true,
-  "placeHolder": false,
+  "archived": false,
+  "placeHolder": true,
   "createdAtDateTime": "xyz789",
   "creator": GenericUser,
-  "alertThreshold": "xyz789",
+  "alertThreshold": "abc123",
   "notificationAlcType": "ALL_USERS_WITH_HIRING_PERMISSIONS_IN_COMPANY",
-  "notificationAlcSpecification": "xyz789"
+  "notificationAlcSpecification": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PurchaseOrder" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PtcData](PtcData.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [StipendContractTerm](StipendContractTerm.md) ➡️

@@ -17,7 +17,7 @@ Agreement kind
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Offer` | Offer agreement |
 | `Contract` | Contract agreement |
@@ -29,3 +29,9 @@ Agreement kind
 ```graphql
 "Offer"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AgreementKind" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ActorType](ActorType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractKind](ContractKind.md) ➡️

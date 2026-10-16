@@ -59,8 +59,14 @@ query talentWorkHistory($filter: TalentWorkHistoryFilterInput) {
   "data": {
     "talentWorkHistory": {
       "workHistoryList": [TalentWorkHistory],
-      "totalCount": 987
+      "totalCount": 123
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-talentWorkHistory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [talentSpecializedProfiles](talentSpecializedProfiles.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [company](company.md) ➡️

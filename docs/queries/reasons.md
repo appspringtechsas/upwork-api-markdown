@@ -55,7 +55,7 @@ query reasons(
 #### Variables
 
 ```json
-{"reasonType": "PROPOSAL_DECLINE", "all": false}
+{"reasonType": "PROPOSAL_DECLINE", "all": true}
 ```
 
 #### Response
@@ -67,9 +67,15 @@ query reasons(
       {
         "id": 4,
         "reason": "abc123",
-        "alias": "xyz789"
+        "alias": "abc123"
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-reasons" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [languages](languages.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [regions](regions.md) ➡️

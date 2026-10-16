@@ -68,19 +68,19 @@ Modernized contract offer details
   "offeror": "Client",
   "clientUserId": 4,
   "clientTeamId": "4",
-  "clientOrgId": "4",
+  "clientOrgId": 4,
   "vendorUserId": "4",
   "vendor": GenericUser,
   "vendorTeamId": 4,
   "vendorOrgId": "4",
   "actors": [Actor],
   "metadata": Metadata,
-  "expirationDateTime": "xyz789",
-  "title": "abc123",
+  "expirationDateTime": "abc123",
+  "title": "xyz789",
   "description": "abc123",
-  "attachments": [4],
+  "attachments": ["4"],
   "contractStartDateTime": "xyz789",
-  "contractEndDateTime": "abc123",
+  "contractEndDateTime": "xyz789",
   "hourlyRateTerms": HourlyTerms,
   "stipendTerms": StipendTerms,
   "milestoneTerms": MilestoneTerms,
@@ -94,11 +94,17 @@ Modernized contract offer details
   "vendorType": "FREELANCER",
   "termsVersion": "V1",
   "legacyState": "Draft",
-  "previousOfferId": "4",
+  "previousOfferId": 4,
   "newOfferId": "4",
-  "closePostingUponAccept": true,
+  "closePostingUponAccept": false,
   "lastEvent": ContractOfferLastEvent,
   "createdDateTime": "abc123",
   "facets": [ModernizedOfferFacet]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ModernizedContractOffer" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MilestoneTerms](MilestoneTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ModernizedContractOfferList](ModernizedContractOfferList.md) ➡️

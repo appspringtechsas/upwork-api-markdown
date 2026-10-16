@@ -22,3 +22,9 @@ Built-in Float
 ```json
 987.65
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Float" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Boolean](Boolean.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ID](ID.md) ➡️

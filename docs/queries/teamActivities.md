@@ -67,7 +67,7 @@ query teamActivities(
 ```json
 {
   "orgId": "4",
-  "teamId": 4,
+  "teamId": "4",
   "page": PageFilterInput,
   "filter": ActivityFilterInput
 }
@@ -79,10 +79,16 @@ query teamActivities(
 {
   "data": {
     "teamActivities": {
-      "totalCount": 123,
+      "totalCount": 987,
       "edges": [ActivityEdge],
       "page": Page
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-teamActivities" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [staffsByPersonId](staffsByPersonId.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [userDetails](userDetails.md) ➡️

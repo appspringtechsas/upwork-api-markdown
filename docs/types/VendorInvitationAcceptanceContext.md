@@ -33,6 +33,12 @@ Details related to acceptance of the invitation
   "organization": GenericOrganization,
   "context": "Freelancer",
   "acceptedBy": GenericUser,
-  "acceptedDateTime": "xyz789"
+  "acceptedDateTime": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationAcceptanceContext" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitation](VendorInvitation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationAcceptanceDetails](VendorInvitationAcceptanceDetails.md) ➡️

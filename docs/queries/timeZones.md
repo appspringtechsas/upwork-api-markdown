@@ -46,9 +46,15 @@ query timeZones {
     "timeZones": [
       {
         "timeZoneName": "xyz789",
-        "timeZoneDescription": "abc123"
+        "timeZoneDescription": "xyz789"
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-timeZones" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [requestMetadata](requestMetadata.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [visitor](visitor.md) ➡️

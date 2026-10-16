@@ -57,7 +57,7 @@ query userDetails($id: ID!) {
 #### Variables
 
 ```json
-{"id": 4}
+{"id": "4"}
 ```
 
 #### Response
@@ -67,16 +67,22 @@ query userDetails($id: ID!) {
   "data": {
     "userDetails": {
       "id": "4",
-      "nid": 4,
-      "rid": "4",
-      "name": "abc123",
+      "nid": "4",
+      "rid": 4,
+      "name": "xyz789",
       "firstName": "abc123",
       "lastName": "abc123",
-      "photoUrl": "abc123",
-      "publicUrl": "abc123",
+      "photoUrl": "xyz789",
+      "publicUrl": "xyz789",
       "email": "xyz789",
       "location": UserLocation
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-userDetails" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [teamActivities](teamActivities.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [userIdsByEmail](userIdsByEmail.md) ➡️

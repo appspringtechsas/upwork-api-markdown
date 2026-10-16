@@ -38,17 +38,23 @@ Screenshot and webcam data for a work diary snapshot
 
 ```json
 {
-  "activity": 987,
-  "screenshotUrl": "xyz789",
+  "activity": 123,
+  "screenshotUrl": "abc123",
   "screenshotImage": "abc123",
   "screenshotImageLarge": "xyz789",
-  "screenshotImageMedium": "xyz789",
+  "screenshotImageMedium": "abc123",
   "screenshotImageThumbnail": "abc123",
   "hasScreenshot": false,
   "hasWebcam": false,
   "webcamUrl": "xyz789",
   "webcamImage": "abc123",
-  "webcamImageThumbnail": "xyz789",
+  "webcamImageThumbnail": "abc123",
   "flags": WorkDiaryCompanySnapshotScreenshotFlag
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkDiaryCompanySnapshotScreenshot" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkDiaryCompanySnapshot](WorkDiaryCompanySnapshot.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkDiaryCompanySnapshotScreenshotFlag](WorkDiaryCompanySnapshotScreenshotFlag.md) ➡️

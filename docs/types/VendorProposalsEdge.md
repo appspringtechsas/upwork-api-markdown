@@ -32,3 +32,9 @@ Edge in vendor proposals connection
   "node": VendorProposal
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorProposalsEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorProposalsConnection](VendorProposalsConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorProposalStatus](VendorProposalStatus.md) ➡️

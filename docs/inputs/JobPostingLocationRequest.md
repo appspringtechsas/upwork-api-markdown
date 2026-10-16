@@ -27,5 +27,11 @@ Location requirement for job posting
 ### Example
 
 ```json
-{"areaType": "CITY", "name": "xyz789"}
+{"areaType": "CITY", "name": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingLocationRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingCustomFieldsRequest](JobPostingCustomFieldsRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingPolicyValidationInput](JobPostingPolicyValidationInput.md) ➡️

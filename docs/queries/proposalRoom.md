@@ -107,7 +107,7 @@ query proposalRoom($vendorProposalId: ID!) {
 #### Variables
 
 ```json
-{"vendorProposalId": 4}
+{"vendorProposalId": "4"}
 ```
 
 #### Response
@@ -117,35 +117,35 @@ query proposalRoom($vendorProposalId: ID!) {
   "data": {
     "proposalRoom": {
       "id": "4",
-      "roomName": "abc123",
+      "roomName": "xyz789",
       "organization": CurrentOrganization,
       "creator": RoomUser,
       "createdAtDateTime": "xyz789",
       "public": false,
       "topic": "xyz789",
       "owner": RoomUser,
-      "numUnread": 123,
+      "numUnread": 987,
       "roomFavoriteDateTime": "xyz789",
-      "favorite": true,
+      "favorite": false,
       "numUnreadMentions": 123,
       "roomUsers": [RoomUser],
       "numUsers": 987,
-      "joinDateTime": "xyz789",
-      "lastVisitedDateTime": "abc123",
-      "lastReadDateTime": "abc123",
+      "joinDateTime": "abc123",
+      "lastVisitedDateTime": "xyz789",
+      "lastReadDateTime": "xyz789",
       "roomType": "ONE_ON_ONE",
-      "readOnlyDateTime": "xyz789",
-      "readOnly": true,
+      "readOnlyDateTime": "abc123",
+      "readOnly": false,
       "blockDateTime": "abc123",
       "blockedBy": RoomUser,
       "hidden": true,
       "muted": true,
-      "contractId": 4,
+      "contractId": "4",
       "contract": Contract,
       "contractDetails": ContractDetails,
       "vendorProposal": VendorProposal,
       "roomNote": "abc123",
-      "roomNotePresent": true,
+      "roomNotePresent": false,
       "offerIds": ["4"],
       "recruiters": [GenericUser],
       "latestStory": RoomStory,
@@ -156,3 +156,9 @@ query proposalRoom($vendorProposalId: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-proposalRoom" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [profileActivityMetricsLastUpdated](profileActivityMetricsLastUpdated.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [publicRooms](publicRooms.md) ➡️

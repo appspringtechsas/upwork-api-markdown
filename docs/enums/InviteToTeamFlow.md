@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `HELP_ME_HIRE` | Help Me Hire entry point |
 | `DETECT_AND_REDIRECT` | Detect-and-redirect flow |
@@ -47,3 +47,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "HELP_ME_HIRE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-InviteToTeamFlow" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [I18nSettingsStatus](I18nSettingsStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [LocationViewType](LocationViewType.md) ➡️

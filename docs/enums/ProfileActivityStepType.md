@@ -17,7 +17,7 @@ Time series aggregation step for profile activity metrics
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `DAY` | Daily aggregation |
 | `WEEK` | Weekly aggregation |
@@ -31,3 +31,9 @@ Time series aggregation step for profile activity metrics
 ```graphql
 "DAY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProfileActivityStepType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProfileActivityMetricType](ProfileActivityMetricType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ReasonType](ReasonType.md) ➡️

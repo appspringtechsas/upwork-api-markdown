@@ -36,3 +36,9 @@ Step 3: Member Can Now Manage API Keys
 : The selected team member now has permission to create and manage API keys on behalf of the organization. All keys created under the organizational context will be owned by the organization.
 
 ![permissions-granted.png](../assets/images/permissions-granted.png)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#getting-started-keys-management" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [preparation](preparation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [application-permissions](application-permissions.md) ➡️

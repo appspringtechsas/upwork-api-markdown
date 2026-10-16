@@ -29,3 +29,9 @@ Filter input based on status and access type for job search
 ```json
 {"statuses_any": ["REQUESTED"], "accesses_any": ["PUBLIC_INDEX"]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CompanyJobPostingStatusAccess" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AreaFilter](AreaFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CustomFieldDropDown](CustomFieldDropDown.md) ➡️

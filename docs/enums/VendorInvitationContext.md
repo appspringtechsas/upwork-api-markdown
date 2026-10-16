@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Freelancer` | Invitation sent to a freelancer |
 | `Agency` | Invitation sent to an agency |
@@ -25,3 +25,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "Freelancer"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorInvitationContext" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VendorInvitationAnnotations](VendorInvitationAnnotations.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitationSearchAnnotation](VendorInvitationSearchAnnotation.md) ➡️

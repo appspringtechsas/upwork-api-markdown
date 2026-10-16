@@ -29,8 +29,14 @@ Job budget info
 
 ```json
 {
-  "hourlyBudgetMax": 123.45,
-  "hourlyBudgetMin": 123.45,
+  "hourlyBudgetMax": 987.65,
+  "hourlyBudgetMin": 987.65,
   "hourlyBudgetType": "DEFAULT"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobExtendedBudgetInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobDetailsMoney](JobDetailsMoney.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostDirectUploadLinkResponse](JobPostDirectUploadLinkResponse.md) ➡️

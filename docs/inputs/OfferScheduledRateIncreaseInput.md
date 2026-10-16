@@ -27,5 +27,11 @@ Scheduled rate increase configuration
 ### Example
 
 ```json
-{"rate": "abc123", "cadenceMonths": 987}
+{"rate": "abc123", "cadenceMonths": 123}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferScheduledRateIncreaseInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferPayrollInput](OfferPayrollInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferSearchCommonFilter](OfferSearchCommonFilter.md) ➡️

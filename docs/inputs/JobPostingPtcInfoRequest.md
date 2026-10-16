@@ -50,17 +50,23 @@ Private Talent Cloud information for job posting
   "employerCompanyReference": "xyz789",
   "status": "OPEN",
   "purchaseOrderId": 4,
-  "locationCheckRequired": false,
+  "locationCheckRequired": true,
   "countries": ["abc123"],
   "onSiteType": "REMOTE",
   "onSiteCity": "xyz789",
   "onSiteCountry": "xyz789",
-  "createDate": 987,
+  "createDate": 123,
   "onSiteReason": "abc123",
   "onSiteReasonFlexible": "abc123",
-  "onSiteState": "xyz789",
+  "onSiteState": "abc123",
   "teamId": "4",
   "travelRequired": false,
-  "updatedDate": 987
+  "updatedDate": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingPtcInfoRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingPolicyValidationInput](JobPostingPolicyValidationInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingQualificationRequest](JobPostingQualificationRequest.md) ➡️

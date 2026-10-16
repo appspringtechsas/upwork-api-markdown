@@ -39,14 +39,14 @@ Information about regular user
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "nid": 4,
-  "rid": "4",
+  "rid": 4,
   "name": "abc123",
   "firstName": "abc123",
   "lastName": "abc123",
-  "photoUrl": "xyz789",
-  "publicUrl": "xyz789",
+  "photoUrl": "abc123",
+  "publicUrl": "abc123",
   "email": "abc123",
   "location": UserLocation,
   "freelancerProfile": FreelancerProfile,
@@ -54,3 +54,9 @@ Information about regular user
   "talentProfile": TalentProfile
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-GenericUser" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [GenericOrganization](GenericOrganization.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [I18nLocation](I18nLocation.md) ➡️

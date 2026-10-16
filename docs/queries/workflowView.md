@@ -73,7 +73,7 @@ query workflowView(
 #### Variables
 
 ```json
-{"entityType": "abc123", "entityId": 4}
+{"entityType": "xyz789", "entityId": 4}
 ```
 
 #### Response
@@ -82,20 +82,20 @@ query workflowView(
 {
   "data": {
     "workflowView": {
-      "id": 4,
+      "id": "4",
       "type": "xyz789",
       "onboardedStatus": "NOT_STARTED",
       "totalTasks": 123,
       "notStartedTasksCount": 987,
-      "inProgressTasksCount": 123,
+      "inProgressTasksCount": 987,
       "completedTasksCount": 987,
-      "tasksOverdue": 123,
-      "percentComplete": 123,
+      "tasksOverdue": 987,
+      "percentComplete": 987,
       "startDateTime": "abc123",
-      "completionDateTime": "xyz789",
+      "completionDateTime": "abc123",
       "associations": [WorkflowAssociationView],
       "tasks": [WorkflowTaskView],
-      "createdDateTime": "xyz789",
+      "createdDateTime": "abc123",
       "modifiedDateTime": "abc123",
       "createdBy": "abc123",
       "modifiedBy": "xyz789"
@@ -103,3 +103,9 @@ query workflowView(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-workflowView" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [workDiaryCompany](workDiaryCompany.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [accountingEntity](accountingEntity.md) ➡️

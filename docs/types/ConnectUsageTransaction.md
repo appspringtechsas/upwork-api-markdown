@@ -32,9 +32,15 @@ Connect Usage Details
 ```json
 {
   "amount": Money,
-  "createdDateTime": "xyz789",
+  "createdDateTime": "abc123",
   "transactionType": "CREDIT",
-  "reason": "abc123",
+  "reason": "xyz789",
   "jobPost": TransactionJobPost
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ConnectUsageTransaction" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ConnectUsageHistory](ConnectUsageHistory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractorInfo](ContractorInfo.md) ➡️

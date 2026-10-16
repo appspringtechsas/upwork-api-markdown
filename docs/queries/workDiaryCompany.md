@@ -58,9 +58,15 @@ query workDiaryCompany($workDiaryCompanyInput: WorkDiaryCompanyInput!) {
 {
   "data": {
     "workDiaryCompany": {
-      "total": 987,
+      "total": 123,
       "snapshots": [WorkDiaryCompanySnapshot]
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-workDiaryCompany" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [userIdsByEmail](userIdsByEmail.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [workflowView](workflowView.md) ➡️

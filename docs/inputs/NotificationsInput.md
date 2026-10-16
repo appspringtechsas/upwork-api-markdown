@@ -30,3 +30,9 @@ Notification configurations
 ```json
 {"notifyClient": false, "notifyVendor": true, "sendDash2ContractRoom": true}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-NotificationsInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [NoStartSubmitFeedbackInput](NoStartSubmitFeedbackInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferAddressInput](OfferAddressInput.md) ➡️

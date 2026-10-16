@@ -39,6 +39,12 @@ Classification info attached with the job posting (management side)
   "customSkills": [CustomJobPostSkill],
   "additionalSkills": [Skill],
   "occupationId": "4",
-  "customAdditionalSkills": ["abc123"]
+  "customAdditionalSkills": ["xyz789"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingClassification" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingCategory](JobPostingCategory.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingConnection](JobPostingConnection.md) ➡️

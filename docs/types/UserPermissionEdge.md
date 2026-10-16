@@ -28,3 +28,9 @@ Edge in user permissions
 ```json
 {"node": UserPermissionNode}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserPermissionEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserLocation](UserLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UserPermissionNode](UserPermissionNode.md) ➡️

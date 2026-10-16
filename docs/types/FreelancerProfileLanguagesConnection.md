@@ -28,3 +28,9 @@ Connection to the FreelancerLanguages list
 ```json
 {"edges": [FreelancerProfileLanguageEdge]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileLanguagesConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileLanguageEdge](FreelancerProfileLanguageEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileLinkedExternalAccounts](FreelancerProfileLinkedExternalAccounts.md) ➡️

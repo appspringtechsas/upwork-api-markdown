@@ -72,3 +72,9 @@ mutation savePersonJob($input: PersonSaveJobInput!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-savePersonJob" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [createJobProposal](createJobProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [submitContractMilestone](submitContractMilestone.md) ➡️

@@ -80,7 +80,7 @@ query user {
   "data": {
     "user": {
       "id": 4,
-      "nid": "4",
+      "nid": 4,
       "rid": "4",
       "email": "abc123",
       "name": "xyz789",
@@ -93,7 +93,7 @@ query user {
       "vendorInvitation": VendorInvitation,
       "vendorInvitations": VendorInvitationConnection,
       "freelancerProfile": FreelancerProfile,
-      "ciphertext": "abc123",
+      "ciphertext": "xyz789",
       "i18NSettings": I18nSettings,
       "talentProfile": TalentProfile
     }
@@ -276,3 +276,15 @@ query FreelancerEarningsReport(
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **1** (List user's offers) in [Working with Offers and Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+- Step **2** (View earnings report) in [Reports Sample Flow](../operations/examples/reports.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-user" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [snapshotsByContractId](snapshotsByContractId.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [workDays](workDays.md) ➡️

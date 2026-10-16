@@ -60,29 +60,29 @@ Public job posting in marketplace
 ```json
 {
   "title": "abc123",
-  "createdDateTime": "abc123",
+  "createdDateTime": "xyz789",
   "type": "HOURLY",
-  "ciphertext": "abc123",
+  "ciphertext": "xyz789",
   "description": "xyz789",
   "skills": [PublicMarketplaceJobPostingSearchSkill],
   "engagement": "xyz789",
   "amount": Money,
-  "recno": 123,
+  "recno": 987,
   "contractorTier": "ENTRY_LEVEL",
   "jobStatus": "Open",
   "client": PublicMarketplaceJobPostingsSearchClient,
   "category": "abc123",
   "subcategory": "abc123",
   "freelancersToHire": 987,
-  "enterpriseJob": false,
+  "enterpriseJob": true,
   "jobTs": "abc123",
-  "totalApplicants": 987,
+  "totalApplicants": 123,
   "id": 4,
-  "prefFreelancerLocationMandatory": true,
+  "prefFreelancerLocationMandatory": false,
   "publishedDateTime": "abc123",
   "local": true,
   "locations": [FeedJobLocation],
-  "durationLabel": "abc123",
+  "durationLabel": "xyz789",
   "applied": true,
   "ontologySkills": [
     PublicMarketplaceJobPostingSearchOntologySkill
@@ -96,3 +96,9 @@ Public job posting in marketplace
   "engagementDuration": PublicMarketplaceJobPostingsSearchEngagementDuration
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingsSearch" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicMarketplaceJobPostingSearchSkill](PublicMarketplaceJobPostingSearchSkill.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingsSearchConnection](PublicMarketplaceJobPostingsSearchConnection.md) ➡️

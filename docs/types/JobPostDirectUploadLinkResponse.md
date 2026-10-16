@@ -26,7 +26,13 @@ generated_by: "scripts/convert.mjs"
 ```json
 {
   "uid": 4,
-  "uploadUrl": "abc123",
+  "uploadUrl": "xyz789",
   "formKeyValues": [StringMapElement]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostDirectUploadLinkResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobExtendedBudgetInfo](JobExtendedBudgetInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostSkillSearchResult](JobPostSkillSearchResult.md) ➡️

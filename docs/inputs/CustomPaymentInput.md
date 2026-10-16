@@ -32,11 +32,17 @@ Input for creating a custom payment (e.g., bonus)
 
 ```json
 {
-  "contractId": "4",
-  "amount": 987.65,
-  "comment": "abc123",
-  "notes": "xyz789",
+  "contractId": 4,
+  "amount": 123.45,
+  "comment": "xyz789",
+  "notes": "abc123",
   "type": "BONUS",
   "allowSubsequent": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CustomPaymentInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateProposalSri](CreateProposalSri.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostDirectUploadLinkInput](JobPostDirectUploadLinkInput.md) ➡️

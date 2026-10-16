@@ -29,8 +29,14 @@ Milestone defined in a proposal project plan
 
 ```json
 {
-  "description": "xyz789",
-  "dueDate": "abc123",
-  "amount": "abc123"
+  "description": "abc123",
+  "dueDate": "xyz789",
+  "amount": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProposalMilestones" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalMetadata](ProposalMetadata.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProposalProjectPlan](ProposalProjectPlan.md) ➡️

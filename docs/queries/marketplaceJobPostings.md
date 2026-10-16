@@ -83,3 +83,9 @@ query marketplaceJobPostings(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-marketplaceJobPostings" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [marketplaceJobPosting](marketplaceJobPosting.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [marketplaceJobPostingsContents](marketplaceJobPostingsContents.md) ➡️

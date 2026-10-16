@@ -17,7 +17,7 @@ Offer delivery model
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `TalentMarketplace` | Talent marketplace delivery |
 | `CatalogProject` | Catalog project delivery |
@@ -37,3 +37,9 @@ Offer delivery model
 ```graphql
 "TalentMarketplace"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferDeliveryModel" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobType](JobType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferKind](OfferKind.md) ➡️

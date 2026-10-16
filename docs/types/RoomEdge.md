@@ -28,3 +28,9 @@ Edge type containing a room node for pagination
 ```json
 {"node": Room}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomConnection](RoomConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomStory](RoomStory.md) ➡️

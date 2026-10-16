@@ -28,3 +28,9 @@ List of contract details entries
 ```json
 {"contracts": [ContractDetails]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractList" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractDetails](ContractDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractMetadata](ContractMetadata.md) ➡️

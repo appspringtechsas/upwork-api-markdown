@@ -47,20 +47,26 @@ Profile completeness summary with PCI score and section counts
   "personId": "abc123",
   "pciActual": 987,
   "pciDisplay": 987,
-  "pciAction": "abc123",
-  "pciActionCredit": 987,
-  "pciDateTime": "xyz789",
+  "pciAction": "xyz789",
+  "pciActionCredit": 123,
+  "pciDateTime": "abc123",
   "actionForEmptySection": "abc123",
   "skillsCount": 987,
-  "employmentRecordCount": 123,
+  "employmentRecordCount": 987,
   "portraitExists": false,
   "overviewExists": false,
-  "passedTestsCount": 987,
-  "educationRecordCount": 987,
+  "passedTestsCount": 123,
+  "educationRecordCount": 123,
   "certificatesCount": 987,
-  "otherExperiencesCount": 987,
-  "portfolioCount": 123,
+  "otherExperiencesCount": 123,
+  "portfolioCount": 987,
   "esnCount": 987,
   "updatedDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileCompletenessSummary" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileCommunityCertificate](TalentProfileCommunityCertificate.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileEmploymentRecord](TalentProfileEmploymentRecord.md) ➡️

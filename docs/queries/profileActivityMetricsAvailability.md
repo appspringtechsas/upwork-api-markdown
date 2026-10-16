@@ -58,3 +58,9 @@ query profileActivityMetricsAvailability($freelancerId: ID) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-profileActivityMetricsAvailability" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [profileActivityMetrics](profileActivityMetrics.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [profileActivityMetricsLastUpdated](profileActivityMetricsLastUpdated.md) ➡️

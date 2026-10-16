@@ -29,6 +29,12 @@ Input for key-value element with non-null value
 ```json
 {
   "key": "xyz789",
-  "value": "abc123"
+  "value": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-StringMapElementInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SortAttribute](SortAttribute.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TnsRuleStructureInput](TnsRuleStructureInput.md) ➡️

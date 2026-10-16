@@ -34,3 +34,9 @@ generated_by: "scripts/convert.mjs"
   "lastUpdateTs": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PersonSavedJob" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PaymentsReport](PaymentsReport.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PrefLocation](PrefLocation.md) ➡️

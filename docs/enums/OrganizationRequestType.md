@@ -17,7 +17,7 @@ Type of organization to create
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `AGENCY` | Agency organization |
 | `CLIENT` | Client organization |
@@ -30,3 +30,9 @@ Type of organization to create
 ```graphql
 "AGENCY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OrganizationRequestType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OrganizationLegacyType](OrganizationLegacyType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OrganizationType](OrganizationType.md) ➡️

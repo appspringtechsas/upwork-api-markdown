@@ -17,7 +17,7 @@ Contract lifecycle status
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ACTIVE` | Contract is currently active |
 | `CLOSED` | Contract has been closed |
@@ -30,3 +30,9 @@ Contract lifecycle status
 ```graphql
 "ACTIVE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentContractStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentContractAccessType](TalentContractAccessType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentJobType](TalentJobType.md) ➡️

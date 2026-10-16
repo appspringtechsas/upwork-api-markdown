@@ -32,11 +32,17 @@ Input for searching offers by attributes
 
 ```json
 {
-  "ids": [4],
+  "ids": ["4"],
   "searchAttribute": "JobApplication",
   "states": ["Draft"],
-  "includeAttachments": true,
+  "includeAttachments": false,
   "includeMilestones": false,
-  "includeScheduledRateIncrease": false
+  "includeScheduledRateIncrease": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SearchOffersByAttributesInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RejectMilestoneSubmissionInput](RejectMilestoneSubmissionInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SearchOffersInput](SearchOffersInput.md) ➡️

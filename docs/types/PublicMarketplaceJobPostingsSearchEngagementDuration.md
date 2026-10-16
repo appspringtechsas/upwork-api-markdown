@@ -27,8 +27,11 @@ Engagement duration information
 ### Example
 
 ```json
-{
-  "id": "4",
-  "label": "xyz789"
-}
+{"id": 4, "label": "xyz789"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingsSearchEngagementDuration" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicMarketplaceJobPostingsSearchConnection](PublicMarketplaceJobPostingsSearchConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Search](Search.md) ➡️

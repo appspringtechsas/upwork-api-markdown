@@ -34,3 +34,9 @@ Skill details
   "groupPrefLabel": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SandsSkill" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SandsOccupation](SandsOccupation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SegmentationSkill](SegmentationSkill.md) ➡️

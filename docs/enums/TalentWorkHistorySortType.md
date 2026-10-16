@@ -17,7 +17,7 @@ Sort types for work history
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `NEWEST` | Sort by newest first |
 | `FEEDBACK_RATE` | Sort by feedback rate |
@@ -30,3 +30,9 @@ Sort types for work history
 ```graphql
 "NEWEST"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentWorkHistorySortType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentWorkAccessType](TalentWorkAccessType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AccessRestictionReason](AccessRestictionReason.md) ➡️

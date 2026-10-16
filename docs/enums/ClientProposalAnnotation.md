@@ -17,7 +17,7 @@ Annotation tags for client proposals
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Recommended` | Marked as recommended by the system |
 | `Shortlisted` | Added to client's shortlist |
@@ -34,3 +34,9 @@ Annotation tags for client proposals
 ```graphql
 "Recommended"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalAnnotation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitationStatus](ClientInvitationStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalEarnedAmount](ClientProposalEarnedAmount.md) ➡️

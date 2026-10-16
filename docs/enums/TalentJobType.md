@@ -17,7 +17,7 @@ Contract payment type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `FIXED` | Fixed-price contract |
 | `HOURLY` | Hourly contract |
@@ -29,3 +29,9 @@ Contract payment type
 ```graphql
 "FIXED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentJobType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentContractStatus](TalentContractStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileStatus](TalentProfileStatus.md) ➡️

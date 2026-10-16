@@ -28,7 +28,13 @@ Edge for marketplace job posting search results
 
 ```json
 {
-  "cursor": "xyz789",
+  "cursor": "abc123",
   "node": MarketplaceJobPostingSearchResult
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceJobpostingSearchEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchConnection](MarketplaceJobPostingSearchConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobPostingSearchOccupation](MarketplaceJobPostingSearchOccupation.md) ➡️

@@ -37,16 +37,22 @@ Feature flags controlling i18n-related UI elements
 
 ```json
 {
-  "showDomesticLocationFilterOnFLSearch": false,
+  "showDomesticLocationFilterOnFLSearch": true,
   "showJobSearch": true,
   "showPhoneVerification": false,
   "showSmfToUpdateAddress": true,
-  "showPersonalAddressAutocomplete": false,
-  "showMessageContainer": true,
+  "showPersonalAddressAutocomplete": true,
+  "showMessageContainer": false,
   "showLocationPreferenceOnJobPost": false,
-  "defaultDomesticEnabled": false,
-  "jobSearchDefaultedToON": true,
+  "defaultDomesticEnabled": true,
+  "jobSearchDefaultedToON": false,
   "showLocationVerificationOnFWH": true,
-  "domesticEnabledForFreelancersOnFLSearch": true
+  "domesticEnabledForFreelancersOnFLSearch": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VisitorI18NSettings" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VisitorI18N](VisitorI18N.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VisitorSegment](VisitorSegment.md) ➡️

@@ -22,5 +22,11 @@ generated_by: "scripts/convert.mjs"
 ### Example
 
 ```json
-{"message": "xyz789"}
+{"message": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalWithdrawRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalSourceInput](ContractProposalSourceInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateJobProposalInput](CreateJobProposalInput.md) ➡️

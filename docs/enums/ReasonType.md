@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `PROPOSAL_DECLINE` | Reject invite to apply to a job posting by freelancer |
 | `PROPOSAL_WITHDRAW` | Withdraw application for job posting by freelancer |
@@ -38,3 +38,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "PROPOSAL_DECLINE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ReasonType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProfileActivityStepType](ProfileActivityStepType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ResourceType](ResourceType.md) ➡️

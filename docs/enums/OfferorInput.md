@@ -17,7 +17,7 @@ Offeror input type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Client` | Client is offeror |
 
@@ -28,3 +28,9 @@ Offeror input type
 ```graphql
 "Client"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferorInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Offeror](Offeror.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferPeriodTypeInput](OfferPeriodTypeInput.md) ➡️

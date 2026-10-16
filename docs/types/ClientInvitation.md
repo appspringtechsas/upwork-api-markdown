@@ -36,11 +36,11 @@ Details about Invitation for client side
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "client": ClientInvitationParticipant,
   "freelancer": ClientInvitationParticipant,
   "jobPosting": JobPosting,
-  "invitationLetter": "xyz789",
+  "invitationLetter": "abc123",
   "inviteAttempt": 123,
   "context": "Freelancer",
   "statusDetails": ClientInvitationStatusDetails,
@@ -48,3 +48,9 @@ Details about Invitation for client side
   "additionalInfo": ClientInvitationAdditionalInfo
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [StringMapOccupation](StringMapOccupation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationAcceptanceContext](ClientInvitationAcceptanceContext.md) ➡️

@@ -17,7 +17,7 @@ Status of a community certificate
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `PENDING` | Awaiting verification |
 | `VERIFIED` | Successfully verified |
@@ -33,3 +33,9 @@ Status of a community certificate
 ```graphql
 "PENDING"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCommunityCertificateStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTaskSectionType](TalentCloudTaskSectionType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCommunityCertificateVisibility](TalentCommunityCertificateVisibility.md) ➡️

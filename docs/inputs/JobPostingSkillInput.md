@@ -32,11 +32,17 @@ Skill input for job posting
 
 ```json
 {
-  "parentSkillId": "xyz789",
-  "skillId": "abc123",
+  "parentSkillId": "abc123",
+  "skillId": "xyz789",
   "freetext": "xyz789",
-  "boolAnswer": false,
-  "legacyConvertedSkill": false,
+  "boolAnswer": true,
+  "legacyConvertedSkill": true,
   "relevance": "MANDATORY"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingSkillInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingsFilter](JobPostingsFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingUpdateRequest](JobPostingUpdateRequest.md) ➡️

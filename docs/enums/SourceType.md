@@ -17,7 +17,7 @@ Source type for offer
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `JobPosting` | From job posting |
 | `JobApplication` | From job application |
@@ -38,3 +38,9 @@ Source type for offer
 ```graphql
 "JobPosting"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SourceType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PurchaseOrderNotificationAclType](PurchaseOrderNotificationAclType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SourceTypeInput](SourceTypeInput.md) ➡️

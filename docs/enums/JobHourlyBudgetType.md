@@ -17,7 +17,7 @@ Budget type for hourly job
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `DEFAULT` | Default |
 | `MANUAL` | Manual |
@@ -30,3 +30,9 @@ Budget type for hourly job
 ```graphql
 "DEFAULT"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobHourlyBudgetType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobContractorType](JobContractorType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobOpeningStatus](JobOpeningStatus.md) ➡️

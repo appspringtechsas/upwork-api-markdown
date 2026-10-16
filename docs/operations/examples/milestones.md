@@ -13,4 +13,12 @@ Understanding milestones on fixed-price contracts using the public API. A milest
 
 Create a milestone and approve it after the freelancer submits work.
 
-Create milestone  Add a milestone to an offer or contract with amount and due date.     Approve milestone  Approve a submitted milestone and release payment to the freelancer.
+**Workflow: Working with Milestones Sample Flow**
+1. **Create milestone** — call [`createMilestoneV2`](../../mutations/createMilestoneV2.md) (mutation): Add a milestone to an offer or contract with amount and due date.
+2. **Approve milestone** — call [`approveMilestone`](../../mutations/approveMilestone.md) (mutation): Approve a submitted milestone and release payment to the freelancer.
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#examples-milestones" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [offers-and-contracts](offers-and-contracts.md)   ·   [📚 Docs index](../../README.md)   ·   **Next:** [payments](payments.md) ➡️

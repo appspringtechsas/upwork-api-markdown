@@ -29,3 +29,9 @@ Update client proposal result
 ```json
 {"proposal": ClientProposal, "status": "SUCCESS"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UpdateClientProposalResult" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalTerms](ProposalTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorInvitation](VendorInvitation.md) ➡️

@@ -41,6 +41,12 @@ Project Contract link
   "client": GenericUser,
   "freelancer": GenericUser,
   "notificationDateTime": "abc123",
-  "createdDateTime": "abc123"
+  "createdDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileProjectContractLink" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileProjectAttachment](FreelancerProfileProjectAttachment.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileStats](FreelancerProfileStats.md) ➡️

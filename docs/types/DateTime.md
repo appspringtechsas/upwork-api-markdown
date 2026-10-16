@@ -32,3 +32,9 @@ Time of day with raw seconds and display value
   "displayValue": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-DateTime" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AuditTime](AuditTime.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EngagementDuration](EngagementDuration.md) ➡️

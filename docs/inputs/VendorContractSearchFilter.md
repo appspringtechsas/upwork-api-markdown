@@ -30,9 +30,15 @@ Filter to search vendor contracts by date and status
 
 ```json
 {
-  "vendorId": 4,
-  "startDateBefore": "xyz789",
-  "endDateAfter": "abc123",
+  "vendorId": "4",
+  "startDateBefore": "abc123",
+  "endDateAfter": "xyz789",
   "contractStatuses": ["ACTIVE"]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-VendorContractSearchFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateHourlyLimitRequestInput](UpdateHourlyLimitRequestInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VendorUserInput](VendorUserInput.md) ➡️

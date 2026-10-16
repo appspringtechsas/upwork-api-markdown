@@ -75,26 +75,26 @@ This schema represents contract data. Note: This is the legacy contract schema i
 ```json
 {
   "id": 4,
-  "termId": "4",
+  "termId": 4,
   "title": "xyz789",
   "contractType": "HOURLY",
   "job": MarketplaceJobPosting,
-  "hasAgency": true,
+  "hasAgency": false,
   "offer": Offer,
   "clientProposal": ClientProposal,
   "vendorProposal": VendorProposal,
   "weeklyChargeAmount": Money,
-  "weeklyHoursLimit": 123.45,
+  "weeklyHoursLimit": 987.65,
   "hourlyChargeRate": Money,
-  "createdDateTime": "xyz789",
-  "firstContractStartDateTime": "xyz789",
+  "createdDateTime": "abc123",
+  "firstContractStartDateTime": "abc123",
   "modifiedDateTime": "abc123",
   "startDateTime": "abc123",
   "endDateTime": "abc123",
   "manualTimeAllowed": true,
   "hideScreenshots": false,
   "last": false,
-  "weeklyStipendHours": 123.45,
+  "weeklyStipendHours": 987.65,
   "estimatedDuration": ProposalEngagementDuration,
   "status": "ACTIVE",
   "suspended": true,
@@ -102,9 +102,15 @@ This schema represents contract data. Note: This is the legacy contract schema i
   "paused": true,
   "clientCompany": PublicCompanyInfo,
   "milestones": [Milestone],
-  "contractId": 4,
+  "contractId": "4",
   "workDays": [WorkDay],
   "workDiaryTimeCells": [WorkDiaryTimeCell],
   "feedback": Feedback
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Contract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClosingReason](ClosingReason.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractActionResponse](ContractActionResponse.md) ➡️

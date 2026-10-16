@@ -49,22 +49,28 @@ SEM search request
   "paging": Paging,
   "userQuery": "abc123",
   "occupationUid": "abc123",
-  "title": "xyz789",
+  "title": "abc123",
   "countries": ["xyz789"],
-  "states": ["abc123"],
+  "states": ["xyz789"],
   "cities": ["abc123"],
   "hourlyRate": SemSearchV2DoubleRange,
   "jobSuccessScore": SemSearchV2DoubleRange,
   "totalJobs": SemSearchV2IntRange,
   "topRated": false,
   "risingTalent": true,
-  "hasPortrait100": true,
-  "skillsNames": ["abc123"],
+  "hasPortrait100": false,
+  "skillsNames": ["xyz789"],
   "skillsUids": ["xyz789"],
   "vemSkills": [VemSkill],
   "type": "Agency",
   "addAgencyPreview": false,
-  "agencySearch": true,
+  "agencySearch": false,
   "publicVisibilityOnly": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SemSearchV2Request" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SemSearchV2IntRange](SemSearchV2IntRange.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [VemSkill](VemSkill.md) ➡️

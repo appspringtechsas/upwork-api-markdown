@@ -34,3 +34,9 @@ Response of public job posting search in marketplace
   "facets": PublicMarketplaceJobPostingSearchFacets
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PublicMarketplaceJobPostingsSearchConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [PublicMarketplaceJobPostingsSearch](PublicMarketplaceJobPostingsSearch.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicMarketplaceJobPostingsSearchEngagementDuration](PublicMarketplaceJobPostingsSearchEngagementDuration.md) ➡️

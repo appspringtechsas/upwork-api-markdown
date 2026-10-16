@@ -79,7 +79,7 @@ query clientProposals(
 {
   "data": {
     "clientProposals": {
-      "totalCount": 987,
+      "totalCount": 123,
       "edges": [ClientProposalsEdge],
       "pageInfo": PageInfo
     }
@@ -247,3 +247,13 @@ query ListClientProposals(
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **1** (List proposals) in [Working with Proposals as a client](../operations/examples/proposals.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-clientProposals" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [clientProposal](clientProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [contractTimeReport](contractTimeReport.md) ➡️

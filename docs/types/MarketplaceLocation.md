@@ -36,13 +36,19 @@ Location constraints for marketplace
 ```json
 {
   "countries": ["abc123"],
-  "states": ["xyz789"],
-  "timezones": ["abc123"],
-  "localCheckRequired": false,
+  "states": ["abc123"],
+  "timezones": ["xyz789"],
+  "localCheckRequired": true,
   "localMarket": true,
   "areas": [Area],
-  "notSureLocationPreference": true,
+  "notSureLocationPreference": false,
   "localDescription": "xyz789",
-  "localFlexibilityDescription": "xyz789"
+  "localFlexibilityDescription": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-MarketplaceLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketPlaceJobSearchLocation](MarketPlaceJobSearchLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplacePostingActivityStat](MarketplacePostingActivityStat.md) ➡️

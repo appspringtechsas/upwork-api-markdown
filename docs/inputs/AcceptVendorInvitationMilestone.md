@@ -29,8 +29,14 @@ Input type for milestone information
 
 ```json
 {
-  "description": "abc123",
+  "description": "xyz789",
   "dueDate": "abc123",
   "amount": 987.65
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AcceptVendorInvitationMilestone" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AcceptVendorInvitationInput](AcceptVendorInvitationInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AcceptVendorInvitationQuestionAnswer](AcceptVendorInvitationQuestionAnswer.md) ➡️

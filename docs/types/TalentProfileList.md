@@ -28,3 +28,9 @@ List of talent profiles
 ```json
 {"profiles": [TalentProfile]}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileList" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileIdentity](TalentProfileIdentity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileOtherExperience](TalentProfileOtherExperience.md) ➡️

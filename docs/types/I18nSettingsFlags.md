@@ -37,16 +37,22 @@ A set of i18n flags/checks
 
 ```json
 {
-  "showDomesticLocationFilterOnFLSearch": false,
+  "showDomesticLocationFilterOnFLSearch": true,
   "showJobSearch": true,
-  "showPhoneVerification": true,
+  "showPhoneVerification": false,
   "showSmfToUpdateAddress": false,
-  "showPersonalAddressAutocomplete": true,
+  "showPersonalAddressAutocomplete": false,
   "showMessageContainer": false,
   "showLocationPreferenceOnJobPost": false,
-  "defaultDomesticEnabled": true,
-  "jobSearchDefaultedToON": true,
-  "showLocationVerificationOnFWH": false,
+  "defaultDomesticEnabled": false,
+  "jobSearchDefaultedToON": false,
+  "showLocationVerificationOnFWH": true,
   "domesticEnabledForFreelancersOnFLSearch": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-I18nSettingsFlags" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [I18nSettings](I18nSettings.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [InviteToTeamFailedResponse](InviteToTeamFailedResponse.md) ➡️

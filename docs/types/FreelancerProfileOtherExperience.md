@@ -37,8 +37,14 @@ Other experience record for a freelancer
   "user": GenericUser,
   "subject": "xyz789",
   "description": "xyz789",
-  "active": true,
-  "createdDateTime": "abc123",
+  "active": false,
+  "createdDateTime": "xyz789",
   "updatedDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileOtherExperience" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileLinkedExternalAccountsEdge](FreelancerProfileLinkedExternalAccountsEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileOtherExperienceEdge](FreelancerProfileOtherExperienceEdge.md) ➡️

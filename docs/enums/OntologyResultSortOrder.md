@@ -18,7 +18,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `RANDOM` | Random order |
 | `ALPHABET` | Alphabetical by preferred label |
@@ -31,3 +31,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "RANDOM"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyResultSortOrder" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OntologyEntityType](OntologyEntityType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientActiveInvitationStatusFilter](ClientActiveInvitationStatusFilter.md) ➡️

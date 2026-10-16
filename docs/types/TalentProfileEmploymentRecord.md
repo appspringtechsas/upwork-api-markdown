@@ -38,17 +38,23 @@ Employment history record (deprecated, use TalentProfileEmploymentHistoryRecord)
 
 ```json
 {
-  "id": "xyz789",
+  "id": "abc123",
   "personId": "xyz789",
   "companyName": "xyz789",
-  "jobTitle": "abc123",
-  "standardizedCompanyId": "xyz789",
-  "standardizedJobTitleId": "abc123",
+  "jobTitle": "xyz789",
+  "standardizedCompanyId": "abc123",
+  "standardizedJobTitleId": "xyz789",
   "role": "abc123",
-  "startDateTime": "abc123",
-  "endDateTime": "abc123",
-  "description": "abc123",
+  "startDateTime": "xyz789",
+  "endDateTime": "xyz789",
+  "description": "xyz789",
   "city": "xyz789",
   "country": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileEmploymentRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileCompletenessSummary](TalentProfileCompletenessSummary.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileIdentity](TalentProfileIdentity.md) ➡️

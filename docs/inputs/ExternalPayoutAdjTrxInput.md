@@ -34,13 +34,19 @@ Input for individual credit data transaction
 
 ```json
 {
-  "extTrxRefId": 4,
+  "extTrxRefId": "4",
   "amount": "abc123",
-  "type": "xyz789",
-  "subtype": "xyz789",
-  "glAccount": "abc123",
+  "type": "abc123",
+  "subtype": "abc123",
+  "glAccount": "xyz789",
   "description": "xyz789",
   "fees": [ExternalPayoutAdjTrxInput],
   "taxes": [ExternalPayoutAdjTrxInput]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ExternalPayoutAdjTrxInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [DateTimeRange](DateTimeRange.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FloatRange](FloatRange.md) ➡️

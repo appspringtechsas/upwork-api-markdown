@@ -36,7 +36,13 @@ User preferences for profile visibility and privacy settings
   "hideAgencyEarnings": false,
   "hideEarnings": false,
   "exposeFullName": false,
-  "clientFeedbackOptional": false,
+  "clientFeedbackOptional": true,
   "contractToHire": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileUserPreferences" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileSpecializedProject](TalentProfileSpecializedProject.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProjectContractLink](TalentProjectContractLink.md) ➡️

@@ -32,9 +32,15 @@ Location of the freelancer
 ```json
 {
   "countryName": "abc123",
-  "cityName": "abc123",
-  "zip": "abc123",
+  "cityName": "xyz789",
+  "zip": "xyz789",
   "timezone": "xyz789",
-  "street": "xyz789"
+  "street": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerLocation" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FailedInvitation](FailedInvitation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfile](FreelancerProfile.md) ➡️

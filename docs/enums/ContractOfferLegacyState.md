@@ -17,7 +17,7 @@ Legacy offer state values
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Draft` | Draft state |
 | `DraftChanged` | Draft changed |
@@ -37,3 +37,9 @@ Legacy offer state values
 ```graphql
 "Draft"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractOfferLegacyState" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractKind](ContractKind.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractOfferState](ContractOfferState.md) ➡️

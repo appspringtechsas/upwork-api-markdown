@@ -36,15 +36,21 @@ Attributes of personal data.
 
 ```json
 {
-  "firstName": "xyz789",
+  "firstName": "abc123",
   "lastName": "abc123",
   "portrait": Portrait,
-  "title": "xyz789",
-  "description": "xyz789",
+  "title": "abc123",
+  "description": "abc123",
   "address": FreelancerLocation,
   "chargeRate": Money,
-  "workPhone": "abc123",
+  "workPhone": "xyz789",
   "profileUrl": "xyz789",
   "profileState": "IN_PROGRESS"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfilePersonalData" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileOtherExperiencesConnection](FreelancerProfileOtherExperiencesConnection.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileProject](FreelancerProfileProject.md) ➡️

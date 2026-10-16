@@ -29,8 +29,14 @@ Contract feedback score
 
 ```json
 {
-  "score": 123.45,
+  "score": 987.65,
   "label": "xyz789",
   "description": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileContractFeedbackScore" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileContractFeedback](FreelancerProfileContractFeedback.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileEducationRecord](FreelancerProfileEducationRecord.md) ➡️

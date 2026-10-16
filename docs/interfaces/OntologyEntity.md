@@ -38,8 +38,8 @@ Occupations describe what we know, in the Upwork universe, as Categories, Subcat
 
 ## Possible Types
 
-| Value | Description |
-|---|---|
+| Possible Types |
+|---|
 | [`JobCategory`](../types/JobCategory.md) |
 | [`Occupation`](../types/Occupation.md) |
 | [`Skill`](../types/Skill.md) |
@@ -50,13 +50,19 @@ Occupations describe what we know, in the Upwork universe, as Categories, Subcat
 
 ```json
 {
-  "id": "4",
+  "id": 4,
   "ontologyId": "abc123",
   "type": ["OCCUPATION"],
   "entityStatus": "ACTIVE",
-  "preferredLabel": "xyz789",
+  "preferredLabel": "abc123",
   "definition": "xyz789",
   "createdDateTime": "abc123",
   "modifiedDateTime": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OntologyEntity" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [interfaces index](README.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfilesSearchRecordInterface](FreelancerProfilesSearchRecordInterface.md) ➡️

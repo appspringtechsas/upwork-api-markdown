@@ -23,5 +23,11 @@ generated_by: "scripts/convert.mjs"
 ### Example
 
 ```json
-{"latitude": 123.45, "longitude": 987.65}
+{"latitude": 123.45, "longitude": 123.45}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileSearchAreaInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TransactionHistoryFilter](TransactionHistoryFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileSearchFilter](FreelancerProfileSearchFilter.md) ➡️

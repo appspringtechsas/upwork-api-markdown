@@ -61,7 +61,7 @@ mutation updateWorkflowTask(
 ```json
 {
   "workflowId": 4,
-  "taskId": "4",
+  "taskId": 4,
   "updateWorkflowTaskDetailsInput": UpdateWorkflowTaskDetailsInput
 }
 ```
@@ -72,9 +72,15 @@ mutation updateWorkflowTask(
 {
   "data": {
     "updateWorkflowTask": {
-      "workflowId": 4,
+      "workflowId": "4",
       "updatedTaskView": WorkflowTaskView
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateWorkflowTask" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateTeamActivity](updateTeamActivity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [acceptVendorInvitation](acceptVendorInvitation.md) ➡️

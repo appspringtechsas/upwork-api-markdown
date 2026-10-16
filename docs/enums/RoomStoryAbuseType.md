@@ -17,7 +17,7 @@ Types of abuse that can be reported for a room story
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `NONE` | No abuse reported |
 | `ABUSE` | General abuse |
@@ -37,3 +37,9 @@ Types of abuse that can be reported for a room story
 ```graphql
 "NONE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomStoryAbuseType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomPrivacyFilter](RoomPrivacyFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomType](RoomType.md) ➡️

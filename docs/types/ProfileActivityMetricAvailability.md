@@ -30,7 +30,13 @@ Availability window for a profile activity metric type
 ```json
 {
   "metric": "PROFILE_VIEWS",
-  "availableFrom": "abc123",
-  "availableTo": "abc123"
+  "availableFrom": "xyz789",
+  "availableTo": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProfileActivityMetricAvailability" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProfileActivityMetric](ProfileActivityMetric.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProfileActivityMetricEntry](ProfileActivityMetricEntry.md) ➡️

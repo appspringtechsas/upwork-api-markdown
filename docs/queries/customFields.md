@@ -77,7 +77,7 @@ query customFields(
 #### Variables
 
 ```json
-{"input": CustomFieldsInput, "offset": 123, "limit": 987}
+{"input": CustomFieldsInput, "offset": 987, "limit": 123}
 ```
 
 #### Response
@@ -87,21 +87,21 @@ query customFields(
   "data": {
     "customFields": [
       {
-        "responseId": "4",
-        "id": "4",
-        "itemId": 4,
+        "responseId": 4,
+        "id": 4,
+        "itemId": "4",
         "typeSnap": "TEXT_FIELD",
-        "labelSnap": "xyz789",
+        "labelSnap": "abc123",
         "displayValueSnap": "xyz789",
         "creator": GenericUser,
         "createdDateTime": DateTime,
-        "rollupAssignmentId": 4,
+        "rollupAssignmentId": "4",
         "firstContractId": "4",
         "offerId": "4",
         "jobPostingId": 4,
         "byoInvitationId": "4",
         "buyItNowId": 4,
-        "questionnaireResponsesId": 4,
+        "questionnaireResponsesId": "4",
         "stale": true,
         "termSectionId": 4,
         "aclSnap": "abc123"
@@ -110,3 +110,9 @@ query customFields(
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-customFields" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [contractTerm](contractTerm.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [offer](offer.md) ➡️

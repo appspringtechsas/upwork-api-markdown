@@ -35,14 +35,20 @@ Contract details including terms, status, and dates
 
 ```json
 {
-  "id": "4",
-  "startDate": "xyz789",
-  "endDate": "abc123",
+  "id": 4,
+  "startDate": "abc123",
+  "endDate": "xyz789",
   "status": "ACTIVE",
   "clientTeamId": 4,
-  "title": "abc123",
+  "title": "xyz789",
   "terms": TalentContractTerms,
   "createDate": "xyz789",
-  "clientOrgId": "4"
+  "clientOrgId": 4
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentContract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCommunityCertificate](TalentCommunityCertificate.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentContractAggregate](TalentContractAggregate.md) ➡️

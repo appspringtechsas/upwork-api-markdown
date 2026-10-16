@@ -51,7 +51,7 @@ query ontologyOccupationsCategoriesServices($categoryUids: [ID!]) {
 #### Variables
 
 ```json
-{"categoryUids": ["4"]}
+{"categoryUids": [4]}
 ```
 
 #### Response
@@ -66,3 +66,9 @@ query ontologyOccupationsCategoriesServices($categoryUids: [ID!]) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-ontologyOccupationsCategoriesServices" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ontologyEntitySearchRecords](ontologyEntitySearchRecords.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ontologySkills](ontologySkills.md) ➡️

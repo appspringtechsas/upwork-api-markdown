@@ -29,8 +29,14 @@ Job posting subcategory
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "name": "abc123",
-  "slug": "xyz789"
+  "slug": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobSubPostingCategory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingUpdateResponse](JobPostingUpdateResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceAdditionalSearchInfo](MarketplaceAdditionalSearchInfo.md) ➡️

@@ -117,36 +117,36 @@ mutation updateRoomV2($input: RoomUpdateInputV2) {
   "data": {
     "updateRoomV2": {
       "id": 4,
-      "roomName": "xyz789",
+      "roomName": "abc123",
       "organization": CurrentOrganization,
       "creator": RoomUser,
-      "createdAtDateTime": "xyz789",
+      "createdAtDateTime": "abc123",
       "public": true,
-      "topic": "xyz789",
+      "topic": "abc123",
       "owner": RoomUser,
-      "numUnread": 123,
-      "roomFavoriteDateTime": "abc123",
-      "favorite": true,
+      "numUnread": 987,
+      "roomFavoriteDateTime": "xyz789",
+      "favorite": false,
       "numUnreadMentions": 123,
       "roomUsers": [RoomUser],
       "numUsers": 987,
       "joinDateTime": "xyz789",
-      "lastVisitedDateTime": "xyz789",
-      "lastReadDateTime": "xyz789",
+      "lastVisitedDateTime": "abc123",
+      "lastReadDateTime": "abc123",
       "roomType": "ONE_ON_ONE",
       "readOnlyDateTime": "xyz789",
-      "readOnly": false,
+      "readOnly": true,
       "blockDateTime": "xyz789",
       "blockedBy": RoomUser,
       "hidden": false,
       "muted": false,
-      "contractId": 4,
+      "contractId": "4",
       "contract": Contract,
       "contractDetails": ContractDetails,
       "vendorProposal": VendorProposal,
-      "roomNote": "abc123",
-      "roomNotePresent": false,
-      "offerIds": ["4"],
+      "roomNote": "xyz789",
+      "roomNotePresent": true,
+      "offerIds": [4],
       "recruiters": [GenericUser],
       "latestStory": RoomStory,
       "story": RoomStory,
@@ -156,3 +156,9 @@ mutation updateRoomV2($input: RoomUpdateInputV2) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateRoomV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateRoomStoryV2](updateRoomStoryV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateTeamActivity](updateTeamActivity.md) ➡️

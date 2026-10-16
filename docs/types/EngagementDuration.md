@@ -28,9 +28,11 @@ Engagement duration option with label and weeks
 ### Example
 
 ```json
-{
-  "id": "4",
-  "label": "xyz789",
-  "weeks": 123
-}
+{"id": 4, "label": "xyz789", "weeks": 123}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EngagementDuration" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [DateTime](DateTime.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [File](File.md) ➡️

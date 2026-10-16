@@ -115,3 +115,13 @@ mutation CreateOffer($input: CreationOfferInput!) {
     }
 }
 ```
+
+## Used in sample flows
+
+- Step **2** (Create offer) in [Working with Offers and Contracts Sample Flow](../operations/examples/offers-and-contracts.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createOffer" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [createMilestoneV2](createMilestoneV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [deleteMilestone](deleteMilestone.md) ➡️

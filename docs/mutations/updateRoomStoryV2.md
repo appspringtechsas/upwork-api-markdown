@@ -55,8 +55,14 @@ mutation updateRoomStoryV2($input: RoomStoryUpdateInputV2!) {
 {
   "data": {
     "updateRoomStoryV2": {
-      "status": "xyz789"
+      "status": "abc123"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateRoomStoryV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateOrganization](updateOrganization.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateRoomV2](updateRoomV2.md) ➡️

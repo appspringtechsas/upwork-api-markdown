@@ -17,7 +17,7 @@ On-site work requirement type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `REMOTE` | Fully remote |
 | `OCCASIONAL` | Occasional on-site |
@@ -30,3 +30,9 @@ On-site work requirement type
 ```graphql
 "REMOTE"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OnSiteType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MarketplaceJobPostingSearchType](MarketplaceJobPostingSearchType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [QuestionType](QuestionType.md) ➡️

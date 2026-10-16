@@ -66,11 +66,17 @@ mutation updateFreelancerOtherExperience($input: UpdateOtherExperienceInput!) {
       "id": 4,
       "user": GenericUser,
       "subject": "xyz789",
-      "description": "abc123",
-      "active": true,
+      "description": "xyz789",
+      "active": false,
       "createdDateTime": "abc123",
       "updatedDateTime": "abc123"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateFreelancerOtherExperience" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateFreelancerEmploymentRecord](updateFreelancerEmploymentRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateOrganization](updateOrganization.md) ➡️

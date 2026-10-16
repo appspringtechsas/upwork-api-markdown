@@ -30,9 +30,15 @@ Client company details
 
 ```json
 {
-  "contractDate": "abc123",
+  "contractDate": "xyz789",
   "description": "xyz789",
   "name": "xyz789",
   "url": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobBuyerCompany" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobAttachmentInfo](JobAttachmentInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobDetailsMoney](JobDetailsMoney.md) ➡️

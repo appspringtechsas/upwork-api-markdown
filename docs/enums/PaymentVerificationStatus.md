@@ -17,7 +17,7 @@ Payment method verification status codes
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `DEPOSIT_UNSUPPORTED` | Deposit verification not supported |
 | `ONHOLD` | Verification on hold |
@@ -35,3 +35,9 @@ Payment method verification status codes
 ```graphql
 "DEPOSIT_UNSUPPORTED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-PaymentVerificationStatus" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OrgType](OrgType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PersonalDataProfileState](PersonalDataProfileState.md) ➡️

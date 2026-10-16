@@ -95,9 +95,9 @@ mutation createMilestoneV2($input: CreateMilestoneInput!) {
 {
   "data": {
     "createMilestoneV2": {
-      "id": 4,
+      "id": "4",
       "createdBy": GenericUser,
-      "dueDateTime": "xyz789",
+      "dueDateTime": "abc123",
       "state": "NotFunded",
       "description": "xyz789",
       "currentEscrowAmount": Money,
@@ -112,7 +112,7 @@ mutation createMilestoneV2($input: CreateMilestoneInput!) {
       "payComments": "xyz789",
       "lastSubmissionCreatedTime": "xyz789",
       "createdDateTime": "xyz789",
-      "modifiedDateTime": "xyz789",
+      "modifiedDateTime": "abc123",
       "instructions": "abc123",
       "submissionEvents": [SubmissionEvent],
       "submissions": [MilestoneSubmissions]
@@ -170,3 +170,13 @@ mutation CreateOfferMilestone($input: CreateMilestoneInput!) {
   }
 }
 ```
+
+## Used in sample flows
+
+- Step **1** (Create milestone) in [Working with Milestones Sample Flow](../operations/examples/milestones.md)
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-createMilestoneV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [approveMilestone](approveMilestone.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [createOffer](createOffer.md) ➡️

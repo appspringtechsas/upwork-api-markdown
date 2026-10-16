@@ -57,14 +57,20 @@ Opening info
   "extendedBudgetInfo": JobExtendedBudgetInfo,
   "info": Job,
   "maxBudget": JobDetailsMoney,
-  "publishTime": "abc123",
+  "publishTime": "xyz789",
   "sandsData": SandsData,
   "segmentationData": [JobSegmentation],
   "startDate": "abc123",
   "status": "ACTIVE",
-  "workload": "xyz789",
+  "workload": "abc123",
   "durationType": "ONE_TIME_PROJECT",
-  "deadline": "xyz789",
+  "deadline": "abc123",
   "hiringNow": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPubOpeningInfo" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPubDetails](JobPubDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobQualificationGroup](JobQualificationGroup.md) ➡️

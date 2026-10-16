@@ -30,9 +30,15 @@ Input required to create a new room
 
 ```json
 {
-  "roomName": "xyz789",
-  "topic": "xyz789",
+  "roomName": "abc123",
+  "topic": "abc123",
   "users": [RoomUserInput],
   "roomType": "ONE_ON_ONE"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomCreateInputV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProfileActivityMetricsFilter](ProfileActivityMetricsFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [RoomFilter](RoomFilter.md) ➡️

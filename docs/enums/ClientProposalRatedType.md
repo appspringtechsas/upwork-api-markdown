@@ -17,7 +17,7 @@ Freelancer rating tier filter options
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `TOP_RATED` | Top Rated freelancers |
 | `NON_TOP_RATED` | Non-Top Rated freelancers |
@@ -31,3 +31,9 @@ Freelancer rating tier filter options
 ```graphql
 "TOP_RATED"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalRatedType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalLastActivity](ClientProposalLastActivity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalSortAttributeType](ClientProposalSortAttributeType.md) ➡️

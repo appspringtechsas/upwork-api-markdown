@@ -44,21 +44,27 @@ Freelancer Profile Completeness Summary
 ```json
 {
   "user": GenericUser,
-  "actual": 987,
-  "display": 123,
-  "action": "abc123",
+  "actual": 123,
+  "display": 987,
+  "action": "xyz789",
   "actionCredit": 987,
   "actionForEmptySection": "abc123",
   "skillsCount": 987,
-  "employmentRecordCount": 987,
+  "employmentRecordCount": 123,
   "portraitRecordCount": 123,
-  "overviewRecordCount": 123,
-  "videoRecordCount": 123,
-  "educationRecordCount": 987,
+  "overviewRecordCount": 987,
+  "videoRecordCount": 987,
+  "educationRecordCount": 123,
   "certificatesCount": 987,
   "otherExperiencesCount": 123,
-  "portfolioCount": 123,
-  "linkedExternalAccountsCount": 987,
-  "createdDateTime": "xyz789"
+  "portfolioCount": 987,
+  "linkedExternalAccountsCount": 123,
+  "createdDateTime": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileCompletenessSummary" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileCommittedResponseTime](FreelancerProfileCommittedResponseTime.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileContract](FreelancerProfileContract.md) ➡️

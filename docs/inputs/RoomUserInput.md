@@ -32,7 +32,13 @@ Details of the user to be added in the Room
 {
   "userId": "4",
   "organizationId": 4,
-  "role": "xyz789",
+  "role": "abc123",
   "inviteEmail": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-RoomUserInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomUpdateInputV2](RoomUpdateInputV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [SnapshotsByContractIdInput](SnapshotsByContractIdInput.md) ➡️

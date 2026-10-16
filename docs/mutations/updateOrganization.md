@@ -57,8 +57,14 @@ mutation updateOrganization($input: UpdateOrganizationInput!) {
   "data": {
     "updateOrganization": {
       "id": "4",
-      "success": true
+      "success": false
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateOrganization" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [updateFreelancerOtherExperience](updateFreelancerOtherExperience.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateRoomStoryV2](updateRoomStoryV2.md) ➡️

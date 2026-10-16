@@ -33,8 +33,14 @@ Profile settings and account status information
 {
   "provider": true,
   "suspended": true,
-  "disabled": true,
-  "status": "abc123",
+  "disabled": false,
+  "status": "xyz789",
   "updatedDateTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentProfileSettings" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentProfileProjectTag](TalentProfileProjectTag.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentProfileSpecializedProject](TalentProfileSpecializedProject.md) ➡️

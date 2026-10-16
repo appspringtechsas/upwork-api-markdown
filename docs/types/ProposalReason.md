@@ -30,7 +30,13 @@ Vendor or client proposal reason Reason for a proposal status change
 ```json
 {
   "id": "4",
-  "reason": "abc123",
+  "reason": "xyz789",
   "description": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProposalReason" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProposalQuestionAnswer](ProposalQuestionAnswer.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ProposalTerms](ProposalTerms.md) ➡️

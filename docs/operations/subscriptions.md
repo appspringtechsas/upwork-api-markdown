@@ -59,94 +59,94 @@ Subscription events when any action is initiated by a Client and performed on an
 | Entity | Action | Description |
 |---|---|---|
 | Job postings (JP) | NEW | new marketplace job posting was created |
-| UPDATE | marketplace job posting was updated |  |
-| CLOSE | marketplace job posting was closed |  |
+| Job postings (JP) | UPDATE | marketplace job posting was updated |
+| Job postings (JP) | CLOSE | marketplace job posting was closed |
 
 Subscription events when any action is performed on any offer. The operation can be initiated by Vendor Organization or Client Organization.
 
 | Entity | Action | Description |
 |---|---|---|
 | Offer (OFFER) | CREATE | new offer was created |
-| DECLINE | offer was declined |  |
-| EXPIRED | offer expired |  |
-| CANCELLED | offer was cancelled |  |
-| WITHDREW | offer was withdrawn |  |
-| ACCEPTED | offer is accepted |  |
+| Offer (OFFER) | DECLINE | offer was declined |
+| Offer (OFFER) | EXPIRED | offer expired |
+| Offer (OFFER) | CANCELLED | offer was cancelled |
+| Offer (OFFER) | WITHDREW | offer was withdrawn |
+| Offer (OFFER) | ACCEPTED | offer is accepted |
 
 Subscription events when any action is performed on any Job Application, initiated by a Vendor.
 
 | Entity | Action | Description |
 |---|---|---|
 | Vendor Job Application (Vendor JA) | VendorCreate | job application was created by vendor |
-| ClientCreate | job application was created by client, an invitation was sent |  |
-| SystemAccept | job application was accepted by system (currently this only means that connects were charged successfully |  |
-| VendorWithdraw | vendor withrdew the job application |  |
-| VendorReplace | job application was replaced (vendor proposed different terms) |  |
-| ClientActivate | client activated job application by starting conversation with the freelancer |  |
-| ClientOffer | client made an offer |  |
-| ClientDecline | client declined job application |  |
-| SystemArchive | job application was archived by system (for example, when opening was cancelled) |  |
-| VendorHide | job application was hidden by vendor |  |
-| VendorUnHide | job application was unhidden by vendor |  |
-| SystemReject | job application was rejected by the system (currently this means that use had not enough connects) |  |
-| SystemReplace | new job application was created by system with new terms proposed by vendor |  |
-| VendorReapply | when vendor re-apply to a job |  |
-| VendorAcceptInvite | when vendor accepts an invite-to-interview |  |
-| SystemHold | when system marks application as on hold |  |
-| SystemUnHold | when system marks application as not on hold |  |
-| VendorAcceptOffer | when vendor accepts client offer |  |
-| VendorDeclineOffer | when vendor declines client offer |  |
-| ClientWithdrawOffer | when client withdrew the offer |  |
-| SystemApplyToStaffAugDuplicate | when system apply staff event happened |  |
-| SystemWithdraw | system withdrew event |  |
-| VendorAcceptInviteWithPendingOffer | vendor accepts a job invitation with offer in pending state |  |
-| VendorAcceptInviteWithAcceptedOffer | vendor accepts a job invitation with accepted offer |  |
-| VendorInitiate | vendor submits a regular job application(proposal) |  |
-| SystemInvalidate | system invalidate event |  |
-| ValidationTimeOut | validation timeouts |  |
-| SystemValidate | system validate event |  |
-| ClientHire | client hires |  |
-| OccupationUpdated | occupation updated |  |
-| OccupationRemoved | occupation removed |  |
-| UpdateTerms | terms were updated |  |
+| Vendor Job Application (Vendor JA) | ClientCreate | job application was created by client, an invitation was sent |
+| Vendor Job Application (Vendor JA) | SystemAccept | job application was accepted by system (currently this only means that connects were charged successfully |
+| Vendor Job Application (Vendor JA) | VendorWithdraw | vendor withrdew the job application |
+| Vendor Job Application (Vendor JA) | VendorReplace | job application was replaced (vendor proposed different terms) |
+| Vendor Job Application (Vendor JA) | ClientActivate | client activated job application by starting conversation with the freelancer |
+| Vendor Job Application (Vendor JA) | ClientOffer | client made an offer |
+| Vendor Job Application (Vendor JA) | ClientDecline | client declined job application |
+| Vendor Job Application (Vendor JA) | SystemArchive | job application was archived by system (for example, when opening was cancelled) |
+| Vendor Job Application (Vendor JA) | VendorHide | job application was hidden by vendor |
+| Vendor Job Application (Vendor JA) | VendorUnHide | job application was unhidden by vendor |
+| Vendor Job Application (Vendor JA) | SystemReject | job application was rejected by the system (currently this means that use had not enough connects) |
+| Vendor Job Application (Vendor JA) | SystemReplace | new job application was created by system with new terms proposed by vendor |
+| Vendor Job Application (Vendor JA) | VendorReapply | when vendor re-apply to a job |
+| Vendor Job Application (Vendor JA) | VendorAcceptInvite | when vendor accepts an invite-to-interview |
+| Vendor Job Application (Vendor JA) | SystemHold | when system marks application as on hold |
+| Vendor Job Application (Vendor JA) | SystemUnHold | when system marks application as not on hold |
+| Vendor Job Application (Vendor JA) | VendorAcceptOffer | when vendor accepts client offer |
+| Vendor Job Application (Vendor JA) | VendorDeclineOffer | when vendor declines client offer |
+| Vendor Job Application (Vendor JA) | ClientWithdrawOffer | when client withdrew the offer |
+| Vendor Job Application (Vendor JA) | SystemApplyToStaffAugDuplicate | when system apply staff event happened |
+| Vendor Job Application (Vendor JA) | SystemWithdraw | system withdrew event |
+| Vendor Job Application (Vendor JA) | VendorAcceptInviteWithPendingOffer | vendor accepts a job invitation with offer in pending state |
+| Vendor Job Application (Vendor JA) | VendorAcceptInviteWithAcceptedOffer | vendor accepts a job invitation with accepted offer |
+| Vendor Job Application (Vendor JA) | VendorInitiate | vendor submits a regular job application(proposal) |
+| Vendor Job Application (Vendor JA) | SystemInvalidate | system invalidate event |
+| Vendor Job Application (Vendor JA) | ValidationTimeOut | validation timeouts |
+| Vendor Job Application (Vendor JA) | SystemValidate | system validate event |
+| Vendor Job Application (Vendor JA) | ClientHire | client hires |
+| Vendor Job Application (Vendor JA) | OccupationUpdated | occupation updated |
+| Vendor Job Application (Vendor JA) | OccupationRemoved | occupation removed |
+| Vendor Job Application (Vendor JA) | UpdateTerms | terms were updated |
 
 Subscription events when any action is performed on any Job Application, initiated by a Client.
 
 | Entity | Action | Description |
 |---|---|---|
 | Client Job Application (Client JA) | VendorCreate | job application was created by vendor |
-| SystemPublish | job application was accepted by system |  |
-| ClientActivate | client activated job application by starting conversation with the vendor |  |
-| ClientAccept | client made an offer to vendor |  |
-| ClientDecline | client declined job application |  |
-| VendorWithdraw | vendor withrdew the job application |  |
-| VendorReplace | job application was replaced (vendor proposed different terms) |  |
-| ClientRead | job application was read by the client |  |
-| ClientHide | job application was unhidden by the client |  |
-| ClientUnhide | job application was unhidden by the client |  |
-| SystemHide | job application was hidden by the system |  |
-| SystemUnhide | job application was unhidden by the system |  |
-| SystemRecommend | job application was recommended by the system |  |
-| SystemArchive | job application was archived by system (for example, when opening was cancelled) |  |
-| ClientMessage | client sends a message |  |
-| VendorAcceptInvite | vendor accepts a job invitation |  |
-| ClientShortlist | client shortlisted an application |  |
-| ClientUnshortlist | client unshortlisted an application |  |
-| SystemScoreApplication | match scored a job application |  |
-| SystemReplace | new job application was created by system with new terms proposed by vendor |  |
-| NotRecommend | not recommended event |  |
-| VendorDeclineOffer | when vendor declines client offer |  |
-| ClientWithdrawOffer | when vendor withdraws client offer |  |
-| VendorAcceptOffer | when vendor accepts client offer |  |
-| VendorAcceptInviteWithPendingOffer | vendor accepts a job invitation with offer in pending state |  |
-| VendorAcceptInviteWithAcceptedOffer | vendor accepts a job invitation with accepted offer |  |
-| SystemWithdraw | system withdrew event |  |
-| OccupationUpdated | occupation updated |  |
-| OccupationRemoved | occupation removed |  |
-| UpdateTerms | terms were updated |  |
-| OutOfMoney | job application went out of money |  |
-| RecruiterShortlist | vendor shortlisted a job application |  |
-| RecruiterUnshortlist | vendor unshortlisted a job application |  |
+| Client Job Application (Client JA) | SystemPublish | job application was accepted by system |
+| Client Job Application (Client JA) | ClientActivate | client activated job application by starting conversation with the vendor |
+| Client Job Application (Client JA) | ClientAccept | client made an offer to vendor |
+| Client Job Application (Client JA) | ClientDecline | client declined job application |
+| Client Job Application (Client JA) | VendorWithdraw | vendor withrdew the job application |
+| Client Job Application (Client JA) | VendorReplace | job application was replaced (vendor proposed different terms) |
+| Client Job Application (Client JA) | ClientRead | job application was read by the client |
+| Client Job Application (Client JA) | ClientHide | job application was unhidden by the client |
+| Client Job Application (Client JA) | ClientUnhide | job application was unhidden by the client |
+| Client Job Application (Client JA) | SystemHide | job application was hidden by the system |
+| Client Job Application (Client JA) | SystemUnhide | job application was unhidden by the system |
+| Client Job Application (Client JA) | SystemRecommend | job application was recommended by the system |
+| Client Job Application (Client JA) | SystemArchive | job application was archived by system (for example, when opening was cancelled) |
+| Client Job Application (Client JA) | ClientMessage | client sends a message |
+| Client Job Application (Client JA) | VendorAcceptInvite | vendor accepts a job invitation |
+| Client Job Application (Client JA) | ClientShortlist | client shortlisted an application |
+| Client Job Application (Client JA) | ClientUnshortlist | client unshortlisted an application |
+| Client Job Application (Client JA) | SystemScoreApplication | match scored a job application |
+| Client Job Application (Client JA) | SystemReplace | new job application was created by system with new terms proposed by vendor |
+| Client Job Application (Client JA) | NotRecommend | not recommended event |
+| Client Job Application (Client JA) | VendorDeclineOffer | when vendor declines client offer |
+| Client Job Application (Client JA) | ClientWithdrawOffer | when vendor withdraws client offer |
+| Client Job Application (Client JA) | VendorAcceptOffer | when vendor accepts client offer |
+| Client Job Application (Client JA) | VendorAcceptInviteWithPendingOffer | vendor accepts a job invitation with offer in pending state |
+| Client Job Application (Client JA) | VendorAcceptInviteWithAcceptedOffer | vendor accepts a job invitation with accepted offer |
+| Client Job Application (Client JA) | SystemWithdraw | system withdrew event |
+| Client Job Application (Client JA) | OccupationUpdated | occupation updated |
+| Client Job Application (Client JA) | OccupationRemoved | occupation removed |
+| Client Job Application (Client JA) | UpdateTerms | terms were updated |
+| Client Job Application (Client JA) | OutOfMoney | job application went out of money |
+| Client Job Application (Client JA) | RecruiterShortlist | vendor shortlisted a job application |
+| Client Job Application (Client JA) | RecruiterUnshortlist | vendor unshortlisted a job application |
 
 Subscription events when any milestone is refreshed.
 
@@ -159,5 +159,11 @@ Subscription events when any action is performed on a Contract Feedback, initiat
 | Entity | Action | Description |
 |---|---|---|
 | Contract Feedback (CFB) | SUBMIT | contract feedback was submitted |
-| UPDATE | contract feedback was updated |  |
-| DELETE | contract feedback was deleted |  |
+| Contract Feedback (CFB) | UPDATE | contract feedback was updated |
+| Contract Feedback (CFB) | DELETE | contract feedback was deleted |
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#operations-subscriptions" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [reports](examples/reports.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [queries index](../queries/README.md) ➡️

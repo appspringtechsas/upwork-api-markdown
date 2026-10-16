@@ -28,3 +28,9 @@ generated_by: "scripts/convert.mjs"
   "categoryServices": [StringMapOccupation]
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CategoryServicesResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SubmissionMessage](SubmissionMessage.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Occupation](Occupation.md) ➡️

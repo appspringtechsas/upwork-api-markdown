@@ -17,7 +17,7 @@ Enterprise type classification for organizations
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `Standard` | Standard enterprise organization |
 | `Compliance` | Compliance-focused enterprise organization |
@@ -29,3 +29,9 @@ Enterprise type classification for organizations
 ```graphql
 "Standard"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CompanySelectorOrganizationEnterpriseType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientVerificationStatus](ClientVerificationStatus.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CompanySelectorOrganizationLegacyType](CompanySelectorOrganizationLegacyType.md) ➡️

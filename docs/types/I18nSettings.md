@@ -32,7 +32,7 @@ User's i18n entity
 
 ```json
 {
-  "countrySupported": false,
+  "countrySupported": true,
   "location": I18nLocation,
   "status": "ELIGIBLE",
   "locationViewType": "COUNTRY",
@@ -40,3 +40,9 @@ User's i18n entity
   "settingsFlags": I18nSettingsFlags
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-I18nSettings" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [I18nLocation](I18nLocation.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [I18nSettingsFlags](I18nSettingsFlags.md) ➡️

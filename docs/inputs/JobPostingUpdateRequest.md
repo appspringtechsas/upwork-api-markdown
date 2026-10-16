@@ -42,12 +42,12 @@ Input for updating an existing job posting
 
 ```json
 {
-  "organizationId": 4,
+  "organizationId": "4",
   "jobPostingInfo": JobPostingRequestInfo,
   "qualifications": JobPostingQualificationRequest,
   "questions": [JobPostingQuestionRequest],
   "segmentationData": [JobPostingSegmentationRequest],
-  "attachmentIds": ["4"],
+  "attachmentIds": [4],
   "ptcInfo": JobPostingPtcInfoRequest,
   "savePtcInfo": false,
   "invitePost": false,
@@ -62,3 +62,9 @@ Input for updating an existing job posting
   "policyValidation": JobPostingPolicyValidationInput
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingUpdateRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingSkillInput](JobPostingSkillInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostsFilter](JobPostsFilter.md) ➡️

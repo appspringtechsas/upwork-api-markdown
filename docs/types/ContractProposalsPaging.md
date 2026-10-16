@@ -32,11 +32,17 @@ Paging info of contract proposals list queries
 
 ```json
 {
-  "count": 123,
-  "itemsPerPage": 123,
+  "count": 987,
+  "itemsPerPage": 987,
   "loaded": 123,
   "offset": 987,
-  "page": 123,
-  "total": 987
+  "page": 987,
+  "total": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalsPaging" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ContractProposalsOfferDetails](ContractProposalsOfferDetails.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalsResult](ContractProposalsResult.md) ➡️

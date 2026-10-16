@@ -17,7 +17,7 @@ Job post type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `HOURLY` | Hourly rate job |
 | `FIXED_PRICE` | Fixed price job |
@@ -29,3 +29,9 @@ Job post type
 ```graphql
 "HOURLY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostSkillRelevance](JobPostSkillRelevance.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobStatus](JobStatus.md) ➡️

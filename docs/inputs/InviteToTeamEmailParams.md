@@ -26,5 +26,11 @@ Input for email parameters
 ### Example
 
 ```json
-{"message": "xyz789"}
+{"message": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-InviteToTeamEmailParams" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [InvitationToTeamInput](InvitationToTeamInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OrganizationLocationInput](OrganizationLocationInput.md) ➡️

@@ -30,7 +30,13 @@ File or document attached to a workflow task comment
 ```json
 {
   "id": 4,
-  "name": "xyz789",
+  "name": "abc123",
   "type": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-WorkflowTaskCommentAttachments" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskComment](WorkflowTaskComment.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkflowTaskCustomAttribute](WorkflowTaskCustomAttribute.md) ➡️

@@ -25,8 +25,8 @@ Base user interface
 
 ## Possible Types
 
-| Value | Description |
-|---|---|
+| Possible Types |
+|---|
 | [`CurrentUser`](../types/CurrentUser.md) |
 | [`GenericUser`](../types/GenericUser.md) |
 | [`PiiUser`](../types/PiiUser.md) |
@@ -37,5 +37,11 @@ Base user interface
 ### Example
 
 ```json
-{"id": 4, "nid": "4", "rid": 4}
+{"id": 4, "nid": 4, "rid": 4}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-User" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Organization](Organization.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [unions index](../unions/README.md) ➡️

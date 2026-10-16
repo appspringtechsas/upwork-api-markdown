@@ -36,19 +36,25 @@ generated_by: "scripts/convert.mjs"
 
 ```json
 {
-  "clientTeamId": 4,
+  "clientTeamId": "4",
   "clientPersonId": 4,
-  "freelancerId": 4,
+  "freelancerId": "4",
   "agencyTeamId": 4,
-  "agencyManagerId": 4,
+  "agencyManagerId": "4",
   "source": ContractProposalSourceInput,
   "title": "abc123",
-  "description": "xyz789",
+  "description": "abc123",
   "offerTerms": ContractProposalOfferTermsInput,
   "deliveryModel": "TALENT_MARKETPLACE",
   "rateIncreaseRequest": ContractProposalRateIncreaseRequest,
   "attachmentUids": ["xyz789"],
   "startDateTime": "xyz789",
-  "jobPostingUid": 4
+  "jobPostingUid": "4"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ContractProposalCreateRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ConnectUsageFilter](ConnectUsageFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ContractProposalHourlyTermsInput](ContractProposalHourlyTermsInput.md) ➡️

@@ -38,9 +38,15 @@ Features associated with the enterprise related offer
   "privateTalentCloud": PrivateTalentCloud,
   "onSiteType": "REMOTE",
   "country": Country,
-  "state": "xyz789",
+  "state": "abc123",
   "localDescription": "abc123",
-  "localFlexibilityDescription": "xyz789",
+  "localFlexibilityDescription": "abc123",
   "eor": false
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferFeatures" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferCreationResponse](OfferCreationResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferLastEvent](OfferLastEvent.md) ➡️

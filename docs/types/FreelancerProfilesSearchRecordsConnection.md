@@ -31,6 +31,12 @@ The connection type for SearchResult.
 {
   "edges": [FreelancerProfilesSearchResultEdge],
   "pageInfo": PageInfo,
-  "totalCount": 987
+  "totalCount": 123
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfilesSearchRecordsConnection" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfilesSearchRecord](FreelancerProfilesSearchRecord.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfilesSearchResultEdge](FreelancerProfilesSearchResultEdge.md) ➡️

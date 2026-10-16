@@ -17,7 +17,7 @@ Engagement type for hourly contracts
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `FULL_TIME` | Full-time engagement |
 | `PART_TIME` | Part-time engagement |
@@ -31,3 +31,9 @@ Engagement type for hourly contracts
 ```graphql
 "FULL_TIME"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-EngagementType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [Earning](Earning.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EnglishProficiency](EnglishProficiency.md) ➡️

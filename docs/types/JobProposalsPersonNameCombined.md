@@ -29,6 +29,12 @@ Job proposals person name combined
 ```json
 {
   "firstName": "abc123",
-  "lastName": "xyz789"
+  "lastName": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobProposalsPersonNameCombined" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostSkillSearchResult](JobPostSkillSearchResult.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPubBuyerInfo](JobPubBuyerInfo.md) ➡️

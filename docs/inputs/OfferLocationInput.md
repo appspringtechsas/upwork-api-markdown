@@ -36,11 +36,17 @@ Location information for offer
 {
   "workType": "REMOTE",
   "country": "xyz789",
-  "state": "abc123",
+  "state": "xyz789",
   "description": "xyz789",
   "flexible": true,
-  "flexibilityDescription": "xyz789",
+  "flexibilityDescription": "abc123",
   "city": "xyz789",
   "address": OfferAddressInput
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OfferLocationInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OfferHourlyRateTerms](OfferHourlyRateTerms.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OfferMetadataInput](OfferMetadataInput.md) ➡️

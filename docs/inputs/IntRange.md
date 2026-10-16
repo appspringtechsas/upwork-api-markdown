@@ -29,3 +29,9 @@ Input range for integer values
 ```json
 {"rangeStart": 123, "rangeEnd": 987}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-IntRange" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FloatRange](FloatRange.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Pagination](Pagination.md) ➡️

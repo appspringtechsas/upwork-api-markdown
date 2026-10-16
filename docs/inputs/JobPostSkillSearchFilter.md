@@ -33,12 +33,18 @@ Filter for job post skill search by prefLabel (same semantics as ontologyElement
 
 ```json
 {
-  "preferredLabel_any": "abc123",
+  "preferredLabel_any": "xyz789",
   "type": "OCCUPATION",
   "entityStatus_eq": "ACTIVE",
   "sortOrder": "abc123",
-  "limit": 987,
+  "limit": 123,
   "includeAttributeGroups": false,
-  "occupationUid": "4"
+  "occupationUid": 4
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostSkillSearchFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostDirectUploadLinkInput](JobPostDirectUploadLinkInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PersonSaveJobInput](PersonSaveJobInput.md) ➡️

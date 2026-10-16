@@ -56,9 +56,15 @@ mutation invoiceDownloadBulkAsyncV2($filter: InvoiceFilter) {
     "invoiceDownloadBulkAsyncV2": {
       "id": 4,
       "status": "xyz789",
-      "downloadUrl": "abc123",
+      "downloadUrl": "xyz789",
       "expirationDateTime": "xyz789"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-invoiceDownloadBulkAsyncV2" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [shortlistClientProposal](shortlistClientProposal.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [invoiceDownloadBulkV2](invoiceDownloadBulkV2.md) ➡️

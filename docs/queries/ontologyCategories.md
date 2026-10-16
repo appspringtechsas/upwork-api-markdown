@@ -54,11 +54,11 @@ query ontologyCategories {
   "data": {
     "ontologyCategories": [
       {
-        "id": "4",
+        "id": 4,
         "preferredLabel": "xyz789",
         "altLabel": ["abc123"],
-        "slug": "xyz789",
-        "ontologyId": "xyz789",
+        "slug": "abc123",
+        "ontologyId": "abc123",
         "subcategories": [OntologySubcategory],
         "services": [OntologyService]
       }
@@ -66,3 +66,9 @@ query ontologyCategories {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-ontologyCategories" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [vendorContracts](vendorContracts.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ontologyElementsSearchByPrefLabel](ontologyElementsSearchByPrefLabel.md) ➡️

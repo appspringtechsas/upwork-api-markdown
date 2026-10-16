@@ -17,7 +17,7 @@ Offer source type
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `JobPosting` | From job posting |
 | `JobApplication` | From job application |
@@ -30,3 +30,9 @@ Offer source type
 ```graphql
 "JobPosting"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SourceTypeInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [SourceType](SourceType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WithdrawReason](WithdrawReason.md) ➡️

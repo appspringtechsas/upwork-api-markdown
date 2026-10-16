@@ -61,10 +61,7 @@ mutation updateJobPosting(
 #### Variables
 
 ```json
-{
-  "id": "4",
-  "jobPostingRequest": JobPostingUpdateRequest
-}
+{"id": 4, "jobPostingRequest": JobPostingUpdateRequest}
 ```
 
 #### Response
@@ -74,15 +71,21 @@ mutation updateJobPosting(
   "data": {
     "updateJobPosting": {
       "id": 4,
-      "qualificationsSaved": false,
+      "qualificationsSaved": true,
       "skillsSaved": false,
       "questionsSaved": false,
-      "segmentationDataSaved": true,
+      "segmentationDataSaved": false,
       "attachmentsSaved": true,
       "ptcInfoSaved": true,
-      "sandsJobPostSaved": true,
+      "sandsJobPostSaved": false,
       "version": 123
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-updateJobPosting" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [removeJobPostingTag](removeJobPostingTag.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [acceptOffer](acceptOffer.md) ➡️

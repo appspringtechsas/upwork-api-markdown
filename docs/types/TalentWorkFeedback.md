@@ -34,13 +34,19 @@ Feedback details including comment, score, and visibility
 
 ```json
 {
-  "comment": "abc123",
+  "comment": "xyz789",
   "response": "xyz789",
   "score": 123.45,
   "scores": [TalentFeedbackScore],
   "feedbackSuppressed": true,
   "isPublic": true,
-  "commentPublic": false,
+  "commentPublic": true,
   "point": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentWorkFeedback" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentVegaJobOpening](TalentVegaJobOpening.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentWorkHistory](TalentWorkHistory.md) ➡️

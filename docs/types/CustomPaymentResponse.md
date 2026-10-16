@@ -28,3 +28,9 @@ Custom Payment Response
 ```json
 {"invoiceId": 4}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CustomPaymentResponse" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateJobProposalResponse](CreateJobProposalResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FileDownload](FileDownload.md) ➡️

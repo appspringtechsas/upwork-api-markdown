@@ -31,6 +31,12 @@ Encapsulates all Bid properties
 {
   "id": "4",
   "amount": 123,
-  "createdTime": "abc123"
+  "createdTime": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Bid" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [AccountingEntity](AccountingEntity.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BidList](BidList.md) ➡️

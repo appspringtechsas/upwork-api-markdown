@@ -38,17 +38,23 @@ Project attachment
 
 ```json
 {
-  "id": 4,
+  "id": "4",
   "link": "abc123",
-  "fileName": "xyz789",
-  "fileSize": 987,
-  "rank": 123,
+  "fileName": "abc123",
+  "fileSize": 123,
+  "rank": 987,
   "videoUrl": "xyz789",
-  "type": "xyz789",
+  "type": "abc123",
   "title": "xyz789",
-  "description": "abc123",
+  "description": "xyz789",
   "imageSmall": "abc123",
   "imageMiddle": "xyz789",
   "imageLarge": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProfileProjectAttachment" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileProject](FreelancerProfileProject.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [FreelancerProfileProjectContractLink](FreelancerProfileProjectContractLink.md) ➡️

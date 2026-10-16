@@ -55,12 +55,18 @@ mutation restartContract(
 ```json
 {
   "contractId": "4",
-  "message": "xyz789"
+  "message": "abc123"
 }
 ```
 
 #### Response
 
 ```json
-{"data": {"restartContract": {"success": false}}}
+{"data": {"restartContract": {"success": true}}}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-restartContract" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [rejectSubmittedMilestone](rejectSubmittedMilestone.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [updateContractHourlyLimit](updateContractHourlyLimit.md) ➡️

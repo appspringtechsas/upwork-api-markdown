@@ -29,8 +29,14 @@ Input type for proposal milestone
 
 ```json
 {
-  "amount": 123.45,
-  "description": "abc123",
-  "dueDate": "abc123"
+  "amount": 987.65,
+  "description": "xyz789",
+  "dueDate": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreateProposalMilestone" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateJobProposalInput](CreateJobProposalInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CreateProposalQuestion](CreateProposalQuestion.md) ➡️

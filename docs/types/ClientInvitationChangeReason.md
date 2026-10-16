@@ -31,8 +31,14 @@ Details about client job application invitation change reason
 ```json
 {
   "id": "4",
-  "reason": "abc123",
-  "reasonText": "xyz789",
-  "message": "abc123"
+  "reason": "xyz789",
+  "reasonText": "abc123",
+  "message": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientInvitationChangeReason" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientInvitationAdditionalInfo](ClientInvitationAdditionalInfo.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientInvitationConnection](ClientInvitationConnection.md) ➡️

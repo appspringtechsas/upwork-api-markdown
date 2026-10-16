@@ -36,11 +36,17 @@ Client's stats
 {
   "totalAssignments": 987,
   "activeAssignmentsCount": 987,
-  "hoursCount": 123.45,
+  "hoursCount": 987.65,
   "totalCharges": JobDetailsMoney,
-  "feedbackCount": 987,
+  "feedbackCount": 123,
   "score": 987.65,
-  "totalJobsWithHires": 987,
+  "totalJobsWithHires": 123,
   "hiredInPast": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-BuyerAssignmentsStats" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [BidList](BidList.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [BuyerExtra](BuyerExtra.md) ➡️

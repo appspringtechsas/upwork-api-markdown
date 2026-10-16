@@ -29,6 +29,12 @@ Container of user permissions
 ```json
 {
   "edges": [UserPermissionEdge],
-  "offset": "abc123"
+  "offset": "xyz789"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserPermissions" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UserPermissionNode](UserPermissionNode.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [WorkdayResult](WorkdayResult.md) ➡️

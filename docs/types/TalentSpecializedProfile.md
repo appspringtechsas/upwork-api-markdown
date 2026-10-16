@@ -38,15 +38,21 @@ Specialized profile for a specific service or occupation
 ```json
 {
   "personId": "xyz789",
-  "profileId": "xyz789",
+  "profileId": "abc123",
   "occupationId": "abc123",
   "status": "DRAFT",
-  "rank": 123,
+  "rank": 987,
   "occupations": ["xyz789"],
   "primary": false,
-  "title": "abc123",
-  "description": "abc123",
+  "title": "xyz789",
+  "description": "xyz789",
   "hourlyRate": Money,
-  "weblink": "xyz789"
+  "weblink": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentSpecializedProfile" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentSkillNodeEdge](TalentSkillNodeEdge.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentSpecializedProfileSkill](TalentSpecializedProfileSkill.md) ➡️

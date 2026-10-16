@@ -17,7 +17,7 @@ Minimum earnings requirement
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ANY` | Any earnings level |
 | `AT_LEAST_1` | At least $1 earned |
@@ -32,3 +32,9 @@ Minimum earnings requirement
 ```graphql
 "ANY"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-Earning" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [DropdownAclType](DropdownAclType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [EngagementType](EngagementType.md) ➡️

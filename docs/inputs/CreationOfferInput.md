@@ -49,18 +49,18 @@ Input for creating an offer
 ```json
 {
   "interactive": true,
-  "idempotencyKey": "xyz789",
-  "ignoreTestAccount": true,
+  "idempotencyKey": "abc123",
+  "ignoreTestAccount": false,
   "kind": "Vanilla",
   "offeror": "Client",
   "clientTeamId": 4,
   "vendorUser": VendorUserInput,
   "metadata": OfferMetadataInput,
-  "attachments": ["xyz789"],
+  "attachments": ["abc123"],
   "title": "xyz789",
   "description": "abc123",
   "contractStartDateTime": "abc123",
-  "contractEndDateTime": "abc123",
+  "contractEndDateTime": "xyz789",
   "hourlyRateTerms": OfferHourlyRateTerms,
   "stipendTerms": OfferStipendTerms,
   "milestoneTerms": OfferMilestoneTerms,
@@ -72,3 +72,9 @@ Input for creating an offer
   "offerPayroll": OfferPayrollInput
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-CreationOfferInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [CreateMilestoneInput](CreateMilestoneInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [CustomFieldsInput](CustomFieldsInput.md) ➡️

@@ -27,5 +27,11 @@ Input for querying snapshots by contract and timestamp
 ### Example
 
 ```json
-{"contractId": 4, "timestamp": 123}
+{"contractId": "4", "timestamp": 987}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-SnapshotsByContractIdInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [RoomUserInput](RoomUserInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [StoryFilter](StoryFilter.md) ➡️

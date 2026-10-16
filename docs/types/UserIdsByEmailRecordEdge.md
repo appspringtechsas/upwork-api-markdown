@@ -28,7 +28,13 @@ Edge in users-by-email response
 
 ```json
 {
-  "cursor": "xyz789",
+  "cursor": "abc123",
   "node": UserIdsByEmailRecordNode
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-UserIdsByEmailRecordEdge" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [UpdateRoomStoryResponse](UpdateRoomStoryResponse.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [UserIdsByEmailRecordNode](UserIdsByEmailRecordNode.md) ➡️

@@ -17,7 +17,7 @@ Legacy organization type classification
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `CLIENT` | Client organization |
 | `VENDOR` | Vendor organization |
@@ -29,3 +29,9 @@ Legacy organization type classification
 ```graphql
 "CLIENT"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OrganizationLegacyType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [LocationViewType](LocationViewType.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [OrganizationRequestType](OrganizationRequestType.md) ➡️

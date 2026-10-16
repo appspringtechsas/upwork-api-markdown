@@ -30,9 +30,15 @@ Other experience input
 
 ```json
 {
-  "userId": "4",
-  "subject": "xyz789",
+  "userId": 4,
+  "subject": "abc123",
   "description": "xyz789",
-  "active": false
+  "active": true
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OtherExperienceInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [OrgUserPermissionFilterV2](OrgUserPermissionFilterV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PageFilterInput](PageFilterInput.md) ➡️

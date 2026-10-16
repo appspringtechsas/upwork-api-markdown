@@ -17,7 +17,7 @@ Section types for talent cloud tasks
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `ONBOARDING` | Onboarding tasks |
 | `OFFBOARDING` | Offboarding tasks |
@@ -30,3 +30,9 @@ Section types for talent cloud tasks
 ```graphql
 "ONBOARDING"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-TalentCloudTaskSectionType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [TalentCloudTaskRole](TalentCloudTaskRole.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [TalentCommunityCertificateStatus](TalentCommunityCertificateStatus.md) ➡️

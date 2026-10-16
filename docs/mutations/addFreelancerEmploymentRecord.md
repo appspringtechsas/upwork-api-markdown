@@ -68,19 +68,25 @@ mutation addFreelancerEmploymentRecord($input: CreateEmploymentRecordInput!) {
 {
   "data": {
     "addFreelancerEmploymentRecord": {
-      "id": "4",
+      "id": 4,
       "user": GenericUser,
-      "companyName": "xyz789",
+      "companyName": "abc123",
       "jobTitle": "xyz789",
       "standardizedCompanyId": "xyz789",
-      "standardizedJobTitleId": "abc123",
+      "standardizedJobTitleId": "xyz789",
       "role": "xyz789",
       "startDate": "xyz789",
-      "endDate": "xyz789",
+      "endDate": "abc123",
       "description": "xyz789",
-      "city": "xyz789",
-      "country": "abc123"
+      "city": "abc123",
+      "country": "xyz789"
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#mutation-addFreelancerEmploymentRecord" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [invoiceDownloadBulkV2](invoiceDownloadBulkV2.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [addFreelancerOtherExperience](addFreelancerOtherExperience.md) ➡️

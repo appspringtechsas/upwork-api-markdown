@@ -29,5 +29,11 @@ Organization category flags
 ### Example
 
 ```json
-{"client": false, "vendor": true, "agency": false, "individual": false}
+{"client": true, "vendor": false, "agency": true, "individual": true}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-OrganizationFlag" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [MessageAttachments](MessageAttachments.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [Page](Page.md) ➡️

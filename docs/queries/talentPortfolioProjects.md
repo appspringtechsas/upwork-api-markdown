@@ -58,11 +58,17 @@ query talentPortfolioProjects($filter: TalentProjectFilterInput!) {
   "data": {
     "talentPortfolioProjects": {
       "projects": [FreelancerProfileProject],
-      "totalProjects": 123,
+      "totalProjects": 987,
       "pageNumber": 123,
-      "pageSize": 123,
+      "pageSize": 987,
       "totalPages": 123
     }
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-talentPortfolioProjects" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [talentCloudTasks](talentCloudTasks.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [talentProfile](talentProfile.md) ➡️

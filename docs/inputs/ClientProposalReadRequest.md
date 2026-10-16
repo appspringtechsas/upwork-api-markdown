@@ -27,5 +27,14 @@ Client proposal read request
 ### Example
 
 ```json
-{"proposalId": "4", "jobPostingId": 4}
+{
+  "proposalId": "4",
+  "jobPostingId": "4"
+}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalReadRequest" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalMessageRequest](ClientProposalMessageRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalShortlistRequest](ClientProposalShortlistRequest.md) ➡️

@@ -26,5 +26,11 @@ Tool or software requirement for a job posting
 ### Example
 
 ```json
-{"name": "xyz789"}
+{"name": "abc123"}
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostToolInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostsFilter](JobPostsFilter.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [MarketplaceJobFilter](MarketplaceJobFilter.md) ➡️

@@ -28,7 +28,13 @@ Type to represent both entity creation and modified time
 
 ```json
 {
-  "createdDateTime": "abc123",
+  "createdDateTime": "xyz789",
   "modifiedDateTime": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AuditTime" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [VJDAnnotations](VJDAnnotations.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [DateTime](DateTime.md) ➡️

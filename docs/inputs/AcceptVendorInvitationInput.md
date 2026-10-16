@@ -37,14 +37,14 @@ Main input type for accepting vendor invitation
 
 ```json
 {
-  "invitationUid": 4,
-  "attachments": ["xyz789"],
-  "bid": 123.45,
-  "connectBid": 123.45,
+  "invitationUid": "4",
+  "attachments": ["abc123"],
+  "bid": 987.65,
+  "connectBid": 987.65,
   "coverLetter": "abc123",
-  "duration": "xyz789",
+  "duration": "abc123",
   "milestones": [AcceptVendorInvitationMilestone],
-  "occupationUid": "abc123",
+  "occupationUid": "xyz789",
   "questionsAnswers": [
     AcceptVendorInvitationQuestionAnswer
   ],
@@ -52,3 +52,9 @@ Main input type for accepting vendor invitation
   "teamUid": "abc123"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-AcceptVendorInvitationInput" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [WorkflowTaskPatchLabelInput](WorkflowTaskPatchLabelInput.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [AcceptVendorInvitationMilestone](AcceptVendorInvitationMilestone.md) ➡️

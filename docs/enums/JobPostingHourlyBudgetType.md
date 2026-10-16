@@ -17,7 +17,7 @@ Hourly budget type for job posting
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `DEFAULT` | Default budget type |
 | `MANUAL` | Manually entered budget |
@@ -30,3 +30,9 @@ Hourly budget type for job posting
 ```graphql
 "DEFAULT"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-JobPostingHourlyBudgetType" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [JobPostingAccess](JobPostingAccess.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [JobPostingPtcStatus](JobPostingPtcStatus.md) ➡️

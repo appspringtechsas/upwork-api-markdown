@@ -77,7 +77,7 @@ query vendorProposal($id: ID!) {
 #### Variables
 
 ```json
-{"id": 4}
+{"id": "4"}
 ```
 
 #### Response
@@ -86,13 +86,13 @@ query vendorProposal($id: ID!) {
 {
   "data": {
     "vendorProposal": {
-      "id": 4,
+      "id": "4",
       "user": GenericUser,
       "organization": GenericOrganization,
       "marketplaceJobPosting": MarketplaceJobPosting,
       "inviteToInterview": InviteToInterview,
       "terms": ProposalTerms,
-      "coverLetter": "abc123",
+      "coverLetter": "xyz789",
       "proposalCoverLetter": "xyz789",
       "attachments": [ProposalAttachment],
       "projectPlan": ProposalProjectPlan,
@@ -104,3 +104,9 @@ query vendorProposal($id: ID!) {
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-vendorProposal" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [proposalMetadata](proposalMetadata.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [vendorProposals](vendorProposals.md) ➡️

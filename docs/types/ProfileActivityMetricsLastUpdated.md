@@ -28,7 +28,13 @@ Last updated timestamp for profile activity metrics
 
 ```json
 {
-  "lastUpdated": "xyz789",
+  "lastUpdated": "abc123",
   "metric": "PROFILE_VIEWS"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ProfileActivityMetricsLastUpdated" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ProfileActivityMetricsAvailability](ProfileActivityMetricsAvailability.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [PublicCompanyInfo](PublicCompanyInfo.md) ➡️

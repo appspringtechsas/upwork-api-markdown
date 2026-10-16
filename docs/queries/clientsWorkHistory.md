@@ -76,17 +76,23 @@ query clientsWorkHistory($jobId: ID!) {
     "clientsWorkHistory": [
       {
         "contractorInfo": ContractorInfo,
-        "endDate": "xyz789",
+        "endDate": "abc123",
         "feedback": BuyerWorkHistoryFeedback,
         "feedbackToClient": BuyerWorkHistoryFeedback,
         "jobInfo": BuyerWorkHistoryJobInfo,
         "rate": JobDetailsMoney,
-        "startDate": "xyz789",
+        "startDate": "abc123",
         "status": "ACTIVE",
         "totalCharge": 123.45,
-        "totalHours": 123.45
+        "totalHours": 987.65
       }
     ]
   }
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#query-clientsWorkHistory" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [bidsForJob](bidsForJob.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [connectsSummary](connectsSummary.md) ➡️

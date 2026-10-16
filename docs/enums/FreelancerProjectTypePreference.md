@@ -13,7 +13,7 @@ generated_by: "scripts/convert.mjs"
 
 ## Values
 
-| Value | Description |
+| Values | Description |
 |---|---|
 | `BOTH_LONGTERM_AND_ONETIME` | Both long-term and one-time projects |
 | `LONGER_TERM_3PLUS_MONTHS` | Longer than 3 months |
@@ -26,3 +26,9 @@ generated_by: "scripts/convert.mjs"
 ```graphql
 "BOTH_LONGTERM_AND_ONETIME"
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-FreelancerProjectTypePreference" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [FreelancerProfileVisibility](FreelancerProfileVisibility.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [I18nSettingsStatus](I18nSettingsStatus.md) ➡️

@@ -46,7 +46,7 @@ Filter criteria for searching client proposals
 {
   "status_eq": "Created",
   "annotations_eq": "Recommended",
-  "freelancerId_eq": "4",
+  "freelancerId_eq": 4,
   "chargeRate_eq": "ANY_HOURLY_RATE",
   "activityDays_eq": "ANY_TIME",
   "category_eq": "xyz789",
@@ -58,9 +58,15 @@ Filter criteria for searching client proposals
   "englishLevel_eq": "ANY_LEVEL",
   "title_eq": "xyz789",
   "textQuery_eq": "abc123",
-  "country_any": ["abc123"],
+  "country_any": ["xyz789"],
   "region_any": ["abc123"],
-  "languages_any": ["xyz789"],
-  "occupationId": 4
+  "languages_any": ["abc123"],
+  "occupationId": "4"
 }
 ```
+
+---
+
+🔗 **Source:** <a href="https://www.upwork.com/developer/documentation/graphql/api/docs/index.html#definition-ClientProposalFilter" target="_blank" rel="noopener noreferrer">open the original section in the official Upwork docs</a>
+
+⬅️ **Prev:** [ClientProposalDeclineRequest](ClientProposalDeclineRequest.md)   ·   [📚 Docs index](../README.md)   ·   **Next:** [ClientProposalHideRequest](ClientProposalHideRequest.md) ➡️
